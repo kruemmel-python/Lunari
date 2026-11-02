@@ -1,0 +1,3422 @@
+[
+  {
+    "id": "L0001",
+    "lektion": "1.1  Hallo! Das bin ich",
+    "bereich": "wortschatz",
+    "deutsch": "Hallo"
+  },
+  {
+    "id": "L0002",
+    "lektion": "1.1  Hallo! Das bin ich",
+    "bereich": "wortschatz",
+    "deutsch": "Guten Morgen"
+  },
+  {
+    "id": "L0003",
+    "lektion": "1.1  Hallo! Das bin ich",
+    "bereich": "wortschatz",
+    "deutsch": "Guten Tag"
+  },
+  {
+    "id": "L0004",
+    "lektion": "1.1  Hallo! Das bin ich",
+    "bereich": "wortschatz",
+    "deutsch": "Auf Wiedersehen"
+  },
+  {
+    "id": "L0005",
+    "lektion": "1.1  Hallo! Das bin ich",
+    "bereich": "wortschatz",
+    "deutsch": "ich"
+  },
+  {
+    "id": "L0006",
+    "lektion": "1.1  Hallo! Das bin ich",
+    "bereich": "wortschatz",
+    "deutsch": "du"
+  },
+  {
+    "id": "L0007",
+    "lektion": "1.1  Hallo! Das bin ich",
+    "bereich": "wortschatz",
+    "deutsch": "Name"
+  },
+  {
+    "id": "L0008",
+    "lektion": "1.1  Hallo! Das bin ich",
+    "bereich": "wortschatz",
+    "deutsch": "heißen"
+  },
+  {
+    "id": "L0009",
+    "lektion": "1.1  Hallo! Das bin ich",
+    "bereich": "beispielsatz",
+    "deutsch": "Hallo!"
+  },
+  {
+    "id": "L0010",
+    "lektion": "1.1  Hallo! Das bin ich",
+    "bereich": "beispielsatz",
+    "deutsch": "Ich heiße Mia."
+  },
+  {
+    "id": "L0011",
+    "lektion": "1.1  Hallo! Das bin ich",
+    "bereich": "beispielsatz",
+    "deutsch": "Wie heißt du?"
+  },
+  {
+    "id": "L0012",
+    "lektion": "1.1  Hallo! Das bin ich",
+    "bereich": "beispielsatz",
+    "deutsch": "Ich heiße Ben."
+  },
+  {
+    "id": "L0013",
+    "lektion": "1.1  Hallo! Das bin ich",
+    "bereich": "beispielsatz",
+    "deutsch": "Auf Wiedersehen!"
+  },
+  {
+    "id": "L0014",
+    "lektion": "1.1  Hallo! Das bin ich",
+    "bereich": "dialog",
+    "deutsch": "Kind A: „Hallo!“"
+  },
+  {
+    "id": "L0015",
+    "lektion": "1.1  Hallo! Das bin ich",
+    "bereich": "dialog",
+    "deutsch": "Kind B: „Ich heiße Mia.“"
+  },
+  {
+    "id": "L0016",
+    "lektion": "1.1  Hallo! Das bin ich",
+    "bereich": "lesetext",
+    "deutsch": "Mia kommt morgens in die Schule. Sie sieht Ben an der Tür. „Guten Morgen!“, sagt sie. „Guten Morgen! Wie heißt du?“, fragt Ben. „Ich heiße Mia.“ Beide gehen zusammen in die Klasse."
+  },
+  {
+    "id": "L0017",
+    "lektion": "1.2  Ich höre und spreche",
+    "bereich": "wortschatz",
+    "deutsch": "laut"
+  },
+  {
+    "id": "L0018",
+    "lektion": "1.2  Ich höre und spreche",
+    "bereich": "wortschatz",
+    "deutsch": "leise"
+  },
+  {
+    "id": "L0019",
+    "lektion": "1.2  Ich höre und spreche",
+    "bereich": "wortschatz",
+    "deutsch": "langsam"
+  },
+  {
+    "id": "L0020",
+    "lektion": "1.2  Ich höre und spreche",
+    "bereich": "wortschatz",
+    "deutsch": "schnell"
+  },
+  {
+    "id": "L0021",
+    "lektion": "1.2  Ich höre und spreche",
+    "bereich": "wortschatz",
+    "deutsch": "hören"
+  },
+  {
+    "id": "L0022",
+    "lektion": "1.2  Ich höre und spreche",
+    "bereich": "wortschatz",
+    "deutsch": "sprechen"
+  },
+  {
+    "id": "L0023",
+    "lektion": "1.2  Ich höre und spreche",
+    "bereich": "wortschatz",
+    "deutsch": "Wort"
+  },
+  {
+    "id": "L0024",
+    "lektion": "1.2  Ich höre und spreche",
+    "bereich": "wortschatz",
+    "deutsch": "Silbe"
+  },
+  {
+    "id": "L0025",
+    "lektion": "1.2  Ich höre und spreche",
+    "bereich": "beispielsatz",
+    "deutsch": "Ich höre ein Wort."
+  },
+  {
+    "id": "L0026",
+    "lektion": "1.2  Ich höre und spreche",
+    "bereich": "beispielsatz",
+    "deutsch": "Bitte sprich langsam."
+  },
+  {
+    "id": "L0027",
+    "lektion": "1.2  Ich höre und spreche",
+    "bereich": "beispielsatz",
+    "deutsch": "Das Wort hat vier Silben."
+  },
+  {
+    "id": "L0028",
+    "lektion": "1.2  Ich höre und spreche",
+    "bereich": "dialog",
+    "deutsch": "Kind A: „Ich höre ein Wort.“"
+  },
+  {
+    "id": "L0029",
+    "lektion": "1.2  Ich höre und spreche",
+    "bereich": "dialog",
+    "deutsch": "Kind B: „Bitte sprich langsam.“"
+  },
+  {
+    "id": "L0030",
+    "lektion": "1.2  Ich höre und spreche",
+    "bereich": "lesetext",
+    "deutsch": "Heute sprechen wir über ich höre und spreche. Mia zeigt Ben etwas Neues. Ben hört genau zu und stellt eine Frage. Mia antwortet freundlich. Beide üben zusammen und lernen neue Wörter."
+  },
+  {
+    "id": "L0031",
+    "lektion": "1.3  Meine Familie",
+    "bereich": "wortschatz",
+    "deutsch": "Mutter"
+  },
+  {
+    "id": "L0032",
+    "lektion": "1.3  Meine Familie",
+    "bereich": "wortschatz",
+    "deutsch": "Vater"
+  },
+  {
+    "id": "L0033",
+    "lektion": "1.3  Meine Familie",
+    "bereich": "wortschatz",
+    "deutsch": "Kind"
+  },
+  {
+    "id": "L0034",
+    "lektion": "1.3  Meine Familie",
+    "bereich": "wortschatz",
+    "deutsch": "Schwester"
+  },
+  {
+    "id": "L0035",
+    "lektion": "1.3  Meine Familie",
+    "bereich": "wortschatz",
+    "deutsch": "Bruder"
+  },
+  {
+    "id": "L0036",
+    "lektion": "1.3  Meine Familie",
+    "bereich": "wortschatz",
+    "deutsch": "Familie"
+  },
+  {
+    "id": "L0037",
+    "lektion": "1.3  Meine Familie",
+    "bereich": "wortschatz",
+    "deutsch": "Oma"
+  },
+  {
+    "id": "L0038",
+    "lektion": "1.3  Meine Familie",
+    "bereich": "wortschatz",
+    "deutsch": "Opa"
+  },
+  {
+    "id": "L0039",
+    "lektion": "1.3  Meine Familie",
+    "bereich": "beispielsatz",
+    "deutsch": "Das ist meine Familie."
+  },
+  {
+    "id": "L0040",
+    "lektion": "1.3  Meine Familie",
+    "bereich": "beispielsatz",
+    "deutsch": "Meine Schwester heißt Lina."
+  },
+  {
+    "id": "L0041",
+    "lektion": "1.3  Meine Familie",
+    "bereich": "beispielsatz",
+    "deutsch": "Ich habe einen Bruder."
+  },
+  {
+    "id": "L0042",
+    "lektion": "1.3  Meine Familie",
+    "bereich": "dialog",
+    "deutsch": "Kind A: „Das ist meine Familie.“"
+  },
+  {
+    "id": "L0043",
+    "lektion": "1.3  Meine Familie",
+    "bereich": "dialog",
+    "deutsch": "Kind B: „Meine Schwester heißt Lina.“"
+  },
+  {
+    "id": "L0044",
+    "lektion": "1.3  Meine Familie",
+    "bereich": "lesetext",
+    "deutsch": "Heute sprechen wir über meine familie. Mia zeigt Ben etwas Neues. Ben hört genau zu und stellt eine Frage. Mia antwortet freundlich. Beide üben zusammen und lernen neue Wörter."
+  },
+  {
+    "id": "L0045",
+    "lektion": "1.4  In unserer Klasse",
+    "bereich": "wortschatz",
+    "deutsch": "Schule"
+  },
+  {
+    "id": "L0046",
+    "lektion": "1.4  In unserer Klasse",
+    "bereich": "wortschatz",
+    "deutsch": "Klasse"
+  },
+  {
+    "id": "L0047",
+    "lektion": "1.4  In unserer Klasse",
+    "bereich": "wortschatz",
+    "deutsch": "Buch"
+  },
+  {
+    "id": "L0048",
+    "lektion": "1.4  In unserer Klasse",
+    "bereich": "wortschatz",
+    "deutsch": "Stift"
+  },
+  {
+    "id": "L0049",
+    "lektion": "1.4  In unserer Klasse",
+    "bereich": "wortschatz",
+    "deutsch": "Tisch"
+  },
+  {
+    "id": "L0050",
+    "lektion": "1.4  In unserer Klasse",
+    "bereich": "wortschatz",
+    "deutsch": "Stuhl"
+  },
+  {
+    "id": "L0051",
+    "lektion": "1.4  In unserer Klasse",
+    "bereich": "wortschatz",
+    "deutsch": "Lehrerin"
+  },
+  {
+    "id": "L0052",
+    "lektion": "1.4  In unserer Klasse",
+    "bereich": "wortschatz",
+    "deutsch": "Lehrer"
+  },
+  {
+    "id": "L0053",
+    "lektion": "1.4  In unserer Klasse",
+    "bereich": "beispielsatz",
+    "deutsch": "Das ist mein Buch."
+  },
+  {
+    "id": "L0054",
+    "lektion": "1.4  In unserer Klasse",
+    "bereich": "beispielsatz",
+    "deutsch": "Der Stift liegt auf dem Tisch."
+  },
+  {
+    "id": "L0055",
+    "lektion": "1.4  In unserer Klasse",
+    "bereich": "beispielsatz",
+    "deutsch": "Wo ist dein Stuhl?"
+  },
+  {
+    "id": "L0056",
+    "lektion": "1.4  In unserer Klasse",
+    "bereich": "dialog",
+    "deutsch": "Kind A: „Das ist mein Buch.“"
+  },
+  {
+    "id": "L0057",
+    "lektion": "1.4  In unserer Klasse",
+    "bereich": "dialog",
+    "deutsch": "Kind B: „Der Stift liegt auf dem Tisch.“"
+  },
+  {
+    "id": "L0058",
+    "lektion": "1.4  In unserer Klasse",
+    "bereich": "lesetext",
+    "deutsch": "Heute sprechen wir über in unserer klasse. Mia zeigt Ben etwas Neues. Ben hört genau zu und stellt eine Frage. Mia antwortet freundlich. Beide üben zusammen und lernen neue Wörter."
+  },
+  {
+    "id": "L0059",
+    "lektion": "1.5  Farben und Formen",
+    "bereich": "wortschatz",
+    "deutsch": "rot"
+  },
+  {
+    "id": "L0060",
+    "lektion": "1.5  Farben und Formen",
+    "bereich": "wortschatz",
+    "deutsch": "blau"
+  },
+  {
+    "id": "L0061",
+    "lektion": "1.5  Farben und Formen",
+    "bereich": "wortschatz",
+    "deutsch": "gelb"
+  },
+  {
+    "id": "L0062",
+    "lektion": "1.5  Farben und Formen",
+    "bereich": "wortschatz",
+    "deutsch": "grün"
+  },
+  {
+    "id": "L0063",
+    "lektion": "1.5  Farben und Formen",
+    "bereich": "wortschatz",
+    "deutsch": "schwarz"
+  },
+  {
+    "id": "L0064",
+    "lektion": "1.5  Farben und Formen",
+    "bereich": "wortschatz",
+    "deutsch": "weiß"
+  },
+  {
+    "id": "L0065",
+    "lektion": "1.5  Farben und Formen",
+    "bereich": "wortschatz",
+    "deutsch": "rund"
+  },
+  {
+    "id": "L0066",
+    "lektion": "1.5  Farben und Formen",
+    "bereich": "wortschatz",
+    "deutsch": "eckig"
+  },
+  {
+    "id": "L0067",
+    "lektion": "1.5  Farben und Formen",
+    "bereich": "beispielsatz",
+    "deutsch": "Der Ball ist rot."
+  },
+  {
+    "id": "L0068",
+    "lektion": "1.5  Farben und Formen",
+    "bereich": "beispielsatz",
+    "deutsch": "Die Tür ist blau."
+  },
+  {
+    "id": "L0069",
+    "lektion": "1.5  Farben und Formen",
+    "bereich": "beispielsatz",
+    "deutsch": "Ich sehe einen grünen Kreis."
+  },
+  {
+    "id": "L0070",
+    "lektion": "1.5  Farben und Formen",
+    "bereich": "dialog",
+    "deutsch": "Kind A: „Der Ball ist rot.“"
+  },
+  {
+    "id": "L0071",
+    "lektion": "1.5  Farben und Formen",
+    "bereich": "dialog",
+    "deutsch": "Kind B: „Die Tür ist blau.“"
+  },
+  {
+    "id": "L0072",
+    "lektion": "1.5  Farben und Formen",
+    "bereich": "lesetext",
+    "deutsch": "Auf dem Tisch liegen ein roter Ball, ein grünes Buch und ein gelber Stift. Ben zeigt auf den Ball. „Welche Farbe hat er?“, fragt er. Mia antwortet: „Der Ball ist rot.“"
+  },
+  {
+    "id": "L0073",
+    "lektion": "1.6  Zahlen und Mengen",
+    "bereich": "wortschatz",
+    "deutsch": "eins"
+  },
+  {
+    "id": "L0074",
+    "lektion": "1.6  Zahlen und Mengen",
+    "bereich": "wortschatz",
+    "deutsch": "zwei"
+  },
+  {
+    "id": "L0075",
+    "lektion": "1.6  Zahlen und Mengen",
+    "bereich": "wortschatz",
+    "deutsch": "drei"
+  },
+  {
+    "id": "L0076",
+    "lektion": "1.6  Zahlen und Mengen",
+    "bereich": "wortschatz",
+    "deutsch": "vier"
+  },
+  {
+    "id": "L0077",
+    "lektion": "1.6  Zahlen und Mengen",
+    "bereich": "wortschatz",
+    "deutsch": "fünf"
+  },
+  {
+    "id": "L0078",
+    "lektion": "1.6  Zahlen und Mengen",
+    "bereich": "wortschatz",
+    "deutsch": "sechs"
+  },
+  {
+    "id": "L0079",
+    "lektion": "1.6  Zahlen und Mengen",
+    "bereich": "wortschatz",
+    "deutsch": "sieben"
+  },
+  {
+    "id": "L0080",
+    "lektion": "1.6  Zahlen und Mengen",
+    "bereich": "wortschatz",
+    "deutsch": "acht"
+  },
+  {
+    "id": "L0081",
+    "lektion": "1.6  Zahlen und Mengen",
+    "bereich": "wortschatz",
+    "deutsch": "neun"
+  },
+  {
+    "id": "L0082",
+    "lektion": "1.6  Zahlen und Mengen",
+    "bereich": "wortschatz",
+    "deutsch": "zehn"
+  },
+  {
+    "id": "L0083",
+    "lektion": "1.6  Zahlen und Mengen",
+    "bereich": "beispielsatz",
+    "deutsch": "Ich habe drei Äpfel."
+  },
+  {
+    "id": "L0084",
+    "lektion": "1.6  Zahlen und Mengen",
+    "bereich": "beispielsatz",
+    "deutsch": "Auf dem Tisch liegen fünf Bücher."
+  },
+  {
+    "id": "L0085",
+    "lektion": "1.6  Zahlen und Mengen",
+    "bereich": "beispielsatz",
+    "deutsch": "Wie viele Kinder sind hier?"
+  },
+  {
+    "id": "L0086",
+    "lektion": "1.6  Zahlen und Mengen",
+    "bereich": "dialog",
+    "deutsch": "Kind A: „Ich habe drei Äpfel.“"
+  },
+  {
+    "id": "L0087",
+    "lektion": "1.6  Zahlen und Mengen",
+    "bereich": "dialog",
+    "deutsch": "Kind B: „Auf dem Tisch liegen fünf Bücher.“"
+  },
+  {
+    "id": "L0088",
+    "lektion": "1.6  Zahlen und Mengen",
+    "bereich": "lesetext",
+    "deutsch": "Heute sprechen wir über zahlen und mengen. Mia zeigt Ben etwas Neues. Ben hört genau zu und stellt eine Frage. Mia antwortet freundlich. Beide üben zusammen und lernen neue Wörter."
+  },
+  {
+    "id": "L0089",
+    "lektion": "1.7  Tiere und Natur",
+    "bereich": "wortschatz",
+    "deutsch": "Hund"
+  },
+  {
+    "id": "L0090",
+    "lektion": "1.7  Tiere und Natur",
+    "bereich": "wortschatz",
+    "deutsch": "Katze"
+  },
+  {
+    "id": "L0091",
+    "lektion": "1.7  Tiere und Natur",
+    "bereich": "wortschatz",
+    "deutsch": "Vogel"
+  },
+  {
+    "id": "L0092",
+    "lektion": "1.7  Tiere und Natur",
+    "bereich": "wortschatz",
+    "deutsch": "Baum"
+  },
+  {
+    "id": "L0093",
+    "lektion": "1.7  Tiere und Natur",
+    "bereich": "wortschatz",
+    "deutsch": "Blume"
+  },
+  {
+    "id": "L0094",
+    "lektion": "1.7  Tiere und Natur",
+    "bereich": "wortschatz",
+    "deutsch": "Wald"
+  },
+  {
+    "id": "L0095",
+    "lektion": "1.7  Tiere und Natur",
+    "bereich": "wortschatz",
+    "deutsch": "Wasser"
+  },
+  {
+    "id": "L0096",
+    "lektion": "1.7  Tiere und Natur",
+    "bereich": "wortschatz",
+    "deutsch": "Sonne"
+  },
+  {
+    "id": "L0097",
+    "lektion": "1.7  Tiere und Natur",
+    "bereich": "beispielsatz",
+    "deutsch": "Der Hund schläft."
+  },
+  {
+    "id": "L0098",
+    "lektion": "1.7  Tiere und Natur",
+    "bereich": "beispielsatz",
+    "deutsch": "Der Vogel sitzt im Baum."
+  },
+  {
+    "id": "L0099",
+    "lektion": "1.7  Tiere und Natur",
+    "bereich": "beispielsatz",
+    "deutsch": "Ich sehe eine Blume."
+  },
+  {
+    "id": "L0100",
+    "lektion": "1.7  Tiere und Natur",
+    "bereich": "dialog",
+    "deutsch": "Kind A: „Der Hund schläft.“"
+  },
+  {
+    "id": "L0101",
+    "lektion": "1.7  Tiere und Natur",
+    "bereich": "dialog",
+    "deutsch": "Kind B: „Der Vogel sitzt im Baum.“"
+  },
+  {
+    "id": "L0102",
+    "lektion": "1.7  Tiere und Natur",
+    "bereich": "lesetext",
+    "deutsch": "Heute sprechen wir über tiere und natur. Mia zeigt Ben etwas Neues. Ben hört genau zu und stellt eine Frage. Mia antwortet freundlich. Beide üben zusammen und lernen neue Wörter."
+  },
+  {
+    "id": "L0103",
+    "lektion": "1.8  Essen und Trinken",
+    "bereich": "wortschatz",
+    "deutsch": "Brot"
+  },
+  {
+    "id": "L0104",
+    "lektion": "1.8  Essen und Trinken",
+    "bereich": "wortschatz",
+    "deutsch": "Apfel"
+  },
+  {
+    "id": "L0105",
+    "lektion": "1.8  Essen und Trinken",
+    "bereich": "wortschatz",
+    "deutsch": "Milch"
+  },
+  {
+    "id": "L0106",
+    "lektion": "1.8  Essen und Trinken",
+    "bereich": "wortschatz",
+    "deutsch": "Wasser"
+  },
+  {
+    "id": "L0107",
+    "lektion": "1.8  Essen und Trinken",
+    "bereich": "wortschatz",
+    "deutsch": "essen"
+  },
+  {
+    "id": "L0108",
+    "lektion": "1.8  Essen und Trinken",
+    "bereich": "wortschatz",
+    "deutsch": "trinken"
+  },
+  {
+    "id": "L0109",
+    "lektion": "1.8  Essen und Trinken",
+    "bereich": "wortschatz",
+    "deutsch": "Hunger"
+  },
+  {
+    "id": "L0110",
+    "lektion": "1.8  Essen und Trinken",
+    "bereich": "wortschatz",
+    "deutsch": "Durst"
+  },
+  {
+    "id": "L0111",
+    "lektion": "1.8  Essen und Trinken",
+    "bereich": "beispielsatz",
+    "deutsch": "Ich habe Hunger."
+  },
+  {
+    "id": "L0112",
+    "lektion": "1.8  Essen und Trinken",
+    "bereich": "beispielsatz",
+    "deutsch": "Ich möchte Wasser trinken."
+  },
+  {
+    "id": "L0113",
+    "lektion": "1.8  Essen und Trinken",
+    "bereich": "beispielsatz",
+    "deutsch": "Der Apfel ist süß."
+  },
+  {
+    "id": "L0114",
+    "lektion": "1.8  Essen und Trinken",
+    "bereich": "dialog",
+    "deutsch": "Kind A: „Ich habe Hunger.“"
+  },
+  {
+    "id": "L0115",
+    "lektion": "1.8  Essen und Trinken",
+    "bereich": "dialog",
+    "deutsch": "Kind B: „Ich möchte Wasser trinken.“"
+  },
+  {
+    "id": "L0116",
+    "lektion": "1.8  Essen und Trinken",
+    "bereich": "lesetext",
+    "deutsch": "Heute sprechen wir über essen und trinken. Mia zeigt Ben etwas Neues. Ben hört genau zu und stellt eine Frage. Mia antwortet freundlich. Beide üben zusammen und lernen neue Wörter."
+  },
+  {
+    "id": "L0117",
+    "lektion": "1.9  Ich spiele",
+    "bereich": "wortschatz",
+    "deutsch": "spielen"
+  },
+  {
+    "id": "L0118",
+    "lektion": "1.9  Ich spiele",
+    "bereich": "wortschatz",
+    "deutsch": "laufen"
+  },
+  {
+    "id": "L0119",
+    "lektion": "1.9  Ich spiele",
+    "bereich": "wortschatz",
+    "deutsch": "springen"
+  },
+  {
+    "id": "L0120",
+    "lektion": "1.9  Ich spiele",
+    "bereich": "wortschatz",
+    "deutsch": "Ball"
+  },
+  {
+    "id": "L0121",
+    "lektion": "1.9  Ich spiele",
+    "bereich": "wortschatz",
+    "deutsch": "Freund"
+  },
+  {
+    "id": "L0122",
+    "lektion": "1.9  Ich spiele",
+    "bereich": "wortschatz",
+    "deutsch": "Freundin"
+  },
+  {
+    "id": "L0123",
+    "lektion": "1.9  Ich spiele",
+    "bereich": "wortschatz",
+    "deutsch": "zusammen"
+  },
+  {
+    "id": "L0124",
+    "lektion": "1.9  Ich spiele",
+    "bereich": "wortschatz",
+    "deutsch": "gern"
+  },
+  {
+    "id": "L0125",
+    "lektion": "1.9  Ich spiele",
+    "bereich": "beispielsatz",
+    "deutsch": "Wir spielen zusammen."
+  },
+  {
+    "id": "L0126",
+    "lektion": "1.9  Ich spiele",
+    "bereich": "beispielsatz",
+    "deutsch": "Ich springe hoch."
+  },
+  {
+    "id": "L0127",
+    "lektion": "1.9  Ich spiele",
+    "bereich": "beispielsatz",
+    "deutsch": "Spielst du mit mir?"
+  },
+  {
+    "id": "L0128",
+    "lektion": "1.9  Ich spiele",
+    "bereich": "dialog",
+    "deutsch": "Kind A: „Wir spielen zusammen.“"
+  },
+  {
+    "id": "L0129",
+    "lektion": "1.9  Ich spiele",
+    "bereich": "dialog",
+    "deutsch": "Kind B: „Ich springe hoch.“"
+  },
+  {
+    "id": "L0130",
+    "lektion": "1.9  Ich spiele",
+    "bereich": "lesetext",
+    "deutsch": "Heute sprechen wir über ich spiele. Mia zeigt Ben etwas Neues. Ben hört genau zu und stellt eine Frage. Mia antwortet freundlich. Beide üben zusammen und lernen neue Wörter."
+  },
+  {
+    "id": "L0131",
+    "lektion": "1.9  Ich spiele",
+    "bereich": "wortschatz",
+    "deutsch": "heute"
+  },
+  {
+    "id": "L0132",
+    "lektion": "1.9  Ich spiele",
+    "bereich": "wortschatz",
+    "deutsch": "morgen"
+  },
+  {
+    "id": "L0133",
+    "lektion": "1.9  Ich spiele",
+    "bereich": "wortschatz",
+    "deutsch": "gestern"
+  },
+  {
+    "id": "L0134",
+    "lektion": "1.9  Ich spiele",
+    "bereich": "wortschatz",
+    "deutsch": "glücklich"
+  },
+  {
+    "id": "L0135",
+    "lektion": "1.9  Ich spiele",
+    "bereich": "wortschatz",
+    "deutsch": "müde"
+  },
+  {
+    "id": "L0136",
+    "lektion": "1.9  Ich spiele",
+    "bereich": "wortschatz",
+    "deutsch": "zu Hause"
+  },
+  {
+    "id": "L0137",
+    "lektion": "1.9  Ich spiele",
+    "bereich": "wortschatz",
+    "deutsch": "schlafen"
+  },
+  {
+    "id": "L0138",
+    "lektion": "1.9  Ich spiele",
+    "bereich": "wortschatz",
+    "deutsch": "lesen"
+  },
+  {
+    "id": "L0139",
+    "lektion": "1.9  Ich spiele",
+    "bereich": "beispielsatz",
+    "deutsch": "Heute bin ich glücklich."
+  },
+  {
+    "id": "L0140",
+    "lektion": "1.9  Ich spiele",
+    "bereich": "beispielsatz",
+    "deutsch": "Ich lese ein Buch."
+  },
+  {
+    "id": "L0141",
+    "lektion": "1.9  Ich spiele",
+    "bereich": "beispielsatz",
+    "deutsch": "Am Abend gehe ich schlafen."
+  },
+  {
+    "id": "L0142",
+    "lektion": "1.9  Ich spiele",
+    "bereich": "dialog",
+    "deutsch": "Kind A: „Heute bin ich glücklich.“"
+  },
+  {
+    "id": "L0143",
+    "lektion": "1.9  Ich spiele",
+    "bereich": "dialog",
+    "deutsch": "Kind B: „Ich lese ein Buch.“"
+  },
+  {
+    "id": "L0144",
+    "lektion": "1.9  Ich spiele",
+    "bereich": "lesetext",
+    "deutsch": "Heute sprechen wir über mein erster kleiner text. Mia zeigt Ben etwas Neues. Ben hört genau zu und stellt eine Frage. Mia antwortet freundlich. Beide üben zusammen und lernen neue Wörter."
+  },
+  {
+    "id": "L0145",
+    "lektion": "2.1  Ich beschreibe Menschen",
+    "bereich": "wortschatz",
+    "deutsch": "groß"
+  },
+  {
+    "id": "L0146",
+    "lektion": "2.1  Ich beschreibe Menschen",
+    "bereich": "wortschatz",
+    "deutsch": "klein"
+  },
+  {
+    "id": "L0147",
+    "lektion": "2.1  Ich beschreibe Menschen",
+    "bereich": "wortschatz",
+    "deutsch": "jung"
+  },
+  {
+    "id": "L0148",
+    "lektion": "2.1  Ich beschreibe Menschen",
+    "bereich": "wortschatz",
+    "deutsch": "alt"
+  },
+  {
+    "id": "L0149",
+    "lektion": "2.1  Ich beschreibe Menschen",
+    "bereich": "wortschatz",
+    "deutsch": "freundlich"
+  },
+  {
+    "id": "L0150",
+    "lektion": "2.1  Ich beschreibe Menschen",
+    "bereich": "wortschatz",
+    "deutsch": "lustig"
+  },
+  {
+    "id": "L0151",
+    "lektion": "2.1  Ich beschreibe Menschen",
+    "bereich": "wortschatz",
+    "deutsch": "ruhig"
+  },
+  {
+    "id": "L0152",
+    "lektion": "2.1  Ich beschreibe Menschen",
+    "bereich": "wortschatz",
+    "deutsch": "hilfsbereit"
+  },
+  {
+    "id": "L0153",
+    "lektion": "2.1  Ich beschreibe Menschen",
+    "bereich": "beispielsatz",
+    "deutsch": "Meine Freundin ist freundlich."
+  },
+  {
+    "id": "L0154",
+    "lektion": "2.1  Ich beschreibe Menschen",
+    "bereich": "beispielsatz",
+    "deutsch": "Mein Bruder ist größer als ich."
+  },
+  {
+    "id": "L0155",
+    "lektion": "2.1  Ich beschreibe Menschen",
+    "bereich": "beispielsatz",
+    "deutsch": "Wir helfen einander."
+  },
+  {
+    "id": "L0156",
+    "lektion": "2.1  Ich beschreibe Menschen",
+    "bereich": "dialog",
+    "deutsch": "Kind A: „Meine Freundin ist freundlich.“"
+  },
+  {
+    "id": "L0157",
+    "lektion": "2.1  Ich beschreibe Menschen",
+    "bereich": "dialog",
+    "deutsch": "Kind B: „Mein Bruder ist größer als ich.“"
+  },
+  {
+    "id": "L0158",
+    "lektion": "2.1  Ich beschreibe Menschen",
+    "bereich": "lesetext",
+    "deutsch": "Mia und Ben beschäftigen sich mit dem Thema ich beschreibe menschen. Zuerst sammeln sie passende Wörter. Dann sprechen sie miteinander. Als Ben etwas nicht versteht, fragt er noch einmal nach. Am Ende erklären beide das Thema mit eigenen Worten."
+  },
+  {
+    "id": "L0159",
+    "lektion": "2.2  Fragen stellen",
+    "bereich": "wortschatz",
+    "deutsch": "wer"
+  },
+  {
+    "id": "L0160",
+    "lektion": "2.2  Fragen stellen",
+    "bereich": "wortschatz",
+    "deutsch": "was"
+  },
+  {
+    "id": "L0161",
+    "lektion": "2.2  Fragen stellen",
+    "bereich": "wortschatz",
+    "deutsch": "wo"
+  },
+  {
+    "id": "L0162",
+    "lektion": "2.2  Fragen stellen",
+    "bereich": "wortschatz",
+    "deutsch": "wann"
+  },
+  {
+    "id": "L0163",
+    "lektion": "2.2  Fragen stellen",
+    "bereich": "wortschatz",
+    "deutsch": "warum"
+  },
+  {
+    "id": "L0164",
+    "lektion": "2.2  Fragen stellen",
+    "bereich": "wortschatz",
+    "deutsch": "wie"
+  },
+  {
+    "id": "L0165",
+    "lektion": "2.2  Fragen stellen",
+    "bereich": "wortschatz",
+    "deutsch": "welche"
+  },
+  {
+    "id": "L0166",
+    "lektion": "2.2  Fragen stellen",
+    "bereich": "wortschatz",
+    "deutsch": "antworten"
+  },
+  {
+    "id": "L0167",
+    "lektion": "2.2  Fragen stellen",
+    "bereich": "beispielsatz",
+    "deutsch": "Wer bist du?"
+  },
+  {
+    "id": "L0168",
+    "lektion": "2.2  Fragen stellen",
+    "bereich": "beispielsatz",
+    "deutsch": "Wo wohnst du?"
+  },
+  {
+    "id": "L0169",
+    "lektion": "2.2  Fragen stellen",
+    "bereich": "beispielsatz",
+    "deutsch": "Warum lachst du?"
+  },
+  {
+    "id": "L0170",
+    "lektion": "2.2  Fragen stellen",
+    "bereich": "beispielsatz",
+    "deutsch": "Wie geht es dir?"
+  },
+  {
+    "id": "L0171",
+    "lektion": "2.2  Fragen stellen",
+    "bereich": "dialog",
+    "deutsch": "Kind A: „Wer bist du?“"
+  },
+  {
+    "id": "L0172",
+    "lektion": "2.2  Fragen stellen",
+    "bereich": "dialog",
+    "deutsch": "Kind B: „Wo wohnst du?“"
+  },
+  {
+    "id": "L0173",
+    "lektion": "2.2  Fragen stellen",
+    "bereich": "lesetext",
+    "deutsch": "Mia und Ben beschäftigen sich mit dem Thema fragen stellen. Zuerst sammeln sie passende Wörter. Dann sprechen sie miteinander. Als Ben etwas nicht versteht, fragt er noch einmal nach. Am Ende erklären beide das Thema mit eigenen Worten."
+  },
+  {
+    "id": "L0174",
+    "lektion": "2.3  Sätze verneinen",
+    "bereich": "wortschatz",
+    "deutsch": "nicht"
+  },
+  {
+    "id": "L0175",
+    "lektion": "2.3  Sätze verneinen",
+    "bereich": "wortschatz",
+    "deutsch": "kein"
+  },
+  {
+    "id": "L0176",
+    "lektion": "2.3  Sätze verneinen",
+    "bereich": "wortschatz",
+    "deutsch": "nie"
+  },
+  {
+    "id": "L0177",
+    "lektion": "2.3  Sätze verneinen",
+    "bereich": "wortschatz",
+    "deutsch": "ja"
+  },
+  {
+    "id": "L0178",
+    "lektion": "2.3  Sätze verneinen",
+    "bereich": "wortschatz",
+    "deutsch": "nein"
+  },
+  {
+    "id": "L0179",
+    "lektion": "2.3  Sätze verneinen",
+    "bereich": "wortschatz",
+    "deutsch": "immer"
+  },
+  {
+    "id": "L0180",
+    "lektion": "2.3  Sätze verneinen",
+    "bereich": "wortschatz",
+    "deutsch": "manchmal"
+  },
+  {
+    "id": "L0181",
+    "lektion": "2.3  Sätze verneinen",
+    "bereich": "wortschatz",
+    "deutsch": "oft"
+  },
+  {
+    "id": "L0182",
+    "lektion": "2.3  Sätze verneinen",
+    "bereich": "beispielsatz",
+    "deutsch": "Ich esse Brot."
+  },
+  {
+    "id": "L0183",
+    "lektion": "2.3  Sätze verneinen",
+    "bereich": "beispielsatz",
+    "deutsch": "Ich esse kein Brot."
+  },
+  {
+    "id": "L0184",
+    "lektion": "2.3  Sätze verneinen",
+    "bereich": "beispielsatz",
+    "deutsch": "Ich schlafe nicht."
+  },
+  {
+    "id": "L0185",
+    "lektion": "2.3  Sätze verneinen",
+    "bereich": "beispielsatz",
+    "deutsch": "Ich spiele manchmal draußen."
+  },
+  {
+    "id": "L0186",
+    "lektion": "2.3  Sätze verneinen",
+    "bereich": "dialog",
+    "deutsch": "Kind A: „Ich esse Brot.“"
+  },
+  {
+    "id": "L0187",
+    "lektion": "2.3  Sätze verneinen",
+    "bereich": "dialog",
+    "deutsch": "Kind B: „Ich esse kein Brot.“"
+  },
+  {
+    "id": "L0188",
+    "lektion": "2.3  Sätze verneinen",
+    "bereich": "lesetext",
+    "deutsch": "Mia und Ben beschäftigen sich mit dem Thema sätze verneinen. Zuerst sammeln sie passende Wörter. Dann sprechen sie miteinander. Als Ben etwas nicht versteht, fragt er noch einmal nach. Am Ende erklären beide das Thema mit eigenen Worten."
+  },
+  {
+    "id": "L0189",
+    "lektion": "2.4  Mein Tagesablauf",
+    "bereich": "wortschatz",
+    "deutsch": "aufstehen"
+  },
+  {
+    "id": "L0190",
+    "lektion": "2.4  Mein Tagesablauf",
+    "bereich": "wortschatz",
+    "deutsch": "frühstücken"
+  },
+  {
+    "id": "L0191",
+    "lektion": "2.4  Mein Tagesablauf",
+    "bereich": "wortschatz",
+    "deutsch": "lernen"
+  },
+  {
+    "id": "L0192",
+    "lektion": "2.4  Mein Tagesablauf",
+    "bereich": "wortschatz",
+    "deutsch": "Mittag"
+  },
+  {
+    "id": "L0193",
+    "lektion": "2.4  Mein Tagesablauf",
+    "bereich": "wortschatz",
+    "deutsch": "Nachmittag"
+  },
+  {
+    "id": "L0194",
+    "lektion": "2.4  Mein Tagesablauf",
+    "bereich": "wortschatz",
+    "deutsch": "Abend"
+  },
+  {
+    "id": "L0195",
+    "lektion": "2.4  Mein Tagesablauf",
+    "bereich": "wortschatz",
+    "deutsch": "Uhr"
+  },
+  {
+    "id": "L0196",
+    "lektion": "2.4  Mein Tagesablauf",
+    "bereich": "wortschatz",
+    "deutsch": "Pause"
+  },
+  {
+    "id": "L0197",
+    "lektion": "2.4  Mein Tagesablauf",
+    "bereich": "beispielsatz",
+    "deutsch": "Ich stehe morgens auf."
+  },
+  {
+    "id": "L0198",
+    "lektion": "2.4  Mein Tagesablauf",
+    "bereich": "beispielsatz",
+    "deutsch": "Nach der Schule spiele ich."
+  },
+  {
+    "id": "L0199",
+    "lektion": "2.4  Mein Tagesablauf",
+    "bereich": "beispielsatz",
+    "deutsch": "Am Abend lese ich."
+  },
+  {
+    "id": "L0200",
+    "lektion": "2.4  Mein Tagesablauf",
+    "bereich": "dialog",
+    "deutsch": "Kind A: „Ich stehe morgens auf.“"
+  },
+  {
+    "id": "L0201",
+    "lektion": "2.4  Mein Tagesablauf",
+    "bereich": "dialog",
+    "deutsch": "Kind B: „Nach der Schule spiele ich.“"
+  },
+  {
+    "id": "L0202",
+    "lektion": "2.4  Mein Tagesablauf",
+    "bereich": "lesetext",
+    "deutsch": "Mia und Ben beschäftigen sich mit dem Thema mein tagesablauf. Zuerst sammeln sie passende Wörter. Dann sprechen sie miteinander. Als Ben etwas nicht versteht, fragt er noch einmal nach. Am Ende erklären beide das Thema mit eigenen Worten."
+  },
+  {
+    "id": "L0203",
+    "lektion": "2.5  Im Geschäft",
+    "bereich": "wortschatz",
+    "deutsch": "kaufen"
+  },
+  {
+    "id": "L0204",
+    "lektion": "2.5  Im Geschäft",
+    "bereich": "wortschatz",
+    "deutsch": "verkaufen"
+  },
+  {
+    "id": "L0205",
+    "lektion": "2.5  Im Geschäft",
+    "bereich": "wortschatz",
+    "deutsch": "Geld"
+  },
+  {
+    "id": "L0206",
+    "lektion": "2.5  Im Geschäft",
+    "bereich": "wortschatz",
+    "deutsch": "Preis"
+  },
+  {
+    "id": "L0207",
+    "lektion": "2.5  Im Geschäft",
+    "bereich": "wortschatz",
+    "deutsch": "teuer"
+  },
+  {
+    "id": "L0208",
+    "lektion": "2.5  Im Geschäft",
+    "bereich": "wortschatz",
+    "deutsch": "billig"
+  },
+  {
+    "id": "L0209",
+    "lektion": "2.5  Im Geschäft",
+    "bereich": "wortschatz",
+    "deutsch": "bitte"
+  },
+  {
+    "id": "L0210",
+    "lektion": "2.5  Im Geschäft",
+    "bereich": "wortschatz",
+    "deutsch": "danke"
+  },
+  {
+    "id": "L0211",
+    "lektion": "2.5  Im Geschäft",
+    "bereich": "beispielsatz",
+    "deutsch": "Ich möchte einen Apfel kaufen."
+  },
+  {
+    "id": "L0212",
+    "lektion": "2.5  Im Geschäft",
+    "bereich": "beispielsatz",
+    "deutsch": "Wie viel kostet das Brot?"
+  },
+  {
+    "id": "L0213",
+    "lektion": "2.5  Im Geschäft",
+    "bereich": "beispielsatz",
+    "deutsch": "Danke für deine Hilfe."
+  },
+  {
+    "id": "L0214",
+    "lektion": "2.5  Im Geschäft",
+    "bereich": "dialog",
+    "deutsch": "Kind A: „Ich möchte einen Apfel kaufen.“"
+  },
+  {
+    "id": "L0215",
+    "lektion": "2.5  Im Geschäft",
+    "bereich": "dialog",
+    "deutsch": "Kind B: „Wie viel kostet das Brot?“"
+  },
+  {
+    "id": "L0216",
+    "lektion": "2.5  Im Geschäft",
+    "bereich": "lesetext",
+    "deutsch": "Lina geht mit ihrem Vater zum Markt. Sie möchte Äpfel kaufen. „Wie viel kosten drei Äpfel?“, fragt sie. Der Verkäufer nennt den Preis. Lina bedankt sich und legt die Äpfel in ihren Korb."
+  },
+  {
+    "id": "L0217",
+    "lektion": "2.6  Wo liegt was?",
+    "bereich": "wortschatz",
+    "deutsch": "auf"
+  },
+  {
+    "id": "L0218",
+    "lektion": "2.6  Wo liegt was?",
+    "bereich": "wortschatz",
+    "deutsch": "unter"
+  },
+  {
+    "id": "L0219",
+    "lektion": "2.6  Wo liegt was?",
+    "bereich": "wortschatz",
+    "deutsch": "neben"
+  },
+  {
+    "id": "L0220",
+    "lektion": "2.6  Wo liegt was?",
+    "bereich": "wortschatz",
+    "deutsch": "vor"
+  },
+  {
+    "id": "L0221",
+    "lektion": "2.6  Wo liegt was?",
+    "bereich": "wortschatz",
+    "deutsch": "hinter"
+  },
+  {
+    "id": "L0222",
+    "lektion": "2.6  Wo liegt was?",
+    "bereich": "wortschatz",
+    "deutsch": "zwischen"
+  },
+  {
+    "id": "L0223",
+    "lektion": "2.6  Wo liegt was?",
+    "bereich": "wortschatz",
+    "deutsch": "links"
+  },
+  {
+    "id": "L0224",
+    "lektion": "2.6  Wo liegt was?",
+    "bereich": "wortschatz",
+    "deutsch": "rechts"
+  },
+  {
+    "id": "L0225",
+    "lektion": "2.6  Wo liegt was?",
+    "bereich": "beispielsatz",
+    "deutsch": "Der Ball liegt unter dem Tisch."
+  },
+  {
+    "id": "L0226",
+    "lektion": "2.6  Wo liegt was?",
+    "bereich": "beispielsatz",
+    "deutsch": "Die Tasche steht neben dem Stuhl."
+  },
+  {
+    "id": "L0227",
+    "lektion": "2.6  Wo liegt was?",
+    "bereich": "beispielsatz",
+    "deutsch": "Das Buch liegt zwischen zwei Heften."
+  },
+  {
+    "id": "L0228",
+    "lektion": "2.6  Wo liegt was?",
+    "bereich": "dialog",
+    "deutsch": "Kind A: „Der Ball liegt unter dem Tisch.“"
+  },
+  {
+    "id": "L0229",
+    "lektion": "2.6  Wo liegt was?",
+    "bereich": "dialog",
+    "deutsch": "Kind B: „Die Tasche steht neben dem Stuhl.“"
+  },
+  {
+    "id": "L0230",
+    "lektion": "2.6  Wo liegt was?",
+    "bereich": "lesetext",
+    "deutsch": "Mia und Ben beschäftigen sich mit dem Thema wo liegt was?. Zuerst sammeln sie passende Wörter. Dann sprechen sie miteinander. Als Ben etwas nicht versteht, fragt er noch einmal nach. Am Ende erklären beide das Thema mit eigenen Worten."
+  },
+  {
+    "id": "L0231",
+    "lektion": "2.7  Wünsche und Bitten",
+    "bereich": "wortschatz",
+    "deutsch": "wünschen"
+  },
+  {
+    "id": "L0232",
+    "lektion": "2.7  Wünsche und Bitten",
+    "bereich": "wortschatz",
+    "deutsch": "möchten"
+  },
+  {
+    "id": "L0233",
+    "lektion": "2.7  Wünsche und Bitten",
+    "bereich": "wortschatz",
+    "deutsch": "dürfen"
+  },
+  {
+    "id": "L0234",
+    "lektion": "2.7  Wünsche und Bitten",
+    "bereich": "wortschatz",
+    "deutsch": "können"
+  },
+  {
+    "id": "L0235",
+    "lektion": "2.7  Wünsche und Bitten",
+    "bereich": "wortschatz",
+    "deutsch": "helfen"
+  },
+  {
+    "id": "L0236",
+    "lektion": "2.7  Wünsche und Bitten",
+    "bereich": "wortschatz",
+    "deutsch": "bitten"
+  },
+  {
+    "id": "L0237",
+    "lektion": "2.7  Wünsche und Bitten",
+    "bereich": "wortschatz",
+    "deutsch": "einladen"
+  },
+  {
+    "id": "L0238",
+    "lektion": "2.7  Wünsche und Bitten",
+    "bereich": "wortschatz",
+    "deutsch": "entschuldigen"
+  },
+  {
+    "id": "L0239",
+    "lektion": "2.7  Wünsche und Bitten",
+    "bereich": "beispielsatz",
+    "deutsch": "Kannst du mir helfen?"
+  },
+  {
+    "id": "L0240",
+    "lektion": "2.7  Wünsche und Bitten",
+    "bereich": "beispielsatz",
+    "deutsch": "Darf ich mitspielen?"
+  },
+  {
+    "id": "L0241",
+    "lektion": "2.7  Wünsche und Bitten",
+    "bereich": "beispielsatz",
+    "deutsch": "Ich möchte ein Buch lesen."
+  },
+  {
+    "id": "L0242",
+    "lektion": "2.7  Wünsche und Bitten",
+    "bereich": "dialog",
+    "deutsch": "Kind A: „Kannst du mir helfen?“"
+  },
+  {
+    "id": "L0243",
+    "lektion": "2.7  Wünsche und Bitten",
+    "bereich": "dialog",
+    "deutsch": "Kind B: „Darf ich mitspielen?“"
+  },
+  {
+    "id": "L0244",
+    "lektion": "2.7  Wünsche und Bitten",
+    "bereich": "lesetext",
+    "deutsch": "Mia und Ben beschäftigen sich mit dem Thema wünsche und bitten. Zuerst sammeln sie passende Wörter. Dann sprechen sie miteinander. Als Ben etwas nicht versteht, fragt er noch einmal nach. Am Ende erklären beide das Thema mit eigenen Worten."
+  },
+  {
+    "id": "L0245",
+    "lektion": "2.8  Unser Zuhause",
+    "bereich": "wortschatz",
+    "deutsch": "Wohnung"
+  },
+  {
+    "id": "L0246",
+    "lektion": "2.8  Unser Zuhause",
+    "bereich": "wortschatz",
+    "deutsch": "Haus"
+  },
+  {
+    "id": "L0247",
+    "lektion": "2.8  Unser Zuhause",
+    "bereich": "wortschatz",
+    "deutsch": "Zimmer"
+  },
+  {
+    "id": "L0248",
+    "lektion": "2.8  Unser Zuhause",
+    "bereich": "wortschatz",
+    "deutsch": "Küche"
+  },
+  {
+    "id": "L0249",
+    "lektion": "2.8  Unser Zuhause",
+    "bereich": "wortschatz",
+    "deutsch": "Fenster"
+  },
+  {
+    "id": "L0250",
+    "lektion": "2.8  Unser Zuhause",
+    "bereich": "wortschatz",
+    "deutsch": "Tür"
+  },
+  {
+    "id": "L0251",
+    "lektion": "2.8  Unser Zuhause",
+    "bereich": "wortschatz",
+    "deutsch": "Bett"
+  },
+  {
+    "id": "L0252",
+    "lektion": "2.8  Unser Zuhause",
+    "bereich": "wortschatz",
+    "deutsch": "Garten"
+  },
+  {
+    "id": "L0253",
+    "lektion": "2.8  Unser Zuhause",
+    "bereich": "beispielsatz",
+    "deutsch": "Mein Bett steht am Fenster."
+  },
+  {
+    "id": "L0254",
+    "lektion": "2.8  Unser Zuhause",
+    "bereich": "beispielsatz",
+    "deutsch": "In der Küche steht ein Tisch."
+  },
+  {
+    "id": "L0255",
+    "lektion": "2.8  Unser Zuhause",
+    "bereich": "beispielsatz",
+    "deutsch": "Unser Garten ist klein."
+  },
+  {
+    "id": "L0256",
+    "lektion": "2.8  Unser Zuhause",
+    "bereich": "dialog",
+    "deutsch": "Kind A: „Mein Bett steht am Fenster.“"
+  },
+  {
+    "id": "L0257",
+    "lektion": "2.8  Unser Zuhause",
+    "bereich": "dialog",
+    "deutsch": "Kind B: „In der Küche steht ein Tisch.“"
+  },
+  {
+    "id": "L0258",
+    "lektion": "2.8  Unser Zuhause",
+    "bereich": "lesetext",
+    "deutsch": "Mia und Ben beschäftigen sich mit dem Thema unser zuhause. Zuerst sammeln sie passende Wörter. Dann sprechen sie miteinander. Als Ben etwas nicht versteht, fragt er noch einmal nach. Am Ende erklären beide das Thema mit eigenen Worten."
+  },
+  {
+    "id": "L0259",
+    "lektion": "2.9  Zusammen sprechen",
+    "bereich": "wortschatz",
+    "deutsch": "erzählen"
+  },
+  {
+    "id": "L0260",
+    "lektion": "2.9  Zusammen sprechen",
+    "bereich": "wortschatz",
+    "deutsch": "zuhören"
+  },
+  {
+    "id": "L0261",
+    "lektion": "2.9  Zusammen sprechen",
+    "bereich": "wortschatz",
+    "deutsch": "fragen"
+  },
+  {
+    "id": "L0262",
+    "lektion": "2.9  Zusammen sprechen",
+    "bereich": "wortschatz",
+    "deutsch": "erklären"
+  },
+  {
+    "id": "L0263",
+    "lektion": "2.9  Zusammen sprechen",
+    "bereich": "wortschatz",
+    "deutsch": "verstehen"
+  },
+  {
+    "id": "L0264",
+    "lektion": "2.9  Zusammen sprechen",
+    "bereich": "wortschatz",
+    "deutsch": "wiederholen"
+  },
+  {
+    "id": "L0265",
+    "lektion": "2.9  Zusammen sprechen",
+    "bereich": "wortschatz",
+    "deutsch": "warten"
+  },
+  {
+    "id": "L0266",
+    "lektion": "2.9  Zusammen sprechen",
+    "bereich": "wortschatz",
+    "deutsch": "antworten"
+  },
+  {
+    "id": "L0267",
+    "lektion": "2.9  Zusammen sprechen",
+    "bereich": "beispielsatz",
+    "deutsch": "Ich habe dich nicht verstanden."
+  },
+  {
+    "id": "L0268",
+    "lektion": "2.9  Zusammen sprechen",
+    "bereich": "beispielsatz",
+    "deutsch": "Bitte wiederhole den Satz."
+  },
+  {
+    "id": "L0269",
+    "lektion": "2.9  Zusammen sprechen",
+    "bereich": "beispielsatz",
+    "deutsch": "Ich möchte dir etwas erzählen."
+  },
+  {
+    "id": "L0270",
+    "lektion": "2.9  Zusammen sprechen",
+    "bereich": "dialog",
+    "deutsch": "Kind A: „Ich habe dich nicht verstanden.“"
+  },
+  {
+    "id": "L0271",
+    "lektion": "2.9  Zusammen sprechen",
+    "bereich": "dialog",
+    "deutsch": "Kind B: „Bitte wiederhole den Satz.“"
+  },
+  {
+    "id": "L0272",
+    "lektion": "2.9  Zusammen sprechen",
+    "bereich": "lesetext",
+    "deutsch": "Ben versteht eine Frage nicht. „Bitte sprich noch einmal langsam“, sagt er. Mia wiederholt ihre Frage. Nun kann Ben antworten. Beide freuen sich über das gute Gespräch."
+  },
+  {
+    "id": "L0273",
+    "lektion": "2.9  Zusammen sprechen",
+    "bereich": "wortschatz",
+    "deutsch": "Freizeit"
+  },
+  {
+    "id": "L0274",
+    "lektion": "2.9  Zusammen sprechen",
+    "bereich": "wortschatz",
+    "deutsch": "Hobby"
+  },
+  {
+    "id": "L0275",
+    "lektion": "2.9  Zusammen sprechen",
+    "bereich": "wortschatz",
+    "deutsch": "Musik"
+  },
+  {
+    "id": "L0276",
+    "lektion": "2.9  Zusammen sprechen",
+    "bereich": "wortschatz",
+    "deutsch": "Buch"
+  },
+  {
+    "id": "L0277",
+    "lektion": "2.9  Zusammen sprechen",
+    "bereich": "wortschatz",
+    "deutsch": "Fußball"
+  },
+  {
+    "id": "L0278",
+    "lektion": "2.9  Zusammen sprechen",
+    "bereich": "wortschatz",
+    "deutsch": "malen"
+  },
+  {
+    "id": "L0279",
+    "lektion": "2.9  Zusammen sprechen",
+    "bereich": "wortschatz",
+    "deutsch": "Freude"
+  },
+  {
+    "id": "L0280",
+    "lektion": "2.9  Zusammen sprechen",
+    "bereich": "wortschatz",
+    "deutsch": "zusammen"
+  },
+  {
+    "id": "L0281",
+    "lektion": "2.9  Zusammen sprechen",
+    "bereich": "beispielsatz",
+    "deutsch": "Was machst du gern?"
+  },
+  {
+    "id": "L0282",
+    "lektion": "2.9  Zusammen sprechen",
+    "bereich": "beispielsatz",
+    "deutsch": "Ich male gern Bilder."
+  },
+  {
+    "id": "L0283",
+    "lektion": "2.9  Zusammen sprechen",
+    "bereich": "beispielsatz",
+    "deutsch": "Morgen spielen wir zusammen."
+  },
+  {
+    "id": "L0284",
+    "lektion": "2.9  Zusammen sprechen",
+    "bereich": "dialog",
+    "deutsch": "Kind A: „Was machst du gern?“"
+  },
+  {
+    "id": "L0285",
+    "lektion": "2.9  Zusammen sprechen",
+    "bereich": "dialog",
+    "deutsch": "Kind B: „Ich male gern Bilder.“"
+  },
+  {
+    "id": "L0286",
+    "lektion": "2.9  Zusammen sprechen",
+    "bereich": "lesetext",
+    "deutsch": "Mia und Ben beschäftigen sich mit dem Thema mein erstes eigenes gespräch. Zuerst sammeln sie passende Wörter. Dann sprechen sie miteinander. Als Ben etwas nicht versteht, fragt er noch einmal nach. Am Ende erklären beide das Thema mit eigenen Worten."
+  },
+  {
+    "id": "L0287",
+    "lektion": "3.1  Was gestern geschah",
+    "bereich": "wortschatz",
+    "deutsch": "gestern"
+  },
+  {
+    "id": "L0288",
+    "lektion": "3.1  Was gestern geschah",
+    "bereich": "wortschatz",
+    "deutsch": "vorgestern"
+  },
+  {
+    "id": "L0289",
+    "lektion": "3.1  Was gestern geschah",
+    "bereich": "wortschatz",
+    "deutsch": "früher"
+  },
+  {
+    "id": "L0290",
+    "lektion": "3.1  Was gestern geschah",
+    "bereich": "wortschatz",
+    "deutsch": "damals"
+  },
+  {
+    "id": "L0291",
+    "lektion": "3.1  Was gestern geschah",
+    "bereich": "wortschatz",
+    "deutsch": "erzählen"
+  },
+  {
+    "id": "L0292",
+    "lektion": "3.1  Was gestern geschah",
+    "bereich": "wortschatz",
+    "deutsch": "kommen"
+  },
+  {
+    "id": "L0293",
+    "lektion": "3.1  Was gestern geschah",
+    "bereich": "wortschatz",
+    "deutsch": "sehen"
+  },
+  {
+    "id": "L0294",
+    "lektion": "3.1  Was gestern geschah",
+    "bereich": "wortschatz",
+    "deutsch": "gehen"
+  },
+  {
+    "id": "L0295",
+    "lektion": "3.1  Was gestern geschah",
+    "bereich": "beispielsatz",
+    "deutsch": "Gestern ging ich in den Park."
+  },
+  {
+    "id": "L0296",
+    "lektion": "3.1  Was gestern geschah",
+    "bereich": "beispielsatz",
+    "deutsch": "Sie kam, sah und siegte."
+  },
+  {
+    "id": "L0297",
+    "lektion": "3.1  Was gestern geschah",
+    "bereich": "beispielsatz",
+    "deutsch": "Wir sahen einen Vogel."
+  },
+  {
+    "id": "L0298",
+    "lektion": "3.1  Was gestern geschah",
+    "bereich": "dialog",
+    "deutsch": "Kind A: „Gestern ging ich in den Park.“"
+  },
+  {
+    "id": "L0299",
+    "lektion": "3.1  Was gestern geschah",
+    "bereich": "dialog",
+    "deutsch": "Kind B: „Sie kam, sah und siegte.“"
+  },
+  {
+    "id": "L0300",
+    "lektion": "3.1  Was gestern geschah",
+    "bereich": "lesetext",
+    "deutsch": "Gestern erlebten Mia und Ben etwas zum Thema was gestern geschah. Zuerst wussten sie nicht, was passieren würde. Dann entdeckten sie einen wichtigen Hinweis. Sie sprachen darüber und fanden gemeinsam eine Lösung. Am Abend erzählten sie ihren Freunden davon."
+  },
+  {
+    "id": "L0301",
+    "lektion": "3.2  Was morgen geschieht",
+    "bereich": "wortschatz",
+    "deutsch": "morgen"
+  },
+  {
+    "id": "L0302",
+    "lektion": "3.2  Was morgen geschieht",
+    "bereich": "wortschatz",
+    "deutsch": "bald"
+  },
+  {
+    "id": "L0303",
+    "lektion": "3.2  Was morgen geschieht",
+    "bereich": "wortschatz",
+    "deutsch": "später"
+  },
+  {
+    "id": "L0304",
+    "lektion": "3.2  Was morgen geschieht",
+    "bereich": "wortschatz",
+    "deutsch": "nächste Woche"
+  },
+  {
+    "id": "L0305",
+    "lektion": "3.2  Was morgen geschieht",
+    "bereich": "wortschatz",
+    "deutsch": "planen"
+  },
+  {
+    "id": "L0306",
+    "lektion": "3.2  Was morgen geschieht",
+    "bereich": "wortschatz",
+    "deutsch": "reisen"
+  },
+  {
+    "id": "L0307",
+    "lektion": "3.2  Was morgen geschieht",
+    "bereich": "wortschatz",
+    "deutsch": "besuchen"
+  },
+  {
+    "id": "L0308",
+    "lektion": "3.2  Was morgen geschieht",
+    "bereich": "wortschatz",
+    "deutsch": "werden"
+  },
+  {
+    "id": "L0309",
+    "lektion": "3.2  Was morgen geschieht",
+    "bereich": "beispielsatz",
+    "deutsch": "Morgen besuchen wir Oma."
+  },
+  {
+    "id": "L0310",
+    "lektion": "3.2  Was morgen geschieht",
+    "bereich": "beispielsatz",
+    "deutsch": "Nächste Woche fahren wir zum See."
+  },
+  {
+    "id": "L0311",
+    "lektion": "3.2  Was morgen geschieht",
+    "bereich": "beispielsatz",
+    "deutsch": "Ich werde dir helfen."
+  },
+  {
+    "id": "L0312",
+    "lektion": "3.2  Was morgen geschieht",
+    "bereich": "dialog",
+    "deutsch": "Kind A: „Morgen besuchen wir Oma.“"
+  },
+  {
+    "id": "L0313",
+    "lektion": "3.2  Was morgen geschieht",
+    "bereich": "dialog",
+    "deutsch": "Kind B: „Nächste Woche fahren wir zum See.“"
+  },
+  {
+    "id": "L0314",
+    "lektion": "3.2  Was morgen geschieht",
+    "bereich": "lesetext",
+    "deutsch": "Gestern erlebten Mia und Ben etwas zum Thema was morgen geschieht. Zuerst wussten sie nicht, was passieren würde. Dann entdeckten sie einen wichtigen Hinweis. Sie sprachen darüber und fanden gemeinsam eine Lösung. Am Abend erzählten sie ihren Freunden davon."
+  },
+  {
+    "id": "L0315",
+    "lektion": "3.3  Anfang, Mitte und Ende",
+    "bereich": "wortschatz",
+    "deutsch": "zuerst"
+  },
+  {
+    "id": "L0316",
+    "lektion": "3.3  Anfang, Mitte und Ende",
+    "bereich": "wortschatz",
+    "deutsch": "danach"
+  },
+  {
+    "id": "L0317",
+    "lektion": "3.3  Anfang, Mitte und Ende",
+    "bereich": "wortschatz",
+    "deutsch": "plötzlich"
+  },
+  {
+    "id": "L0318",
+    "lektion": "3.3  Anfang, Mitte und Ende",
+    "bereich": "wortschatz",
+    "deutsch": "schließlich"
+  },
+  {
+    "id": "L0319",
+    "lektion": "3.3  Anfang, Mitte und Ende",
+    "bereich": "wortschatz",
+    "deutsch": "zum Schluss"
+  },
+  {
+    "id": "L0320",
+    "lektion": "3.3  Anfang, Mitte und Ende",
+    "bereich": "wortschatz",
+    "deutsch": "weil"
+  },
+  {
+    "id": "L0321",
+    "lektion": "3.3  Anfang, Mitte und Ende",
+    "bereich": "wortschatz",
+    "deutsch": "aber"
+  },
+  {
+    "id": "L0322",
+    "lektion": "3.3  Anfang, Mitte und Ende",
+    "bereich": "wortschatz",
+    "deutsch": "deshalb"
+  },
+  {
+    "id": "L0323",
+    "lektion": "3.3  Anfang, Mitte und Ende",
+    "bereich": "beispielsatz",
+    "deutsch": "Zuerst öffnete ich die Tür."
+  },
+  {
+    "id": "L0324",
+    "lektion": "3.3  Anfang, Mitte und Ende",
+    "bereich": "beispielsatz",
+    "deutsch": "Plötzlich hörte ich ein Geräusch."
+  },
+  {
+    "id": "L0325",
+    "lektion": "3.3  Anfang, Mitte und Ende",
+    "bereich": "beispielsatz",
+    "deutsch": "Zum Schluss waren alle glücklich."
+  },
+  {
+    "id": "L0326",
+    "lektion": "3.3  Anfang, Mitte und Ende",
+    "bereich": "dialog",
+    "deutsch": "Kind A: „Zuerst öffnete ich die Tür.“"
+  },
+  {
+    "id": "L0327",
+    "lektion": "3.3  Anfang, Mitte und Ende",
+    "bereich": "dialog",
+    "deutsch": "Kind B: „Plötzlich hörte ich ein Geräusch.“"
+  },
+  {
+    "id": "L0328",
+    "lektion": "3.3  Anfang, Mitte und Ende",
+    "bereich": "lesetext",
+    "deutsch": "Gestern erlebten Mia und Ben etwas zum Thema anfang, mitte und ende. Zuerst wussten sie nicht, was passieren würde. Dann entdeckten sie einen wichtigen Hinweis. Sie sprachen darüber und fanden gemeinsam eine Lösung. Am Abend erzählten sie ihren Freunden davon."
+  },
+  {
+    "id": "L0329",
+    "lektion": "3.4  Im Wald",
+    "bereich": "wortschatz",
+    "deutsch": "Wald"
+  },
+  {
+    "id": "L0330",
+    "lektion": "3.4  Im Wald",
+    "bereich": "wortschatz",
+    "deutsch": "Weg"
+  },
+  {
+    "id": "L0331",
+    "lektion": "3.4  Im Wald",
+    "bereich": "wortschatz",
+    "deutsch": "Baum"
+  },
+  {
+    "id": "L0332",
+    "lektion": "3.4  Im Wald",
+    "bereich": "wortschatz",
+    "deutsch": "Blatt"
+  },
+  {
+    "id": "L0333",
+    "lektion": "3.4  Im Wald",
+    "bereich": "wortschatz",
+    "deutsch": "Moos"
+  },
+  {
+    "id": "L0334",
+    "lektion": "3.4  Im Wald",
+    "bereich": "wortschatz",
+    "deutsch": "Bach"
+  },
+  {
+    "id": "L0335",
+    "lektion": "3.4  Im Wald",
+    "bereich": "wortschatz",
+    "deutsch": "Wind"
+  },
+  {
+    "id": "L0336",
+    "lektion": "3.4  Im Wald",
+    "bereich": "wortschatz",
+    "deutsch": "Spur"
+  },
+  {
+    "id": "L0337",
+    "lektion": "3.4  Im Wald",
+    "bereich": "beispielsatz",
+    "deutsch": "Wir gingen durch den Wald."
+  },
+  {
+    "id": "L0338",
+    "lektion": "3.4  Im Wald",
+    "bereich": "beispielsatz",
+    "deutsch": "Neben dem Weg floss ein Bach."
+  },
+  {
+    "id": "L0339",
+    "lektion": "3.4  Im Wald",
+    "bereich": "beispielsatz",
+    "deutsch": "Plötzlich entdeckten wir eine Spur."
+  },
+  {
+    "id": "L0340",
+    "lektion": "3.4  Im Wald",
+    "bereich": "dialog",
+    "deutsch": "Kind A: „Wir gingen durch den Wald.“"
+  },
+  {
+    "id": "L0341",
+    "lektion": "3.4  Im Wald",
+    "bereich": "dialog",
+    "deutsch": "Kind B: „Neben dem Weg floss ein Bach.“"
+  },
+  {
+    "id": "L0342",
+    "lektion": "3.4  Im Wald",
+    "bereich": "lesetext",
+    "deutsch": "Am Samstag liefen Mia und Ben in den Wald. Neben dem Weg fanden sie eine kleine Spur. Sie folgten ihr vorsichtig. Hinter einer Wurzel saß ein junger Vogel. Sie beobachteten ihn und gingen leise weiter."
+  },
+  {
+    "id": "L0343",
+    "lektion": "3.5  Gefühle beschreiben",
+    "bereich": "wortschatz",
+    "deutsch": "Freude"
+  },
+  {
+    "id": "L0344",
+    "lektion": "3.5  Gefühle beschreiben",
+    "bereich": "wortschatz",
+    "deutsch": "Angst"
+  },
+  {
+    "id": "L0345",
+    "lektion": "3.5  Gefühle beschreiben",
+    "bereich": "wortschatz",
+    "deutsch": "Trauer"
+  },
+  {
+    "id": "L0346",
+    "lektion": "3.5  Gefühle beschreiben",
+    "bereich": "wortschatz",
+    "deutsch": "Wut"
+  },
+  {
+    "id": "L0347",
+    "lektion": "3.5  Gefühle beschreiben",
+    "bereich": "wortschatz",
+    "deutsch": "Hoffnung"
+  },
+  {
+    "id": "L0348",
+    "lektion": "3.5  Gefühle beschreiben",
+    "bereich": "wortschatz",
+    "deutsch": "Mut"
+  },
+  {
+    "id": "L0349",
+    "lektion": "3.5  Gefühle beschreiben",
+    "bereich": "wortschatz",
+    "deutsch": "stolz"
+  },
+  {
+    "id": "L0350",
+    "lektion": "3.5  Gefühle beschreiben",
+    "bereich": "wortschatz",
+    "deutsch": "geborgen"
+  },
+  {
+    "id": "L0351",
+    "lektion": "3.5  Gefühle beschreiben",
+    "bereich": "beispielsatz",
+    "deutsch": "Ich war zuerst ängstlich."
+  },
+  {
+    "id": "L0352",
+    "lektion": "3.5  Gefühle beschreiben",
+    "bereich": "beispielsatz",
+    "deutsch": "Dann fühlte ich mich sicher."
+  },
+  {
+    "id": "L0353",
+    "lektion": "3.5  Gefühle beschreiben",
+    "bereich": "beispielsatz",
+    "deutsch": "Meine Freundin machte mir Mut."
+  },
+  {
+    "id": "L0354",
+    "lektion": "3.5  Gefühle beschreiben",
+    "bereich": "dialog",
+    "deutsch": "Kind A: „Ich war zuerst ängstlich.“"
+  },
+  {
+    "id": "L0355",
+    "lektion": "3.5  Gefühle beschreiben",
+    "bereich": "dialog",
+    "deutsch": "Kind B: „Dann fühlte ich mich sicher.“"
+  },
+  {
+    "id": "L0356",
+    "lektion": "3.5  Gefühle beschreiben",
+    "bereich": "lesetext",
+    "deutsch": "Gestern erlebten Mia und Ben etwas zum Thema gefühle beschreiben. Zuerst wussten sie nicht, was passieren würde. Dann entdeckten sie einen wichtigen Hinweis. Sie sprachen darüber und fanden gemeinsam eine Lösung. Am Abend erzählten sie ihren Freunden davon."
+  },
+  {
+    "id": "L0357",
+    "lektion": "3.6  Dialoge in Geschichten",
+    "bereich": "wortschatz",
+    "deutsch": "sagen"
+  },
+  {
+    "id": "L0358",
+    "lektion": "3.6  Dialoge in Geschichten",
+    "bereich": "wortschatz",
+    "deutsch": "fragen"
+  },
+  {
+    "id": "L0359",
+    "lektion": "3.6  Dialoge in Geschichten",
+    "bereich": "wortschatz",
+    "deutsch": "flüstern"
+  },
+  {
+    "id": "L0360",
+    "lektion": "3.6  Dialoge in Geschichten",
+    "bereich": "wortschatz",
+    "deutsch": "rufen"
+  },
+  {
+    "id": "L0361",
+    "lektion": "3.6  Dialoge in Geschichten",
+    "bereich": "wortschatz",
+    "deutsch": "antworten"
+  },
+  {
+    "id": "L0362",
+    "lektion": "3.6  Dialoge in Geschichten",
+    "bereich": "wortschatz",
+    "deutsch": "lachen"
+  },
+  {
+    "id": "L0363",
+    "lektion": "3.6  Dialoge in Geschichten",
+    "bereich": "wortschatz",
+    "deutsch": "schweigen"
+  },
+  {
+    "id": "L0364",
+    "lektion": "3.6  Dialoge in Geschichten",
+    "bereich": "wortschatz",
+    "deutsch": "zuhören"
+  },
+  {
+    "id": "L0365",
+    "lektion": "3.6  Dialoge in Geschichten",
+    "bereich": "beispielsatz",
+    "deutsch": "„Kommst du mit?“, fragte Mia."
+  },
+  {
+    "id": "L0366",
+    "lektion": "3.6  Dialoge in Geschichten",
+    "bereich": "beispielsatz",
+    "deutsch": "„Ja, sofort!“, antwortete Ben."
+  },
+  {
+    "id": "L0367",
+    "lektion": "3.6  Dialoge in Geschichten",
+    "bereich": "beispielsatz",
+    "deutsch": "Dann lachten beide."
+  },
+  {
+    "id": "L0368",
+    "lektion": "3.6  Dialoge in Geschichten",
+    "bereich": "dialog",
+    "deutsch": "Kind A: „„Kommst du mit?“, fragte Mia.“"
+  },
+  {
+    "id": "L0369",
+    "lektion": "3.6  Dialoge in Geschichten",
+    "bereich": "dialog",
+    "deutsch": "Kind B: „„Ja, sofort!“, antwortete Ben.“"
+  },
+  {
+    "id": "L0370",
+    "lektion": "3.6  Dialoge in Geschichten",
+    "bereich": "lesetext",
+    "deutsch": "„Warum bist du so still?“, fragte Lina. „Ich habe etwas verloren“, antwortete Tom. „Was denn?“ „Meinen Schlüssel.“ Lina lächelte. „Dann suchen wir ihn zusammen.“"
+  },
+  {
+    "id": "L0371",
+    "lektion": "3.7  Eine Nachricht schreiben",
+    "bereich": "wortschatz",
+    "deutsch": "Nachricht"
+  },
+  {
+    "id": "L0372",
+    "lektion": "3.7  Eine Nachricht schreiben",
+    "bereich": "wortschatz",
+    "deutsch": "Brief"
+  },
+  {
+    "id": "L0373",
+    "lektion": "3.7  Eine Nachricht schreiben",
+    "bereich": "wortschatz",
+    "deutsch": "Empfänger"
+  },
+  {
+    "id": "L0374",
+    "lektion": "3.7  Eine Nachricht schreiben",
+    "bereich": "wortschatz",
+    "deutsch": "Absender"
+  },
+  {
+    "id": "L0375",
+    "lektion": "3.7  Eine Nachricht schreiben",
+    "bereich": "wortschatz",
+    "deutsch": "Grüße"
+  },
+  {
+    "id": "L0376",
+    "lektion": "3.7  Eine Nachricht schreiben",
+    "bereich": "wortschatz",
+    "deutsch": "treffen"
+  },
+  {
+    "id": "L0377",
+    "lektion": "3.7  Eine Nachricht schreiben",
+    "bereich": "wortschatz",
+    "deutsch": "Uhrzeit"
+  },
+  {
+    "id": "L0378",
+    "lektion": "3.7  Eine Nachricht schreiben",
+    "bereich": "wortschatz",
+    "deutsch": "Ort"
+  },
+  {
+    "id": "L0379",
+    "lektion": "3.7  Eine Nachricht schreiben",
+    "bereich": "beispielsatz",
+    "deutsch": "Hallo Ben, treffen wir uns morgen?"
+  },
+  {
+    "id": "L0380",
+    "lektion": "3.7  Eine Nachricht schreiben",
+    "bereich": "beispielsatz",
+    "deutsch": "Ich warte um drei Uhr am Park."
+  },
+  {
+    "id": "L0381",
+    "lektion": "3.7  Eine Nachricht schreiben",
+    "bereich": "beispielsatz",
+    "deutsch": "Viele Grüße, Mia."
+  },
+  {
+    "id": "L0382",
+    "lektion": "3.7  Eine Nachricht schreiben",
+    "bereich": "dialog",
+    "deutsch": "Kind A: „Hallo Ben, treffen wir uns morgen?“"
+  },
+  {
+    "id": "L0383",
+    "lektion": "3.7  Eine Nachricht schreiben",
+    "bereich": "dialog",
+    "deutsch": "Kind B: „Ich warte um drei Uhr am Park.“"
+  },
+  {
+    "id": "L0384",
+    "lektion": "3.7  Eine Nachricht schreiben",
+    "bereich": "lesetext",
+    "deutsch": "Gestern erlebten Mia und Ben etwas zum Thema eine nachricht schreiben. Zuerst wussten sie nicht, was passieren würde. Dann entdeckten sie einen wichtigen Hinweis. Sie sprachen darüber und fanden gemeinsam eine Lösung. Am Abend erzählten sie ihren Freunden davon."
+  },
+  {
+    "id": "L0385",
+    "lektion": "3.8  Lange Sätze verstehen",
+    "bereich": "wortschatz",
+    "deutsch": "wenn"
+  },
+  {
+    "id": "L0386",
+    "lektion": "3.8  Lange Sätze verstehen",
+    "bereich": "wortschatz",
+    "deutsch": "obwohl"
+  },
+  {
+    "id": "L0387",
+    "lektion": "3.8  Lange Sätze verstehen",
+    "bereich": "wortschatz",
+    "deutsch": "während"
+  },
+  {
+    "id": "L0388",
+    "lektion": "3.8  Lange Sätze verstehen",
+    "bereich": "wortschatz",
+    "deutsch": "nachdem"
+  },
+  {
+    "id": "L0389",
+    "lektion": "3.8  Lange Sätze verstehen",
+    "bereich": "wortschatz",
+    "deutsch": "bevor"
+  },
+  {
+    "id": "L0390",
+    "lektion": "3.8  Lange Sätze verstehen",
+    "bereich": "wortschatz",
+    "deutsch": "damit"
+  },
+  {
+    "id": "L0391",
+    "lektion": "3.8  Lange Sätze verstehen",
+    "bereich": "wortschatz",
+    "deutsch": "deswegen"
+  },
+  {
+    "id": "L0392",
+    "lektion": "3.8  Lange Sätze verstehen",
+    "bereich": "wortschatz",
+    "deutsch": "trotzdem"
+  },
+  {
+    "id": "L0393",
+    "lektion": "3.8  Lange Sätze verstehen",
+    "bereich": "beispielsatz",
+    "deutsch": "Wenn es regnet, bleiben wir drinnen."
+  },
+  {
+    "id": "L0394",
+    "lektion": "3.8  Lange Sätze verstehen",
+    "bereich": "beispielsatz",
+    "deutsch": "Obwohl sie müde war, las sie weiter."
+  },
+  {
+    "id": "L0395",
+    "lektion": "3.8  Lange Sätze verstehen",
+    "bereich": "beispielsatz",
+    "deutsch": "Nachdem wir gegessen hatten, spielten wir."
+  },
+  {
+    "id": "L0396",
+    "lektion": "3.8  Lange Sätze verstehen",
+    "bereich": "dialog",
+    "deutsch": "Kind A: „Wenn es regnet, bleiben wir drinnen.“"
+  },
+  {
+    "id": "L0397",
+    "lektion": "3.8  Lange Sätze verstehen",
+    "bereich": "dialog",
+    "deutsch": "Kind B: „Obwohl sie müde war, las sie weiter.“"
+  },
+  {
+    "id": "L0398",
+    "lektion": "3.8  Lange Sätze verstehen",
+    "bereich": "lesetext",
+    "deutsch": "Gestern erlebten Mia und Ben etwas zum Thema lange sätze verstehen. Zuerst wussten sie nicht, was passieren würde. Dann entdeckten sie einen wichtigen Hinweis. Sie sprachen darüber und fanden gemeinsam eine Lösung. Am Abend erzählten sie ihren Freunden davon."
+  },
+  {
+    "id": "L0399",
+    "lektion": "3.9  Eine Geschichte überarbeiten",
+    "bereich": "wortschatz",
+    "deutsch": "Überschrift"
+  },
+  {
+    "id": "L0400",
+    "lektion": "3.9  Eine Geschichte überarbeiten",
+    "bereich": "wortschatz",
+    "deutsch": "Absatz"
+  },
+  {
+    "id": "L0401",
+    "lektion": "3.9  Eine Geschichte überarbeiten",
+    "bereich": "wortschatz",
+    "deutsch": "Reihenfolge"
+  },
+  {
+    "id": "L0402",
+    "lektion": "3.9  Eine Geschichte überarbeiten",
+    "bereich": "wortschatz",
+    "deutsch": "Beschreibung"
+  },
+  {
+    "id": "L0403",
+    "lektion": "3.9  Eine Geschichte überarbeiten",
+    "bereich": "wortschatz",
+    "deutsch": "Fehler"
+  },
+  {
+    "id": "L0404",
+    "lektion": "3.9  Eine Geschichte überarbeiten",
+    "bereich": "wortschatz",
+    "deutsch": "überarbeiten"
+  },
+  {
+    "id": "L0405",
+    "lektion": "3.9  Eine Geschichte überarbeiten",
+    "bereich": "wortschatz",
+    "deutsch": "deutlich"
+  },
+  {
+    "id": "L0406",
+    "lektion": "3.9  Eine Geschichte überarbeiten",
+    "bereich": "wortschatz",
+    "deutsch": "spannend"
+  },
+  {
+    "id": "L0407",
+    "lektion": "3.9  Eine Geschichte überarbeiten",
+    "bereich": "beispielsatz",
+    "deutsch": "Der Weg war dunkel."
+  },
+  {
+    "id": "L0408",
+    "lektion": "3.9  Eine Geschichte überarbeiten",
+    "bereich": "beispielsatz",
+    "deutsch": "Hinter dem Baum bewegte sich etwas."
+  },
+  {
+    "id": "L0409",
+    "lektion": "3.9  Eine Geschichte überarbeiten",
+    "bereich": "beispielsatz",
+    "deutsch": "Ich blieb stehen und lauschte."
+  },
+  {
+    "id": "L0410",
+    "lektion": "3.9  Eine Geschichte überarbeiten",
+    "bereich": "dialog",
+    "deutsch": "Kind A: „Der Weg war dunkel.“"
+  },
+  {
+    "id": "L0411",
+    "lektion": "3.9  Eine Geschichte überarbeiten",
+    "bereich": "dialog",
+    "deutsch": "Kind B: „Hinter dem Baum bewegte sich etwas.“"
+  },
+  {
+    "id": "L0412",
+    "lektion": "3.9  Eine Geschichte überarbeiten",
+    "bereich": "lesetext",
+    "deutsch": "Gestern erlebten Mia und Ben etwas zum Thema eine geschichte überarbeiten. Zuerst wussten sie nicht, was passieren würde. Dann entdeckten sie einen wichtigen Hinweis. Sie sprachen darüber und fanden gemeinsam eine Lösung. Am Abend erzählten sie ihren Freunden davon."
+  },
+  {
+    "id": "L0413",
+    "lektion": "3.9  Eine Geschichte überarbeiten",
+    "bereich": "wortschatz",
+    "deutsch": "Hauptfigur"
+  },
+  {
+    "id": "L0414",
+    "lektion": "3.9  Eine Geschichte überarbeiten",
+    "bereich": "wortschatz",
+    "deutsch": "Schauplatz"
+  },
+  {
+    "id": "L0415",
+    "lektion": "3.9  Eine Geschichte überarbeiten",
+    "bereich": "wortschatz",
+    "deutsch": "Problem"
+  },
+  {
+    "id": "L0416",
+    "lektion": "3.9  Eine Geschichte überarbeiten",
+    "bereich": "wortschatz",
+    "deutsch": "Lösung"
+  },
+  {
+    "id": "L0417",
+    "lektion": "3.9  Eine Geschichte überarbeiten",
+    "bereich": "wortschatz",
+    "deutsch": "Abenteuer"
+  },
+  {
+    "id": "L0418",
+    "lektion": "3.9  Eine Geschichte überarbeiten",
+    "bereich": "wortschatz",
+    "deutsch": "Begegnung"
+  },
+  {
+    "id": "L0419",
+    "lektion": "3.9  Eine Geschichte überarbeiten",
+    "bereich": "wortschatz",
+    "deutsch": "Ende"
+  },
+  {
+    "id": "L0420",
+    "lektion": "3.9  Eine Geschichte überarbeiten",
+    "bereich": "wortschatz",
+    "deutsch": "Erzählung"
+  },
+  {
+    "id": "L0421",
+    "lektion": "3.9  Eine Geschichte überarbeiten",
+    "bereich": "beispielsatz",
+    "deutsch": "Am Morgen fand Lina einen Schlüssel."
+  },
+  {
+    "id": "L0422",
+    "lektion": "3.9  Eine Geschichte überarbeiten",
+    "bereich": "beispielsatz",
+    "deutsch": "Sie wusste nicht, welche Tür er öffnete."
+  },
+  {
+    "id": "L0423",
+    "lektion": "3.9  Eine Geschichte überarbeiten",
+    "bereich": "beispielsatz",
+    "deutsch": "Am Abend hatte sie das Rätsel gelöst."
+  },
+  {
+    "id": "L0424",
+    "lektion": "3.9  Eine Geschichte überarbeiten",
+    "bereich": "dialog",
+    "deutsch": "Kind A: „Am Morgen fand Lina einen Schlüssel.“"
+  },
+  {
+    "id": "L0425",
+    "lektion": "3.9  Eine Geschichte überarbeiten",
+    "bereich": "dialog",
+    "deutsch": "Kind B: „Sie wusste nicht, welche Tür er öffnete.“"
+  },
+  {
+    "id": "L0426",
+    "lektion": "3.9  Eine Geschichte überarbeiten",
+    "bereich": "lesetext",
+    "deutsch": "Gestern erlebten Mia und Ben etwas zum Thema meine eigene erzählung. Zuerst wussten sie nicht, was passieren würde. Dann entdeckten sie einen wichtigen Hinweis. Sie sprachen darüber und fanden gemeinsam eine Lösung. Am Abend erzählten sie ihren Freunden davon."
+  },
+  {
+    "id": "L0427",
+    "lektion": "4.1  Ich sage meine Meinung",
+    "bereich": "wortschatz",
+    "deutsch": "Meinung"
+  },
+  {
+    "id": "L0428",
+    "lektion": "4.1  Ich sage meine Meinung",
+    "bereich": "wortschatz",
+    "deutsch": "denken"
+  },
+  {
+    "id": "L0429",
+    "lektion": "4.1  Ich sage meine Meinung",
+    "bereich": "wortschatz",
+    "deutsch": "glauben"
+  },
+  {
+    "id": "L0430",
+    "lektion": "4.1  Ich sage meine Meinung",
+    "bereich": "wortschatz",
+    "deutsch": "finden"
+  },
+  {
+    "id": "L0431",
+    "lektion": "4.1  Ich sage meine Meinung",
+    "bereich": "wortschatz",
+    "deutsch": "wichtig"
+  },
+  {
+    "id": "L0432",
+    "lektion": "4.1  Ich sage meine Meinung",
+    "bereich": "wortschatz",
+    "deutsch": "richtig"
+  },
+  {
+    "id": "L0433",
+    "lektion": "4.1  Ich sage meine Meinung",
+    "bereich": "wortschatz",
+    "deutsch": "anders"
+  },
+  {
+    "id": "L0434",
+    "lektion": "4.1  Ich sage meine Meinung",
+    "bereich": "wortschatz",
+    "deutsch": "begründen"
+  },
+  {
+    "id": "L0435",
+    "lektion": "4.1  Ich sage meine Meinung",
+    "bereich": "beispielsatz",
+    "deutsch": "Ich finde Lesen wichtig."
+  },
+  {
+    "id": "L0436",
+    "lektion": "4.1  Ich sage meine Meinung",
+    "bereich": "beispielsatz",
+    "deutsch": "Ich denke anders darüber."
+  },
+  {
+    "id": "L0437",
+    "lektion": "4.1  Ich sage meine Meinung",
+    "bereich": "beispielsatz",
+    "deutsch": "Ich begründe meine Meinung mit einem Beispiel."
+  },
+  {
+    "id": "L0438",
+    "lektion": "4.1  Ich sage meine Meinung",
+    "bereich": "dialog",
+    "deutsch": "Kind A: „Ich finde Lesen wichtig.“"
+  },
+  {
+    "id": "L0439",
+    "lektion": "4.1  Ich sage meine Meinung",
+    "bereich": "dialog",
+    "deutsch": "Kind B: „Ich denke anders darüber.“"
+  },
+  {
+    "id": "L0440",
+    "lektion": "4.1  Ich sage meine Meinung",
+    "bereich": "lesetext",
+    "deutsch": "Unsere Klasse arbeitet am Thema ich sage meine meinung. Zunächst sammelt jedes Kind eigene Beobachtungen. Danach werden die Vorschläge verglichen und Fragen gestellt. Einige Antworten sind sicher, andere müssen wir noch prüfen. Schließlich schreiben wir auf, was wir herausgefunden haben."
+  },
+  {
+    "id": "L0441",
+    "lektion": "4.2  Wir lösen ein Problem",
+    "bereich": "wortschatz",
+    "deutsch": "Problem"
+  },
+  {
+    "id": "L0442",
+    "lektion": "4.2  Wir lösen ein Problem",
+    "bereich": "wortschatz",
+    "deutsch": "Lösung"
+  },
+  {
+    "id": "L0443",
+    "lektion": "4.2  Wir lösen ein Problem",
+    "bereich": "wortschatz",
+    "deutsch": "Vorschlag"
+  },
+  {
+    "id": "L0444",
+    "lektion": "4.2  Wir lösen ein Problem",
+    "bereich": "wortschatz",
+    "deutsch": "versuchen"
+  },
+  {
+    "id": "L0445",
+    "lektion": "4.2  Wir lösen ein Problem",
+    "bereich": "wortschatz",
+    "deutsch": "entscheiden"
+  },
+  {
+    "id": "L0446",
+    "lektion": "4.2  Wir lösen ein Problem",
+    "bereich": "wortschatz",
+    "deutsch": "gemeinsam"
+  },
+  {
+    "id": "L0447",
+    "lektion": "4.2  Wir lösen ein Problem",
+    "bereich": "wortschatz",
+    "deutsch": "fair"
+  },
+  {
+    "id": "L0448",
+    "lektion": "4.2  Wir lösen ein Problem",
+    "bereich": "wortschatz",
+    "deutsch": "verantwortlich"
+  },
+  {
+    "id": "L0449",
+    "lektion": "4.2  Wir lösen ein Problem",
+    "bereich": "beispielsatz",
+    "deutsch": "Wir haben ein Problem."
+  },
+  {
+    "id": "L0450",
+    "lektion": "4.2  Wir lösen ein Problem",
+    "bereich": "beispielsatz",
+    "deutsch": "Ich schlage eine andere Lösung vor."
+  },
+  {
+    "id": "L0451",
+    "lektion": "4.2  Wir lösen ein Problem",
+    "bereich": "beispielsatz",
+    "deutsch": "Lasst uns gemeinsam entscheiden."
+  },
+  {
+    "id": "L0452",
+    "lektion": "4.2  Wir lösen ein Problem",
+    "bereich": "dialog",
+    "deutsch": "Kind A: „Wir haben ein Problem.“"
+  },
+  {
+    "id": "L0453",
+    "lektion": "4.2  Wir lösen ein Problem",
+    "bereich": "dialog",
+    "deutsch": "Kind B: „Ich schlage eine andere Lösung vor.“"
+  },
+  {
+    "id": "L0454",
+    "lektion": "4.2  Wir lösen ein Problem",
+    "bereich": "lesetext",
+    "deutsch": "Die Klasse möchte den Pausenhof verändern. Einige Kinder wünschen sich mehr Bäume, andere eine Spielecke. Zuerst sammelt die Gruppe alle Vorschläge. Danach besprechen die Kinder, was möglich ist. Schließlich einigen sie sich auf einen gemeinsamen Plan."
+  },
+  {
+    "id": "L0455",
+    "lektion": "4.3  Wünsche und Möglichkeiten",
+    "bereich": "wortschatz",
+    "deutsch": "wenn"
+  },
+  {
+    "id": "L0456",
+    "lektion": "4.3  Wünsche und Möglichkeiten",
+    "bereich": "wortschatz",
+    "deutsch": "würde"
+  },
+  {
+    "id": "L0457",
+    "lektion": "4.3  Wünsche und Möglichkeiten",
+    "bereich": "wortschatz",
+    "deutsch": "könnte"
+  },
+  {
+    "id": "L0458",
+    "lektion": "4.3  Wünsche und Möglichkeiten",
+    "bereich": "wortschatz",
+    "deutsch": "vielleicht"
+  },
+  {
+    "id": "L0459",
+    "lektion": "4.3  Wünsche und Möglichkeiten",
+    "bereich": "wortschatz",
+    "deutsch": "hoffen"
+  },
+  {
+    "id": "L0460",
+    "lektion": "4.3  Wünsche und Möglichkeiten",
+    "bereich": "wortschatz",
+    "deutsch": "wünschen"
+  },
+  {
+    "id": "L0461",
+    "lektion": "4.3  Wünsche und Möglichkeiten",
+    "bereich": "wortschatz",
+    "deutsch": "möglich"
+  },
+  {
+    "id": "L0462",
+    "lektion": "4.3  Wünsche und Möglichkeiten",
+    "bereich": "wortschatz",
+    "deutsch": "unmöglich"
+  },
+  {
+    "id": "L0463",
+    "lektion": "4.3  Wünsche und Möglichkeiten",
+    "bereich": "beispielsatz",
+    "deutsch": "Wenn ich fliegen könnte, würde ich die Berge sehen."
+  },
+  {
+    "id": "L0464",
+    "lektion": "4.3  Wünsche und Möglichkeiten",
+    "bereich": "beispielsatz",
+    "deutsch": "Ich würde gern eine neue Stadt besuchen."
+  },
+  {
+    "id": "L0465",
+    "lektion": "4.3  Wünsche und Möglichkeiten",
+    "bereich": "beispielsatz",
+    "deutsch": "Vielleicht gelingt es uns morgen."
+  },
+  {
+    "id": "L0466",
+    "lektion": "4.3  Wünsche und Möglichkeiten",
+    "bereich": "dialog",
+    "deutsch": "Kind A: „Wenn ich fliegen könnte, würde ich die Berge sehen.“"
+  },
+  {
+    "id": "L0467",
+    "lektion": "4.3  Wünsche und Möglichkeiten",
+    "bereich": "dialog",
+    "deutsch": "Kind B: „Ich würde gern eine neue Stadt besuchen.“"
+  },
+  {
+    "id": "L0468",
+    "lektion": "4.3  Wünsche und Möglichkeiten",
+    "bereich": "lesetext",
+    "deutsch": "Unsere Klasse arbeitet am Thema wünsche und möglichkeiten. Zunächst sammelt jedes Kind eigene Beobachtungen. Danach werden die Vorschläge verglichen und Fragen gestellt. Einige Antworten sind sicher, andere müssen wir noch prüfen. Schließlich schreiben wir auf, was wir herausgefunden haben."
+  },
+  {
+    "id": "L0469",
+    "lektion": "4.4  Die Welt erklären",
+    "bereich": "wortschatz",
+    "deutsch": "Ursache"
+  },
+  {
+    "id": "L0470",
+    "lektion": "4.4  Die Welt erklären",
+    "bereich": "wortschatz",
+    "deutsch": "Wirkung"
+  },
+  {
+    "id": "L0471",
+    "lektion": "4.4  Die Welt erklären",
+    "bereich": "wortschatz",
+    "deutsch": "weil"
+  },
+  {
+    "id": "L0472",
+    "lektion": "4.4  Die Welt erklären",
+    "bereich": "wortschatz",
+    "deutsch": "deshalb"
+  },
+  {
+    "id": "L0473",
+    "lektion": "4.4  Die Welt erklären",
+    "bereich": "wortschatz",
+    "deutsch": "dadurch"
+  },
+  {
+    "id": "L0474",
+    "lektion": "4.4  Die Welt erklären",
+    "bereich": "wortschatz",
+    "deutsch": "beobachten"
+  },
+  {
+    "id": "L0475",
+    "lektion": "4.4  Die Welt erklären",
+    "bereich": "wortschatz",
+    "deutsch": "vergleichen"
+  },
+  {
+    "id": "L0476",
+    "lektion": "4.4  Die Welt erklären",
+    "bereich": "wortschatz",
+    "deutsch": "Ergebnis"
+  },
+  {
+    "id": "L0477",
+    "lektion": "4.4  Die Welt erklären",
+    "bereich": "beispielsatz",
+    "deutsch": "Die Pflanze wächst, weil sie Licht bekommt."
+  },
+  {
+    "id": "L0478",
+    "lektion": "4.4  Die Welt erklären",
+    "bereich": "beispielsatz",
+    "deutsch": "Es regnete stark, deshalb stieg der Bach."
+  },
+  {
+    "id": "L0479",
+    "lektion": "4.4  Die Welt erklären",
+    "bereich": "beispielsatz",
+    "deutsch": "Wir vergleichen unsere Beobachtungen."
+  },
+  {
+    "id": "L0480",
+    "lektion": "4.4  Die Welt erklären",
+    "bereich": "dialog",
+    "deutsch": "Kind A: „Die Pflanze wächst, weil sie Licht bekommt.“"
+  },
+  {
+    "id": "L0481",
+    "lektion": "4.4  Die Welt erklären",
+    "bereich": "dialog",
+    "deutsch": "Kind B: „Es regnete stark, deshalb stieg der Bach.“"
+  },
+  {
+    "id": "L0482",
+    "lektion": "4.4  Die Welt erklären",
+    "bereich": "lesetext",
+    "deutsch": "Unsere Klasse arbeitet am Thema die welt erklären. Zunächst sammelt jedes Kind eigene Beobachtungen. Danach werden die Vorschläge verglichen und Fragen gestellt. Einige Antworten sind sicher, andere müssen wir noch prüfen. Schließlich schreiben wir auf, was wir herausgefunden haben."
+  },
+  {
+    "id": "L0483",
+    "lektion": "4.5  Ein Interview führen",
+    "bereich": "wortschatz",
+    "deutsch": "Interview"
+  },
+  {
+    "id": "L0484",
+    "lektion": "4.5  Ein Interview führen",
+    "bereich": "wortschatz",
+    "deutsch": "Thema"
+  },
+  {
+    "id": "L0485",
+    "lektion": "4.5  Ein Interview führen",
+    "bereich": "wortschatz",
+    "deutsch": "Frage"
+  },
+  {
+    "id": "L0486",
+    "lektion": "4.5  Ein Interview führen",
+    "bereich": "wortschatz",
+    "deutsch": "Antwort"
+  },
+  {
+    "id": "L0487",
+    "lektion": "4.5  Ein Interview führen",
+    "bereich": "wortschatz",
+    "deutsch": "nachfragen"
+  },
+  {
+    "id": "L0488",
+    "lektion": "4.5  Ein Interview führen",
+    "bereich": "wortschatz",
+    "deutsch": "berichten"
+  },
+  {
+    "id": "L0489",
+    "lektion": "4.5  Ein Interview führen",
+    "bereich": "wortschatz",
+    "deutsch": "zuhören"
+  },
+  {
+    "id": "L0490",
+    "lektion": "4.5  Ein Interview führen",
+    "bereich": "wortschatz",
+    "deutsch": "zusammenfassen"
+  },
+  {
+    "id": "L0491",
+    "lektion": "4.5  Ein Interview führen",
+    "bereich": "beispielsatz",
+    "deutsch": "Was gefällt dir an unserer Schule?"
+  },
+  {
+    "id": "L0492",
+    "lektion": "4.5  Ein Interview führen",
+    "bereich": "beispielsatz",
+    "deutsch": "Was würdest du gern verändern?"
+  },
+  {
+    "id": "L0493",
+    "lektion": "4.5  Ein Interview führen",
+    "bereich": "beispielsatz",
+    "deutsch": "Vielen Dank für das Gespräch."
+  },
+  {
+    "id": "L0494",
+    "lektion": "4.5  Ein Interview führen",
+    "bereich": "dialog",
+    "deutsch": "Kind A: „Was gefällt dir an unserer Schule?“"
+  },
+  {
+    "id": "L0495",
+    "lektion": "4.5  Ein Interview führen",
+    "bereich": "dialog",
+    "deutsch": "Kind B: „Was würdest du gern verändern?“"
+  },
+  {
+    "id": "L0496",
+    "lektion": "4.5  Ein Interview führen",
+    "bereich": "lesetext",
+    "deutsch": "Unsere Klasse arbeitet am Thema ein interview führen. Zunächst sammelt jedes Kind eigene Beobachtungen. Danach werden die Vorschläge verglichen und Fragen gestellt. Einige Antworten sind sicher, andere müssen wir noch prüfen. Schließlich schreiben wir auf, was wir herausgefunden haben."
+  },
+  {
+    "id": "L0497",
+    "lektion": "4.6  Informationen prüfen",
+    "bereich": "wortschatz",
+    "deutsch": "Quelle"
+  },
+  {
+    "id": "L0498",
+    "lektion": "4.6  Informationen prüfen",
+    "bereich": "wortschatz",
+    "deutsch": "Information"
+  },
+  {
+    "id": "L0499",
+    "lektion": "4.6  Informationen prüfen",
+    "bereich": "wortschatz",
+    "deutsch": "Behauptung"
+  },
+  {
+    "id": "L0500",
+    "lektion": "4.6  Informationen prüfen",
+    "bereich": "wortschatz",
+    "deutsch": "Beleg"
+  },
+  {
+    "id": "L0501",
+    "lektion": "4.6  Informationen prüfen",
+    "bereich": "wortschatz",
+    "deutsch": "prüfen"
+  },
+  {
+    "id": "L0502",
+    "lektion": "4.6  Informationen prüfen",
+    "bereich": "wortschatz",
+    "deutsch": "wahr"
+  },
+  {
+    "id": "L0503",
+    "lektion": "4.6  Informationen prüfen",
+    "bereich": "wortschatz",
+    "deutsch": "unsicher"
+  },
+  {
+    "id": "L0504",
+    "lektion": "4.6  Informationen prüfen",
+    "bereich": "wortschatz",
+    "deutsch": "zuverlässig"
+  },
+  {
+    "id": "L0505",
+    "lektion": "4.6  Informationen prüfen",
+    "bereich": "beispielsatz",
+    "deutsch": "Woher kommt diese Information?"
+  },
+  {
+    "id": "L0506",
+    "lektion": "4.6  Informationen prüfen",
+    "bereich": "beispielsatz",
+    "deutsch": "Haben wir einen Beleg dafür?"
+  },
+  {
+    "id": "L0507",
+    "lektion": "4.6  Informationen prüfen",
+    "bereich": "beispielsatz",
+    "deutsch": "Wir wissen es noch nicht sicher."
+  },
+  {
+    "id": "L0508",
+    "lektion": "4.6  Informationen prüfen",
+    "bereich": "dialog",
+    "deutsch": "Kind A: „Woher kommt diese Information?“"
+  },
+  {
+    "id": "L0509",
+    "lektion": "4.6  Informationen prüfen",
+    "bereich": "dialog",
+    "deutsch": "Kind B: „Haben wir einen Beleg dafür?“"
+  },
+  {
+    "id": "L0510",
+    "lektion": "4.6  Informationen prüfen",
+    "bereich": "lesetext",
+    "deutsch": "In der Zeitung steht, ein neuer Baum wachse in einer Woche zehn Meter. Lina zweifelt. Sie fragt: „Woher kommt diese Zahl?“ Gemeinsam suchen die Kinder nach einer verlässlichen Quelle. Sie lernen: Eine Behauptung ist noch kein Beleg."
+  },
+  {
+    "id": "L0511",
+    "lektion": "4.7  Gefühle und Freundschaft",
+    "bereich": "wortschatz",
+    "deutsch": "Vertrauen"
+  },
+  {
+    "id": "L0512",
+    "lektion": "4.7  Gefühle und Freundschaft",
+    "bereich": "wortschatz",
+    "deutsch": "Respekt"
+  },
+  {
+    "id": "L0513",
+    "lektion": "4.7  Gefühle und Freundschaft",
+    "bereich": "wortschatz",
+    "deutsch": "Streit"
+  },
+  {
+    "id": "L0514",
+    "lektion": "4.7  Gefühle und Freundschaft",
+    "bereich": "wortschatz",
+    "deutsch": "Versöhnung"
+  },
+  {
+    "id": "L0515",
+    "lektion": "4.7  Gefühle und Freundschaft",
+    "bereich": "wortschatz",
+    "deutsch": "Entschuldigung"
+  },
+  {
+    "id": "L0516",
+    "lektion": "4.7  Gefühle und Freundschaft",
+    "bereich": "wortschatz",
+    "deutsch": "Rücksicht"
+  },
+  {
+    "id": "L0517",
+    "lektion": "4.7  Gefühle und Freundschaft",
+    "bereich": "wortschatz",
+    "deutsch": "Geborgenheit"
+  },
+  {
+    "id": "L0518",
+    "lektion": "4.7  Gefühle und Freundschaft",
+    "bereich": "wortschatz",
+    "deutsch": "Freundschaft"
+  },
+  {
+    "id": "L0519",
+    "lektion": "4.7  Gefühle und Freundschaft",
+    "bereich": "beispielsatz",
+    "deutsch": "Es tut mir leid, dass ich dich verletzt habe."
+  },
+  {
+    "id": "L0520",
+    "lektion": "4.7  Gefühle und Freundschaft",
+    "bereich": "beispielsatz",
+    "deutsch": "Ich möchte dir zuhören."
+  },
+  {
+    "id": "L0521",
+    "lektion": "4.7  Gefühle und Freundschaft",
+    "bereich": "beispielsatz",
+    "deutsch": "Wir können einen neuen Anfang machen."
+  },
+  {
+    "id": "L0522",
+    "lektion": "4.7  Gefühle und Freundschaft",
+    "bereich": "dialog",
+    "deutsch": "Kind A: „Es tut mir leid, dass ich dich verletzt habe.“"
+  },
+  {
+    "id": "L0523",
+    "lektion": "4.7  Gefühle und Freundschaft",
+    "bereich": "dialog",
+    "deutsch": "Kind B: „Ich möchte dir zuhören.“"
+  },
+  {
+    "id": "L0524",
+    "lektion": "4.7  Gefühle und Freundschaft",
+    "bereich": "lesetext",
+    "deutsch": "Unsere Klasse arbeitet am Thema gefühle und freundschaft. Zunächst sammelt jedes Kind eigene Beobachtungen. Danach werden die Vorschläge verglichen und Fragen gestellt. Einige Antworten sind sicher, andere müssen wir noch prüfen. Schließlich schreiben wir auf, was wir herausgefunden haben."
+  },
+  {
+    "id": "L0525",
+    "lektion": "4.8  Wir planen ein Projekt",
+    "bereich": "wortschatz",
+    "deutsch": "Plan"
+  },
+  {
+    "id": "L0526",
+    "lektion": "4.8  Wir planen ein Projekt",
+    "bereich": "wortschatz",
+    "deutsch": "Aufgabe"
+  },
+  {
+    "id": "L0527",
+    "lektion": "4.8  Wir planen ein Projekt",
+    "bereich": "wortschatz",
+    "deutsch": "Gruppe"
+  },
+  {
+    "id": "L0528",
+    "lektion": "4.8  Wir planen ein Projekt",
+    "bereich": "wortschatz",
+    "deutsch": "Zeit"
+  },
+  {
+    "id": "L0529",
+    "lektion": "4.8  Wir planen ein Projekt",
+    "bereich": "wortschatz",
+    "deutsch": "Material"
+  },
+  {
+    "id": "L0530",
+    "lektion": "4.8  Wir planen ein Projekt",
+    "bereich": "wortschatz",
+    "deutsch": "Schritt"
+  },
+  {
+    "id": "L0531",
+    "lektion": "4.8  Wir planen ein Projekt",
+    "bereich": "wortschatz",
+    "deutsch": "Ergebnis"
+  },
+  {
+    "id": "L0532",
+    "lektion": "4.8  Wir planen ein Projekt",
+    "bereich": "wortschatz",
+    "deutsch": "vorstellen"
+  },
+  {
+    "id": "L0533",
+    "lektion": "4.8  Wir planen ein Projekt",
+    "bereich": "beispielsatz",
+    "deutsch": "Zuerst sammeln wir Ideen."
+  },
+  {
+    "id": "L0534",
+    "lektion": "4.8  Wir planen ein Projekt",
+    "bereich": "beispielsatz",
+    "deutsch": "Dann verteilen wir die Aufgaben."
+  },
+  {
+    "id": "L0535",
+    "lektion": "4.8  Wir planen ein Projekt",
+    "bereich": "beispielsatz",
+    "deutsch": "Am Freitag stellen wir unser Ergebnis vor."
+  },
+  {
+    "id": "L0536",
+    "lektion": "4.8  Wir planen ein Projekt",
+    "bereich": "dialog",
+    "deutsch": "Kind A: „Zuerst sammeln wir Ideen.“"
+  },
+  {
+    "id": "L0537",
+    "lektion": "4.8  Wir planen ein Projekt",
+    "bereich": "dialog",
+    "deutsch": "Kind B: „Dann verteilen wir die Aufgaben.“"
+  },
+  {
+    "id": "L0538",
+    "lektion": "4.8  Wir planen ein Projekt",
+    "bereich": "lesetext",
+    "deutsch": "Unsere Klasse arbeitet am Thema wir planen ein projekt. Zunächst sammelt jedes Kind eigene Beobachtungen. Danach werden die Vorschläge verglichen und Fragen gestellt. Einige Antworten sind sicher, andere müssen wir noch prüfen. Schließlich schreiben wir auf, was wir herausgefunden haben."
+  },
+  {
+    "id": "L0539",
+    "lektion": "4.9  Eine Geschichte mit Tiefe",
+    "bereich": "wortschatz",
+    "deutsch": "Erinnerung"
+  },
+  {
+    "id": "L0540",
+    "lektion": "4.9  Eine Geschichte mit Tiefe",
+    "bereich": "wortschatz",
+    "deutsch": "Gedanke"
+  },
+  {
+    "id": "L0541",
+    "lektion": "4.9  Eine Geschichte mit Tiefe",
+    "bereich": "wortschatz",
+    "deutsch": "Entscheidung"
+  },
+  {
+    "id": "L0542",
+    "lektion": "4.9  Eine Geschichte mit Tiefe",
+    "bereich": "wortschatz",
+    "deutsch": "Geheimnis"
+  },
+  {
+    "id": "L0543",
+    "lektion": "4.9  Eine Geschichte mit Tiefe",
+    "bereich": "wortschatz",
+    "deutsch": "Veränderung"
+  },
+  {
+    "id": "L0544",
+    "lektion": "4.9  Eine Geschichte mit Tiefe",
+    "bereich": "wortschatz",
+    "deutsch": "Mut"
+  },
+  {
+    "id": "L0545",
+    "lektion": "4.9  Eine Geschichte mit Tiefe",
+    "bereich": "wortschatz",
+    "deutsch": "Hoffnung"
+  },
+  {
+    "id": "L0546",
+    "lektion": "4.9  Eine Geschichte mit Tiefe",
+    "bereich": "wortschatz",
+    "deutsch": "Heimat"
+  },
+  {
+    "id": "L0547",
+    "lektion": "4.9  Eine Geschichte mit Tiefe",
+    "bereich": "beispielsatz",
+    "deutsch": "Sie sah lange aus dem Fenster."
+  },
+  {
+    "id": "L0548",
+    "lektion": "4.9  Eine Geschichte mit Tiefe",
+    "bereich": "beispielsatz",
+    "deutsch": "Plötzlich wusste sie, was sie tun musste."
+  },
+  {
+    "id": "L0549",
+    "lektion": "4.9  Eine Geschichte mit Tiefe",
+    "bereich": "beispielsatz",
+    "deutsch": "Am nächsten Morgen begann alles neu."
+  },
+  {
+    "id": "L0550",
+    "lektion": "4.9  Eine Geschichte mit Tiefe",
+    "bereich": "dialog",
+    "deutsch": "Kind A: „Sie sah lange aus dem Fenster.“"
+  },
+  {
+    "id": "L0551",
+    "lektion": "4.9  Eine Geschichte mit Tiefe",
+    "bereich": "dialog",
+    "deutsch": "Kind B: „Plötzlich wusste sie, was sie tun musste.“"
+  },
+  {
+    "id": "L0552",
+    "lektion": "4.9  Eine Geschichte mit Tiefe",
+    "bereich": "lesetext",
+    "deutsch": "Unsere Klasse arbeitet am Thema eine geschichte mit tiefe. Zunächst sammelt jedes Kind eigene Beobachtungen. Danach werden die Vorschläge verglichen und Fragen gestellt. Einige Antworten sind sicher, andere müssen wir noch prüfen. Schließlich schreiben wir auf, was wir herausgefunden haben."
+  },
+  {
+    "id": "L0553",
+    "lektion": "4.9  Eine Geschichte mit Tiefe",
+    "bereich": "wortschatz",
+    "deutsch": "sprechen"
+  },
+  {
+    "id": "L0554",
+    "lektion": "4.9  Eine Geschichte mit Tiefe",
+    "bereich": "wortschatz",
+    "deutsch": "lesen"
+  },
+  {
+    "id": "L0555",
+    "lektion": "4.9  Eine Geschichte mit Tiefe",
+    "bereich": "wortschatz",
+    "deutsch": "schreiben"
+  },
+  {
+    "id": "L0556",
+    "lektion": "4.9  Eine Geschichte mit Tiefe",
+    "bereich": "wortschatz",
+    "deutsch": "verstehen"
+  },
+  {
+    "id": "L0557",
+    "lektion": "4.9  Eine Geschichte mit Tiefe",
+    "bereich": "wortschatz",
+    "deutsch": "erklären"
+  },
+  {
+    "id": "L0558",
+    "lektion": "4.9  Eine Geschichte mit Tiefe",
+    "bereich": "wortschatz",
+    "deutsch": "gestalten"
+  },
+  {
+    "id": "L0559",
+    "lektion": "4.9  Eine Geschichte mit Tiefe",
+    "bereich": "wortschatz",
+    "deutsch": "präsentieren"
+  },
+  {
+    "id": "L0560",
+    "lektion": "4.9  Eine Geschichte mit Tiefe",
+    "bereich": "wortschatz",
+    "deutsch": "feiern"
+  },
+  {
+    "id": "L0561",
+    "lektion": "4.9  Eine Geschichte mit Tiefe",
+    "bereich": "beispielsatz",
+    "deutsch": "Willkommen bei unserem Abschlussprojekt!"
+  },
+  {
+    "id": "L0562",
+    "lektion": "4.9  Eine Geschichte mit Tiefe",
+    "bereich": "beispielsatz",
+    "deutsch": "Wir haben vier Jahre lang Lunari gelernt."
+  },
+  {
+    "id": "L0563",
+    "lektion": "4.9  Eine Geschichte mit Tiefe",
+    "bereich": "beispielsatz",
+    "deutsch": "Heute zeigen wir unsere eigenen Geschichten."
+  },
+  {
+    "id": "L0564",
+    "lektion": "4.9  Eine Geschichte mit Tiefe",
+    "bereich": "dialog",
+    "deutsch": "Kind A: „Willkommen bei unserem Abschlussprojekt!“"
+  },
+  {
+    "id": "L0565",
+    "lektion": "4.9  Eine Geschichte mit Tiefe",
+    "bereich": "dialog",
+    "deutsch": "Kind B: „Wir haben vier Jahre lang Lunari gelernt.“"
+  },
+  {
+    "id": "L0566",
+    "lektion": "4.9  Eine Geschichte mit Tiefe",
+    "bereich": "lesetext",
+    "deutsch": "Unsere Klasse arbeitet am Thema mein lunari-abschlussprojekt. Zunächst sammelt jedes Kind eigene Beobachtungen. Danach werden die Vorschläge verglichen und Fragen gestellt. Einige Antworten sind sicher, andere müssen wir noch prüfen. Schließlich schreiben wir auf, was wir herausgefunden haben."
+  },
+  {
+    "id": "L0567",
+    "lektion": "Anhang F · Lösungen",
+    "bereich": "musterloesung",
+    "deutsch": "Hallo! Ich heiße Mia. Wie heißt du? Ich gehe heute in die Schule. Auf Wiedersehen!"
+  },
+  {
+    "id": "L0568",
+    "lektion": "Anhang F · Lösungen",
+    "bereich": "musterloesung",
+    "deutsch": "Kannst du mir bitte helfen? Ich finde mein Buch nicht. Vielen Dank für deine Hilfe."
+  },
+  {
+    "id": "L0569",
+    "lektion": "Anhang F · Lösungen",
+    "bereich": "musterloesung",
+    "deutsch": "Gestern gingen wir in den Park. Zuerst spielten wir mit einem Ball. Dann begann es zu regnen. Wir liefen nach Hause."
+  },
+  {
+    "id": "L0570",
+    "lektion": "Anhang F · Lösungen",
+    "bereich": "musterloesung",
+    "deutsch": "Ich finde, unsere Schule sollte mehr Bäume pflanzen. Bäume spenden Schatten. Außerdem können wir dort Tiere beobachten."
+  }
+]

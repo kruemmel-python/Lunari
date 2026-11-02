@@ -1,0 +1,5132 @@
+﻿[
+    {
+        "id":  "L0001",
+        "lektion":  "1.1  Hallo! Das bin ich",
+        "bereich":  "wortschatz",
+        "deutsch":  "Hallo",
+        "lunari":  "Segameka",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0002",
+        "lektion":  "1.1  Hallo! Das bin ich",
+        "bereich":  "wortschatz",
+        "deutsch":  "Guten Morgen",
+        "lunari":  "Rumudase Vuvudite",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0003",
+        "lektion":  "1.1  Hallo! Das bin ich",
+        "bereich":  "wortschatz",
+        "deutsch":  "Guten Tag",
+        "lunari":  "Rumudase Bemafafa",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0004",
+        "lektion":  "1.1  Hallo! Das bin ich",
+        "bereich":  "wortschatz",
+        "deutsch":  "Auf Wiedersehen",
+        "lunari":  "Modinona Denasomi",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0005",
+        "lektion":  "1.1  Hallo! Das bin ich",
+        "bereich":  "wortschatz",
+        "deutsch":  "ich",
+        "lunari":  "memekumo",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0006",
+        "lektion":  "1.1  Hallo! Das bin ich",
+        "bereich":  "wortschatz",
+        "deutsch":  "du",
+        "lunari":  "gavogedu",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0007",
+        "lektion":  "1.1  Hallo! Das bin ich",
+        "bereich":  "wortschatz",
+        "deutsch":  "Name",
+        "lunari":  "Dovihosu",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0008",
+        "lektion":  "1.1  Hallo! Das bin ich",
+        "bereich":  "wortschatz",
+        "deutsch":  "heißen",
+        "lunari":  "beleraso",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0009",
+        "lektion":  "1.1  Hallo! Das bin ich",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Hallo!",
+        "lunari":  "Segameka!",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0010",
+        "lektion":  "1.1  Hallo! Das bin ich",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Ich heiße Mia.",
+        "lunari":  "Memekumo tibabeda Kanobete.",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0011",
+        "lektion":  "1.1  Hallo! Das bin ich",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Wie heißt du?",
+        "lunari":  "Masorosa vohogopo gavogedu?",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0012",
+        "lektion":  "1.1  Hallo! Das bin ich",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Ich heiße Ben.",
+        "lunari":  "Memekumo tibabeda Vipagave.",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0013",
+        "lektion":  "1.1  Hallo! Das bin ich",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Auf Wiedersehen!",
+        "lunari":  "Modinona Denasomi!",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0014",
+        "lektion":  "1.1  Hallo! Das bin ich",
+        "bereich":  "dialog",
+        "deutsch":  "Kind A: „Hallo!“",
+        "lunari":  "Gubeviki MOLUSARU: „Segameka!“",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0015",
+        "lektion":  "1.1  Hallo! Das bin ich",
+        "bereich":  "dialog",
+        "deutsch":  "Kind B: „Ich heiße Mia.“",
+        "lunari":  "Gubeviki REREGEFO: „Memekumo tibabeda Kanobete.“",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0016",
+        "lektion":  "1.1  Hallo! Das bin ich",
+        "bereich":  "lesetext",
+        "deutsch":  "Mia kommt morgens in die Schule. Sie sieht Ben an der Tür. „Guten Morgen!“, sagt sie. „Guten Morgen! Wie heißt du?“, fragt Ben. „Ich heiße Mia.“ Beide gehen zusammen in die Klasse.",
+        "lunari":  "Kanobete perigigo voredesu kugasepa pibigola Lifatisu. Runebedo mideduvu Vipagave fologuse bahosige Vutohasi. „Rumudase Vuvudite!“, kebukeko runebedo. „Rumudase Vuvudite! Masorosa vohogopo gavogedu?“, bopitobu Vipagave. „Memekumo tibabeda Kanobete.“ Muripubo nagasina kusopato kugasepa pibigola Kakituvo.",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0017",
+        "lektion":  "1.2  Ich höre und spreche",
+        "bereich":  "wortschatz",
+        "deutsch":  "laut",
+        "lunari":  "tifufuda",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0018",
+        "lektion":  "1.2  Ich höre und spreche",
+        "bereich":  "wortschatz",
+        "deutsch":  "leise",
+        "lunari":  "pamikana",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0019",
+        "lektion":  "1.2  Ich höre und spreche",
+        "bereich":  "wortschatz",
+        "deutsch":  "langsam",
+        "lunari":  "larakuba",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0020",
+        "lektion":  "1.2  Ich höre und spreche",
+        "bereich":  "wortschatz",
+        "deutsch":  "schnell",
+        "lunari":  "mavolola",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0021",
+        "lektion":  "1.2  Ich höre und spreche",
+        "bereich":  "wortschatz",
+        "deutsch":  "hören",
+        "lunari":  "rofugeho",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0022",
+        "lektion":  "1.2  Ich höre und spreche",
+        "bereich":  "wortschatz",
+        "deutsch":  "sprechen",
+        "lunari":  "vonukulo",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0023",
+        "lektion":  "1.2  Ich höre und spreche",
+        "bereich":  "wortschatz",
+        "deutsch":  "Wort",
+        "lunari":  "Safekevu",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0024",
+        "lektion":  "1.2  Ich höre und spreche",
+        "bereich":  "wortschatz",
+        "deutsch":  "Silbe",
+        "lunari":  "Dataraga",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0025",
+        "lektion":  "1.2  Ich höre und spreche",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Ich höre ein Wort.",
+        "lunari":  "Memekumo feguselo lokuligo Safekevu.",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0026",
+        "lektion":  "1.2  Ich höre und spreche",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Bitte sprich langsam.",
+        "lunari":  "Lidokira kuhipigu larakuba.",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0027",
+        "lektion":  "1.2  Ich höre und spreche",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Das Wort hat vier Silben.",
+        "lunari":  "Negigivo Safekevu bemamoho topupasi Nobonimu.",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0028",
+        "lektion":  "1.2  Ich höre und spreche",
+        "bereich":  "dialog",
+        "deutsch":  "Kind A: „Ich höre ein Wort.“",
+        "lunari":  "Gubeviki MOLUSARU: „Memekumo feguselo lokuligo Safekevu.“",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0029",
+        "lektion":  "1.2  Ich höre und spreche",
+        "bereich":  "dialog",
+        "deutsch":  "Kind B: „Bitte sprich langsam.“",
+        "lunari":  "Gubeviki REREGEFO: „Lidokira kuhipigu larakuba.“",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0030",
+        "lektion":  "1.2  Ich höre und spreche",
+        "bereich":  "lesetext",
+        "deutsch":  "Heute sprechen wir über ich höre und spreche. Mia zeigt Ben etwas Neues. Ben hört genau zu und stellt eine Frage. Mia antwortet freundlich. Beide üben zusammen und lernen neue Wörter.",
+        "lunari":  "Negafepe vonukulo ramerini vevokohu memekumo feguselo finiguga nasakema. Kanobete nunupela Vipagave dobevisu Memogari. Vipagave lilufodu kapoguve lekiperu finiguga tamapuso vetumene Kahevibo. Kanobete ginaruha tikoduvo. Muripubo sohelatu kusopato finiguga bupovohi givosure Komogoka.",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0031",
+        "lektion":  "1.3  Meine Familie",
+        "bereich":  "wortschatz",
+        "deutsch":  "Mutter",
+        "lunari":  "Rudopufu",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0032",
+        "lektion":  "1.3  Meine Familie",
+        "bereich":  "wortschatz",
+        "deutsch":  "Vater",
+        "lunari":  "Gurudopa",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0033",
+        "lektion":  "1.3  Meine Familie",
+        "bereich":  "wortschatz",
+        "deutsch":  "Kind",
+        "lunari":  "Gubeviki",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0034",
+        "lektion":  "1.3  Meine Familie",
+        "bereich":  "wortschatz",
+        "deutsch":  "Schwester",
+        "lunari":  "Pomomamu",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0035",
+        "lektion":  "1.3  Meine Familie",
+        "bereich":  "wortschatz",
+        "deutsch":  "Bruder",
+        "lunari":  "Gebudavo",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0036",
+        "lektion":  "1.3  Meine Familie",
+        "bereich":  "wortschatz",
+        "deutsch":  "Familie",
+        "lunari":  "Risukidi",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0037",
+        "lektion":  "1.3  Meine Familie",
+        "bereich":  "wortschatz",
+        "deutsch":  "Oma",
+        "lunari":  "Gunopato",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0038",
+        "lektion":  "1.3  Meine Familie",
+        "bereich":  "wortschatz",
+        "deutsch":  "Opa",
+        "lunari":  "Motokinu",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0039",
+        "lektion":  "1.3  Meine Familie",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Das ist meine Familie.",
+        "lunari":  "Negigivo gukikehi vanurepa Risukidi.",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0040",
+        "lektion":  "1.3  Meine Familie",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Meine Schwester heißt Lina.",
+        "lunari":  "Vanurepa Pomomamu vohogopo Gidogope.",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0041",
+        "lektion":  "1.3  Meine Familie",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Ich habe einen Bruder.",
+        "lunari":  "Memekumo fonulibu bavudugi Gebudavo.",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0042",
+        "lektion":  "1.3  Meine Familie",
+        "bereich":  "dialog",
+        "deutsch":  "Kind A: „Das ist meine Familie.“",
+        "lunari":  "Gubeviki MOLUSARU: „Negigivo gukikehi vanurepa Risukidi.“",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0043",
+        "lektion":  "1.3  Meine Familie",
+        "bereich":  "dialog",
+        "deutsch":  "Kind B: „Meine Schwester heißt Lina.“",
+        "lunari":  "Gubeviki REREGEFO: „Vanurepa Pomomamu vohogopo Gidogope.“",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0044",
+        "lektion":  "1.3  Meine Familie",
+        "bereich":  "lesetext",
+        "deutsch":  "Heute sprechen wir über meine familie. Mia zeigt Ben etwas Neues. Ben hört genau zu und stellt eine Frage. Mia antwortet freundlich. Beide üben zusammen und lernen neue Wörter.",
+        "lunari":  "Negafepe vonukulo ramerini vevokohu vanurepa risukidi. Kanobete nunupela Vipagave dobevisu Memogari. Vipagave lilufodu kapoguve lekiperu finiguga tamapuso vetumene Kahevibo. Kanobete ginaruha tikoduvo. Muripubo sohelatu kusopato finiguga bupovohi givosure Komogoka.",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0045",
+        "lektion":  "1.4  In unserer Klasse",
+        "bereich":  "wortschatz",
+        "deutsch":  "Schule",
+        "lunari":  "Lifatisu",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0046",
+        "lektion":  "1.4  In unserer Klasse",
+        "bereich":  "wortschatz",
+        "deutsch":  "Klasse",
+        "lunari":  "Kakituvo",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0047",
+        "lektion":  "1.4  In unserer Klasse",
+        "bereich":  "wortschatz",
+        "deutsch":  "Buch",
+        "lunari":  "Tufabote",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0048",
+        "lektion":  "1.4  In unserer Klasse",
+        "bereich":  "wortschatz",
+        "deutsch":  "Stift",
+        "lunari":  "Koduhuro",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0049",
+        "lektion":  "1.4  In unserer Klasse",
+        "bereich":  "wortschatz",
+        "deutsch":  "Tisch",
+        "lunari":  "Megopisa",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0050",
+        "lektion":  "1.4  In unserer Klasse",
+        "bereich":  "wortschatz",
+        "deutsch":  "Stuhl",
+        "lunari":  "Gavabose",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0051",
+        "lektion":  "1.4  In unserer Klasse",
+        "bereich":  "wortschatz",
+        "deutsch":  "Lehrerin",
+        "lunari":  "Viralini",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0052",
+        "lektion":  "1.4  In unserer Klasse",
+        "bereich":  "wortschatz",
+        "deutsch":  "Lehrer",
+        "lunari":  "Sifisulu",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0053",
+        "lektion":  "1.4  In unserer Klasse",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Das ist mein Buch.",
+        "lunari":  "Negigivo gukikehi puhahimu Tufabote.",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0054",
+        "lektion":  "1.4  In unserer Klasse",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Der Stift liegt auf dem Tisch.",
+        "lunari":  "Bahosige Koduhuro vanigura modinona lasenamo Megopisa.",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0055",
+        "lektion":  "1.4  In unserer Klasse",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Wo ist dein Stuhl?",
+        "lunari":  "Kupegilo gukikehi tisevupo Gavabose?",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0056",
+        "lektion":  "1.4  In unserer Klasse",
+        "bereich":  "dialog",
+        "deutsch":  "Kind A: „Das ist mein Buch.“",
+        "lunari":  "Gubeviki MOLUSARU: „Negigivo gukikehi puhahimu Tufabote.“",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0057",
+        "lektion":  "1.4  In unserer Klasse",
+        "bereich":  "dialog",
+        "deutsch":  "Kind B: „Der Stift liegt auf dem Tisch.“",
+        "lunari":  "Gubeviki REREGEFO: „Bahosige Koduhuro vanigura modinona lasenamo Megopisa.“",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0058",
+        "lektion":  "1.4  In unserer Klasse",
+        "bereich":  "lesetext",
+        "deutsch":  "Heute sprechen wir über in unserer klasse. Mia zeigt Ben etwas Neues. Ben hört genau zu und stellt eine Frage. Mia antwortet freundlich. Beide üben zusammen und lernen neue Wörter.",
+        "lunari":  "Negafepe vonukulo ramerini vevokohu kugasepa napagohi kakituvo. Kanobete nunupela Vipagave dobevisu Memogari. Vipagave lilufodu kapoguve lekiperu finiguga tamapuso vetumene Kahevibo. Kanobete ginaruha tikoduvo. Muripubo sohelatu kusopato finiguga bupovohi givosure Komogoka.",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0059",
+        "lektion":  "1.5  Farben und Formen",
+        "bereich":  "wortschatz",
+        "deutsch":  "rot",
+        "lunari":  "budivamu",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0060",
+        "lektion":  "1.5  Farben und Formen",
+        "bereich":  "wortschatz",
+        "deutsch":  "blau",
+        "lunari":  "pihidete",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0061",
+        "lektion":  "1.5  Farben und Formen",
+        "bereich":  "wortschatz",
+        "deutsch":  "gelb",
+        "lunari":  "kukaredo",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0062",
+        "lektion":  "1.5  Farben und Formen",
+        "bereich":  "wortschatz",
+        "deutsch":  "grün",
+        "lunari":  "ditosenu",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0063",
+        "lektion":  "1.5  Farben und Formen",
+        "bereich":  "wortschatz",
+        "deutsch":  "schwarz",
+        "lunari":  "retaruvi",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0064",
+        "lektion":  "1.5  Farben und Formen",
+        "bereich":  "wortschatz",
+        "deutsch":  "weiß",
+        "lunari":  "nilefuve",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0065",
+        "lektion":  "1.5  Farben und Formen",
+        "bereich":  "wortschatz",
+        "deutsch":  "rund",
+        "lunari":  "furarabo",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0066",
+        "lektion":  "1.5  Farben und Formen",
+        "bereich":  "wortschatz",
+        "deutsch":  "eckig",
+        "lunari":  "lehamuba",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0067",
+        "lektion":  "1.5  Farben und Formen",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Der Ball ist rot.",
+        "lunari":  "Bahosige Pavokete gukikehi budivamu.",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0068",
+        "lektion":  "1.5  Farben und Formen",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Die Tür ist blau.",
+        "lunari":  "Pibigola Vutohasi gukikehi pihidete.",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0069",
+        "lektion":  "1.5  Farben und Formen",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Ich sehe einen grünen Kreis.",
+        "lunari":  "Memekumo huhaseto bavudugi nutebuba Tukomeko.",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0070",
+        "lektion":  "1.5  Farben und Formen",
+        "bereich":  "dialog",
+        "deutsch":  "Kind A: „Der Ball ist rot.“",
+        "lunari":  "Gubeviki MOLUSARU: „Bahosige Pavokete gukikehi budivamu.“",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0071",
+        "lektion":  "1.5  Farben und Formen",
+        "bereich":  "dialog",
+        "deutsch":  "Kind B: „Die Tür ist blau.“",
+        "lunari":  "Gubeviki REREGEFO: „Pibigola Vutohasi gukikehi pihidete.“",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0072",
+        "lektion":  "1.5  Farben und Formen",
+        "bereich":  "lesetext",
+        "deutsch":  "Auf dem Tisch liegen ein roter Ball, ein grünes Buch und ein gelber Stift. Ben zeigt auf den Ball. „Welche Farbe hat er?“, fragt er. Mia antwortet: „Der Ball ist rot.“",
+        "lunari":  "Modinona lasenamo Megopisa tubegona lokuligo vilefoko Pavokete, lokuligo lumubaso Tufabote finiguga lokuligo sipesani Koduhuro. Vipagave nunupela modinona sadanepi Pavokete. „Talokuba Falarulu bemamoho vomikoga?“, bopitobu vomikoga. Kanobete ginaruha: „Bahosige Pavokete gukikehi budivamu.“",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0073",
+        "lektion":  "1.6  Zahlen und Mengen",
+        "bereich":  "wortschatz",
+        "deutsch":  "eins",
+        "lunari":  "tugapiro",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0074",
+        "lektion":  "1.6  Zahlen und Mengen",
+        "bereich":  "wortschatz",
+        "deutsch":  "zwei",
+        "lunari":  "bamolede",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0075",
+        "lektion":  "1.6  Zahlen und Mengen",
+        "bereich":  "wortschatz",
+        "deutsch":  "drei",
+        "lunari":  "gehakuhi",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0076",
+        "lektion":  "1.6  Zahlen und Mengen",
+        "bereich":  "wortschatz",
+        "deutsch":  "vier",
+        "lunari":  "topupasi",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0077",
+        "lektion":  "1.6  Zahlen und Mengen",
+        "bereich":  "wortschatz",
+        "deutsch":  "fünf",
+        "lunari":  "ranafofa",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0078",
+        "lektion":  "1.6  Zahlen und Mengen",
+        "bereich":  "wortschatz",
+        "deutsch":  "sechs",
+        "lunari":  "faronege",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0079",
+        "lektion":  "1.6  Zahlen und Mengen",
+        "bereich":  "wortschatz",
+        "deutsch":  "sieben",
+        "lunari":  "sukitara",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0080",
+        "lektion":  "1.6  Zahlen und Mengen",
+        "bereich":  "wortschatz",
+        "deutsch":  "acht",
+        "lunari":  "salosisa",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0081",
+        "lektion":  "1.6  Zahlen und Mengen",
+        "bereich":  "wortschatz",
+        "deutsch":  "neun",
+        "lunari":  "mogabevu",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0082",
+        "lektion":  "1.6  Zahlen und Mengen",
+        "bereich":  "wortschatz",
+        "deutsch":  "zehn",
+        "lunari":  "fohemafu",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0083",
+        "lektion":  "1.6  Zahlen und Mengen",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Ich habe drei Äpfel.",
+        "lunari":  "Memekumo fonulibu gehakuhi sotikiku.",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0084",
+        "lektion":  "1.6  Zahlen und Mengen",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Auf dem Tisch liegen fünf Bücher.",
+        "lunari":  "Modinona lasenamo Megopisa tubegona ranafofa Pogebaba.",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0085",
+        "lektion":  "1.6  Zahlen und Mengen",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Wie viele Kinder sind hier?",
+        "lunari":  "Masorosa menukona Risaluvi vimisogu bibuputu?",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0086",
+        "lektion":  "1.6  Zahlen und Mengen",
+        "bereich":  "dialog",
+        "deutsch":  "Kind A: „Ich habe drei Äpfel.“",
+        "lunari":  "Gubeviki MOLUSARU: „Memekumo fonulibu gehakuhi sotikiku.“",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0087",
+        "lektion":  "1.6  Zahlen und Mengen",
+        "bereich":  "dialog",
+        "deutsch":  "Kind B: „Auf dem Tisch liegen fünf Bücher.“",
+        "lunari":  "Gubeviki REREGEFO: „Modinona lasenamo Megopisa tubegona ranafofa Pogebaba.“",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0088",
+        "lektion":  "1.6  Zahlen und Mengen",
+        "bereich":  "lesetext",
+        "deutsch":  "Heute sprechen wir über zahlen und mengen. Mia zeigt Ben etwas Neues. Ben hört genau zu und stellt eine Frage. Mia antwortet freundlich. Beide üben zusammen und lernen neue Wörter.",
+        "lunari":  "Negafepe vonukulo ramerini vevokohu fubevafi finiguga fepenugo. Kanobete nunupela Vipagave dobevisu Memogari. Vipagave lilufodu kapoguve lekiperu finiguga tamapuso vetumene Kahevibo. Kanobete ginaruha tikoduvo. Muripubo sohelatu kusopato finiguga bupovohi givosure Komogoka.",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0089",
+        "lektion":  "1.7  Tiere und Natur",
+        "bereich":  "wortschatz",
+        "deutsch":  "Hund",
+        "lunari":  "Mevesupa",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0090",
+        "lektion":  "1.7  Tiere und Natur",
+        "bereich":  "wortschatz",
+        "deutsch":  "Katze",
+        "lunari":  "Koholufi",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0091",
+        "lektion":  "1.7  Tiere und Natur",
+        "bereich":  "wortschatz",
+        "deutsch":  "Vogel",
+        "lunari":  "Hefuhudi",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0092",
+        "lektion":  "1.7  Tiere und Natur",
+        "bereich":  "wortschatz",
+        "deutsch":  "Baum",
+        "lunari":  "Sudutako",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0093",
+        "lektion":  "1.7  Tiere und Natur",
+        "bereich":  "wortschatz",
+        "deutsch":  "Blume",
+        "lunari":  "Defuripu",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0094",
+        "lektion":  "1.7  Tiere und Natur",
+        "bereich":  "wortschatz",
+        "deutsch":  "Wald",
+        "lunari":  "Lenesinu",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0095",
+        "lektion":  "1.7  Tiere und Natur",
+        "bereich":  "wortschatz",
+        "deutsch":  "Wasser",
+        "lunari":  "Pubipige",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0096",
+        "lektion":  "1.7  Tiere und Natur",
+        "bereich":  "wortschatz",
+        "deutsch":  "Sonne",
+        "lunari":  "Legohuso",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0097",
+        "lektion":  "1.7  Tiere und Natur",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Der Hund schläft.",
+        "lunari":  "Bahosige Mevesupa telukalu.",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0098",
+        "lektion":  "1.7  Tiere und Natur",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Der Vogel sitzt im Baum.",
+        "lunari":  "Bahosige Hefuhudi pahesuro pimolipo Sudutako.",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0099",
+        "lektion":  "1.7  Tiere und Natur",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Ich sehe eine Blume.",
+        "lunari":  "Memekumo huhaseto vetumene Defuripu.",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0100",
+        "lektion":  "1.7  Tiere und Natur",
+        "bereich":  "dialog",
+        "deutsch":  "Kind A: „Der Hund schläft.“",
+        "lunari":  "Gubeviki MOLUSARU: „Bahosige Mevesupa telukalu.“",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0101",
+        "lektion":  "1.7  Tiere und Natur",
+        "bereich":  "dialog",
+        "deutsch":  "Kind B: „Der Vogel sitzt im Baum.“",
+        "lunari":  "Gubeviki REREGEFO: „Bahosige Hefuhudi pahesuro pimolipo Sudutako.“",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0102",
+        "lektion":  "1.7  Tiere und Natur",
+        "bereich":  "lesetext",
+        "deutsch":  "Heute sprechen wir über tiere und natur. Mia zeigt Ben etwas Neues. Ben hört genau zu und stellt eine Frage. Mia antwortet freundlich. Beide üben zusammen und lernen neue Wörter.",
+        "lunari":  "Negafepe vonukulo ramerini vevokohu higiheve finiguga satudame. Kanobete nunupela Vipagave dobevisu Memogari. Vipagave lilufodu kapoguve lekiperu finiguga tamapuso vetumene Kahevibo. Kanobete ginaruha tikoduvo. Muripubo sohelatu kusopato finiguga bupovohi givosure Komogoka.",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0103",
+        "lektion":  "1.8  Essen und Trinken",
+        "bereich":  "wortschatz",
+        "deutsch":  "Brot",
+        "lunari":  "Lukefusu",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0104",
+        "lektion":  "1.8  Essen und Trinken",
+        "bereich":  "wortschatz",
+        "deutsch":  "Apfel",
+        "lunari":  "Labikuhi",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0105",
+        "lektion":  "1.8  Essen und Trinken",
+        "bereich":  "wortschatz",
+        "deutsch":  "Milch",
+        "lunari":  "Deputaka",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0106",
+        "lektion":  "1.8  Essen und Trinken",
+        "bereich":  "wortschatz",
+        "deutsch":  "Wasser",
+        "lunari":  "Pubipige",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0107",
+        "lektion":  "1.8  Essen und Trinken",
+        "bereich":  "wortschatz",
+        "deutsch":  "essen",
+        "lunari":  "pemufisu",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0108",
+        "lektion":  "1.8  Essen und Trinken",
+        "bereich":  "wortschatz",
+        "deutsch":  "trinken",
+        "lunari":  "nidebera",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0109",
+        "lektion":  "1.8  Essen und Trinken",
+        "bereich":  "wortschatz",
+        "deutsch":  "Hunger",
+        "lunari":  "Nuvotumo",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0110",
+        "lektion":  "1.8  Essen und Trinken",
+        "bereich":  "wortschatz",
+        "deutsch":  "Durst",
+        "lunari":  "Mitebomi",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0111",
+        "lektion":  "1.8  Essen und Trinken",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Ich habe Hunger.",
+        "lunari":  "Memekumo fonulibu Nuvotumo.",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0112",
+        "lektion":  "1.8  Essen und Trinken",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Ich möchte Wasser trinken.",
+        "lunari":  "Memekumo dutukiha Pubipige nidebera.",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0113",
+        "lektion":  "1.8  Essen und Trinken",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Der Apfel ist süß.",
+        "lunari":  "Bahosige Labikuhi gukikehi vobaraba.",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0114",
+        "lektion":  "1.8  Essen und Trinken",
+        "bereich":  "dialog",
+        "deutsch":  "Kind A: „Ich habe Hunger.“",
+        "lunari":  "Gubeviki MOLUSARU: „Memekumo fonulibu Nuvotumo.“",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0115",
+        "lektion":  "1.8  Essen und Trinken",
+        "bereich":  "dialog",
+        "deutsch":  "Kind B: „Ich möchte Wasser trinken.“",
+        "lunari":  "Gubeviki REREGEFO: „Memekumo dutukiha Pubipige nidebera.“",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0116",
+        "lektion":  "1.8  Essen und Trinken",
+        "bereich":  "lesetext",
+        "deutsch":  "Heute sprechen wir über essen und trinken. Mia zeigt Ben etwas Neues. Ben hört genau zu und stellt eine Frage. Mia antwortet freundlich. Beide üben zusammen und lernen neue Wörter.",
+        "lunari":  "Negafepe vonukulo ramerini vevokohu pemufisu finiguga nidebera. Kanobete nunupela Vipagave dobevisu Memogari. Vipagave lilufodu kapoguve lekiperu finiguga tamapuso vetumene Kahevibo. Kanobete ginaruha tikoduvo. Muripubo sohelatu kusopato finiguga bupovohi givosure Komogoka.",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0117",
+        "lektion":  "1.9  Ich spiele",
+        "bereich":  "wortschatz",
+        "deutsch":  "spielen",
+        "lunari":  "hosovevu",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0118",
+        "lektion":  "1.9  Ich spiele",
+        "bereich":  "wortschatz",
+        "deutsch":  "laufen",
+        "lunari":  "bevoreha",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0119",
+        "lektion":  "1.9  Ich spiele",
+        "bereich":  "wortschatz",
+        "deutsch":  "springen",
+        "lunari":  "selabala",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0120",
+        "lektion":  "1.9  Ich spiele",
+        "bereich":  "wortschatz",
+        "deutsch":  "Ball",
+        "lunari":  "Pavokete",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0121",
+        "lektion":  "1.9  Ich spiele",
+        "bereich":  "wortschatz",
+        "deutsch":  "Freund",
+        "lunari":  "Fimabole",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0122",
+        "lektion":  "1.9  Ich spiele",
+        "bereich":  "wortschatz",
+        "deutsch":  "Freundin",
+        "lunari":  "Fanetamu",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0123",
+        "lektion":  "1.9  Ich spiele",
+        "bereich":  "wortschatz",
+        "deutsch":  "zusammen",
+        "lunari":  "kusopato",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0124",
+        "lektion":  "1.9  Ich spiele",
+        "bereich":  "wortschatz",
+        "deutsch":  "gern",
+        "lunari":  "firorahe",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0125",
+        "lektion":  "1.9  Ich spiele",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Wir spielen zusammen.",
+        "lunari":  "Ramerini hosovevu kusopato.",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0126",
+        "lektion":  "1.9  Ich spiele",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Ich springe hoch.",
+        "lunari":  "Memekumo migodinu doposohu.",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0127",
+        "lektion":  "1.9  Ich spiele",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Spielst du mit mir?",
+        "lunari":  "Ponuvodo gavogedu ligipube lunodera?",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0128",
+        "lektion":  "1.9  Ich spiele",
+        "bereich":  "dialog",
+        "deutsch":  "Kind A: „Wir spielen zusammen.“",
+        "lunari":  "Gubeviki MOLUSARU: „Ramerini hosovevu kusopato.“",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0129",
+        "lektion":  "1.9  Ich spiele",
+        "bereich":  "dialog",
+        "deutsch":  "Kind B: „Ich springe hoch.“",
+        "lunari":  "Gubeviki REREGEFO: „Memekumo migodinu doposohu.“",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0130",
+        "lektion":  "1.9  Ich spiele",
+        "bereich":  "lesetext",
+        "deutsch":  "Heute sprechen wir über ich spiele. Mia zeigt Ben etwas Neues. Ben hört genau zu und stellt eine Frage. Mia antwortet freundlich. Beide üben zusammen und lernen neue Wörter.",
+        "lunari":  "Negafepe vonukulo ramerini vevokohu memekumo hefumuda. Kanobete nunupela Vipagave dobevisu Memogari. Vipagave lilufodu kapoguve lekiperu finiguga tamapuso vetumene Kahevibo. Kanobete ginaruha tikoduvo. Muripubo sohelatu kusopato finiguga bupovohi givosure Komogoka.",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0131",
+        "lektion":  "1.9  Ich spiele",
+        "bereich":  "wortschatz",
+        "deutsch":  "heute",
+        "lunari":  "negafepe",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0132",
+        "lektion":  "1.9  Ich spiele",
+        "bereich":  "wortschatz",
+        "deutsch":  "morgen",
+        "lunari":  "vuvudite",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0133",
+        "lektion":  "1.9  Ich spiele",
+        "bereich":  "wortschatz",
+        "deutsch":  "gestern",
+        "lunari":  "ramukiva",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0134",
+        "lektion":  "1.9  Ich spiele",
+        "bereich":  "wortschatz",
+        "deutsch":  "glücklich",
+        "lunari":  "fafalimo",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0135",
+        "lektion":  "1.9  Ich spiele",
+        "bereich":  "wortschatz",
+        "deutsch":  "müde",
+        "lunari":  "ludivife",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0136",
+        "lektion":  "1.9  Ich spiele",
+        "bereich":  "wortschatz",
+        "deutsch":  "zu Hause",
+        "lunari":  "lekiperu Rurakilo",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0137",
+        "lektion":  "1.9  Ich spiele",
+        "bereich":  "wortschatz",
+        "deutsch":  "schlafen",
+        "lunari":  "vonirive",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0138",
+        "lektion":  "1.9  Ich spiele",
+        "bereich":  "wortschatz",
+        "deutsch":  "lesen",
+        "lunari":  "fisavado",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0139",
+        "lektion":  "1.9  Ich spiele",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Heute bin ich glücklich.",
+        "lunari":  "Negafepe fapihiso memekumo fafalimo.",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0140",
+        "lektion":  "1.9  Ich spiele",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Ich lese ein Buch.",
+        "lunari":  "Memekumo verusoko lokuligo Tufabote.",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0141",
+        "lektion":  "1.9  Ich spiele",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Am Abend gehe ich schlafen.",
+        "lunari":  "Didanage Bekusapi porokeve memekumo vonirive.",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0142",
+        "lektion":  "1.9  Ich spiele",
+        "bereich":  "dialog",
+        "deutsch":  "Kind A: „Heute bin ich glücklich.“",
+        "lunari":  "Gubeviki MOLUSARU: „Negafepe fapihiso memekumo fafalimo.“",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0143",
+        "lektion":  "1.9  Ich spiele",
+        "bereich":  "dialog",
+        "deutsch":  "Kind B: „Ich lese ein Buch.“",
+        "lunari":  "Gubeviki REREGEFO: „Memekumo verusoko lokuligo Tufabote.“",
+        "batch":  1,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0144",
+        "lektion":  "1.9  Ich spiele",
+        "bereich":  "lesetext",
+        "deutsch":  "Heute sprechen wir über mein erster kleiner text. Mia zeigt Ben etwas Neues. Ben hört genau zu und stellt eine Frage. Mia antwortet freundlich. Beide üben zusammen und lernen neue Wörter.",
+        "lunari":  "Negafepe vonukulo ramerini vevokohu puhahimu damagupi fonugivi bikuvumu. Kanobete nunupela Vipagave dobevisu Memogari. Vipagave lilufodu kapoguve lekiperu finiguga tamapuso vetumene Kahevibo. Kanobete ginaruha tikoduvo. Muripubo sohelatu kusopato finiguga bupovohi givosure Komogoka.",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0145",
+        "lektion":  "2.1  Ich beschreibe Menschen",
+        "bereich":  "wortschatz",
+        "deutsch":  "groß",
+        "lunari":  "tahilogu",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0146",
+        "lektion":  "2.1  Ich beschreibe Menschen",
+        "bereich":  "wortschatz",
+        "deutsch":  "klein",
+        "lunari":  "pedogoge",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0147",
+        "lektion":  "2.1  Ich beschreibe Menschen",
+        "bereich":  "wortschatz",
+        "deutsch":  "jung",
+        "lunari":  "dabasefa",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0148",
+        "lektion":  "2.1  Ich beschreibe Menschen",
+        "bereich":  "wortschatz",
+        "deutsch":  "alt",
+        "lunari":  "lobenidi",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0149",
+        "lektion":  "2.1  Ich beschreibe Menschen",
+        "bereich":  "wortschatz",
+        "deutsch":  "freundlich",
+        "lunari":  "tikoduvo",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0150",
+        "lektion":  "2.1  Ich beschreibe Menschen",
+        "bereich":  "wortschatz",
+        "deutsch":  "lustig",
+        "lunari":  "sunisere",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0151",
+        "lektion":  "2.1  Ich beschreibe Menschen",
+        "bereich":  "wortschatz",
+        "deutsch":  "ruhig",
+        "lunari":  "legegoni",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0152",
+        "lektion":  "2.1  Ich beschreibe Menschen",
+        "bereich":  "wortschatz",
+        "deutsch":  "hilfsbereit",
+        "lunari":  "fekagese",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0153",
+        "lektion":  "2.1  Ich beschreibe Menschen",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Meine Freundin ist freundlich.",
+        "lunari":  "Vanurepa Fanetamu gukikehi tikoduvo.",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0154",
+        "lektion":  "2.1  Ich beschreibe Menschen",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Mein Bruder ist größer als ich.",
+        "lunari":  "Puhahimu Gebudavo gukikehi safohoku gugetave memekumo.",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0155",
+        "lektion":  "2.1  Ich beschreibe Menschen",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Wir helfen einander.",
+        "lunari":  "Ramerini nabidaho hesotime.",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0156",
+        "lektion":  "2.1  Ich beschreibe Menschen",
+        "bereich":  "dialog",
+        "deutsch":  "Kind A: „Meine Freundin ist freundlich.“",
+        "lunari":  "Gubeviki MOLUSARU: „Vanurepa Fanetamu gukikehi tikoduvo.“",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0157",
+        "lektion":  "2.1  Ich beschreibe Menschen",
+        "bereich":  "dialog",
+        "deutsch":  "Kind B: „Mein Bruder ist größer als ich.“",
+        "lunari":  "Gubeviki REREGEFO: „Puhahimu Gebudavo gukikehi safohoku gugetave memekumo.“",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0158",
+        "lektion":  "2.1  Ich beschreibe Menschen",
+        "bereich":  "lesetext",
+        "deutsch":  "Mia und Ben beschäftigen sich mit dem Thema ich beschreibe menschen. Zuerst sammeln sie passende Wörter. Dann sprechen sie miteinander. Als Ben etwas nicht versteht, fragt er noch einmal nach. Am Ende erklären beide das Thema mit eigenen Worten.",
+        "lunari":  "Kanobete finiguga Vipagave lekedepe kufofalu ligipube lasenamo Menasuvu memekumo tetaviku vehakeka. Vusuvena nefurofa runebedo dipevafe Komogoka. Musodita vonukulo runebedo puhubera. Gugetave Vipagave dobevisu tavituda bimumife, bopitobu vomikoga hukekegi girakili redamoka. Didanage Fugivuko kaverihu muripubo negigivo Menasuvu ligipube vopehifi Lutalope.",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0159",
+        "lektion":  "2.2  Fragen stellen",
+        "bereich":  "wortschatz",
+        "deutsch":  "wer",
+        "lunari":  "dotasire",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0160",
+        "lektion":  "2.2  Fragen stellen",
+        "bereich":  "wortschatz",
+        "deutsch":  "was",
+        "lunari":  "dosesaso",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0161",
+        "lektion":  "2.2  Fragen stellen",
+        "bereich":  "wortschatz",
+        "deutsch":  "wo",
+        "lunari":  "kupegilo",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0162",
+        "lektion":  "2.2  Fragen stellen",
+        "bereich":  "wortschatz",
+        "deutsch":  "wann",
+        "lunari":  "kinevusi",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0163",
+        "lektion":  "2.2  Fragen stellen",
+        "bereich":  "wortschatz",
+        "deutsch":  "warum",
+        "lunari":  "tudigeke",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0164",
+        "lektion":  "2.2  Fragen stellen",
+        "bereich":  "wortschatz",
+        "deutsch":  "wie",
+        "lunari":  "masorosa",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0165",
+        "lektion":  "2.2  Fragen stellen",
+        "bereich":  "wortschatz",
+        "deutsch":  "welche",
+        "lunari":  "talokuba",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0166",
+        "lektion":  "2.2  Fragen stellen",
+        "bereich":  "wortschatz",
+        "deutsch":  "antworten",
+        "lunari":  "gelipuma",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0167",
+        "lektion":  "2.2  Fragen stellen",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Wer bist du?",
+        "lunari":  "Dotasire dalahepu gavogedu?",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0168",
+        "lektion":  "2.2  Fragen stellen",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Wo wohnst du?",
+        "lunari":  "Kupegilo fikapika gavogedu?",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0169",
+        "lektion":  "2.2  Fragen stellen",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Warum lachst du?",
+        "lunari":  "Tudigeke nobemosu gavogedu?",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0170",
+        "lektion":  "2.2  Fragen stellen",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Wie geht es dir?",
+        "lunari":  "Masorosa taveguda sebevife tolimohe?",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0171",
+        "lektion":  "2.2  Fragen stellen",
+        "bereich":  "dialog",
+        "deutsch":  "Kind A: „Wer bist du?“",
+        "lunari":  "Gubeviki MOLUSARU: „Dotasire dalahepu gavogedu?“",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0172",
+        "lektion":  "2.2  Fragen stellen",
+        "bereich":  "dialog",
+        "deutsch":  "Kind B: „Wo wohnst du?“",
+        "lunari":  "Gubeviki REREGEFO: „Kupegilo fikapika gavogedu?“",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0173",
+        "lektion":  "2.2  Fragen stellen",
+        "bereich":  "lesetext",
+        "deutsch":  "Mia und Ben beschäftigen sich mit dem Thema fragen stellen. Zuerst sammeln sie passende Wörter. Dann sprechen sie miteinander. Als Ben etwas nicht versteht, fragt er noch einmal nach. Am Ende erklären beide das Thema mit eigenen Worten.",
+        "lunari":  "Kanobete finiguga Vipagave lekedepe kufofalu ligipube lasenamo Menasuvu sasutadi misinula. Vusuvena nefurofa runebedo dipevafe Komogoka. Musodita vonukulo runebedo puhubera. Gugetave Vipagave dobevisu tavituda bimumife, bopitobu vomikoga hukekegi girakili redamoka. Didanage Fugivuko kaverihu muripubo negigivo Menasuvu ligipube vopehifi Lutalope.",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0174",
+        "lektion":  "2.3  Sätze verneinen",
+        "bereich":  "wortschatz",
+        "deutsch":  "nicht",
+        "lunari":  "tavituda",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0175",
+        "lektion":  "2.3  Sätze verneinen",
+        "bereich":  "wortschatz",
+        "deutsch":  "kein",
+        "lunari":  "nubufadi",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0176",
+        "lektion":  "2.3  Sätze verneinen",
+        "bereich":  "wortschatz",
+        "deutsch":  "nie",
+        "lunari":  "kimudehe",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0177",
+        "lektion":  "2.3  Sätze verneinen",
+        "bereich":  "wortschatz",
+        "deutsch":  "ja",
+        "lunari":  "lifopasa",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0178",
+        "lektion":  "2.3  Sätze verneinen",
+        "bereich":  "wortschatz",
+        "deutsch":  "nein",
+        "lunari":  "tisesama",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0179",
+        "lektion":  "2.3  Sätze verneinen",
+        "bereich":  "wortschatz",
+        "deutsch":  "immer",
+        "lunari":  "bomonufi",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0180",
+        "lektion":  "2.3  Sätze verneinen",
+        "bereich":  "wortschatz",
+        "deutsch":  "manchmal",
+        "lunari":  "lubiguvu",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0181",
+        "lektion":  "2.3  Sätze verneinen",
+        "bereich":  "wortschatz",
+        "deutsch":  "oft",
+        "lunari":  "gutimamo",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0182",
+        "lektion":  "2.3  Sätze verneinen",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Ich esse Brot.",
+        "lunari":  "Memekumo gigileki Lukefusu.",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0183",
+        "lektion":  "2.3  Sätze verneinen",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Ich esse kein Brot.",
+        "lunari":  "Memekumo gigileki nubufadi Lukefusu.",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0184",
+        "lektion":  "2.3  Sätze verneinen",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Ich schlafe nicht.",
+        "lunari":  "Memekumo gulepete tavituda.",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0185",
+        "lektion":  "2.3  Sätze verneinen",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Ich spiele manchmal draußen.",
+        "lunari":  "Memekumo hefumuda lubiguvu hemumase.",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0186",
+        "lektion":  "2.3  Sätze verneinen",
+        "bereich":  "dialog",
+        "deutsch":  "Kind A: „Ich esse Brot.“",
+        "lunari":  "Gubeviki MOLUSARU: „Memekumo gigileki Lukefusu.“",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0187",
+        "lektion":  "2.3  Sätze verneinen",
+        "bereich":  "dialog",
+        "deutsch":  "Kind B: „Ich esse kein Brot.“",
+        "lunari":  "Gubeviki REREGEFO: „Memekumo gigileki nubufadi Lukefusu.“",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0188",
+        "lektion":  "2.3  Sätze verneinen",
+        "bereich":  "lesetext",
+        "deutsch":  "Mia und Ben beschäftigen sich mit dem Thema sätze verneinen. Zuerst sammeln sie passende Wörter. Dann sprechen sie miteinander. Als Ben etwas nicht versteht, fragt er noch einmal nach. Am Ende erklären beide das Thema mit eigenen Worten.",
+        "lunari":  "Kanobete finiguga Vipagave lekedepe kufofalu ligipube lasenamo Menasuvu kehoredu vemopevi. Vusuvena nefurofa runebedo dipevafe Komogoka. Musodita vonukulo runebedo puhubera. Gugetave Vipagave dobevisu tavituda bimumife, bopitobu vomikoga hukekegi girakili redamoka. Didanage Fugivuko kaverihu muripubo negigivo Menasuvu ligipube vopehifi Lutalope.",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0189",
+        "lektion":  "2.4  Mein Tagesablauf",
+        "bereich":  "wortschatz",
+        "deutsch":  "aufstehen",
+        "lunari":  "natakodi",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0190",
+        "lektion":  "2.4  Mein Tagesablauf",
+        "bereich":  "wortschatz",
+        "deutsch":  "frühstücken",
+        "lunari":  "kodareve",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0191",
+        "lektion":  "2.4  Mein Tagesablauf",
+        "bereich":  "wortschatz",
+        "deutsch":  "lernen",
+        "lunari":  "bupovohi",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0192",
+        "lektion":  "2.4  Mein Tagesablauf",
+        "bereich":  "wortschatz",
+        "deutsch":  "Mittag",
+        "lunari":  "Tunededo",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0193",
+        "lektion":  "2.4  Mein Tagesablauf",
+        "bereich":  "wortschatz",
+        "deutsch":  "Nachmittag",
+        "lunari":  "Gehemiso",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0194",
+        "lektion":  "2.4  Mein Tagesablauf",
+        "bereich":  "wortschatz",
+        "deutsch":  "Abend",
+        "lunari":  "Bekusapi",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0195",
+        "lektion":  "2.4  Mein Tagesablauf",
+        "bereich":  "wortschatz",
+        "deutsch":  "Uhr",
+        "lunari":  "Hisegupa",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0196",
+        "lektion":  "2.4  Mein Tagesablauf",
+        "bereich":  "wortschatz",
+        "deutsch":  "Pause",
+        "lunari":  "Nabipuve",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0197",
+        "lektion":  "2.4  Mein Tagesablauf",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Ich stehe morgens auf.",
+        "lunari":  "Memekumo vinadive voredesu modinona.",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0198",
+        "lektion":  "2.4  Mein Tagesablauf",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Nach der Schule spiele ich.",
+        "lunari":  "Redamoka bahosige Lifatisu hefumuda memekumo.",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0199",
+        "lektion":  "2.4  Mein Tagesablauf",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Am Abend lese ich.",
+        "lunari":  "Didanage Bekusapi verusoko memekumo.",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0200",
+        "lektion":  "2.4  Mein Tagesablauf",
+        "bereich":  "dialog",
+        "deutsch":  "Kind A: „Ich stehe morgens auf.“",
+        "lunari":  "Gubeviki MOLUSARU: „Memekumo vinadive voredesu modinona.“",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0201",
+        "lektion":  "2.4  Mein Tagesablauf",
+        "bereich":  "dialog",
+        "deutsch":  "Kind B: „Nach der Schule spiele ich.“",
+        "lunari":  "Gubeviki REREGEFO: „Redamoka bahosige Lifatisu hefumuda memekumo.“",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0202",
+        "lektion":  "2.4  Mein Tagesablauf",
+        "bereich":  "lesetext",
+        "deutsch":  "Mia und Ben beschäftigen sich mit dem Thema mein tagesablauf. Zuerst sammeln sie passende Wörter. Dann sprechen sie miteinander. Als Ben etwas nicht versteht, fragt er noch einmal nach. Am Ende erklären beide das Thema mit eigenen Worten.",
+        "lunari":  "Kanobete finiguga Vipagave lekedepe kufofalu ligipube lasenamo Menasuvu puhahimu lekiharu. Vusuvena nefurofa runebedo dipevafe Komogoka. Musodita vonukulo runebedo puhubera. Gugetave Vipagave dobevisu tavituda bimumife, bopitobu vomikoga hukekegi girakili redamoka. Didanage Fugivuko kaverihu muripubo negigivo Menasuvu ligipube vopehifi Lutalope.",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0203",
+        "lektion":  "2.5  Im Geschäft",
+        "bereich":  "wortschatz",
+        "deutsch":  "kaufen",
+        "lunari":  "hinolegu",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0204",
+        "lektion":  "2.5  Im Geschäft",
+        "bereich":  "wortschatz",
+        "deutsch":  "verkaufen",
+        "lunari":  "mehukata",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0205",
+        "lektion":  "2.5  Im Geschäft",
+        "bereich":  "wortschatz",
+        "deutsch":  "Geld",
+        "lunari":  "Mivoraru",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0206",
+        "lektion":  "2.5  Im Geschäft",
+        "bereich":  "wortschatz",
+        "deutsch":  "Preis",
+        "lunari":  "Ripagefa",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0207",
+        "lektion":  "2.5  Im Geschäft",
+        "bereich":  "wortschatz",
+        "deutsch":  "teuer",
+        "lunari":  "motibura",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0208",
+        "lektion":  "2.5  Im Geschäft",
+        "bereich":  "wortschatz",
+        "deutsch":  "billig",
+        "lunari":  "sugunoba",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0209",
+        "lektion":  "2.5  Im Geschäft",
+        "bereich":  "wortschatz",
+        "deutsch":  "bitte",
+        "lunari":  "lidokira",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0210",
+        "lektion":  "2.5  Im Geschäft",
+        "bereich":  "wortschatz",
+        "deutsch":  "danke",
+        "lunari":  "bigemibi",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0211",
+        "lektion":  "2.5  Im Geschäft",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Ich möchte einen Apfel kaufen.",
+        "lunari":  "Memekumo dutukiha bavudugi Labikuhi hinolegu.",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0212",
+        "lektion":  "2.5  Im Geschäft",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Wie viel kostet das Brot?",
+        "lunari":  "Masorosa posisopu hosudohu negigivo Lukefusu?",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0213",
+        "lektion":  "2.5  Im Geschäft",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Danke für deine Hilfe.",
+        "lunari":  "Bigemibi rulunoho fanufipo Telopopu.",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0214",
+        "lektion":  "2.5  Im Geschäft",
+        "bereich":  "dialog",
+        "deutsch":  "Kind A: „Ich möchte einen Apfel kaufen.“",
+        "lunari":  "Gubeviki MOLUSARU: „Memekumo dutukiha bavudugi Labikuhi hinolegu.“",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0215",
+        "lektion":  "2.5  Im Geschäft",
+        "bereich":  "dialog",
+        "deutsch":  "Kind B: „Wie viel kostet das Brot?“",
+        "lunari":  "Gubeviki REREGEFO: „Masorosa posisopu hosudohu negigivo Lukefusu?“",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0216",
+        "lektion":  "2.5  Im Geschäft",
+        "bereich":  "lesetext",
+        "deutsch":  "Lina geht mit ihrem Vater zum Markt. Sie möchte Äpfel kaufen. „Wie viel kosten drei Äpfel?“, fragt sie. Der Verkäufer nennt den Preis. Lina bedankt sich und legt die Äpfel in ihren Korb.",
+        "lunari":  "Gidogope taveguda ligipube nohonihe Gurudopa mekamego Gohesole. Runebedo dutukiha sotikiku hinolegu. „Masorosa posisopu lupevato gehakuhi sotikiku?“, bopitobu runebedo. Bahosige Komimosu serogefu sadanepi Ripagefa. Gidogope sopuvamo kufofalu finiguga vatifati pibigola sotikiku kugasepa kitopuko Benelefi.",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0217",
+        "lektion":  "2.6  Wo liegt was?",
+        "bereich":  "wortschatz",
+        "deutsch":  "auf",
+        "lunari":  "modinona",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0218",
+        "lektion":  "2.6  Wo liegt was?",
+        "bereich":  "wortschatz",
+        "deutsch":  "unter",
+        "lunari":  "telefufa",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0219",
+        "lektion":  "2.6  Wo liegt was?",
+        "bereich":  "wortschatz",
+        "deutsch":  "neben",
+        "lunari":  "pokihovi",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0220",
+        "lektion":  "2.6  Wo liegt was?",
+        "bereich":  "wortschatz",
+        "deutsch":  "vor",
+        "lunari":  "bosuhabe",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0221",
+        "lektion":  "2.6  Wo liegt was?",
+        "bereich":  "wortschatz",
+        "deutsch":  "hinter",
+        "lunari":  "bohufeko",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0222",
+        "lektion":  "2.6  Wo liegt was?",
+        "bereich":  "wortschatz",
+        "deutsch":  "zwischen",
+        "lunari":  "lipaseko",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0223",
+        "lektion":  "2.6  Wo liegt was?",
+        "bereich":  "wortschatz",
+        "deutsch":  "links",
+        "lunari":  "saliruta",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0224",
+        "lektion":  "2.6  Wo liegt was?",
+        "bereich":  "wortschatz",
+        "deutsch":  "rechts",
+        "lunari":  "husuhuru",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0225",
+        "lektion":  "2.6  Wo liegt was?",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Der Ball liegt unter dem Tisch.",
+        "lunari":  "Bahosige Pavokete vanigura telefufa lasenamo Megopisa.",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0226",
+        "lektion":  "2.6  Wo liegt was?",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Die Tasche steht neben dem Stuhl.",
+        "lunari":  "Pibigola Rupadude fumoridi pokihovi lasenamo Gavabose.",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0227",
+        "lektion":  "2.6  Wo liegt was?",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Das Buch liegt zwischen zwei Heften.",
+        "lunari":  "Negigivo Tufabote vanigura lipaseko bamolede Tikuvidu.",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0228",
+        "lektion":  "2.6  Wo liegt was?",
+        "bereich":  "dialog",
+        "deutsch":  "Kind A: „Der Ball liegt unter dem Tisch.“",
+        "lunari":  "Gubeviki MOLUSARU: „Bahosige Pavokete vanigura telefufa lasenamo Megopisa.“",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0229",
+        "lektion":  "2.6  Wo liegt was?",
+        "bereich":  "dialog",
+        "deutsch":  "Kind B: „Die Tasche steht neben dem Stuhl.“",
+        "lunari":  "Gubeviki REREGEFO: „Pibigola Rupadude fumoridi pokihovi lasenamo Gavabose.“",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0230",
+        "lektion":  "2.6  Wo liegt was?",
+        "bereich":  "lesetext",
+        "deutsch":  "Mia und Ben beschäftigen sich mit dem Thema wo liegt was?. Zuerst sammeln sie passende Wörter. Dann sprechen sie miteinander. Als Ben etwas nicht versteht, fragt er noch einmal nach. Am Ende erklären beide das Thema mit eigenen Worten.",
+        "lunari":  "Kanobete finiguga Vipagave lekedepe kufofalu ligipube lasenamo Menasuvu kupegilo vanigura dosesaso?. Vusuvena nefurofa runebedo dipevafe Komogoka. Musodita vonukulo runebedo puhubera. Gugetave Vipagave dobevisu tavituda bimumife, bopitobu vomikoga hukekegi girakili redamoka. Didanage Fugivuko kaverihu muripubo negigivo Menasuvu ligipube vopehifi Lutalope.",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0231",
+        "lektion":  "2.7  Wünsche und Bitten",
+        "bereich":  "wortschatz",
+        "deutsch":  "wünschen",
+        "lunari":  "gadubete",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0232",
+        "lektion":  "2.7  Wünsche und Bitten",
+        "bereich":  "wortschatz",
+        "deutsch":  "möchten",
+        "lunari":  "hubabeta",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0233",
+        "lektion":  "2.7  Wünsche und Bitten",
+        "bereich":  "wortschatz",
+        "deutsch":  "dürfen",
+        "lunari":  "pagurika",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0234",
+        "lektion":  "2.7  Wünsche und Bitten",
+        "bereich":  "wortschatz",
+        "deutsch":  "können",
+        "lunari":  "tedalori",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0235",
+        "lektion":  "2.7  Wünsche und Bitten",
+        "bereich":  "wortschatz",
+        "deutsch":  "helfen",
+        "lunari":  "nabidaho",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0236",
+        "lektion":  "2.7  Wünsche und Bitten",
+        "bereich":  "wortschatz",
+        "deutsch":  "bitten",
+        "lunari":  "vikadehe",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0237",
+        "lektion":  "2.7  Wünsche und Bitten",
+        "bereich":  "wortschatz",
+        "deutsch":  "einladen",
+        "lunari":  "bubagato",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0238",
+        "lektion":  "2.7  Wünsche und Bitten",
+        "bereich":  "wortschatz",
+        "deutsch":  "entschuldigen",
+        "lunari":  "kabohovu",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0239",
+        "lektion":  "2.7  Wünsche und Bitten",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Kannst du mir helfen?",
+        "lunari":  "Vapubabo gavogedu lunodera nabidaho?",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0240",
+        "lektion":  "2.7  Wünsche und Bitten",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Darf ich mitspielen?",
+        "lunari":  "Veboderi memekumo kihusito?",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0241",
+        "lektion":  "2.7  Wünsche und Bitten",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Ich möchte ein Buch lesen.",
+        "lunari":  "Memekumo dutukiha lokuligo Tufabote fisavado.",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0242",
+        "lektion":  "2.7  Wünsche und Bitten",
+        "bereich":  "dialog",
+        "deutsch":  "Kind A: „Kannst du mir helfen?“",
+        "lunari":  "Gubeviki MOLUSARU: „Vapubabo gavogedu lunodera nabidaho?“",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0243",
+        "lektion":  "2.7  Wünsche und Bitten",
+        "bereich":  "dialog",
+        "deutsch":  "Kind B: „Darf ich mitspielen?“",
+        "lunari":  "Gubeviki REREGEFO: „Veboderi memekumo kihusito?“",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0244",
+        "lektion":  "2.7  Wünsche und Bitten",
+        "bereich":  "lesetext",
+        "deutsch":  "Mia und Ben beschäftigen sich mit dem Thema wünsche und bitten. Zuerst sammeln sie passende Wörter. Dann sprechen sie miteinander. Als Ben etwas nicht versteht, fragt er noch einmal nach. Am Ende erklären beide das Thema mit eigenen Worten.",
+        "lunari":  "Kanobete finiguga Vipagave lekedepe kufofalu ligipube lasenamo Menasuvu rononudu finiguga vikadehe. Vusuvena nefurofa runebedo dipevafe Komogoka. Musodita vonukulo runebedo puhubera. Gugetave Vipagave dobevisu tavituda bimumife, bopitobu vomikoga hukekegi girakili redamoka. Didanage Fugivuko kaverihu muripubo negigivo Menasuvu ligipube vopehifi Lutalope.",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0245",
+        "lektion":  "2.8  Unser Zuhause",
+        "bereich":  "wortschatz",
+        "deutsch":  "Wohnung",
+        "lunari":  "Hosegave",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0246",
+        "lektion":  "2.8  Unser Zuhause",
+        "bereich":  "wortschatz",
+        "deutsch":  "Haus",
+        "lunari":  "Kigekabu",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0247",
+        "lektion":  "2.8  Unser Zuhause",
+        "bereich":  "wortschatz",
+        "deutsch":  "Zimmer",
+        "lunari":  "Bihogeru",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0248",
+        "lektion":  "2.8  Unser Zuhause",
+        "bereich":  "wortschatz",
+        "deutsch":  "Küche",
+        "lunari":  "Resetehe",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0249",
+        "lektion":  "2.8  Unser Zuhause",
+        "bereich":  "wortschatz",
+        "deutsch":  "Fenster",
+        "lunari":  "Bobopuve",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0250",
+        "lektion":  "2.8  Unser Zuhause",
+        "bereich":  "wortschatz",
+        "deutsch":  "Tür",
+        "lunari":  "Vutohasi",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0251",
+        "lektion":  "2.8  Unser Zuhause",
+        "bereich":  "wortschatz",
+        "deutsch":  "Bett",
+        "lunari":  "Sedabiku",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0252",
+        "lektion":  "2.8  Unser Zuhause",
+        "bereich":  "wortschatz",
+        "deutsch":  "Garten",
+        "lunari":  "Sutikaho",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0253",
+        "lektion":  "2.8  Unser Zuhause",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Mein Bett steht am Fenster.",
+        "lunari":  "Puhahimu Sedabiku fumoridi didanage Bobopuve.",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0254",
+        "lektion":  "2.8  Unser Zuhause",
+        "bereich":  "beispielsatz",
+        "deutsch":  "In der Küche steht ein Tisch.",
+        "lunari":  "Kugasepa bahosige Resetehe fumoridi lokuligo Megopisa.",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0255",
+        "lektion":  "2.8  Unser Zuhause",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Unser Garten ist klein.",
+        "lunari":  "Nifimene Sutikaho gukikehi pedogoge.",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0256",
+        "lektion":  "2.8  Unser Zuhause",
+        "bereich":  "dialog",
+        "deutsch":  "Kind A: „Mein Bett steht am Fenster.“",
+        "lunari":  "Gubeviki MOLUSARU: „Puhahimu Sedabiku fumoridi didanage Bobopuve.“",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0257",
+        "lektion":  "2.8  Unser Zuhause",
+        "bereich":  "dialog",
+        "deutsch":  "Kind B: „In der Küche steht ein Tisch.“",
+        "lunari":  "Gubeviki REREGEFO: „Kugasepa bahosige Resetehe fumoridi lokuligo Megopisa.“",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0258",
+        "lektion":  "2.8  Unser Zuhause",
+        "bereich":  "lesetext",
+        "deutsch":  "Mia und Ben beschäftigen sich mit dem Thema unser zuhause. Zuerst sammeln sie passende Wörter. Dann sprechen sie miteinander. Als Ben etwas nicht versteht, fragt er noch einmal nach. Am Ende erklären beide das Thema mit eigenen Worten.",
+        "lunari":  "Kanobete finiguga Vipagave lekedepe kufofalu ligipube lasenamo Menasuvu nifimene fodakiti. Vusuvena nefurofa runebedo dipevafe Komogoka. Musodita vonukulo runebedo puhubera. Gugetave Vipagave dobevisu tavituda bimumife, bopitobu vomikoga hukekegi girakili redamoka. Didanage Fugivuko kaverihu muripubo negigivo Menasuvu ligipube vopehifi Lutalope.",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0259",
+        "lektion":  "2.9  Zusammen sprechen",
+        "bereich":  "wortschatz",
+        "deutsch":  "erzählen",
+        "lunari":  "tihodofa",
+        "batch":  2,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0260",
+        "lektion":  "2.9  Zusammen sprechen",
+        "bereich":  "wortschatz",
+        "deutsch":  "zuhören",
+        "lunari":  "tileseto",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0261",
+        "lektion":  "2.9  Zusammen sprechen",
+        "bereich":  "wortschatz",
+        "deutsch":  "fragen",
+        "lunari":  "sasutadi",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0262",
+        "lektion":  "2.9  Zusammen sprechen",
+        "bereich":  "wortschatz",
+        "deutsch":  "erklären",
+        "lunari":  "kaverihu",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0263",
+        "lektion":  "2.9  Zusammen sprechen",
+        "bereich":  "wortschatz",
+        "deutsch":  "verstehen",
+        "lunari":  "vapasisi",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0264",
+        "lektion":  "2.9  Zusammen sprechen",
+        "bereich":  "wortschatz",
+        "deutsch":  "wiederholen",
+        "lunari":  "puninobo",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0265",
+        "lektion":  "2.9  Zusammen sprechen",
+        "bereich":  "wortschatz",
+        "deutsch":  "warten",
+        "lunari":  "fulenufu",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0266",
+        "lektion":  "2.9  Zusammen sprechen",
+        "bereich":  "wortschatz",
+        "deutsch":  "antworten",
+        "lunari":  "gelipuma",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0267",
+        "lektion":  "2.9  Zusammen sprechen",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Ich habe dich nicht verstanden.",
+        "lunari":  "Memekumo fonulibu telupesu tavituda labefono.",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0268",
+        "lektion":  "2.9  Zusammen sprechen",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Bitte wiederhole den Satz.",
+        "lunari":  "Lidokira silifuku sadanepi Kimagutu.",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0269",
+        "lektion":  "2.9  Zusammen sprechen",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Ich möchte dir etwas erzählen.",
+        "lunari":  "Memekumo dutukiha tolimohe dobevisu tihodofa.",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0270",
+        "lektion":  "2.9  Zusammen sprechen",
+        "bereich":  "dialog",
+        "deutsch":  "Kind A: „Ich habe dich nicht verstanden.“",
+        "lunari":  "Gubeviki MOLUSARU: „Memekumo fonulibu telupesu tavituda labefono.“",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0271",
+        "lektion":  "2.9  Zusammen sprechen",
+        "bereich":  "dialog",
+        "deutsch":  "Kind B: „Bitte wiederhole den Satz.“",
+        "lunari":  "Gubeviki REREGEFO: „Lidokira silifuku sadanepi Kimagutu.“",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0272",
+        "lektion":  "2.9  Zusammen sprechen",
+        "bereich":  "lesetext",
+        "deutsch":  "Ben versteht eine Frage nicht. „Bitte sprich noch einmal langsam“, sagt er. Mia wiederholt ihre Frage. Nun kann Ben antworten. Beide freuen sich über das gute Gespräch.",
+        "lunari":  "Vipagave bimumife vetumene Kahevibo tavituda. „Lidokira kuhipigu hukekegi girakili larakuba“, kebukeko vomikoga. Kanobete gepibako bimiduna Kahevibo. Mefesela tagavedu Vipagave gelipuma. Muripubo monegabo kufofalu vevokohu negigivo hulomumu Kuvutihi.",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0273",
+        "lektion":  "2.9  Zusammen sprechen",
+        "bereich":  "wortschatz",
+        "deutsch":  "Freizeit",
+        "lunari":  "Kamomika",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0274",
+        "lektion":  "2.9  Zusammen sprechen",
+        "bereich":  "wortschatz",
+        "deutsch":  "Hobby",
+        "lunari":  "Henovaho",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0275",
+        "lektion":  "2.9  Zusammen sprechen",
+        "bereich":  "wortschatz",
+        "deutsch":  "Musik",
+        "lunari":  "Ripolugu",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0276",
+        "lektion":  "2.9  Zusammen sprechen",
+        "bereich":  "wortschatz",
+        "deutsch":  "Buch",
+        "lunari":  "Tufabote",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0277",
+        "lektion":  "2.9  Zusammen sprechen",
+        "bereich":  "wortschatz",
+        "deutsch":  "Fußball",
+        "lunari":  "Nabavofi",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0278",
+        "lektion":  "2.9  Zusammen sprechen",
+        "bereich":  "wortschatz",
+        "deutsch":  "malen",
+        "lunari":  "lerutafu",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0279",
+        "lektion":  "2.9  Zusammen sprechen",
+        "bereich":  "wortschatz",
+        "deutsch":  "Freude",
+        "lunari":  "Vunomapi",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0280",
+        "lektion":  "2.9  Zusammen sprechen",
+        "bereich":  "wortschatz",
+        "deutsch":  "zusammen",
+        "lunari":  "kusopato",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0281",
+        "lektion":  "2.9  Zusammen sprechen",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Was machst du gern?",
+        "lunari":  "Dosesaso dimerino gavogedu firorahe?",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0282",
+        "lektion":  "2.9  Zusammen sprechen",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Ich male gern Bilder.",
+        "lunari":  "Memekumo pavilavo firorahe Husurodi.",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0283",
+        "lektion":  "2.9  Zusammen sprechen",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Morgen spielen wir zusammen.",
+        "lunari":  "Vuvudite hosovevu ramerini kusopato.",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0284",
+        "lektion":  "2.9  Zusammen sprechen",
+        "bereich":  "dialog",
+        "deutsch":  "Kind A: „Was machst du gern?“",
+        "lunari":  "Gubeviki MOLUSARU: „Dosesaso dimerino gavogedu firorahe?“",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0285",
+        "lektion":  "2.9  Zusammen sprechen",
+        "bereich":  "dialog",
+        "deutsch":  "Kind B: „Ich male gern Bilder.“",
+        "lunari":  "Gubeviki REREGEFO: „Memekumo pavilavo firorahe Husurodi.“",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0286",
+        "lektion":  "2.9  Zusammen sprechen",
+        "bereich":  "lesetext",
+        "deutsch":  "Mia und Ben beschäftigen sich mit dem Thema mein erstes eigenes gespräch. Zuerst sammeln sie passende Wörter. Dann sprechen sie miteinander. Als Ben etwas nicht versteht, fragt er noch einmal nach. Am Ende erklären beide das Thema mit eigenen Worten.",
+        "lunari":  "Kanobete finiguga Vipagave lekedepe kufofalu ligipube lasenamo Menasuvu puhahimu givetofa vitirapi kuvutihi. Vusuvena nefurofa runebedo dipevafe Komogoka. Musodita vonukulo runebedo puhubera. Gugetave Vipagave dobevisu tavituda bimumife, bopitobu vomikoga hukekegi girakili redamoka. Didanage Fugivuko kaverihu muripubo negigivo Menasuvu ligipube vopehifi Lutalope.",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0287",
+        "lektion":  "3.1  Was gestern geschah",
+        "bereich":  "wortschatz",
+        "deutsch":  "gestern",
+        "lunari":  "ramukiva",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0288",
+        "lektion":  "3.1  Was gestern geschah",
+        "bereich":  "wortschatz",
+        "deutsch":  "vorgestern",
+        "lunari":  "sidalelo",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0289",
+        "lektion":  "3.1  Was gestern geschah",
+        "bereich":  "wortschatz",
+        "deutsch":  "früher",
+        "lunari":  "losimatu",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0290",
+        "lektion":  "3.1  Was gestern geschah",
+        "bereich":  "wortschatz",
+        "deutsch":  "damals",
+        "lunari":  "dubahufi",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0291",
+        "lektion":  "3.1  Was gestern geschah",
+        "bereich":  "wortschatz",
+        "deutsch":  "erzählen",
+        "lunari":  "tihodofa",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0292",
+        "lektion":  "3.1  Was gestern geschah",
+        "bereich":  "wortschatz",
+        "deutsch":  "kommen",
+        "lunari":  "buheromo",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0293",
+        "lektion":  "3.1  Was gestern geschah",
+        "bereich":  "wortschatz",
+        "deutsch":  "sehen",
+        "lunari":  "sidetumu",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0294",
+        "lektion":  "3.1  Was gestern geschah",
+        "bereich":  "wortschatz",
+        "deutsch":  "gehen",
+        "lunari":  "nagasina",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0295",
+        "lektion":  "3.1  Was gestern geschah",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Gestern ging ich in den Park.",
+        "lunari":  "Ramukiva gesokada memekumo kugasepa sadanepi Losuheto.",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0296",
+        "lektion":  "3.1  Was gestern geschah",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Sie kam, sah und siegte.",
+        "lunari":  "Runebedo kasinuvu, hudukedo finiguga besoteve.",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0297",
+        "lektion":  "3.1  Was gestern geschah",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Wir sahen einen Vogel.",
+        "lunari":  "Ramerini hosunubu bavudugi Hefuhudi.",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0298",
+        "lektion":  "3.1  Was gestern geschah",
+        "bereich":  "dialog",
+        "deutsch":  "Kind A: „Gestern ging ich in den Park.“",
+        "lunari":  "Gubeviki MOLUSARU: „Ramukiva gesokada memekumo kugasepa sadanepi Losuheto.“",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0299",
+        "lektion":  "3.1  Was gestern geschah",
+        "bereich":  "dialog",
+        "deutsch":  "Kind B: „Sie kam, sah und siegte.“",
+        "lunari":  "Gubeviki REREGEFO: „Runebedo kasinuvu, hudukedo finiguga besoteve.“",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0300",
+        "lektion":  "3.1  Was gestern geschah",
+        "bereich":  "lesetext",
+        "deutsch":  "Gestern erlebten Mia und Ben etwas zum Thema was gestern geschah. Zuerst wussten sie nicht, was passieren würde. Dann entdeckten sie einen wichtigen Hinweis. Sie sprachen darüber und fanden gemeinsam eine Lösung. Am Abend erzählten sie ihren Freunden davon.",
+        "lunari":  "Ramukiva penanano Kanobete finiguga Vipagave dobevisu mekamego Menasuvu dosesaso ramukiva limifiho. Vusuvena turusifu runebedo tavituda, dosesaso naketune rerefipe. Musodita dumokiku runebedo bavudugi tulidiko Rimukapu. Runebedo fadihero mifafedo finiguga polipumu hefirite vetumene Bahamuho. Didanage Bekusapi babuvedo runebedo kitopuko Ralidahi mililavu.",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0301",
+        "lektion":  "3.2  Was morgen geschieht",
+        "bereich":  "wortschatz",
+        "deutsch":  "morgen",
+        "lunari":  "vuvudite",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0302",
+        "lektion":  "3.2  Was morgen geschieht",
+        "bereich":  "wortschatz",
+        "deutsch":  "bald",
+        "lunari":  "hebasise",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0303",
+        "lektion":  "3.2  Was morgen geschieht",
+        "bereich":  "wortschatz",
+        "deutsch":  "später",
+        "lunari":  "figipaha",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0304",
+        "lektion":  "3.2  Was morgen geschieht",
+        "bereich":  "wortschatz",
+        "deutsch":  "nächste Woche",
+        "lunari":  "sosonaso Nilehupi",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0305",
+        "lektion":  "3.2  Was morgen geschieht",
+        "bereich":  "wortschatz",
+        "deutsch":  "planen",
+        "lunari":  "lufikefu",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0306",
+        "lektion":  "3.2  Was morgen geschieht",
+        "bereich":  "wortschatz",
+        "deutsch":  "reisen",
+        "lunari":  "domilava",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0307",
+        "lektion":  "3.2  Was morgen geschieht",
+        "bereich":  "wortschatz",
+        "deutsch":  "besuchen",
+        "lunari":  "dufososi",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0308",
+        "lektion":  "3.2  Was morgen geschieht",
+        "bereich":  "wortschatz",
+        "deutsch":  "werden",
+        "lunari":  "bulubapa",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0309",
+        "lektion":  "3.2  Was morgen geschieht",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Morgen besuchen wir Oma.",
+        "lunari":  "Vuvudite dufososi ramerini Gunopato.",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0310",
+        "lektion":  "3.2  Was morgen geschieht",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Nächste Woche fahren wir zum See.",
+        "lunari":  "Sosonaso Nilehupi kisumeri ramerini mekamego Rehegugu.",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0311",
+        "lektion":  "3.2  Was morgen geschieht",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Ich werde dir helfen.",
+        "lunari":  "Memekumo tepahipo tolimohe nabidaho.",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0312",
+        "lektion":  "3.2  Was morgen geschieht",
+        "bereich":  "dialog",
+        "deutsch":  "Kind A: „Morgen besuchen wir Oma.“",
+        "lunari":  "Gubeviki MOLUSARU: „Vuvudite dufososi ramerini Gunopato.“",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0313",
+        "lektion":  "3.2  Was morgen geschieht",
+        "bereich":  "dialog",
+        "deutsch":  "Kind B: „Nächste Woche fahren wir zum See.“",
+        "lunari":  "Gubeviki REREGEFO: „Sosonaso Nilehupi kisumeri ramerini mekamego Rehegugu.“",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0314",
+        "lektion":  "3.2  Was morgen geschieht",
+        "bereich":  "lesetext",
+        "deutsch":  "Gestern erlebten Mia und Ben etwas zum Thema was morgen geschieht. Zuerst wussten sie nicht, was passieren würde. Dann entdeckten sie einen wichtigen Hinweis. Sie sprachen darüber und fanden gemeinsam eine Lösung. Am Abend erzählten sie ihren Freunden davon.",
+        "lunari":  "Ramukiva penanano Kanobete finiguga Vipagave dobevisu mekamego Menasuvu dosesaso vuvudite fanoribu. Vusuvena turusifu runebedo tavituda, dosesaso naketune rerefipe. Musodita dumokiku runebedo bavudugi tulidiko Rimukapu. Runebedo fadihero mifafedo finiguga polipumu hefirite vetumene Bahamuho. Didanage Bekusapi babuvedo runebedo kitopuko Ralidahi mililavu.",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0315",
+        "lektion":  "3.3  Anfang, Mitte und Ende",
+        "bereich":  "wortschatz",
+        "deutsch":  "zuerst",
+        "lunari":  "vusuvena",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0316",
+        "lektion":  "3.3  Anfang, Mitte und Ende",
+        "bereich":  "wortschatz",
+        "deutsch":  "danach",
+        "lunari":  "tufofovo",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0317",
+        "lektion":  "3.3  Anfang, Mitte und Ende",
+        "bereich":  "wortschatz",
+        "deutsch":  "plötzlich",
+        "lunari":  "rovodiko",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0318",
+        "lektion":  "3.3  Anfang, Mitte und Ende",
+        "bereich":  "wortschatz",
+        "deutsch":  "schließlich",
+        "lunari":  "doferahi",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0319",
+        "lektion":  "3.3  Anfang, Mitte und Ende",
+        "bereich":  "wortschatz",
+        "deutsch":  "zum Schluss",
+        "lunari":  "mekamego Kogifema",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0320",
+        "lektion":  "3.3  Anfang, Mitte und Ende",
+        "bereich":  "wortschatz",
+        "deutsch":  "weil",
+        "lunari":  "devemibo",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0321",
+        "lektion":  "3.3  Anfang, Mitte und Ende",
+        "bereich":  "wortschatz",
+        "deutsch":  "aber",
+        "lunari":  "kehisuko",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0322",
+        "lektion":  "3.3  Anfang, Mitte und Ende",
+        "bereich":  "wortschatz",
+        "deutsch":  "deshalb",
+        "lunari":  "bifetude",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0323",
+        "lektion":  "3.3  Anfang, Mitte und Ende",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Zuerst öffnete ich die Tür.",
+        "lunari":  "Vusuvena totavila memekumo pibigola Vutohasi.",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0324",
+        "lektion":  "3.3  Anfang, Mitte und Ende",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Plötzlich hörte ich ein Geräusch.",
+        "lunari":  "Rovodiko gudovile memekumo lokuligo Dihibime.",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0325",
+        "lektion":  "3.3  Anfang, Mitte und Ende",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Zum Schluss waren alle glücklich.",
+        "lunari":  "Mekamego Kogifema ganogodu fatibehu fafalimo.",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0326",
+        "lektion":  "3.3  Anfang, Mitte und Ende",
+        "bereich":  "dialog",
+        "deutsch":  "Kind A: „Zuerst öffnete ich die Tür.“",
+        "lunari":  "Gubeviki MOLUSARU: „Vusuvena totavila memekumo pibigola Vutohasi.“",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0327",
+        "lektion":  "3.3  Anfang, Mitte und Ende",
+        "bereich":  "dialog",
+        "deutsch":  "Kind B: „Plötzlich hörte ich ein Geräusch.“",
+        "lunari":  "Gubeviki REREGEFO: „Rovodiko gudovile memekumo lokuligo Dihibime.“",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0328",
+        "lektion":  "3.3  Anfang, Mitte und Ende",
+        "bereich":  "lesetext",
+        "deutsch":  "Gestern erlebten Mia und Ben etwas zum Thema anfang, mitte und ende. Zuerst wussten sie nicht, was passieren würde. Dann entdeckten sie einen wichtigen Hinweis. Sie sprachen darüber und fanden gemeinsam eine Lösung. Am Abend erzählten sie ihren Freunden davon.",
+        "lunari":  "Ramukiva penanano Kanobete finiguga Vipagave dobevisu mekamego Menasuvu pivagolo, luhisesa finiguga fugivuko. Vusuvena turusifu runebedo tavituda, dosesaso naketune rerefipe. Musodita dumokiku runebedo bavudugi tulidiko Rimukapu. Runebedo fadihero mifafedo finiguga polipumu hefirite vetumene Bahamuho. Didanage Bekusapi babuvedo runebedo kitopuko Ralidahi mililavu.",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0329",
+        "lektion":  "3.4  Im Wald",
+        "bereich":  "wortschatz",
+        "deutsch":  "Wald",
+        "lunari":  "Lenesinu",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0330",
+        "lektion":  "3.4  Im Wald",
+        "bereich":  "wortschatz",
+        "deutsch":  "Weg",
+        "lunari":  "Buvofefi",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0331",
+        "lektion":  "3.4  Im Wald",
+        "bereich":  "wortschatz",
+        "deutsch":  "Baum",
+        "lunari":  "Sudutako",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0332",
+        "lektion":  "3.4  Im Wald",
+        "bereich":  "wortschatz",
+        "deutsch":  "Blatt",
+        "lunari":  "Repugedo",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0333",
+        "lektion":  "3.4  Im Wald",
+        "bereich":  "wortschatz",
+        "deutsch":  "Moos",
+        "lunari":  "Soporipa",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0334",
+        "lektion":  "3.4  Im Wald",
+        "bereich":  "wortschatz",
+        "deutsch":  "Bach",
+        "lunari":  "Dekihuve",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0335",
+        "lektion":  "3.4  Im Wald",
+        "bereich":  "wortschatz",
+        "deutsch":  "Wind",
+        "lunari":  "Dipuvihu",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0336",
+        "lektion":  "3.4  Im Wald",
+        "bereich":  "wortschatz",
+        "deutsch":  "Spur",
+        "lunari":  "Katabife",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0337",
+        "lektion":  "3.4  Im Wald",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Wir gingen durch den Wald.",
+        "lunari":  "Ramerini bitakote fogateha sadanepi Lenesinu.",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0338",
+        "lektion":  "3.4  Im Wald",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Neben dem Weg floss ein Bach.",
+        "lunari":  "Pokihovi lasenamo Buvofefi mikafoke lokuligo Dekihuve.",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0339",
+        "lektion":  "3.4  Im Wald",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Plötzlich entdeckten wir eine Spur.",
+        "lunari":  "Rovodiko dumokiku ramerini vetumene Katabife.",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0340",
+        "lektion":  "3.4  Im Wald",
+        "bereich":  "dialog",
+        "deutsch":  "Kind A: „Wir gingen durch den Wald.“",
+        "lunari":  "Gubeviki MOLUSARU: „Ramerini bitakote fogateha sadanepi Lenesinu.“",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0341",
+        "lektion":  "3.4  Im Wald",
+        "bereich":  "dialog",
+        "deutsch":  "Kind B: „Neben dem Weg floss ein Bach.“",
+        "lunari":  "Gubeviki REREGEFO: „Pokihovi lasenamo Buvofefi mikafoke lokuligo Dekihuve.“",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0342",
+        "lektion":  "3.4  Im Wald",
+        "bereich":  "lesetext",
+        "deutsch":  "Am Samstag liefen Mia und Ben in den Wald. Neben dem Weg fanden sie eine kleine Spur. Sie folgten ihr vorsichtig. Hinter einer Wurzel saß ein junger Vogel. Sie beobachteten ihn und gingen leise weiter.",
+        "lunari":  "Didanage Nidebodo vimafade Kanobete finiguga Vipagave kugasepa sadanepi Lenesinu. Pokihovi lasenamo Buvofefi polipumu runebedo vetumene tokedeke Katabife. Runebedo sipurove suroguni lakasure. Bohufeko felesohe Musariho tolaruro lokuligo kodifafe Hefuhudi. Runebedo lobigedo vohefuna finiguga bitakote pamikana letoposi.",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0343",
+        "lektion":  "3.5  Gefühle beschreiben",
+        "bereich":  "wortschatz",
+        "deutsch":  "Freude",
+        "lunari":  "Vunomapi",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0344",
+        "lektion":  "3.5  Gefühle beschreiben",
+        "bereich":  "wortschatz",
+        "deutsch":  "Angst",
+        "lunari":  "Pihatosu",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0345",
+        "lektion":  "3.5  Gefühle beschreiben",
+        "bereich":  "wortschatz",
+        "deutsch":  "Trauer",
+        "lunari":  "Dadetenu",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0346",
+        "lektion":  "3.5  Gefühle beschreiben",
+        "bereich":  "wortschatz",
+        "deutsch":  "Wut",
+        "lunari":  "Gilahefu",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0347",
+        "lektion":  "3.5  Gefühle beschreiben",
+        "bereich":  "wortschatz",
+        "deutsch":  "Hoffnung",
+        "lunari":  "Hosuvaha",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0348",
+        "lektion":  "3.5  Gefühle beschreiben",
+        "bereich":  "wortschatz",
+        "deutsch":  "Mut",
+        "lunari":  "Moruhoto",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0349",
+        "lektion":  "3.5  Gefühle beschreiben",
+        "bereich":  "wortschatz",
+        "deutsch":  "stolz",
+        "lunari":  "neninahe",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0350",
+        "lektion":  "3.5  Gefühle beschreiben",
+        "bereich":  "wortschatz",
+        "deutsch":  "geborgen",
+        "lunari":  "pagevoli",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0351",
+        "lektion":  "3.5  Gefühle beschreiben",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Ich war zuerst ängstlich.",
+        "lunari":  "Memekumo tibivuma vusuvena rilepebe.",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0352",
+        "lektion":  "3.5  Gefühle beschreiben",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Dann fühlte ich mich sicher.",
+        "lunari":  "Musodita takehuro memekumo lilaboda vusiberu.",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0353",
+        "lektion":  "3.5  Gefühle beschreiben",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Meine Freundin machte mir Mut.",
+        "lunari":  "Vanurepa Fanetamu konovama lunodera Moruhoto.",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0354",
+        "lektion":  "3.5  Gefühle beschreiben",
+        "bereich":  "dialog",
+        "deutsch":  "Kind A: „Ich war zuerst ängstlich.“",
+        "lunari":  "Gubeviki MOLUSARU: „Memekumo tibivuma vusuvena rilepebe.“",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0355",
+        "lektion":  "3.5  Gefühle beschreiben",
+        "bereich":  "dialog",
+        "deutsch":  "Kind B: „Dann fühlte ich mich sicher.“",
+        "lunari":  "Gubeviki REREGEFO: „Musodita takehuro memekumo lilaboda vusiberu.“",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0356",
+        "lektion":  "3.5  Gefühle beschreiben",
+        "bereich":  "lesetext",
+        "deutsch":  "Gestern erlebten Mia und Ben etwas zum Thema gefühle beschreiben. Zuerst wussten sie nicht, was passieren würde. Dann entdeckten sie einen wichtigen Hinweis. Sie sprachen darüber und fanden gemeinsam eine Lösung. Am Abend erzählten sie ihren Freunden davon.",
+        "lunari":  "Ramukiva penanano Kanobete finiguga Vipagave dobevisu mekamego Menasuvu besigapu vivogofo. Vusuvena turusifu runebedo tavituda, dosesaso naketune rerefipe. Musodita dumokiku runebedo bavudugi tulidiko Rimukapu. Runebedo fadihero mifafedo finiguga polipumu hefirite vetumene Bahamuho. Didanage Bekusapi babuvedo runebedo kitopuko Ralidahi mililavu.",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0357",
+        "lektion":  "3.6  Dialoge in Geschichten",
+        "bereich":  "wortschatz",
+        "deutsch":  "sagen",
+        "lunari":  "nakigupa",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0358",
+        "lektion":  "3.6  Dialoge in Geschichten",
+        "bereich":  "wortschatz",
+        "deutsch":  "fragen",
+        "lunari":  "sasutadi",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0359",
+        "lektion":  "3.6  Dialoge in Geschichten",
+        "bereich":  "wortschatz",
+        "deutsch":  "flüstern",
+        "lunari":  "vakedoko",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0360",
+        "lektion":  "3.6  Dialoge in Geschichten",
+        "bereich":  "wortschatz",
+        "deutsch":  "rufen",
+        "lunari":  "kusolalu",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0361",
+        "lektion":  "3.6  Dialoge in Geschichten",
+        "bereich":  "wortschatz",
+        "deutsch":  "antworten",
+        "lunari":  "gelipuma",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0362",
+        "lektion":  "3.6  Dialoge in Geschichten",
+        "bereich":  "wortschatz",
+        "deutsch":  "lachen",
+        "lunari":  "tihisodo",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0363",
+        "lektion":  "3.6  Dialoge in Geschichten",
+        "bereich":  "wortschatz",
+        "deutsch":  "schweigen",
+        "lunari":  "mehonoga",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0364",
+        "lektion":  "3.6  Dialoge in Geschichten",
+        "bereich":  "wortschatz",
+        "deutsch":  "zuhören",
+        "lunari":  "tileseto",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0365",
+        "lektion":  "3.6  Dialoge in Geschichten",
+        "bereich":  "beispielsatz",
+        "deutsch":  "„Kommst du mit?“, fragte Mia.",
+        "lunari":  "„Vimiviba gavogedu ligipube?“, disebumu Kanobete.",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0366",
+        "lektion":  "3.6  Dialoge in Geschichten",
+        "bereich":  "beispielsatz",
+        "deutsch":  "„Ja, sofort!“, antwortete Ben.",
+        "lunari":  "„Lifopasa, bedibase!“, difihebo Vipagave.",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0367",
+        "lektion":  "3.6  Dialoge in Geschichten",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Dann lachten beide.",
+        "lunari":  "Musodita nudidida muripubo.",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0368",
+        "lektion":  "3.6  Dialoge in Geschichten",
+        "bereich":  "dialog",
+        "deutsch":  "Kind A: „„Kommst du mit?“, fragte Mia.“",
+        "lunari":  "Gubeviki MOLUSARU: „„Vimiviba gavogedu ligipube?“, disebumu Kanobete.“",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0369",
+        "lektion":  "3.6  Dialoge in Geschichten",
+        "bereich":  "dialog",
+        "deutsch":  "Kind B: „„Ja, sofort!“, antwortete Ben.“",
+        "lunari":  "Gubeviki REREGEFO: „„Lifopasa, bedibase!“, difihebo Vipagave.“",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0370",
+        "lektion":  "3.6  Dialoge in Geschichten",
+        "bereich":  "lesetext",
+        "deutsch":  "„Warum bist du so still?“, fragte Lina. „Ich habe etwas verloren“, antwortete Tom. „Was denn?“ „Meinen Schlüssel.“ Lina lächelte. „Dann suchen wir ihn zusammen.“",
+        "lunari":  "„Tudigeke dalahepu gavogedu sekakevi kasipimo?“, disebumu Gidogope. „Memekumo fonulibu dobevisu gusovano“, difihebo Munupeko. „Dosesaso dibemita?“ „Rasapeva Labigige.“ Gidogope vopefoni. „Musodita vipamodu ramerini vohefuna kusopato.“",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0371",
+        "lektion":  "3.7  Eine Nachricht schreiben",
+        "bereich":  "wortschatz",
+        "deutsch":  "Nachricht",
+        "lunari":  "Nagopaga",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0372",
+        "lektion":  "3.7  Eine Nachricht schreiben",
+        "bereich":  "wortschatz",
+        "deutsch":  "Brief",
+        "lunari":  "Rupukero",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0373",
+        "lektion":  "3.7  Eine Nachricht schreiben",
+        "bereich":  "wortschatz",
+        "deutsch":  "Empfänger",
+        "lunari":  "Kivofofi",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0374",
+        "lektion":  "3.7  Eine Nachricht schreiben",
+        "bereich":  "wortschatz",
+        "deutsch":  "Absender",
+        "lunari":  "Lebisuka",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0375",
+        "lektion":  "3.7  Eine Nachricht schreiben",
+        "bereich":  "wortschatz",
+        "deutsch":  "Grüße",
+        "lunari":  "Seposufe",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0376",
+        "lektion":  "3.7  Eine Nachricht schreiben",
+        "bereich":  "wortschatz",
+        "deutsch":  "treffen",
+        "lunari":  "ropalume",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0377",
+        "lektion":  "3.7  Eine Nachricht schreiben",
+        "bereich":  "wortschatz",
+        "deutsch":  "Uhrzeit",
+        "lunari":  "Givekalo",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0378",
+        "lektion":  "3.7  Eine Nachricht schreiben",
+        "bereich":  "wortschatz",
+        "deutsch":  "Ort",
+        "lunari":  "Gubiferu",
+        "batch":  3,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0379",
+        "lektion":  "3.7  Eine Nachricht schreiben",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Hallo Ben, treffen wir uns morgen?",
+        "lunari":  "Segameka Vipagave, ropalume ramerini mevabute vuvudite?",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0380",
+        "lektion":  "3.7  Eine Nachricht schreiben",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Ich warte um drei Uhr am Park.",
+        "lunari":  "Memekumo vufevore fivukivo gehakuhi Hisegupa didanage Losuheto.",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0381",
+        "lektion":  "3.7  Eine Nachricht schreiben",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Viele Grüße, Mia.",
+        "lunari":  "Menukona Seposufe, Kanobete.",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0382",
+        "lektion":  "3.7  Eine Nachricht schreiben",
+        "bereich":  "dialog",
+        "deutsch":  "Kind A: „Hallo Ben, treffen wir uns morgen?“",
+        "lunari":  "Gubeviki MOLUSARU: „Segameka Vipagave, ropalume ramerini mevabute vuvudite?“",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0383",
+        "lektion":  "3.7  Eine Nachricht schreiben",
+        "bereich":  "dialog",
+        "deutsch":  "Kind B: „Ich warte um drei Uhr am Park.“",
+        "lunari":  "Gubeviki REREGEFO: „Memekumo vufevore fivukivo gehakuhi Hisegupa didanage Losuheto.“",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0384",
+        "lektion":  "3.7  Eine Nachricht schreiben",
+        "bereich":  "lesetext",
+        "deutsch":  "Gestern erlebten Mia und Ben etwas zum Thema eine nachricht schreiben. Zuerst wussten sie nicht, was passieren würde. Dann entdeckten sie einen wichtigen Hinweis. Sie sprachen darüber und fanden gemeinsam eine Lösung. Am Abend erzählten sie ihren Freunden davon.",
+        "lunari":  "Ramukiva penanano Kanobete finiguga Vipagave dobevisu mekamego Menasuvu vetumene nagopaga minokoge. Vusuvena turusifu runebedo tavituda, dosesaso naketune rerefipe. Musodita dumokiku runebedo bavudugi tulidiko Rimukapu. Runebedo fadihero mifafedo finiguga polipumu hefirite vetumene Bahamuho. Didanage Bekusapi babuvedo runebedo kitopuko Ralidahi mililavu.",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0385",
+        "lektion":  "3.8  Lange Sätze verstehen",
+        "bereich":  "wortschatz",
+        "deutsch":  "wenn",
+        "lunari":  "poputuru",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0386",
+        "lektion":  "3.8  Lange Sätze verstehen",
+        "bereich":  "wortschatz",
+        "deutsch":  "obwohl",
+        "lunari":  "hurisala",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0387",
+        "lektion":  "3.8  Lange Sätze verstehen",
+        "bereich":  "wortschatz",
+        "deutsch":  "während",
+        "lunari":  "tadukilo",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0388",
+        "lektion":  "3.8  Lange Sätze verstehen",
+        "bereich":  "wortschatz",
+        "deutsch":  "nachdem",
+        "lunari":  "viveraka",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0389",
+        "lektion":  "3.8  Lange Sätze verstehen",
+        "bereich":  "wortschatz",
+        "deutsch":  "bevor",
+        "lunari":  "nuhusuli",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0390",
+        "lektion":  "3.8  Lange Sätze verstehen",
+        "bereich":  "wortschatz",
+        "deutsch":  "damit",
+        "lunari":  "nevalepo",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0391",
+        "lektion":  "3.8  Lange Sätze verstehen",
+        "bereich":  "wortschatz",
+        "deutsch":  "deswegen",
+        "lunari":  "pobaribe",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0392",
+        "lektion":  "3.8  Lange Sätze verstehen",
+        "bereich":  "wortschatz",
+        "deutsch":  "trotzdem",
+        "lunari":  "ridogavu",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0393",
+        "lektion":  "3.8  Lange Sätze verstehen",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Wenn es regnet, bleiben wir drinnen.",
+        "lunari":  "Poputuru sebevife romutunu, botifuge ramerini fohololi.",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0394",
+        "lektion":  "3.8  Lange Sätze verstehen",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Obwohl sie müde war, las sie weiter.",
+        "lunari":  "Hurisala runebedo ludivife tibivuma, gohafule runebedo letoposi.",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0395",
+        "lektion":  "3.8  Lange Sätze verstehen",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Nachdem wir gegessen hatten, spielten wir.",
+        "lunari":  "Viveraka ramerini kunupepo visisusi, vofufovo ramerini.",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0396",
+        "lektion":  "3.8  Lange Sätze verstehen",
+        "bereich":  "dialog",
+        "deutsch":  "Kind A: „Wenn es regnet, bleiben wir drinnen.“",
+        "lunari":  "Gubeviki MOLUSARU: „Poputuru sebevife romutunu, botifuge ramerini fohololi.“",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0397",
+        "lektion":  "3.8  Lange Sätze verstehen",
+        "bereich":  "dialog",
+        "deutsch":  "Kind B: „Obwohl sie müde war, las sie weiter.“",
+        "lunari":  "Gubeviki REREGEFO: „Hurisala runebedo ludivife tibivuma, gohafule runebedo letoposi.“",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0398",
+        "lektion":  "3.8  Lange Sätze verstehen",
+        "bereich":  "lesetext",
+        "deutsch":  "Gestern erlebten Mia und Ben etwas zum Thema lange sätze verstehen. Zuerst wussten sie nicht, was passieren würde. Dann entdeckten sie einen wichtigen Hinweis. Sie sprachen darüber und fanden gemeinsam eine Lösung. Am Abend erzählten sie ihren Freunden davon.",
+        "lunari":  "Ramukiva penanano Kanobete finiguga Vipagave dobevisu mekamego Menasuvu deronami kehoredu vapasisi. Vusuvena turusifu runebedo tavituda, dosesaso naketune rerefipe. Musodita dumokiku runebedo bavudugi tulidiko Rimukapu. Runebedo fadihero mifafedo finiguga polipumu hefirite vetumene Bahamuho. Didanage Bekusapi babuvedo runebedo kitopuko Ralidahi mililavu.",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0399",
+        "lektion":  "3.9  Eine Geschichte überarbeiten",
+        "bereich":  "wortschatz",
+        "deutsch":  "Überschrift",
+        "lunari":  "mosidutu",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0400",
+        "lektion":  "3.9  Eine Geschichte überarbeiten",
+        "bereich":  "wortschatz",
+        "deutsch":  "Absatz",
+        "lunari":  "Tiroruso",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0401",
+        "lektion":  "3.9  Eine Geschichte überarbeiten",
+        "bereich":  "wortschatz",
+        "deutsch":  "Reihenfolge",
+        "lunari":  "Daherovi",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0402",
+        "lektion":  "3.9  Eine Geschichte überarbeiten",
+        "bereich":  "wortschatz",
+        "deutsch":  "Beschreibung",
+        "lunari":  "Vamolene",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0403",
+        "lektion":  "3.9  Eine Geschichte überarbeiten",
+        "bereich":  "wortschatz",
+        "deutsch":  "Fehler",
+        "lunari":  "Ninalara",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0404",
+        "lektion":  "3.9  Eine Geschichte überarbeiten",
+        "bereich":  "wortschatz",
+        "deutsch":  "überarbeiten",
+        "lunari":  "sohesigo",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0405",
+        "lektion":  "3.9  Eine Geschichte überarbeiten",
+        "bereich":  "wortschatz",
+        "deutsch":  "deutlich",
+        "lunari":  "vimaruko",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0406",
+        "lektion":  "3.9  Eine Geschichte überarbeiten",
+        "bereich":  "wortschatz",
+        "deutsch":  "spannend",
+        "lunari":  "kakegutu",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0407",
+        "lektion":  "3.9  Eine Geschichte überarbeiten",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Der Weg war dunkel.",
+        "lunari":  "Bahosige Buvofefi tibivuma lasukove.",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0408",
+        "lektion":  "3.9  Eine Geschichte überarbeiten",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Hinter dem Baum bewegte sich etwas.",
+        "lunari":  "Bohufeko lasenamo Sudutako mifukube kufofalu dobevisu.",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0409",
+        "lektion":  "3.9  Eine Geschichte überarbeiten",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Ich blieb stehen und lauschte.",
+        "lunari":  "Memekumo fafimehu pukofeka finiguga gahibeke.",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0410",
+        "lektion":  "3.9  Eine Geschichte überarbeiten",
+        "bereich":  "dialog",
+        "deutsch":  "Kind A: „Der Weg war dunkel.“",
+        "lunari":  "Gubeviki MOLUSARU: „Bahosige Buvofefi tibivuma lasukove.“",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0411",
+        "lektion":  "3.9  Eine Geschichte überarbeiten",
+        "bereich":  "dialog",
+        "deutsch":  "Kind B: „Hinter dem Baum bewegte sich etwas.“",
+        "lunari":  "Gubeviki REREGEFO: „Bohufeko lasenamo Sudutako mifukube kufofalu dobevisu.“",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0412",
+        "lektion":  "3.9  Eine Geschichte überarbeiten",
+        "bereich":  "lesetext",
+        "deutsch":  "Gestern erlebten Mia und Ben etwas zum Thema eine geschichte überarbeiten. Zuerst wussten sie nicht, was passieren würde. Dann entdeckten sie einen wichtigen Hinweis. Sie sprachen darüber und fanden gemeinsam eine Lösung. Am Abend erzählten sie ihren Freunden davon.",
+        "lunari":  "Ramukiva penanano Kanobete finiguga Vipagave dobevisu mekamego Menasuvu vetumene bivohilu sohesigo. Vusuvena turusifu runebedo tavituda, dosesaso naketune rerefipe. Musodita dumokiku runebedo bavudugi tulidiko Rimukapu. Runebedo fadihero mifafedo finiguga polipumu hefirite vetumene Bahamuho. Didanage Bekusapi babuvedo runebedo kitopuko Ralidahi mililavu.",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0413",
+        "lektion":  "3.9  Eine Geschichte überarbeiten",
+        "bereich":  "wortschatz",
+        "deutsch":  "Hauptfigur",
+        "lunari":  "Gusebise",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0414",
+        "lektion":  "3.9  Eine Geschichte überarbeiten",
+        "bereich":  "wortschatz",
+        "deutsch":  "Schauplatz",
+        "lunari":  "Nutosasu",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0415",
+        "lektion":  "3.9  Eine Geschichte überarbeiten",
+        "bereich":  "wortschatz",
+        "deutsch":  "Problem",
+        "lunari":  "Pitugima",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0416",
+        "lektion":  "3.9  Eine Geschichte überarbeiten",
+        "bereich":  "wortschatz",
+        "deutsch":  "Lösung",
+        "lunari":  "Bahamuho",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0417",
+        "lektion":  "3.9  Eine Geschichte überarbeiten",
+        "bereich":  "wortschatz",
+        "deutsch":  "Abenteuer",
+        "lunari":  "Vokanuve",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0418",
+        "lektion":  "3.9  Eine Geschichte überarbeiten",
+        "bereich":  "wortschatz",
+        "deutsch":  "Begegnung",
+        "lunari":  "Norobeti",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0419",
+        "lektion":  "3.9  Eine Geschichte überarbeiten",
+        "bereich":  "wortschatz",
+        "deutsch":  "Ende",
+        "lunari":  "Fugivuko",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0420",
+        "lektion":  "3.9  Eine Geschichte überarbeiten",
+        "bereich":  "wortschatz",
+        "deutsch":  "Erzählung",
+        "lunari":  "Tusakema",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0421",
+        "lektion":  "3.9  Eine Geschichte überarbeiten",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Am Morgen fand Lina einen Schlüssel.",
+        "lunari":  "Didanage Vuvudite nudososu Gidogope bavudugi Labigige.",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0422",
+        "lektion":  "3.9  Eine Geschichte überarbeiten",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Sie wusste nicht, welche Tür er öffnete.",
+        "lunari":  "Runebedo rafatulu tavituda, talokuba Vutohasi vomikoga totavila.",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0423",
+        "lektion":  "3.9  Eine Geschichte überarbeiten",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Am Abend hatte sie das Rätsel gelöst.",
+        "lunari":  "Didanage Bekusapi fagotiko runebedo negigivo Dugunuka fisemili.",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0424",
+        "lektion":  "3.9  Eine Geschichte überarbeiten",
+        "bereich":  "dialog",
+        "deutsch":  "Kind A: „Am Morgen fand Lina einen Schlüssel.“",
+        "lunari":  "Gubeviki MOLUSARU: „Didanage Vuvudite nudososu Gidogope bavudugi Labigige.“",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0425",
+        "lektion":  "3.9  Eine Geschichte überarbeiten",
+        "bereich":  "dialog",
+        "deutsch":  "Kind B: „Sie wusste nicht, welche Tür er öffnete.“",
+        "lunari":  "Gubeviki REREGEFO: „Runebedo rafatulu tavituda, talokuba Vutohasi vomikoga totavila.“",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0426",
+        "lektion":  "3.9  Eine Geschichte überarbeiten",
+        "bereich":  "lesetext",
+        "deutsch":  "Gestern erlebten Mia und Ben etwas zum Thema meine eigene erzählung. Zuerst wussten sie nicht, was passieren würde. Dann entdeckten sie einen wichtigen Hinweis. Sie sprachen darüber und fanden gemeinsam eine Lösung. Am Abend erzählten sie ihren Freunden davon.",
+        "lunari":  "Ramukiva penanano Kanobete finiguga Vipagave dobevisu mekamego Menasuvu vanurepa bevakevo tusakema. Vusuvena turusifu runebedo tavituda, dosesaso naketune rerefipe. Musodita dumokiku runebedo bavudugi tulidiko Rimukapu. Runebedo fadihero mifafedo finiguga polipumu hefirite vetumene Bahamuho. Didanage Bekusapi babuvedo runebedo kitopuko Ralidahi mililavu.",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0427",
+        "lektion":  "4.1  Ich sage meine Meinung",
+        "bereich":  "wortschatz",
+        "deutsch":  "Meinung",
+        "lunari":  "Nidorida",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0428",
+        "lektion":  "4.1  Ich sage meine Meinung",
+        "bereich":  "wortschatz",
+        "deutsch":  "denken",
+        "lunari":  "letosilo",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0429",
+        "lektion":  "4.1  Ich sage meine Meinung",
+        "bereich":  "wortschatz",
+        "deutsch":  "glauben",
+        "lunari":  "taharuga",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0430",
+        "lektion":  "4.1  Ich sage meine Meinung",
+        "bereich":  "wortschatz",
+        "deutsch":  "finden",
+        "lunari":  "dugalaba",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0431",
+        "lektion":  "4.1  Ich sage meine Meinung",
+        "bereich":  "wortschatz",
+        "deutsch":  "wichtig",
+        "lunari":  "nehitani",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0432",
+        "lektion":  "4.1  Ich sage meine Meinung",
+        "bereich":  "wortschatz",
+        "deutsch":  "richtig",
+        "lunari":  "meboponi",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0433",
+        "lektion":  "4.1  Ich sage meine Meinung",
+        "bereich":  "wortschatz",
+        "deutsch":  "anders",
+        "lunari":  "dedurubo",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0434",
+        "lektion":  "4.1  Ich sage meine Meinung",
+        "bereich":  "wortschatz",
+        "deutsch":  "begründen",
+        "lunari":  "malisate",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0435",
+        "lektion":  "4.1  Ich sage meine Meinung",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Ich finde Lesen wichtig.",
+        "lunari":  "Memekumo redanufo Fisavado nehitani.",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0436",
+        "lektion":  "4.1  Ich sage meine Meinung",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Ich denke anders darüber.",
+        "lunari":  "Memekumo vifaditi dedurubo mifafedo.",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0437",
+        "lektion":  "4.1  Ich sage meine Meinung",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Ich begründe meine Meinung mit einem Beispiel.",
+        "lunari":  "Memekumo fihosemo vanurepa Nidorida ligipube digilepe Kopuhose.",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0438",
+        "lektion":  "4.1  Ich sage meine Meinung",
+        "bereich":  "dialog",
+        "deutsch":  "Kind A: „Ich finde Lesen wichtig.“",
+        "lunari":  "Gubeviki MOLUSARU: „Memekumo redanufo Fisavado nehitani.“",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0439",
+        "lektion":  "4.1  Ich sage meine Meinung",
+        "bereich":  "dialog",
+        "deutsch":  "Kind B: „Ich denke anders darüber.“",
+        "lunari":  "Gubeviki REREGEFO: „Memekumo vifaditi dedurubo mifafedo.“",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0440",
+        "lektion":  "4.1  Ich sage meine Meinung",
+        "bereich":  "lesetext",
+        "deutsch":  "Unsere Klasse arbeitet am Thema ich sage meine meinung. Zunächst sammelt jedes Kind eigene Beobachtungen. Danach werden die Vorschläge verglichen und Fragen gestellt. Einige Antworten sind sicher, andere müssen wir noch prüfen. Schließlich schreiben wir auf, was wir herausgefunden haben.",
+        "lunari":  "Fokahava Kakituvo satokebi didanage Menasuvu memekumo vokofoge vanurepa nidorida. Fogohave neratese kelibuso Gubeviki bevakevo Velerosa. Tufofovo bulubapa pibigola Daletome fibipaho finiguga Sasutadi rideheva. Mofinibi Gelipuma vimisogu vusiberu, fasenuge vimebopo ramerini hukekegi pilatodo. Doferahi minokoge ramerini modinona, dosesaso ramerini hukogeri puhusuhe.",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0441",
+        "lektion":  "4.2  Wir lösen ein Problem",
+        "bereich":  "wortschatz",
+        "deutsch":  "Problem",
+        "lunari":  "Pitugima",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0442",
+        "lektion":  "4.2  Wir lösen ein Problem",
+        "bereich":  "wortschatz",
+        "deutsch":  "Lösung",
+        "lunari":  "Bahamuho",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0443",
+        "lektion":  "4.2  Wir lösen ein Problem",
+        "bereich":  "wortschatz",
+        "deutsch":  "Vorschlag",
+        "lunari":  "Sepohihu",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0444",
+        "lektion":  "4.2  Wir lösen ein Problem",
+        "bereich":  "wortschatz",
+        "deutsch":  "versuchen",
+        "lunari":  "fesurike",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0445",
+        "lektion":  "4.2  Wir lösen ein Problem",
+        "bereich":  "wortschatz",
+        "deutsch":  "entscheiden",
+        "lunari":  "misigedo",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0446",
+        "lektion":  "4.2  Wir lösen ein Problem",
+        "bereich":  "wortschatz",
+        "deutsch":  "gemeinsam",
+        "lunari":  "hefirite",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0447",
+        "lektion":  "4.2  Wir lösen ein Problem",
+        "bereich":  "wortschatz",
+        "deutsch":  "fair",
+        "lunari":  "tomanore",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0448",
+        "lektion":  "4.2  Wir lösen ein Problem",
+        "bereich":  "wortschatz",
+        "deutsch":  "verantwortlich",
+        "lunari":  "gegunube",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0449",
+        "lektion":  "4.2  Wir lösen ein Problem",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Wir haben ein Problem.",
+        "lunari":  "Ramerini puhusuhe lokuligo Pitugima.",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0450",
+        "lektion":  "4.2  Wir lösen ein Problem",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Ich schlage eine andere Lösung vor.",
+        "lunari":  "Memekumo tovitoma vetumene fasenuge Bahamuho bosuhabe.",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0451",
+        "lektion":  "4.2  Wir lösen ein Problem",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Lasst uns gemeinsam entscheiden.",
+        "lunari":  "Famidumu mevabute hefirite misigedo.",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0452",
+        "lektion":  "4.2  Wir lösen ein Problem",
+        "bereich":  "dialog",
+        "deutsch":  "Kind A: „Wir haben ein Problem.“",
+        "lunari":  "Gubeviki MOLUSARU: „Ramerini puhusuhe lokuligo Pitugima.“",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0453",
+        "lektion":  "4.2  Wir lösen ein Problem",
+        "bereich":  "dialog",
+        "deutsch":  "Kind B: „Ich schlage eine andere Lösung vor.“",
+        "lunari":  "Gubeviki REREGEFO: „Memekumo tovitoma vetumene fasenuge Bahamuho bosuhabe.“",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0454",
+        "lektion":  "4.2  Wir lösen ein Problem",
+        "bereich":  "lesetext",
+        "deutsch":  "Die Klasse möchte den Pausenhof verändern. Einige Kinder wünschen sich mehr Bäume, andere eine Spielecke. Zuerst sammelt die Gruppe alle Vorschläge. Danach besprechen die Kinder, was möglich ist. Schließlich einigen sie sich auf einen gemeinsamen Plan.",
+        "lunari":  "Pibigola Kakituvo dutukiha sadanepi Kepalipi demadomi. Mofinibi Risaluvi gadubete kufofalu lilorusa Salusone, fasenuge vetumene Nepagire. Vusuvena neratese pibigola Sofunolo fatibehu Daletome. Tufofovo babemata pibigola Risaluvi, dosesaso levafaro gukikehi. Doferahi siverufo runebedo kufofalu modinona bavudugi nudadehe Foholusa.",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0455",
+        "lektion":  "4.3  Wünsche und Möglichkeiten",
+        "bereich":  "wortschatz",
+        "deutsch":  "wenn",
+        "lunari":  "poputuru",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0456",
+        "lektion":  "4.3  Wünsche und Möglichkeiten",
+        "bereich":  "wortschatz",
+        "deutsch":  "würde",
+        "lunari":  "rerefipe",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0457",
+        "lektion":  "4.3  Wünsche und Möglichkeiten",
+        "bereich":  "wortschatz",
+        "deutsch":  "könnte",
+        "lunari":  "pipagana",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0458",
+        "lektion":  "4.3  Wünsche und Möglichkeiten",
+        "bereich":  "wortschatz",
+        "deutsch":  "vielleicht",
+        "lunari":  "geborubu",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0459",
+        "lektion":  "4.3  Wünsche und Möglichkeiten",
+        "bereich":  "wortschatz",
+        "deutsch":  "hoffen",
+        "lunari":  "metarumu",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0460",
+        "lektion":  "4.3  Wünsche und Möglichkeiten",
+        "bereich":  "wortschatz",
+        "deutsch":  "wünschen",
+        "lunari":  "gadubete",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0461",
+        "lektion":  "4.3  Wünsche und Möglichkeiten",
+        "bereich":  "wortschatz",
+        "deutsch":  "möglich",
+        "lunari":  "levafaro",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0462",
+        "lektion":  "4.3  Wünsche und Möglichkeiten",
+        "bereich":  "wortschatz",
+        "deutsch":  "unmöglich",
+        "lunari":  "takasahi",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0463",
+        "lektion":  "4.3  Wünsche und Möglichkeiten",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Wenn ich fliegen könnte, würde ich die Berge sehen.",
+        "lunari":  "Poputuru memekumo vunamoka pipagana, rerefipe memekumo pibigola Dumatibe sidetumu.",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0464",
+        "lektion":  "4.3  Wünsche und Möglichkeiten",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Ich würde gern eine neue Stadt besuchen.",
+        "lunari":  "Memekumo rerefipe firorahe vetumene givosure Hosogihu dufososi.",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0465",
+        "lektion":  "4.3  Wünsche und Möglichkeiten",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Vielleicht gelingt es uns morgen.",
+        "lunari":  "Geborubu lokekeve sebevife mevabute vuvudite.",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0466",
+        "lektion":  "4.3  Wünsche und Möglichkeiten",
+        "bereich":  "dialog",
+        "deutsch":  "Kind A: „Wenn ich fliegen könnte, würde ich die Berge sehen.“",
+        "lunari":  "Gubeviki MOLUSARU: „Poputuru memekumo vunamoka pipagana, rerefipe memekumo pibigola Dumatibe sidetumu.“",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0467",
+        "lektion":  "4.3  Wünsche und Möglichkeiten",
+        "bereich":  "dialog",
+        "deutsch":  "Kind B: „Ich würde gern eine neue Stadt besuchen.“",
+        "lunari":  "Gubeviki REREGEFO: „Memekumo rerefipe firorahe vetumene givosure Hosogihu dufososi.“",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0468",
+        "lektion":  "4.3  Wünsche und Möglichkeiten",
+        "bereich":  "lesetext",
+        "deutsch":  "Unsere Klasse arbeitet am Thema wünsche und möglichkeiten. Zunächst sammelt jedes Kind eigene Beobachtungen. Danach werden die Vorschläge verglichen und Fragen gestellt. Einige Antworten sind sicher, andere müssen wir noch prüfen. Schließlich schreiben wir auf, was wir herausgefunden haben.",
+        "lunari":  "Fokahava Kakituvo satokebi didanage Menasuvu rononudu finiguga botagimu. Fogohave neratese kelibuso Gubeviki bevakevo Velerosa. Tufofovo bulubapa pibigola Daletome fibipaho finiguga Sasutadi rideheva. Mofinibi Gelipuma vimisogu vusiberu, fasenuge vimebopo ramerini hukekegi pilatodo. Doferahi minokoge ramerini modinona, dosesaso ramerini hukogeri puhusuhe.",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0469",
+        "lektion":  "4.4  Die Welt erklären",
+        "bereich":  "wortschatz",
+        "deutsch":  "Ursache",
+        "lunari":  "Tudalova",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0470",
+        "lektion":  "4.4  Die Welt erklären",
+        "bereich":  "wortschatz",
+        "deutsch":  "Wirkung",
+        "lunari":  "Dolototi",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0471",
+        "lektion":  "4.4  Die Welt erklären",
+        "bereich":  "wortschatz",
+        "deutsch":  "weil",
+        "lunari":  "devemibo",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0472",
+        "lektion":  "4.4  Die Welt erklären",
+        "bereich":  "wortschatz",
+        "deutsch":  "deshalb",
+        "lunari":  "bifetude",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0473",
+        "lektion":  "4.4  Die Welt erklären",
+        "bereich":  "wortschatz",
+        "deutsch":  "dadurch",
+        "lunari":  "balesigo",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0474",
+        "lektion":  "4.4  Die Welt erklären",
+        "bereich":  "wortschatz",
+        "deutsch":  "beobachten",
+        "lunari":  "ruluside",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0475",
+        "lektion":  "4.4  Die Welt erklären",
+        "bereich":  "wortschatz",
+        "deutsch":  "vergleichen",
+        "lunari":  "nonuvopo",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0476",
+        "lektion":  "4.4  Die Welt erklären",
+        "bereich":  "wortschatz",
+        "deutsch":  "Ergebnis",
+        "lunari":  "Mohigado",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0477",
+        "lektion":  "4.4  Die Welt erklären",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Die Pflanze wächst, weil sie Licht bekommt.",
+        "lunari":  "Pibigola Kedobudu nurulunu, devemibo runebedo Kiberife livifafu.",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0478",
+        "lektion":  "4.4  Die Welt erklären",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Es regnete stark, deshalb stieg der Bach.",
+        "lunari":  "Sebevife verulilo sudelegu, bifetude gapehoku bahosige Dekihuve.",
+        "batch":  4,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0479",
+        "lektion":  "4.4  Die Welt erklären",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Wir vergleichen unsere Beobachtungen.",
+        "lunari":  "Ramerini nonuvopo fokahava Velerosa.",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0480",
+        "lektion":  "4.4  Die Welt erklären",
+        "bereich":  "dialog",
+        "deutsch":  "Kind A: „Die Pflanze wächst, weil sie Licht bekommt.“",
+        "lunari":  "Gubeviki MOLUSARU: „Pibigola Kedobudu nurulunu, devemibo runebedo Kiberife livifafu.“",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0481",
+        "lektion":  "4.4  Die Welt erklären",
+        "bereich":  "dialog",
+        "deutsch":  "Kind B: „Es regnete stark, deshalb stieg der Bach.“",
+        "lunari":  "Gubeviki REREGEFO: „Sebevife verulilo sudelegu, bifetude gapehoku bahosige Dekihuve.“",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0482",
+        "lektion":  "4.4  Die Welt erklären",
+        "bereich":  "lesetext",
+        "deutsch":  "Unsere Klasse arbeitet am Thema die welt erklären. Zunächst sammelt jedes Kind eigene Beobachtungen. Danach werden die Vorschläge verglichen und Fragen gestellt. Einige Antworten sind sicher, andere müssen wir noch prüfen. Schließlich schreiben wir auf, was wir herausgefunden haben.",
+        "lunari":  "Fokahava Kakituvo satokebi didanage Menasuvu pibigola kesuriri kaverihu. Fogohave neratese kelibuso Gubeviki bevakevo Velerosa. Tufofovo bulubapa pibigola Daletome fibipaho finiguga Sasutadi rideheva. Mofinibi Gelipuma vimisogu vusiberu, fasenuge vimebopo ramerini hukekegi pilatodo. Doferahi minokoge ramerini modinona, dosesaso ramerini hukogeri puhusuhe.",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0483",
+        "lektion":  "4.5  Ein Interview führen",
+        "bereich":  "wortschatz",
+        "deutsch":  "Interview",
+        "lunari":  "Fuguhodu",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0484",
+        "lektion":  "4.5  Ein Interview führen",
+        "bereich":  "wortschatz",
+        "deutsch":  "Thema",
+        "lunari":  "Menasuvu",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0485",
+        "lektion":  "4.5  Ein Interview führen",
+        "bereich":  "wortschatz",
+        "deutsch":  "Frage",
+        "lunari":  "Kahevibo",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0486",
+        "lektion":  "4.5  Ein Interview führen",
+        "bereich":  "wortschatz",
+        "deutsch":  "Antwort",
+        "lunari":  "Tepipobu",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0487",
+        "lektion":  "4.5  Ein Interview führen",
+        "bereich":  "wortschatz",
+        "deutsch":  "nachfragen",
+        "lunari":  "fupomide",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0488",
+        "lektion":  "4.5  Ein Interview führen",
+        "bereich":  "wortschatz",
+        "deutsch":  "berichten",
+        "lunari":  "rafopota",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0489",
+        "lektion":  "4.5  Ein Interview führen",
+        "bereich":  "wortschatz",
+        "deutsch":  "zuhören",
+        "lunari":  "tileseto",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0490",
+        "lektion":  "4.5  Ein Interview führen",
+        "bereich":  "wortschatz",
+        "deutsch":  "zusammenfassen",
+        "lunari":  "pisohule",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0491",
+        "lektion":  "4.5  Ein Interview führen",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Was gefällt dir an unserer Schule?",
+        "lunari":  "Dosesaso valosiki tolimohe fologuse napagohi Lifatisu?",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0492",
+        "lektion":  "4.5  Ein Interview führen",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Was würdest du gern verändern?",
+        "lunari":  "Dosesaso vafumeru gavogedu firorahe demadomi?",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0493",
+        "lektion":  "4.5  Ein Interview führen",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Vielen Dank für das Gespräch.",
+        "lunari":  "Nosoradi Buninenu rulunoho negigivo Kuvutihi.",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0494",
+        "lektion":  "4.5  Ein Interview führen",
+        "bereich":  "dialog",
+        "deutsch":  "Kind A: „Was gefällt dir an unserer Schule?“",
+        "lunari":  "Gubeviki MOLUSARU: „Dosesaso valosiki tolimohe fologuse napagohi Lifatisu?“",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0495",
+        "lektion":  "4.5  Ein Interview führen",
+        "bereich":  "dialog",
+        "deutsch":  "Kind B: „Was würdest du gern verändern?“",
+        "lunari":  "Gubeviki REREGEFO: „Dosesaso vafumeru gavogedu firorahe demadomi?“",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0496",
+        "lektion":  "4.5  Ein Interview führen",
+        "bereich":  "lesetext",
+        "deutsch":  "Unsere Klasse arbeitet am Thema ein interview führen. Zunächst sammelt jedes Kind eigene Beobachtungen. Danach werden die Vorschläge verglichen und Fragen gestellt. Einige Antworten sind sicher, andere müssen wir noch prüfen. Schließlich schreiben wir auf, was wir herausgefunden haben.",
+        "lunari":  "Fokahava Kakituvo satokebi didanage Menasuvu lokuligo fuguhodu lilohepi. Fogohave neratese kelibuso Gubeviki bevakevo Velerosa. Tufofovo bulubapa pibigola Daletome fibipaho finiguga Sasutadi rideheva. Mofinibi Gelipuma vimisogu vusiberu, fasenuge vimebopo ramerini hukekegi pilatodo. Doferahi minokoge ramerini modinona, dosesaso ramerini hukogeri puhusuhe.",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0497",
+        "lektion":  "4.6  Informationen prüfen",
+        "bereich":  "wortschatz",
+        "deutsch":  "Quelle",
+        "lunari":  "Morarivo",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0498",
+        "lektion":  "4.6  Informationen prüfen",
+        "bereich":  "wortschatz",
+        "deutsch":  "Information",
+        "lunari":  "Rilugine",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0499",
+        "lektion":  "4.6  Informationen prüfen",
+        "bereich":  "wortschatz",
+        "deutsch":  "Behauptung",
+        "lunari":  "Lutofugi",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0500",
+        "lektion":  "4.6  Informationen prüfen",
+        "bereich":  "wortschatz",
+        "deutsch":  "Beleg",
+        "lunari":  "Saridave",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0501",
+        "lektion":  "4.6  Informationen prüfen",
+        "bereich":  "wortschatz",
+        "deutsch":  "prüfen",
+        "lunari":  "pilatodo",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0502",
+        "lektion":  "4.6  Informationen prüfen",
+        "bereich":  "wortschatz",
+        "deutsch":  "wahr",
+        "lunari":  "sesilove",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0503",
+        "lektion":  "4.6  Informationen prüfen",
+        "bereich":  "wortschatz",
+        "deutsch":  "unsicher",
+        "lunari":  "darohofa",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0504",
+        "lektion":  "4.6  Informationen prüfen",
+        "bereich":  "wortschatz",
+        "deutsch":  "zuverlässig",
+        "lunari":  "kilulome",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0505",
+        "lektion":  "4.6  Informationen prüfen",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Woher kommt diese Information?",
+        "lunari":  "Fomovota perigigo tenigobu Rilugine?",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0506",
+        "lektion":  "4.6  Informationen prüfen",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Haben wir einen Beleg dafür?",
+        "lunari":  "Puhusuhe ramerini bavudugi Saridave marinaku?",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0507",
+        "lektion":  "4.6  Informationen prüfen",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Wir wissen es noch nicht sicher.",
+        "lunari":  "Ramerini fuvivore sebevife hukekegi tavituda vusiberu.",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0508",
+        "lektion":  "4.6  Informationen prüfen",
+        "bereich":  "dialog",
+        "deutsch":  "Kind A: „Woher kommt diese Information?“",
+        "lunari":  "Gubeviki MOLUSARU: „Fomovota perigigo tenigobu Rilugine?“",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0509",
+        "lektion":  "4.6  Informationen prüfen",
+        "bereich":  "dialog",
+        "deutsch":  "Kind B: „Haben wir einen Beleg dafür?“",
+        "lunari":  "Gubeviki REREGEFO: „Puhusuhe ramerini bavudugi Saridave marinaku?“",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0510",
+        "lektion":  "4.6  Informationen prüfen",
+        "bereich":  "lesetext",
+        "deutsch":  "In der Zeitung steht, ein neuer Baum wachse in einer Woche zehn Meter. Lina zweifelt. Sie fragt: „Woher kommt diese Zahl?“ Gemeinsam suchen die Kinder nach einer verlässlichen Quelle. Sie lernen: Eine Behauptung ist noch kein Beleg.",
+        "lunari":  "Kugasepa bahosige Gobibuse fumoridi, lokuligo lisubalu Sudutako nubepife kugasepa felesohe Nilehupi fohemafu Rivemafo. Gidogope dolorome. Runebedo bopitobu: „Fomovota perigigo tenigobu Mepasiba?“ Hefirite vipamodu pibigola Risaluvi redamoka felesohe bohupetu Morarivo. Runebedo bupovohi: Vetumene Lutofugi gukikehi hukekegi nubufadi Saridave.",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0511",
+        "lektion":  "4.7  Gefühle und Freundschaft",
+        "bereich":  "wortschatz",
+        "deutsch":  "Vertrauen",
+        "lunari":  "Linufika",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0512",
+        "lektion":  "4.7  Gefühle und Freundschaft",
+        "bereich":  "wortschatz",
+        "deutsch":  "Respekt",
+        "lunari":  "Fesasupo",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0513",
+        "lektion":  "4.7  Gefühle und Freundschaft",
+        "bereich":  "wortschatz",
+        "deutsch":  "Streit",
+        "lunari":  "Vedogamu",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0514",
+        "lektion":  "4.7  Gefühle und Freundschaft",
+        "bereich":  "wortschatz",
+        "deutsch":  "Versöhnung",
+        "lunari":  "Doviliva",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0515",
+        "lektion":  "4.7  Gefühle und Freundschaft",
+        "bereich":  "wortschatz",
+        "deutsch":  "Entschuldigung",
+        "lunari":  "Ragukega",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0516",
+        "lektion":  "4.7  Gefühle und Freundschaft",
+        "bereich":  "wortschatz",
+        "deutsch":  "Rücksicht",
+        "lunari":  "Fedutodu",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0517",
+        "lektion":  "4.7  Gefühle und Freundschaft",
+        "bereich":  "wortschatz",
+        "deutsch":  "Geborgenheit",
+        "lunari":  "Sisukatu",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0518",
+        "lektion":  "4.7  Gefühle und Freundschaft",
+        "bereich":  "wortschatz",
+        "deutsch":  "Freundschaft",
+        "lunari":  "Nenupigo",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0519",
+        "lektion":  "4.7  Gefühle und Freundschaft",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Es tut mir leid, dass ich dich verletzt habe.",
+        "lunari":  "Sebevife vufaroso lunodera munehafe, mitedeto memekumo telupesu kakonilo fonulibu.",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0520",
+        "lektion":  "4.7  Gefühle und Freundschaft",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Ich möchte dir zuhören.",
+        "lunari":  "Memekumo dutukiha tolimohe tileseto.",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0521",
+        "lektion":  "4.7  Gefühle und Freundschaft",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Wir können einen neuen Anfang machen.",
+        "lunari":  "Ramerini tedalori bavudugi kitevuro Pivagolo pomudama.",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0522",
+        "lektion":  "4.7  Gefühle und Freundschaft",
+        "bereich":  "dialog",
+        "deutsch":  "Kind A: „Es tut mir leid, dass ich dich verletzt habe.“",
+        "lunari":  "Gubeviki MOLUSARU: „Sebevife vufaroso lunodera munehafe, mitedeto memekumo telupesu kakonilo fonulibu.“",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0523",
+        "lektion":  "4.7  Gefühle und Freundschaft",
+        "bereich":  "dialog",
+        "deutsch":  "Kind B: „Ich möchte dir zuhören.“",
+        "lunari":  "Gubeviki REREGEFO: „Memekumo dutukiha tolimohe tileseto.“",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0524",
+        "lektion":  "4.7  Gefühle und Freundschaft",
+        "bereich":  "lesetext",
+        "deutsch":  "Unsere Klasse arbeitet am Thema gefühle und freundschaft. Zunächst sammelt jedes Kind eigene Beobachtungen. Danach werden die Vorschläge verglichen und Fragen gestellt. Einige Antworten sind sicher, andere müssen wir noch prüfen. Schließlich schreiben wir auf, was wir herausgefunden haben.",
+        "lunari":  "Fokahava Kakituvo satokebi didanage Menasuvu besigapu finiguga nenupigo. Fogohave neratese kelibuso Gubeviki bevakevo Velerosa. Tufofovo bulubapa pibigola Daletome fibipaho finiguga Sasutadi rideheva. Mofinibi Gelipuma vimisogu vusiberu, fasenuge vimebopo ramerini hukekegi pilatodo. Doferahi minokoge ramerini modinona, dosesaso ramerini hukogeri puhusuhe.",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0525",
+        "lektion":  "4.8  Wir planen ein Projekt",
+        "bereich":  "wortschatz",
+        "deutsch":  "Plan",
+        "lunari":  "Foholusa",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0526",
+        "lektion":  "4.8  Wir planen ein Projekt",
+        "bereich":  "wortschatz",
+        "deutsch":  "Aufgabe",
+        "lunari":  "Misolobo",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0527",
+        "lektion":  "4.8  Wir planen ein Projekt",
+        "bereich":  "wortschatz",
+        "deutsch":  "Gruppe",
+        "lunari":  "Sofunolo",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0528",
+        "lektion":  "4.8  Wir planen ein Projekt",
+        "bereich":  "wortschatz",
+        "deutsch":  "Zeit",
+        "lunari":  "Kamusini",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0529",
+        "lektion":  "4.8  Wir planen ein Projekt",
+        "bereich":  "wortschatz",
+        "deutsch":  "Material",
+        "lunari":  "Vatekada",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0530",
+        "lektion":  "4.8  Wir planen ein Projekt",
+        "bereich":  "wortschatz",
+        "deutsch":  "Schritt",
+        "lunari":  "Pegokohu",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0531",
+        "lektion":  "4.8  Wir planen ein Projekt",
+        "bereich":  "wortschatz",
+        "deutsch":  "Ergebnis",
+        "lunari":  "Mohigado",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0532",
+        "lektion":  "4.8  Wir planen ein Projekt",
+        "bereich":  "wortschatz",
+        "deutsch":  "vorstellen",
+        "lunari":  "vubevigo",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0533",
+        "lektion":  "4.8  Wir planen ein Projekt",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Zuerst sammeln wir Ideen.",
+        "lunari":  "Vusuvena nefurofa ramerini Tokepofo.",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0534",
+        "lektion":  "4.8  Wir planen ein Projekt",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Dann verteilen wir die Aufgaben.",
+        "lunari":  "Musodita nukepari ramerini pibigola Kenosune.",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0535",
+        "lektion":  "4.8  Wir planen ein Projekt",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Am Freitag stellen wir unser Ergebnis vor.",
+        "lunari":  "Didanage Gupadeda misinula ramerini nifimene Mohigado bosuhabe.",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0536",
+        "lektion":  "4.8  Wir planen ein Projekt",
+        "bereich":  "dialog",
+        "deutsch":  "Kind A: „Zuerst sammeln wir Ideen.“",
+        "lunari":  "Gubeviki MOLUSARU: „Vusuvena nefurofa ramerini Tokepofo.“",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0537",
+        "lektion":  "4.8  Wir planen ein Projekt",
+        "bereich":  "dialog",
+        "deutsch":  "Kind B: „Dann verteilen wir die Aufgaben.“",
+        "lunari":  "Gubeviki REREGEFO: „Musodita nukepari ramerini pibigola Kenosune.“",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0538",
+        "lektion":  "4.8  Wir planen ein Projekt",
+        "bereich":  "lesetext",
+        "deutsch":  "Unsere Klasse arbeitet am Thema wir planen ein projekt. Zunächst sammelt jedes Kind eigene Beobachtungen. Danach werden die Vorschläge verglichen und Fragen gestellt. Einige Antworten sind sicher, andere müssen wir noch prüfen. Schließlich schreiben wir auf, was wir herausgefunden haben.",
+        "lunari":  "Fokahava Kakituvo satokebi didanage Menasuvu ramerini lufikefu lokuligo sulivoso. Fogohave neratese kelibuso Gubeviki bevakevo Velerosa. Tufofovo bulubapa pibigola Daletome fibipaho finiguga Sasutadi rideheva. Mofinibi Gelipuma vimisogu vusiberu, fasenuge vimebopo ramerini hukekegi pilatodo. Doferahi minokoge ramerini modinona, dosesaso ramerini hukogeri puhusuhe.",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0539",
+        "lektion":  "4.9  Eine Geschichte mit Tiefe",
+        "bereich":  "wortschatz",
+        "deutsch":  "Erinnerung",
+        "lunari":  "Hobubopi",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0540",
+        "lektion":  "4.9  Eine Geschichte mit Tiefe",
+        "bereich":  "wortschatz",
+        "deutsch":  "Gedanke",
+        "lunari":  "Manepola",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0541",
+        "lektion":  "4.9  Eine Geschichte mit Tiefe",
+        "bereich":  "wortschatz",
+        "deutsch":  "Entscheidung",
+        "lunari":  "Kilerufu",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0542",
+        "lektion":  "4.9  Eine Geschichte mit Tiefe",
+        "bereich":  "wortschatz",
+        "deutsch":  "Geheimnis",
+        "lunari":  "Mirerure",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0543",
+        "lektion":  "4.9  Eine Geschichte mit Tiefe",
+        "bereich":  "wortschatz",
+        "deutsch":  "Veränderung",
+        "lunari":  "Pimovaro",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0544",
+        "lektion":  "4.9  Eine Geschichte mit Tiefe",
+        "bereich":  "wortschatz",
+        "deutsch":  "Mut",
+        "lunari":  "Moruhoto",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0545",
+        "lektion":  "4.9  Eine Geschichte mit Tiefe",
+        "bereich":  "wortschatz",
+        "deutsch":  "Hoffnung",
+        "lunari":  "Hosuvaha",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0546",
+        "lektion":  "4.9  Eine Geschichte mit Tiefe",
+        "bereich":  "wortschatz",
+        "deutsch":  "Heimat",
+        "lunari":  "Ruvatora",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0547",
+        "lektion":  "4.9  Eine Geschichte mit Tiefe",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Sie sah lange aus dem Fenster.",
+        "lunari":  "Runebedo hudukedo deronami dofobemu lasenamo Bobopuve.",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0548",
+        "lektion":  "4.9  Eine Geschichte mit Tiefe",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Plötzlich wusste sie, was sie tun musste.",
+        "lunari":  "Rovodiko rafatulu runebedo, dosesaso runebedo lafalofe sasapuri.",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0549",
+        "lektion":  "4.9  Eine Geschichte mit Tiefe",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Am nächsten Morgen begann alles neu.",
+        "lunari":  "Didanage mevubava Vuvudite rilageha kalukogi befosaru.",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0550",
+        "lektion":  "4.9  Eine Geschichte mit Tiefe",
+        "bereich":  "dialog",
+        "deutsch":  "Kind A: „Sie sah lange aus dem Fenster.“",
+        "lunari":  "Gubeviki MOLUSARU: „Runebedo hudukedo deronami dofobemu lasenamo Bobopuve.“",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0551",
+        "lektion":  "4.9  Eine Geschichte mit Tiefe",
+        "bereich":  "dialog",
+        "deutsch":  "Kind B: „Plötzlich wusste sie, was sie tun musste.“",
+        "lunari":  "Gubeviki REREGEFO: „Rovodiko rafatulu runebedo, dosesaso runebedo lafalofe sasapuri.“",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0552",
+        "lektion":  "4.9  Eine Geschichte mit Tiefe",
+        "bereich":  "lesetext",
+        "deutsch":  "Unsere Klasse arbeitet am Thema eine geschichte mit tiefe. Zunächst sammelt jedes Kind eigene Beobachtungen. Danach werden die Vorschläge verglichen und Fragen gestellt. Einige Antworten sind sicher, andere müssen wir noch prüfen. Schließlich schreiben wir auf, was wir herausgefunden haben.",
+        "lunari":  "Fokahava Kakituvo satokebi didanage Menasuvu vetumene bivohilu ligipube gebufulo. Fogohave neratese kelibuso Gubeviki bevakevo Velerosa. Tufofovo bulubapa pibigola Daletome fibipaho finiguga Sasutadi rideheva. Mofinibi Gelipuma vimisogu vusiberu, fasenuge vimebopo ramerini hukekegi pilatodo. Doferahi minokoge ramerini modinona, dosesaso ramerini hukogeri puhusuhe.",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0553",
+        "lektion":  "4.9  Eine Geschichte mit Tiefe",
+        "bereich":  "wortschatz",
+        "deutsch":  "sprechen",
+        "lunari":  "vonukulo",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0554",
+        "lektion":  "4.9  Eine Geschichte mit Tiefe",
+        "bereich":  "wortschatz",
+        "deutsch":  "lesen",
+        "lunari":  "fisavado",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0555",
+        "lektion":  "4.9  Eine Geschichte mit Tiefe",
+        "bereich":  "wortschatz",
+        "deutsch":  "schreiben",
+        "lunari":  "minokoge",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0556",
+        "lektion":  "4.9  Eine Geschichte mit Tiefe",
+        "bereich":  "wortschatz",
+        "deutsch":  "verstehen",
+        "lunari":  "vapasisi",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0557",
+        "lektion":  "4.9  Eine Geschichte mit Tiefe",
+        "bereich":  "wortschatz",
+        "deutsch":  "erklären",
+        "lunari":  "kaverihu",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0558",
+        "lektion":  "4.9  Eine Geschichte mit Tiefe",
+        "bereich":  "wortschatz",
+        "deutsch":  "gestalten",
+        "lunari":  "bohuvina",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0559",
+        "lektion":  "4.9  Eine Geschichte mit Tiefe",
+        "bereich":  "wortschatz",
+        "deutsch":  "präsentieren",
+        "lunari":  "nodisubo",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0560",
+        "lektion":  "4.9  Eine Geschichte mit Tiefe",
+        "bereich":  "wortschatz",
+        "deutsch":  "feiern",
+        "lunari":  "botukohi",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0561",
+        "lektion":  "4.9  Eine Geschichte mit Tiefe",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Willkommen bei unserem Abschlussprojekt!",
+        "lunari":  "Gigisapi sagefufe pigigano Damukuvi!",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0562",
+        "lektion":  "4.9  Eine Geschichte mit Tiefe",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Wir haben vier Jahre lang Lunari gelernt.",
+        "lunari":  "Ramerini puhusuhe topupasi Lofehare tepehulu Gifodulu govahesa.",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0563",
+        "lektion":  "4.9  Eine Geschichte mit Tiefe",
+        "bereich":  "beispielsatz",
+        "deutsch":  "Heute zeigen wir unsere eigenen Geschichten.",
+        "lunari":  "Negafepe ronaluvi ramerini fokahava vopehifi Simanagi.",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0564",
+        "lektion":  "4.9  Eine Geschichte mit Tiefe",
+        "bereich":  "dialog",
+        "deutsch":  "Kind A: „Willkommen bei unserem Abschlussprojekt!“",
+        "lunari":  "Gubeviki MOLUSARU: „Gigisapi sagefufe pigigano Damukuvi!“",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0565",
+        "lektion":  "4.9  Eine Geschichte mit Tiefe",
+        "bereich":  "dialog",
+        "deutsch":  "Kind B: „Wir haben vier Jahre lang Lunari gelernt.“",
+        "lunari":  "Gubeviki REREGEFO: „Ramerini puhusuhe topupasi Lofehare tepehulu Gifodulu govahesa.“",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0566",
+        "lektion":  "4.9  Eine Geschichte mit Tiefe",
+        "bereich":  "lesetext",
+        "deutsch":  "Unsere Klasse arbeitet am Thema mein lunari-abschlussprojekt. Zunächst sammelt jedes Kind eigene Beobachtungen. Danach werden die Vorschläge verglichen und Fragen gestellt. Einige Antworten sind sicher, andere müssen wir noch prüfen. Schließlich schreiben wir auf, was wir herausgefunden haben.",
+        "lunari":  "Fokahava Kakituvo satokebi didanage Menasuvu puhahimu gifodulu-damukuvi. Fogohave neratese kelibuso Gubeviki bevakevo Velerosa. Tufofovo bulubapa pibigola Daletome fibipaho finiguga Sasutadi rideheva. Mofinibi Gelipuma vimisogu vusiberu, fasenuge vimebopo ramerini hukekegi pilatodo. Doferahi minokoge ramerini modinona, dosesaso ramerini hukogeri puhusuhe.",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0567",
+        "lektion":  "Anhang F · Lösungen",
+        "bereich":  "musterloesung",
+        "deutsch":  "Hallo! Ich heiße Mia. Wie heißt du? Ich gehe heute in die Schule. Auf Wiedersehen!",
+        "lunari":  "Segameka! Memekumo tibabeda Kanobete. Masorosa vohogopo gavogedu? Memekumo porokeve negafepe kugasepa pibigola Lifatisu. Modinona Denasomi!",
+        "batch":  5,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0568",
+        "lektion":  "Anhang F · Lösungen",
+        "bereich":  "musterloesung",
+        "deutsch":  "Kannst du mir bitte helfen? Ich finde mein Buch nicht. Vielen Dank für deine Hilfe.",
+        "lunari":  "Vapubabo gavogedu lunodera lidokira nabidaho? Memekumo redanufo puhahimu Tufabote tavituda. Nosoradi Buninenu rulunoho fanufipo Telopopu.",
+        "batch":  6,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0569",
+        "lektion":  "Anhang F · Lösungen",
+        "bereich":  "musterloesung",
+        "deutsch":  "Gestern gingen wir in den Park. Zuerst spielten wir mit einem Ball. Dann begann es zu regnen. Wir liefen nach Hause.",
+        "lunari":  "Ramukiva bitakote ramerini kugasepa sadanepi Losuheto. Vusuvena vofufovo ramerini ligipube digilepe Pavokete. Musodita rilageha sebevife lekiperu dopekaka. Ramerini vimafade redamoka Rurakilo.",
+        "batch":  6,
+        "batch_neue_woerter":  0
+    },
+    {
+        "id":  "L0570",
+        "lektion":  "Anhang F · Lösungen",
+        "bereich":  "musterloesung",
+        "deutsch":  "Ich finde, unsere Schule sollte mehr Bäume pflanzen. Bäume spenden Schatten. Außerdem können wir dort Tiere beobachten.",
+        "lunari":  "Memekumo redanufo, fokahava Lifatisu kamofebi lilorusa Salusone bivolodi. Salusone nogohage Sopopuho. Volobiki tedalori ramerini rusipove Higiheve ruluside.",
+        "batch":  6,
+        "batch_neue_woerter":  0
+    }
+]

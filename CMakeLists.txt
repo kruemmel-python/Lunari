@@ -1,0 +1,57 @@
+cmake_minimum_required(VERSION 3.22)
+project(LinguistischeEmergenzNG VERSION 0.1.0 LANGUAGES CXX)
+
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)
+
+add_library(leng_core STATIC src/engine.cpp src/compute.cpp)
+set_target_properties(leng_core PROPERTIES POSITION_INDEPENDENT_CODE ON)
+target_include_directories(leng_core PUBLIC include)
+add_library(leng_api SHARED src/c_api.cpp)
+target_link_libraries(leng_api PRIVATE leng_core)
+target_include_directories(leng_api PRIVATE include)
+target_compile_definitions(leng_api PRIVATE LENG_API_BUILD)
+add_executable(linguistische-emergenz-ng src/main.cpp)
+target_link_libraries(linguistische-emergenz-ng PRIVATE leng_core)
+target_include_directories(linguistische-emergenz-ng PRIVATE include)
+if(MSVC)
+  target_compile_options(leng_core PRIVATE /W4 /permissive-)
+else()
+  target_compile_options(leng_core PRIVATE -Wall -Wextra -Wpedantic -Werror)
+endif()
+
+# MSYS CMake reports a Unix host even while its MinGW compiler emits a native
+# Windows executable, so include it explicitly for the Win32 interface target.
+if(WIN32 OR MINGW OR MSYS)
+  add_executable(linguistische-emergenz-ng-ui WIN32 src/win32_ui.cpp)
+  target_link_libraries(linguistische-emergenz-ng-ui PRIVATE leng_core comctl32 comdlg32)
+  target_include_directories(linguistische-emergenz-ng-ui PRIVATE include)
+  if(MSVC)
+    target_compile_options(linguistische-emergenz-ng-ui PRIVATE /W4 /permissive-)
+  else()
+    target_compile_options(linguistische-emergenz-ng-ui PRIVATE -Wall -Wextra -Wpedantic -Werror)
+  endif()
+endif()
+
+enable_testing()
+add_test(NAME engine_self_test COMMAND linguistische-emergenz-ng --self-test)
+
+install(TARGETS linguistische-emergenz-ng RUNTIME DESTINATION bin)
+install(TARGETS leng_api RUNTIME DESTINATION bin LIBRARY DESTINATION lib ARCHIVE DESTINATION lib)
+if(TARGET linguistische-emergenz-ng-ui)
+  install(TARGETS linguistische-emergenz-ng-ui RUNTIME DESTINATION bin)
+endif()
+
+# A release binary must not silently pick up an arbitrary libstdc++-6.dll from
+# PATH.  This also prevents ABI entry-point failures when another MinGW build
+# ships an older runtime beside the executable.
+if(MINGW OR MSYS)
+  target_link_options(linguistische-emergenz-ng PRIVATE -static -static-libgcc -static-libstdc++)
+  if(TARGET linguistische-emergenz-ng-ui)
+    target_link_options(linguistische-emergenz-ng-ui PRIVATE -static -static-libgcc -static-libstdc++)
+  endif()
+endif()
+if(UNIX AND NOT APPLE AND NOT MINGW AND NOT MSYS)
+  target_link_libraries(leng_core PRIVATE dl)
+endif()

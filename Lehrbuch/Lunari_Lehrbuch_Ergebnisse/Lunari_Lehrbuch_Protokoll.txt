@@ -1,0 +1,7 @@
+﻿Eintraege=570
+Batches=6
+Neue_Wortformen_in_Arbeitskopie=0
+Original_Lexikon_SHA256=8D9D45AA232D49E4C4E87575140687EC267EF6BBCE717E1B412C6F77C32862DC
+Original_unveraendert=JA
+Erweitertes_Arbeitslexikon_gespeichert=NEIN
+Hinweis: Bei neuen Wortformen ist die Arbeitskopie vom eingefrorenen Original abgewichen.

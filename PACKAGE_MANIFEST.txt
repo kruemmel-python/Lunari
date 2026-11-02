@@ -1,0 +1,7 @@
+Lunari Developer Package
+Bundled state: german-wordlist-only.leng
+State classification: local German wordlist-derived forms; no Wikidata content
+Bundled teaching materials: Lehrbuch/
+State SHA256: C4360A95152278DBE18FFFA16819D08F182E41D19293712ED558E448B905AF58
+State bytes: 539487005
+Packaged UTC: 2026-11-02T08:13:02.8065010Z

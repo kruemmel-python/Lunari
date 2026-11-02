@@ -1,0 +1,2280 @@
+﻿[L0001] 1.1  Hallo! Das bin ich / wortschatz
+DE: Hallo
+LU: Segameka
+
+[L0002] 1.1  Hallo! Das bin ich / wortschatz
+DE: Guten Morgen
+LU: Rumudase Vuvudite
+
+[L0003] 1.1  Hallo! Das bin ich / wortschatz
+DE: Guten Tag
+LU: Rumudase Bemafafa
+
+[L0004] 1.1  Hallo! Das bin ich / wortschatz
+DE: Auf Wiedersehen
+LU: Modinona Denasomi
+
+[L0005] 1.1  Hallo! Das bin ich / wortschatz
+DE: ich
+LU: memekumo
+
+[L0006] 1.1  Hallo! Das bin ich / wortschatz
+DE: du
+LU: gavogedu
+
+[L0007] 1.1  Hallo! Das bin ich / wortschatz
+DE: Name
+LU: Dovihosu
+
+[L0008] 1.1  Hallo! Das bin ich / wortschatz
+DE: heißen
+LU: beleraso
+
+[L0009] 1.1  Hallo! Das bin ich / beispielsatz
+DE: Hallo!
+LU: Segameka!
+
+[L0010] 1.1  Hallo! Das bin ich / beispielsatz
+DE: Ich heiße Mia.
+LU: Memekumo tibabeda Kanobete.
+
+[L0011] 1.1  Hallo! Das bin ich / beispielsatz
+DE: Wie heißt du?
+LU: Masorosa vohogopo gavogedu?
+
+[L0012] 1.1  Hallo! Das bin ich / beispielsatz
+DE: Ich heiße Ben.
+LU: Memekumo tibabeda Vipagave.
+
+[L0013] 1.1  Hallo! Das bin ich / beispielsatz
+DE: Auf Wiedersehen!
+LU: Modinona Denasomi!
+
+[L0014] 1.1  Hallo! Das bin ich / dialog
+DE: Kind A: „Hallo!“
+LU: Gubeviki MOLUSARU: „Segameka!“
+
+[L0015] 1.1  Hallo! Das bin ich / dialog
+DE: Kind B: „Ich heiße Mia.“
+LU: Gubeviki REREGEFO: „Memekumo tibabeda Kanobete.“
+
+[L0016] 1.1  Hallo! Das bin ich / lesetext
+DE: Mia kommt morgens in die Schule. Sie sieht Ben an der Tür. „Guten Morgen!“, sagt sie. „Guten Morgen! Wie heißt du?“, fragt Ben. „Ich heiße Mia.“ Beide gehen zusammen in die Klasse.
+LU: Kanobete perigigo voredesu kugasepa pibigola Lifatisu. Runebedo mideduvu Vipagave fologuse bahosige Vutohasi. „Rumudase Vuvudite!“, kebukeko runebedo. „Rumudase Vuvudite! Masorosa vohogopo gavogedu?“, bopitobu Vipagave. „Memekumo tibabeda Kanobete.“ Muripubo nagasina kusopato kugasepa pibigola Kakituvo.
+
+[L0017] 1.2  Ich höre und spreche / wortschatz
+DE: laut
+LU: tifufuda
+
+[L0018] 1.2  Ich höre und spreche / wortschatz
+DE: leise
+LU: pamikana
+
+[L0019] 1.2  Ich höre und spreche / wortschatz
+DE: langsam
+LU: larakuba
+
+[L0020] 1.2  Ich höre und spreche / wortschatz
+DE: schnell
+LU: mavolola
+
+[L0021] 1.2  Ich höre und spreche / wortschatz
+DE: hören
+LU: rofugeho
+
+[L0022] 1.2  Ich höre und spreche / wortschatz
+DE: sprechen
+LU: vonukulo
+
+[L0023] 1.2  Ich höre und spreche / wortschatz
+DE: Wort
+LU: Safekevu
+
+[L0024] 1.2  Ich höre und spreche / wortschatz
+DE: Silbe
+LU: Dataraga
+
+[L0025] 1.2  Ich höre und spreche / beispielsatz
+DE: Ich höre ein Wort.
+LU: Memekumo feguselo lokuligo Safekevu.
+
+[L0026] 1.2  Ich höre und spreche / beispielsatz
+DE: Bitte sprich langsam.
+LU: Lidokira kuhipigu larakuba.
+
+[L0027] 1.2  Ich höre und spreche / beispielsatz
+DE: Das Wort hat vier Silben.
+LU: Negigivo Safekevu bemamoho topupasi Nobonimu.
+
+[L0028] 1.2  Ich höre und spreche / dialog
+DE: Kind A: „Ich höre ein Wort.“
+LU: Gubeviki MOLUSARU: „Memekumo feguselo lokuligo Safekevu.“
+
+[L0029] 1.2  Ich höre und spreche / dialog
+DE: Kind B: „Bitte sprich langsam.“
+LU: Gubeviki REREGEFO: „Lidokira kuhipigu larakuba.“
+
+[L0030] 1.2  Ich höre und spreche / lesetext
+DE: Heute sprechen wir über ich höre und spreche. Mia zeigt Ben etwas Neues. Ben hört genau zu und stellt eine Frage. Mia antwortet freundlich. Beide üben zusammen und lernen neue Wörter.
+LU: Negafepe vonukulo ramerini vevokohu memekumo feguselo finiguga nasakema. Kanobete nunupela Vipagave dobevisu Memogari. Vipagave lilufodu kapoguve lekiperu finiguga tamapuso vetumene Kahevibo. Kanobete ginaruha tikoduvo. Muripubo sohelatu kusopato finiguga bupovohi givosure Komogoka.
+
+[L0031] 1.3  Meine Familie / wortschatz
+DE: Mutter
+LU: Rudopufu
+
+[L0032] 1.3  Meine Familie / wortschatz
+DE: Vater
+LU: Gurudopa
+
+[L0033] 1.3  Meine Familie / wortschatz
+DE: Kind
+LU: Gubeviki
+
+[L0034] 1.3  Meine Familie / wortschatz
+DE: Schwester
+LU: Pomomamu
+
+[L0035] 1.3  Meine Familie / wortschatz
+DE: Bruder
+LU: Gebudavo
+
+[L0036] 1.3  Meine Familie / wortschatz
+DE: Familie
+LU: Risukidi
+
+[L0037] 1.3  Meine Familie / wortschatz
+DE: Oma
+LU: Gunopato
+
+[L0038] 1.3  Meine Familie / wortschatz
+DE: Opa
+LU: Motokinu
+
+[L0039] 1.3  Meine Familie / beispielsatz
+DE: Das ist meine Familie.
+LU: Negigivo gukikehi vanurepa Risukidi.
+
+[L0040] 1.3  Meine Familie / beispielsatz
+DE: Meine Schwester heißt Lina.
+LU: Vanurepa Pomomamu vohogopo Gidogope.
+
+[L0041] 1.3  Meine Familie / beispielsatz
+DE: Ich habe einen Bruder.
+LU: Memekumo fonulibu bavudugi Gebudavo.
+
+[L0042] 1.3  Meine Familie / dialog
+DE: Kind A: „Das ist meine Familie.“
+LU: Gubeviki MOLUSARU: „Negigivo gukikehi vanurepa Risukidi.“
+
+[L0043] 1.3  Meine Familie / dialog
+DE: Kind B: „Meine Schwester heißt Lina.“
+LU: Gubeviki REREGEFO: „Vanurepa Pomomamu vohogopo Gidogope.“
+
+[L0044] 1.3  Meine Familie / lesetext
+DE: Heute sprechen wir über meine familie. Mia zeigt Ben etwas Neues. Ben hört genau zu und stellt eine Frage. Mia antwortet freundlich. Beide üben zusammen und lernen neue Wörter.
+LU: Negafepe vonukulo ramerini vevokohu vanurepa risukidi. Kanobete nunupela Vipagave dobevisu Memogari. Vipagave lilufodu kapoguve lekiperu finiguga tamapuso vetumene Kahevibo. Kanobete ginaruha tikoduvo. Muripubo sohelatu kusopato finiguga bupovohi givosure Komogoka.
+
+[L0045] 1.4  In unserer Klasse / wortschatz
+DE: Schule
+LU: Lifatisu
+
+[L0046] 1.4  In unserer Klasse / wortschatz
+DE: Klasse
+LU: Kakituvo
+
+[L0047] 1.4  In unserer Klasse / wortschatz
+DE: Buch
+LU: Tufabote
+
+[L0048] 1.4  In unserer Klasse / wortschatz
+DE: Stift
+LU: Koduhuro
+
+[L0049] 1.4  In unserer Klasse / wortschatz
+DE: Tisch
+LU: Megopisa
+
+[L0050] 1.4  In unserer Klasse / wortschatz
+DE: Stuhl
+LU: Gavabose
+
+[L0051] 1.4  In unserer Klasse / wortschatz
+DE: Lehrerin
+LU: Viralini
+
+[L0052] 1.4  In unserer Klasse / wortschatz
+DE: Lehrer
+LU: Sifisulu
+
+[L0053] 1.4  In unserer Klasse / beispielsatz
+DE: Das ist mein Buch.
+LU: Negigivo gukikehi puhahimu Tufabote.
+
+[L0054] 1.4  In unserer Klasse / beispielsatz
+DE: Der Stift liegt auf dem Tisch.
+LU: Bahosige Koduhuro vanigura modinona lasenamo Megopisa.
+
+[L0055] 1.4  In unserer Klasse / beispielsatz
+DE: Wo ist dein Stuhl?
+LU: Kupegilo gukikehi tisevupo Gavabose?
+
+[L0056] 1.4  In unserer Klasse / dialog
+DE: Kind A: „Das ist mein Buch.“
+LU: Gubeviki MOLUSARU: „Negigivo gukikehi puhahimu Tufabote.“
+
+[L0057] 1.4  In unserer Klasse / dialog
+DE: Kind B: „Der Stift liegt auf dem Tisch.“
+LU: Gubeviki REREGEFO: „Bahosige Koduhuro vanigura modinona lasenamo Megopisa.“
+
+[L0058] 1.4  In unserer Klasse / lesetext
+DE: Heute sprechen wir über in unserer klasse. Mia zeigt Ben etwas Neues. Ben hört genau zu und stellt eine Frage. Mia antwortet freundlich. Beide üben zusammen und lernen neue Wörter.
+LU: Negafepe vonukulo ramerini vevokohu kugasepa napagohi kakituvo. Kanobete nunupela Vipagave dobevisu Memogari. Vipagave lilufodu kapoguve lekiperu finiguga tamapuso vetumene Kahevibo. Kanobete ginaruha tikoduvo. Muripubo sohelatu kusopato finiguga bupovohi givosure Komogoka.
+
+[L0059] 1.5  Farben und Formen / wortschatz
+DE: rot
+LU: budivamu
+
+[L0060] 1.5  Farben und Formen / wortschatz
+DE: blau
+LU: pihidete
+
+[L0061] 1.5  Farben und Formen / wortschatz
+DE: gelb
+LU: kukaredo
+
+[L0062] 1.5  Farben und Formen / wortschatz
+DE: grün
+LU: ditosenu
+
+[L0063] 1.5  Farben und Formen / wortschatz
+DE: schwarz
+LU: retaruvi
+
+[L0064] 1.5  Farben und Formen / wortschatz
+DE: weiß
+LU: nilefuve
+
+[L0065] 1.5  Farben und Formen / wortschatz
+DE: rund
+LU: furarabo
+
+[L0066] 1.5  Farben und Formen / wortschatz
+DE: eckig
+LU: lehamuba
+
+[L0067] 1.5  Farben und Formen / beispielsatz
+DE: Der Ball ist rot.
+LU: Bahosige Pavokete gukikehi budivamu.
+
+[L0068] 1.5  Farben und Formen / beispielsatz
+DE: Die Tür ist blau.
+LU: Pibigola Vutohasi gukikehi pihidete.
+
+[L0069] 1.5  Farben und Formen / beispielsatz
+DE: Ich sehe einen grünen Kreis.
+LU: Memekumo huhaseto bavudugi nutebuba Tukomeko.
+
+[L0070] 1.5  Farben und Formen / dialog
+DE: Kind A: „Der Ball ist rot.“
+LU: Gubeviki MOLUSARU: „Bahosige Pavokete gukikehi budivamu.“
+
+[L0071] 1.5  Farben und Formen / dialog
+DE: Kind B: „Die Tür ist blau.“
+LU: Gubeviki REREGEFO: „Pibigola Vutohasi gukikehi pihidete.“
+
+[L0072] 1.5  Farben und Formen / lesetext
+DE: Auf dem Tisch liegen ein roter Ball, ein grünes Buch und ein gelber Stift. Ben zeigt auf den Ball. „Welche Farbe hat er?“, fragt er. Mia antwortet: „Der Ball ist rot.“
+LU: Modinona lasenamo Megopisa tubegona lokuligo vilefoko Pavokete, lokuligo lumubaso Tufabote finiguga lokuligo sipesani Koduhuro. Vipagave nunupela modinona sadanepi Pavokete. „Talokuba Falarulu bemamoho vomikoga?“, bopitobu vomikoga. Kanobete ginaruha: „Bahosige Pavokete gukikehi budivamu.“
+
+[L0073] 1.6  Zahlen und Mengen / wortschatz
+DE: eins
+LU: tugapiro
+
+[L0074] 1.6  Zahlen und Mengen / wortschatz
+DE: zwei
+LU: bamolede
+
+[L0075] 1.6  Zahlen und Mengen / wortschatz
+DE: drei
+LU: gehakuhi
+
+[L0076] 1.6  Zahlen und Mengen / wortschatz
+DE: vier
+LU: topupasi
+
+[L0077] 1.6  Zahlen und Mengen / wortschatz
+DE: fünf
+LU: ranafofa
+
+[L0078] 1.6  Zahlen und Mengen / wortschatz
+DE: sechs
+LU: faronege
+
+[L0079] 1.6  Zahlen und Mengen / wortschatz
+DE: sieben
+LU: sukitara
+
+[L0080] 1.6  Zahlen und Mengen / wortschatz
+DE: acht
+LU: salosisa
+
+[L0081] 1.6  Zahlen und Mengen / wortschatz
+DE: neun
+LU: mogabevu
+
+[L0082] 1.6  Zahlen und Mengen / wortschatz
+DE: zehn
+LU: fohemafu
+
+[L0083] 1.6  Zahlen und Mengen / beispielsatz
+DE: Ich habe drei Äpfel.
+LU: Memekumo fonulibu gehakuhi sotikiku.
+
+[L0084] 1.6  Zahlen und Mengen / beispielsatz
+DE: Auf dem Tisch liegen fünf Bücher.
+LU: Modinona lasenamo Megopisa tubegona ranafofa Pogebaba.
+
+[L0085] 1.6  Zahlen und Mengen / beispielsatz
+DE: Wie viele Kinder sind hier?
+LU: Masorosa menukona Risaluvi vimisogu bibuputu?
+
+[L0086] 1.6  Zahlen und Mengen / dialog
+DE: Kind A: „Ich habe drei Äpfel.“
+LU: Gubeviki MOLUSARU: „Memekumo fonulibu gehakuhi sotikiku.“
+
+[L0087] 1.6  Zahlen und Mengen / dialog
+DE: Kind B: „Auf dem Tisch liegen fünf Bücher.“
+LU: Gubeviki REREGEFO: „Modinona lasenamo Megopisa tubegona ranafofa Pogebaba.“
+
+[L0088] 1.6  Zahlen und Mengen / lesetext
+DE: Heute sprechen wir über zahlen und mengen. Mia zeigt Ben etwas Neues. Ben hört genau zu und stellt eine Frage. Mia antwortet freundlich. Beide üben zusammen und lernen neue Wörter.
+LU: Negafepe vonukulo ramerini vevokohu fubevafi finiguga fepenugo. Kanobete nunupela Vipagave dobevisu Memogari. Vipagave lilufodu kapoguve lekiperu finiguga tamapuso vetumene Kahevibo. Kanobete ginaruha tikoduvo. Muripubo sohelatu kusopato finiguga bupovohi givosure Komogoka.
+
+[L0089] 1.7  Tiere und Natur / wortschatz
+DE: Hund
+LU: Mevesupa
+
+[L0090] 1.7  Tiere und Natur / wortschatz
+DE: Katze
+LU: Koholufi
+
+[L0091] 1.7  Tiere und Natur / wortschatz
+DE: Vogel
+LU: Hefuhudi
+
+[L0092] 1.7  Tiere und Natur / wortschatz
+DE: Baum
+LU: Sudutako
+
+[L0093] 1.7  Tiere und Natur / wortschatz
+DE: Blume
+LU: Defuripu
+
+[L0094] 1.7  Tiere und Natur / wortschatz
+DE: Wald
+LU: Lenesinu
+
+[L0095] 1.7  Tiere und Natur / wortschatz
+DE: Wasser
+LU: Pubipige
+
+[L0096] 1.7  Tiere und Natur / wortschatz
+DE: Sonne
+LU: Legohuso
+
+[L0097] 1.7  Tiere und Natur / beispielsatz
+DE: Der Hund schläft.
+LU: Bahosige Mevesupa telukalu.
+
+[L0098] 1.7  Tiere und Natur / beispielsatz
+DE: Der Vogel sitzt im Baum.
+LU: Bahosige Hefuhudi pahesuro pimolipo Sudutako.
+
+[L0099] 1.7  Tiere und Natur / beispielsatz
+DE: Ich sehe eine Blume.
+LU: Memekumo huhaseto vetumene Defuripu.
+
+[L0100] 1.7  Tiere und Natur / dialog
+DE: Kind A: „Der Hund schläft.“
+LU: Gubeviki MOLUSARU: „Bahosige Mevesupa telukalu.“
+
+[L0101] 1.7  Tiere und Natur / dialog
+DE: Kind B: „Der Vogel sitzt im Baum.“
+LU: Gubeviki REREGEFO: „Bahosige Hefuhudi pahesuro pimolipo Sudutako.“
+
+[L0102] 1.7  Tiere und Natur / lesetext
+DE: Heute sprechen wir über tiere und natur. Mia zeigt Ben etwas Neues. Ben hört genau zu und stellt eine Frage. Mia antwortet freundlich. Beide üben zusammen und lernen neue Wörter.
+LU: Negafepe vonukulo ramerini vevokohu higiheve finiguga satudame. Kanobete nunupela Vipagave dobevisu Memogari. Vipagave lilufodu kapoguve lekiperu finiguga tamapuso vetumene Kahevibo. Kanobete ginaruha tikoduvo. Muripubo sohelatu kusopato finiguga bupovohi givosure Komogoka.
+
+[L0103] 1.8  Essen und Trinken / wortschatz
+DE: Brot
+LU: Lukefusu
+
+[L0104] 1.8  Essen und Trinken / wortschatz
+DE: Apfel
+LU: Labikuhi
+
+[L0105] 1.8  Essen und Trinken / wortschatz
+DE: Milch
+LU: Deputaka
+
+[L0106] 1.8  Essen und Trinken / wortschatz
+DE: Wasser
+LU: Pubipige
+
+[L0107] 1.8  Essen und Trinken / wortschatz
+DE: essen
+LU: pemufisu
+
+[L0108] 1.8  Essen und Trinken / wortschatz
+DE: trinken
+LU: nidebera
+
+[L0109] 1.8  Essen und Trinken / wortschatz
+DE: Hunger
+LU: Nuvotumo
+
+[L0110] 1.8  Essen und Trinken / wortschatz
+DE: Durst
+LU: Mitebomi
+
+[L0111] 1.8  Essen und Trinken / beispielsatz
+DE: Ich habe Hunger.
+LU: Memekumo fonulibu Nuvotumo.
+
+[L0112] 1.8  Essen und Trinken / beispielsatz
+DE: Ich möchte Wasser trinken.
+LU: Memekumo dutukiha Pubipige nidebera.
+
+[L0113] 1.8  Essen und Trinken / beispielsatz
+DE: Der Apfel ist süß.
+LU: Bahosige Labikuhi gukikehi vobaraba.
+
+[L0114] 1.8  Essen und Trinken / dialog
+DE: Kind A: „Ich habe Hunger.“
+LU: Gubeviki MOLUSARU: „Memekumo fonulibu Nuvotumo.“
+
+[L0115] 1.8  Essen und Trinken / dialog
+DE: Kind B: „Ich möchte Wasser trinken.“
+LU: Gubeviki REREGEFO: „Memekumo dutukiha Pubipige nidebera.“
+
+[L0116] 1.8  Essen und Trinken / lesetext
+DE: Heute sprechen wir über essen und trinken. Mia zeigt Ben etwas Neues. Ben hört genau zu und stellt eine Frage. Mia antwortet freundlich. Beide üben zusammen und lernen neue Wörter.
+LU: Negafepe vonukulo ramerini vevokohu pemufisu finiguga nidebera. Kanobete nunupela Vipagave dobevisu Memogari. Vipagave lilufodu kapoguve lekiperu finiguga tamapuso vetumene Kahevibo. Kanobete ginaruha tikoduvo. Muripubo sohelatu kusopato finiguga bupovohi givosure Komogoka.
+
+[L0117] 1.9  Ich spiele / wortschatz
+DE: spielen
+LU: hosovevu
+
+[L0118] 1.9  Ich spiele / wortschatz
+DE: laufen
+LU: bevoreha
+
+[L0119] 1.9  Ich spiele / wortschatz
+DE: springen
+LU: selabala
+
+[L0120] 1.9  Ich spiele / wortschatz
+DE: Ball
+LU: Pavokete
+
+[L0121] 1.9  Ich spiele / wortschatz
+DE: Freund
+LU: Fimabole
+
+[L0122] 1.9  Ich spiele / wortschatz
+DE: Freundin
+LU: Fanetamu
+
+[L0123] 1.9  Ich spiele / wortschatz
+DE: zusammen
+LU: kusopato
+
+[L0124] 1.9  Ich spiele / wortschatz
+DE: gern
+LU: firorahe
+
+[L0125] 1.9  Ich spiele / beispielsatz
+DE: Wir spielen zusammen.
+LU: Ramerini hosovevu kusopato.
+
+[L0126] 1.9  Ich spiele / beispielsatz
+DE: Ich springe hoch.
+LU: Memekumo migodinu doposohu.
+
+[L0127] 1.9  Ich spiele / beispielsatz
+DE: Spielst du mit mir?
+LU: Ponuvodo gavogedu ligipube lunodera?
+
+[L0128] 1.9  Ich spiele / dialog
+DE: Kind A: „Wir spielen zusammen.“
+LU: Gubeviki MOLUSARU: „Ramerini hosovevu kusopato.“
+
+[L0129] 1.9  Ich spiele / dialog
+DE: Kind B: „Ich springe hoch.“
+LU: Gubeviki REREGEFO: „Memekumo migodinu doposohu.“
+
+[L0130] 1.9  Ich spiele / lesetext
+DE: Heute sprechen wir über ich spiele. Mia zeigt Ben etwas Neues. Ben hört genau zu und stellt eine Frage. Mia antwortet freundlich. Beide üben zusammen und lernen neue Wörter.
+LU: Negafepe vonukulo ramerini vevokohu memekumo hefumuda. Kanobete nunupela Vipagave dobevisu Memogari. Vipagave lilufodu kapoguve lekiperu finiguga tamapuso vetumene Kahevibo. Kanobete ginaruha tikoduvo. Muripubo sohelatu kusopato finiguga bupovohi givosure Komogoka.
+
+[L0131] 1.9  Ich spiele / wortschatz
+DE: heute
+LU: negafepe
+
+[L0132] 1.9  Ich spiele / wortschatz
+DE: morgen
+LU: vuvudite
+
+[L0133] 1.9  Ich spiele / wortschatz
+DE: gestern
+LU: ramukiva
+
+[L0134] 1.9  Ich spiele / wortschatz
+DE: glücklich
+LU: fafalimo
+
+[L0135] 1.9  Ich spiele / wortschatz
+DE: müde
+LU: ludivife
+
+[L0136] 1.9  Ich spiele / wortschatz
+DE: zu Hause
+LU: lekiperu Rurakilo
+
+[L0137] 1.9  Ich spiele / wortschatz
+DE: schlafen
+LU: vonirive
+
+[L0138] 1.9  Ich spiele / wortschatz
+DE: lesen
+LU: fisavado
+
+[L0139] 1.9  Ich spiele / beispielsatz
+DE: Heute bin ich glücklich.
+LU: Negafepe fapihiso memekumo fafalimo.
+
+[L0140] 1.9  Ich spiele / beispielsatz
+DE: Ich lese ein Buch.
+LU: Memekumo verusoko lokuligo Tufabote.
+
+[L0141] 1.9  Ich spiele / beispielsatz
+DE: Am Abend gehe ich schlafen.
+LU: Didanage Bekusapi porokeve memekumo vonirive.
+
+[L0142] 1.9  Ich spiele / dialog
+DE: Kind A: „Heute bin ich glücklich.“
+LU: Gubeviki MOLUSARU: „Negafepe fapihiso memekumo fafalimo.“
+
+[L0143] 1.9  Ich spiele / dialog
+DE: Kind B: „Ich lese ein Buch.“
+LU: Gubeviki REREGEFO: „Memekumo verusoko lokuligo Tufabote.“
+
+[L0144] 1.9  Ich spiele / lesetext
+DE: Heute sprechen wir über mein erster kleiner text. Mia zeigt Ben etwas Neues. Ben hört genau zu und stellt eine Frage. Mia antwortet freundlich. Beide üben zusammen und lernen neue Wörter.
+LU: Negafepe vonukulo ramerini vevokohu puhahimu damagupi fonugivi bikuvumu. Kanobete nunupela Vipagave dobevisu Memogari. Vipagave lilufodu kapoguve lekiperu finiguga tamapuso vetumene Kahevibo. Kanobete ginaruha tikoduvo. Muripubo sohelatu kusopato finiguga bupovohi givosure Komogoka.
+
+[L0145] 2.1  Ich beschreibe Menschen / wortschatz
+DE: groß
+LU: tahilogu
+
+[L0146] 2.1  Ich beschreibe Menschen / wortschatz
+DE: klein
+LU: pedogoge
+
+[L0147] 2.1  Ich beschreibe Menschen / wortschatz
+DE: jung
+LU: dabasefa
+
+[L0148] 2.1  Ich beschreibe Menschen / wortschatz
+DE: alt
+LU: lobenidi
+
+[L0149] 2.1  Ich beschreibe Menschen / wortschatz
+DE: freundlich
+LU: tikoduvo
+
+[L0150] 2.1  Ich beschreibe Menschen / wortschatz
+DE: lustig
+LU: sunisere
+
+[L0151] 2.1  Ich beschreibe Menschen / wortschatz
+DE: ruhig
+LU: legegoni
+
+[L0152] 2.1  Ich beschreibe Menschen / wortschatz
+DE: hilfsbereit
+LU: fekagese
+
+[L0153] 2.1  Ich beschreibe Menschen / beispielsatz
+DE: Meine Freundin ist freundlich.
+LU: Vanurepa Fanetamu gukikehi tikoduvo.
+
+[L0154] 2.1  Ich beschreibe Menschen / beispielsatz
+DE: Mein Bruder ist größer als ich.
+LU: Puhahimu Gebudavo gukikehi safohoku gugetave memekumo.
+
+[L0155] 2.1  Ich beschreibe Menschen / beispielsatz
+DE: Wir helfen einander.
+LU: Ramerini nabidaho hesotime.
+
+[L0156] 2.1  Ich beschreibe Menschen / dialog
+DE: Kind A: „Meine Freundin ist freundlich.“
+LU: Gubeviki MOLUSARU: „Vanurepa Fanetamu gukikehi tikoduvo.“
+
+[L0157] 2.1  Ich beschreibe Menschen / dialog
+DE: Kind B: „Mein Bruder ist größer als ich.“
+LU: Gubeviki REREGEFO: „Puhahimu Gebudavo gukikehi safohoku gugetave memekumo.“
+
+[L0158] 2.1  Ich beschreibe Menschen / lesetext
+DE: Mia und Ben beschäftigen sich mit dem Thema ich beschreibe menschen. Zuerst sammeln sie passende Wörter. Dann sprechen sie miteinander. Als Ben etwas nicht versteht, fragt er noch einmal nach. Am Ende erklären beide das Thema mit eigenen Worten.
+LU: Kanobete finiguga Vipagave lekedepe kufofalu ligipube lasenamo Menasuvu memekumo tetaviku vehakeka. Vusuvena nefurofa runebedo dipevafe Komogoka. Musodita vonukulo runebedo puhubera. Gugetave Vipagave dobevisu tavituda bimumife, bopitobu vomikoga hukekegi girakili redamoka. Didanage Fugivuko kaverihu muripubo negigivo Menasuvu ligipube vopehifi Lutalope.
+
+[L0159] 2.2  Fragen stellen / wortschatz
+DE: wer
+LU: dotasire
+
+[L0160] 2.2  Fragen stellen / wortschatz
+DE: was
+LU: dosesaso
+
+[L0161] 2.2  Fragen stellen / wortschatz
+DE: wo
+LU: kupegilo
+
+[L0162] 2.2  Fragen stellen / wortschatz
+DE: wann
+LU: kinevusi
+
+[L0163] 2.2  Fragen stellen / wortschatz
+DE: warum
+LU: tudigeke
+
+[L0164] 2.2  Fragen stellen / wortschatz
+DE: wie
+LU: masorosa
+
+[L0165] 2.2  Fragen stellen / wortschatz
+DE: welche
+LU: talokuba
+
+[L0166] 2.2  Fragen stellen / wortschatz
+DE: antworten
+LU: gelipuma
+
+[L0167] 2.2  Fragen stellen / beispielsatz
+DE: Wer bist du?
+LU: Dotasire dalahepu gavogedu?
+
+[L0168] 2.2  Fragen stellen / beispielsatz
+DE: Wo wohnst du?
+LU: Kupegilo fikapika gavogedu?
+
+[L0169] 2.2  Fragen stellen / beispielsatz
+DE: Warum lachst du?
+LU: Tudigeke nobemosu gavogedu?
+
+[L0170] 2.2  Fragen stellen / beispielsatz
+DE: Wie geht es dir?
+LU: Masorosa taveguda sebevife tolimohe?
+
+[L0171] 2.2  Fragen stellen / dialog
+DE: Kind A: „Wer bist du?“
+LU: Gubeviki MOLUSARU: „Dotasire dalahepu gavogedu?“
+
+[L0172] 2.2  Fragen stellen / dialog
+DE: Kind B: „Wo wohnst du?“
+LU: Gubeviki REREGEFO: „Kupegilo fikapika gavogedu?“
+
+[L0173] 2.2  Fragen stellen / lesetext
+DE: Mia und Ben beschäftigen sich mit dem Thema fragen stellen. Zuerst sammeln sie passende Wörter. Dann sprechen sie miteinander. Als Ben etwas nicht versteht, fragt er noch einmal nach. Am Ende erklären beide das Thema mit eigenen Worten.
+LU: Kanobete finiguga Vipagave lekedepe kufofalu ligipube lasenamo Menasuvu sasutadi misinula. Vusuvena nefurofa runebedo dipevafe Komogoka. Musodita vonukulo runebedo puhubera. Gugetave Vipagave dobevisu tavituda bimumife, bopitobu vomikoga hukekegi girakili redamoka. Didanage Fugivuko kaverihu muripubo negigivo Menasuvu ligipube vopehifi Lutalope.
+
+[L0174] 2.3  Sätze verneinen / wortschatz
+DE: nicht
+LU: tavituda
+
+[L0175] 2.3  Sätze verneinen / wortschatz
+DE: kein
+LU: nubufadi
+
+[L0176] 2.3  Sätze verneinen / wortschatz
+DE: nie
+LU: kimudehe
+
+[L0177] 2.3  Sätze verneinen / wortschatz
+DE: ja
+LU: lifopasa
+
+[L0178] 2.3  Sätze verneinen / wortschatz
+DE: nein
+LU: tisesama
+
+[L0179] 2.3  Sätze verneinen / wortschatz
+DE: immer
+LU: bomonufi
+
+[L0180] 2.3  Sätze verneinen / wortschatz
+DE: manchmal
+LU: lubiguvu
+
+[L0181] 2.3  Sätze verneinen / wortschatz
+DE: oft
+LU: gutimamo
+
+[L0182] 2.3  Sätze verneinen / beispielsatz
+DE: Ich esse Brot.
+LU: Memekumo gigileki Lukefusu.
+
+[L0183] 2.3  Sätze verneinen / beispielsatz
+DE: Ich esse kein Brot.
+LU: Memekumo gigileki nubufadi Lukefusu.
+
+[L0184] 2.3  Sätze verneinen / beispielsatz
+DE: Ich schlafe nicht.
+LU: Memekumo gulepete tavituda.
+
+[L0185] 2.3  Sätze verneinen / beispielsatz
+DE: Ich spiele manchmal draußen.
+LU: Memekumo hefumuda lubiguvu hemumase.
+
+[L0186] 2.3  Sätze verneinen / dialog
+DE: Kind A: „Ich esse Brot.“
+LU: Gubeviki MOLUSARU: „Memekumo gigileki Lukefusu.“
+
+[L0187] 2.3  Sätze verneinen / dialog
+DE: Kind B: „Ich esse kein Brot.“
+LU: Gubeviki REREGEFO: „Memekumo gigileki nubufadi Lukefusu.“
+
+[L0188] 2.3  Sätze verneinen / lesetext
+DE: Mia und Ben beschäftigen sich mit dem Thema sätze verneinen. Zuerst sammeln sie passende Wörter. Dann sprechen sie miteinander. Als Ben etwas nicht versteht, fragt er noch einmal nach. Am Ende erklären beide das Thema mit eigenen Worten.
+LU: Kanobete finiguga Vipagave lekedepe kufofalu ligipube lasenamo Menasuvu kehoredu vemopevi. Vusuvena nefurofa runebedo dipevafe Komogoka. Musodita vonukulo runebedo puhubera. Gugetave Vipagave dobevisu tavituda bimumife, bopitobu vomikoga hukekegi girakili redamoka. Didanage Fugivuko kaverihu muripubo negigivo Menasuvu ligipube vopehifi Lutalope.
+
+[L0189] 2.4  Mein Tagesablauf / wortschatz
+DE: aufstehen
+LU: natakodi
+
+[L0190] 2.4  Mein Tagesablauf / wortschatz
+DE: frühstücken
+LU: kodareve
+
+[L0191] 2.4  Mein Tagesablauf / wortschatz
+DE: lernen
+LU: bupovohi
+
+[L0192] 2.4  Mein Tagesablauf / wortschatz
+DE: Mittag
+LU: Tunededo
+
+[L0193] 2.4  Mein Tagesablauf / wortschatz
+DE: Nachmittag
+LU: Gehemiso
+
+[L0194] 2.4  Mein Tagesablauf / wortschatz
+DE: Abend
+LU: Bekusapi
+
+[L0195] 2.4  Mein Tagesablauf / wortschatz
+DE: Uhr
+LU: Hisegupa
+
+[L0196] 2.4  Mein Tagesablauf / wortschatz
+DE: Pause
+LU: Nabipuve
+
+[L0197] 2.4  Mein Tagesablauf / beispielsatz
+DE: Ich stehe morgens auf.
+LU: Memekumo vinadive voredesu modinona.
+
+[L0198] 2.4  Mein Tagesablauf / beispielsatz
+DE: Nach der Schule spiele ich.
+LU: Redamoka bahosige Lifatisu hefumuda memekumo.
+
+[L0199] 2.4  Mein Tagesablauf / beispielsatz
+DE: Am Abend lese ich.
+LU: Didanage Bekusapi verusoko memekumo.
+
+[L0200] 2.4  Mein Tagesablauf / dialog
+DE: Kind A: „Ich stehe morgens auf.“
+LU: Gubeviki MOLUSARU: „Memekumo vinadive voredesu modinona.“
+
+[L0201] 2.4  Mein Tagesablauf / dialog
+DE: Kind B: „Nach der Schule spiele ich.“
+LU: Gubeviki REREGEFO: „Redamoka bahosige Lifatisu hefumuda memekumo.“
+
+[L0202] 2.4  Mein Tagesablauf / lesetext
+DE: Mia und Ben beschäftigen sich mit dem Thema mein tagesablauf. Zuerst sammeln sie passende Wörter. Dann sprechen sie miteinander. Als Ben etwas nicht versteht, fragt er noch einmal nach. Am Ende erklären beide das Thema mit eigenen Worten.
+LU: Kanobete finiguga Vipagave lekedepe kufofalu ligipube lasenamo Menasuvu puhahimu lekiharu. Vusuvena nefurofa runebedo dipevafe Komogoka. Musodita vonukulo runebedo puhubera. Gugetave Vipagave dobevisu tavituda bimumife, bopitobu vomikoga hukekegi girakili redamoka. Didanage Fugivuko kaverihu muripubo negigivo Menasuvu ligipube vopehifi Lutalope.
+
+[L0203] 2.5  Im Geschäft / wortschatz
+DE: kaufen
+LU: hinolegu
+
+[L0204] 2.5  Im Geschäft / wortschatz
+DE: verkaufen
+LU: mehukata
+
+[L0205] 2.5  Im Geschäft / wortschatz
+DE: Geld
+LU: Mivoraru
+
+[L0206] 2.5  Im Geschäft / wortschatz
+DE: Preis
+LU: Ripagefa
+
+[L0207] 2.5  Im Geschäft / wortschatz
+DE: teuer
+LU: motibura
+
+[L0208] 2.5  Im Geschäft / wortschatz
+DE: billig
+LU: sugunoba
+
+[L0209] 2.5  Im Geschäft / wortschatz
+DE: bitte
+LU: lidokira
+
+[L0210] 2.5  Im Geschäft / wortschatz
+DE: danke
+LU: bigemibi
+
+[L0211] 2.5  Im Geschäft / beispielsatz
+DE: Ich möchte einen Apfel kaufen.
+LU: Memekumo dutukiha bavudugi Labikuhi hinolegu.
+
+[L0212] 2.5  Im Geschäft / beispielsatz
+DE: Wie viel kostet das Brot?
+LU: Masorosa posisopu hosudohu negigivo Lukefusu?
+
+[L0213] 2.5  Im Geschäft / beispielsatz
+DE: Danke für deine Hilfe.
+LU: Bigemibi rulunoho fanufipo Telopopu.
+
+[L0214] 2.5  Im Geschäft / dialog
+DE: Kind A: „Ich möchte einen Apfel kaufen.“
+LU: Gubeviki MOLUSARU: „Memekumo dutukiha bavudugi Labikuhi hinolegu.“
+
+[L0215] 2.5  Im Geschäft / dialog
+DE: Kind B: „Wie viel kostet das Brot?“
+LU: Gubeviki REREGEFO: „Masorosa posisopu hosudohu negigivo Lukefusu?“
+
+[L0216] 2.5  Im Geschäft / lesetext
+DE: Lina geht mit ihrem Vater zum Markt. Sie möchte Äpfel kaufen. „Wie viel kosten drei Äpfel?“, fragt sie. Der Verkäufer nennt den Preis. Lina bedankt sich und legt die Äpfel in ihren Korb.
+LU: Gidogope taveguda ligipube nohonihe Gurudopa mekamego Gohesole. Runebedo dutukiha sotikiku hinolegu. „Masorosa posisopu lupevato gehakuhi sotikiku?“, bopitobu runebedo. Bahosige Komimosu serogefu sadanepi Ripagefa. Gidogope sopuvamo kufofalu finiguga vatifati pibigola sotikiku kugasepa kitopuko Benelefi.
+
+[L0217] 2.6  Wo liegt was? / wortschatz
+DE: auf
+LU: modinona
+
+[L0218] 2.6  Wo liegt was? / wortschatz
+DE: unter
+LU: telefufa
+
+[L0219] 2.6  Wo liegt was? / wortschatz
+DE: neben
+LU: pokihovi
+
+[L0220] 2.6  Wo liegt was? / wortschatz
+DE: vor
+LU: bosuhabe
+
+[L0221] 2.6  Wo liegt was? / wortschatz
+DE: hinter
+LU: bohufeko
+
+[L0222] 2.6  Wo liegt was? / wortschatz
+DE: zwischen
+LU: lipaseko
+
+[L0223] 2.6  Wo liegt was? / wortschatz
+DE: links
+LU: saliruta
+
+[L0224] 2.6  Wo liegt was? / wortschatz
+DE: rechts
+LU: husuhuru
+
+[L0225] 2.6  Wo liegt was? / beispielsatz
+DE: Der Ball liegt unter dem Tisch.
+LU: Bahosige Pavokete vanigura telefufa lasenamo Megopisa.
+
+[L0226] 2.6  Wo liegt was? / beispielsatz
+DE: Die Tasche steht neben dem Stuhl.
+LU: Pibigola Rupadude fumoridi pokihovi lasenamo Gavabose.
+
+[L0227] 2.6  Wo liegt was? / beispielsatz
+DE: Das Buch liegt zwischen zwei Heften.
+LU: Negigivo Tufabote vanigura lipaseko bamolede Tikuvidu.
+
+[L0228] 2.6  Wo liegt was? / dialog
+DE: Kind A: „Der Ball liegt unter dem Tisch.“
+LU: Gubeviki MOLUSARU: „Bahosige Pavokete vanigura telefufa lasenamo Megopisa.“
+
+[L0229] 2.6  Wo liegt was? / dialog
+DE: Kind B: „Die Tasche steht neben dem Stuhl.“
+LU: Gubeviki REREGEFO: „Pibigola Rupadude fumoridi pokihovi lasenamo Gavabose.“
+
+[L0230] 2.6  Wo liegt was? / lesetext
+DE: Mia und Ben beschäftigen sich mit dem Thema wo liegt was?. Zuerst sammeln sie passende Wörter. Dann sprechen sie miteinander. Als Ben etwas nicht versteht, fragt er noch einmal nach. Am Ende erklären beide das Thema mit eigenen Worten.
+LU: Kanobete finiguga Vipagave lekedepe kufofalu ligipube lasenamo Menasuvu kupegilo vanigura dosesaso?. Vusuvena nefurofa runebedo dipevafe Komogoka. Musodita vonukulo runebedo puhubera. Gugetave Vipagave dobevisu tavituda bimumife, bopitobu vomikoga hukekegi girakili redamoka. Didanage Fugivuko kaverihu muripubo negigivo Menasuvu ligipube vopehifi Lutalope.
+
+[L0231] 2.7  Wünsche und Bitten / wortschatz
+DE: wünschen
+LU: gadubete
+
+[L0232] 2.7  Wünsche und Bitten / wortschatz
+DE: möchten
+LU: hubabeta
+
+[L0233] 2.7  Wünsche und Bitten / wortschatz
+DE: dürfen
+LU: pagurika
+
+[L0234] 2.7  Wünsche und Bitten / wortschatz
+DE: können
+LU: tedalori
+
+[L0235] 2.7  Wünsche und Bitten / wortschatz
+DE: helfen
+LU: nabidaho
+
+[L0236] 2.7  Wünsche und Bitten / wortschatz
+DE: bitten
+LU: vikadehe
+
+[L0237] 2.7  Wünsche und Bitten / wortschatz
+DE: einladen
+LU: bubagato
+
+[L0238] 2.7  Wünsche und Bitten / wortschatz
+DE: entschuldigen
+LU: kabohovu
+
+[L0239] 2.7  Wünsche und Bitten / beispielsatz
+DE: Kannst du mir helfen?
+LU: Vapubabo gavogedu lunodera nabidaho?
+
+[L0240] 2.7  Wünsche und Bitten / beispielsatz
+DE: Darf ich mitspielen?
+LU: Veboderi memekumo kihusito?
+
+[L0241] 2.7  Wünsche und Bitten / beispielsatz
+DE: Ich möchte ein Buch lesen.
+LU: Memekumo dutukiha lokuligo Tufabote fisavado.
+
+[L0242] 2.7  Wünsche und Bitten / dialog
+DE: Kind A: „Kannst du mir helfen?“
+LU: Gubeviki MOLUSARU: „Vapubabo gavogedu lunodera nabidaho?“
+
+[L0243] 2.7  Wünsche und Bitten / dialog
+DE: Kind B: „Darf ich mitspielen?“
+LU: Gubeviki REREGEFO: „Veboderi memekumo kihusito?“
+
+[L0244] 2.7  Wünsche und Bitten / lesetext
+DE: Mia und Ben beschäftigen sich mit dem Thema wünsche und bitten. Zuerst sammeln sie passende Wörter. Dann sprechen sie miteinander. Als Ben etwas nicht versteht, fragt er noch einmal nach. Am Ende erklären beide das Thema mit eigenen Worten.
+LU: Kanobete finiguga Vipagave lekedepe kufofalu ligipube lasenamo Menasuvu rononudu finiguga vikadehe. Vusuvena nefurofa runebedo dipevafe Komogoka. Musodita vonukulo runebedo puhubera. Gugetave Vipagave dobevisu tavituda bimumife, bopitobu vomikoga hukekegi girakili redamoka. Didanage Fugivuko kaverihu muripubo negigivo Menasuvu ligipube vopehifi Lutalope.
+
+[L0245] 2.8  Unser Zuhause / wortschatz
+DE: Wohnung
+LU: Hosegave
+
+[L0246] 2.8  Unser Zuhause / wortschatz
+DE: Haus
+LU: Kigekabu
+
+[L0247] 2.8  Unser Zuhause / wortschatz
+DE: Zimmer
+LU: Bihogeru
+
+[L0248] 2.8  Unser Zuhause / wortschatz
+DE: Küche
+LU: Resetehe
+
+[L0249] 2.8  Unser Zuhause / wortschatz
+DE: Fenster
+LU: Bobopuve
+
+[L0250] 2.8  Unser Zuhause / wortschatz
+DE: Tür
+LU: Vutohasi
+
+[L0251] 2.8  Unser Zuhause / wortschatz
+DE: Bett
+LU: Sedabiku
+
+[L0252] 2.8  Unser Zuhause / wortschatz
+DE: Garten
+LU: Sutikaho
+
+[L0253] 2.8  Unser Zuhause / beispielsatz
+DE: Mein Bett steht am Fenster.
+LU: Puhahimu Sedabiku fumoridi didanage Bobopuve.
+
+[L0254] 2.8  Unser Zuhause / beispielsatz
+DE: In der Küche steht ein Tisch.
+LU: Kugasepa bahosige Resetehe fumoridi lokuligo Megopisa.
+
+[L0255] 2.8  Unser Zuhause / beispielsatz
+DE: Unser Garten ist klein.
+LU: Nifimene Sutikaho gukikehi pedogoge.
+
+[L0256] 2.8  Unser Zuhause / dialog
+DE: Kind A: „Mein Bett steht am Fenster.“
+LU: Gubeviki MOLUSARU: „Puhahimu Sedabiku fumoridi didanage Bobopuve.“
+
+[L0257] 2.8  Unser Zuhause / dialog
+DE: Kind B: „In der Küche steht ein Tisch.“
+LU: Gubeviki REREGEFO: „Kugasepa bahosige Resetehe fumoridi lokuligo Megopisa.“
+
+[L0258] 2.8  Unser Zuhause / lesetext
+DE: Mia und Ben beschäftigen sich mit dem Thema unser zuhause. Zuerst sammeln sie passende Wörter. Dann sprechen sie miteinander. Als Ben etwas nicht versteht, fragt er noch einmal nach. Am Ende erklären beide das Thema mit eigenen Worten.
+LU: Kanobete finiguga Vipagave lekedepe kufofalu ligipube lasenamo Menasuvu nifimene fodakiti. Vusuvena nefurofa runebedo dipevafe Komogoka. Musodita vonukulo runebedo puhubera. Gugetave Vipagave dobevisu tavituda bimumife, bopitobu vomikoga hukekegi girakili redamoka. Didanage Fugivuko kaverihu muripubo negigivo Menasuvu ligipube vopehifi Lutalope.
+
+[L0259] 2.9  Zusammen sprechen / wortschatz
+DE: erzählen
+LU: tihodofa
+
+[L0260] 2.9  Zusammen sprechen / wortschatz
+DE: zuhören
+LU: tileseto
+
+[L0261] 2.9  Zusammen sprechen / wortschatz
+DE: fragen
+LU: sasutadi
+
+[L0262] 2.9  Zusammen sprechen / wortschatz
+DE: erklären
+LU: kaverihu
+
+[L0263] 2.9  Zusammen sprechen / wortschatz
+DE: verstehen
+LU: vapasisi
+
+[L0264] 2.9  Zusammen sprechen / wortschatz
+DE: wiederholen
+LU: puninobo
+
+[L0265] 2.9  Zusammen sprechen / wortschatz
+DE: warten
+LU: fulenufu
+
+[L0266] 2.9  Zusammen sprechen / wortschatz
+DE: antworten
+LU: gelipuma
+
+[L0267] 2.9  Zusammen sprechen / beispielsatz
+DE: Ich habe dich nicht verstanden.
+LU: Memekumo fonulibu telupesu tavituda labefono.
+
+[L0268] 2.9  Zusammen sprechen / beispielsatz
+DE: Bitte wiederhole den Satz.
+LU: Lidokira silifuku sadanepi Kimagutu.
+
+[L0269] 2.9  Zusammen sprechen / beispielsatz
+DE: Ich möchte dir etwas erzählen.
+LU: Memekumo dutukiha tolimohe dobevisu tihodofa.
+
+[L0270] 2.9  Zusammen sprechen / dialog
+DE: Kind A: „Ich habe dich nicht verstanden.“
+LU: Gubeviki MOLUSARU: „Memekumo fonulibu telupesu tavituda labefono.“
+
+[L0271] 2.9  Zusammen sprechen / dialog
+DE: Kind B: „Bitte wiederhole den Satz.“
+LU: Gubeviki REREGEFO: „Lidokira silifuku sadanepi Kimagutu.“
+
+[L0272] 2.9  Zusammen sprechen / lesetext
+DE: Ben versteht eine Frage nicht. „Bitte sprich noch einmal langsam“, sagt er. Mia wiederholt ihre Frage. Nun kann Ben antworten. Beide freuen sich über das gute Gespräch.
+LU: Vipagave bimumife vetumene Kahevibo tavituda. „Lidokira kuhipigu hukekegi girakili larakuba“, kebukeko vomikoga. Kanobete gepibako bimiduna Kahevibo. Mefesela tagavedu Vipagave gelipuma. Muripubo monegabo kufofalu vevokohu negigivo hulomumu Kuvutihi.
+
+[L0273] 2.9  Zusammen sprechen / wortschatz
+DE: Freizeit
+LU: Kamomika
+
+[L0274] 2.9  Zusammen sprechen / wortschatz
+DE: Hobby
+LU: Henovaho
+
+[L0275] 2.9  Zusammen sprechen / wortschatz
+DE: Musik
+LU: Ripolugu
+
+[L0276] 2.9  Zusammen sprechen / wortschatz
+DE: Buch
+LU: Tufabote
+
+[L0277] 2.9  Zusammen sprechen / wortschatz
+DE: Fußball
+LU: Nabavofi
+
+[L0278] 2.9  Zusammen sprechen / wortschatz
+DE: malen
+LU: lerutafu
+
+[L0279] 2.9  Zusammen sprechen / wortschatz
+DE: Freude
+LU: Vunomapi
+
+[L0280] 2.9  Zusammen sprechen / wortschatz
+DE: zusammen
+LU: kusopato
+
+[L0281] 2.9  Zusammen sprechen / beispielsatz
+DE: Was machst du gern?
+LU: Dosesaso dimerino gavogedu firorahe?
+
+[L0282] 2.9  Zusammen sprechen / beispielsatz
+DE: Ich male gern Bilder.
+LU: Memekumo pavilavo firorahe Husurodi.
+
+[L0283] 2.9  Zusammen sprechen / beispielsatz
+DE: Morgen spielen wir zusammen.
+LU: Vuvudite hosovevu ramerini kusopato.
+
+[L0284] 2.9  Zusammen sprechen / dialog
+DE: Kind A: „Was machst du gern?“
+LU: Gubeviki MOLUSARU: „Dosesaso dimerino gavogedu firorahe?“
+
+[L0285] 2.9  Zusammen sprechen / dialog
+DE: Kind B: „Ich male gern Bilder.“
+LU: Gubeviki REREGEFO: „Memekumo pavilavo firorahe Husurodi.“
+
+[L0286] 2.9  Zusammen sprechen / lesetext
+DE: Mia und Ben beschäftigen sich mit dem Thema mein erstes eigenes gespräch. Zuerst sammeln sie passende Wörter. Dann sprechen sie miteinander. Als Ben etwas nicht versteht, fragt er noch einmal nach. Am Ende erklären beide das Thema mit eigenen Worten.
+LU: Kanobete finiguga Vipagave lekedepe kufofalu ligipube lasenamo Menasuvu puhahimu givetofa vitirapi kuvutihi. Vusuvena nefurofa runebedo dipevafe Komogoka. Musodita vonukulo runebedo puhubera. Gugetave Vipagave dobevisu tavituda bimumife, bopitobu vomikoga hukekegi girakili redamoka. Didanage Fugivuko kaverihu muripubo negigivo Menasuvu ligipube vopehifi Lutalope.
+
+[L0287] 3.1  Was gestern geschah / wortschatz
+DE: gestern
+LU: ramukiva
+
+[L0288] 3.1  Was gestern geschah / wortschatz
+DE: vorgestern
+LU: sidalelo
+
+[L0289] 3.1  Was gestern geschah / wortschatz
+DE: früher
+LU: losimatu
+
+[L0290] 3.1  Was gestern geschah / wortschatz
+DE: damals
+LU: dubahufi
+
+[L0291] 3.1  Was gestern geschah / wortschatz
+DE: erzählen
+LU: tihodofa
+
+[L0292] 3.1  Was gestern geschah / wortschatz
+DE: kommen
+LU: buheromo
+
+[L0293] 3.1  Was gestern geschah / wortschatz
+DE: sehen
+LU: sidetumu
+
+[L0294] 3.1  Was gestern geschah / wortschatz
+DE: gehen
+LU: nagasina
+
+[L0295] 3.1  Was gestern geschah / beispielsatz
+DE: Gestern ging ich in den Park.
+LU: Ramukiva gesokada memekumo kugasepa sadanepi Losuheto.
+
+[L0296] 3.1  Was gestern geschah / beispielsatz
+DE: Sie kam, sah und siegte.
+LU: Runebedo kasinuvu, hudukedo finiguga besoteve.
+
+[L0297] 3.1  Was gestern geschah / beispielsatz
+DE: Wir sahen einen Vogel.
+LU: Ramerini hosunubu bavudugi Hefuhudi.
+
+[L0298] 3.1  Was gestern geschah / dialog
+DE: Kind A: „Gestern ging ich in den Park.“
+LU: Gubeviki MOLUSARU: „Ramukiva gesokada memekumo kugasepa sadanepi Losuheto.“
+
+[L0299] 3.1  Was gestern geschah / dialog
+DE: Kind B: „Sie kam, sah und siegte.“
+LU: Gubeviki REREGEFO: „Runebedo kasinuvu, hudukedo finiguga besoteve.“
+
+[L0300] 3.1  Was gestern geschah / lesetext
+DE: Gestern erlebten Mia und Ben etwas zum Thema was gestern geschah. Zuerst wussten sie nicht, was passieren würde. Dann entdeckten sie einen wichtigen Hinweis. Sie sprachen darüber und fanden gemeinsam eine Lösung. Am Abend erzählten sie ihren Freunden davon.
+LU: Ramukiva penanano Kanobete finiguga Vipagave dobevisu mekamego Menasuvu dosesaso ramukiva limifiho. Vusuvena turusifu runebedo tavituda, dosesaso naketune rerefipe. Musodita dumokiku runebedo bavudugi tulidiko Rimukapu. Runebedo fadihero mifafedo finiguga polipumu hefirite vetumene Bahamuho. Didanage Bekusapi babuvedo runebedo kitopuko Ralidahi mililavu.
+
+[L0301] 3.2  Was morgen geschieht / wortschatz
+DE: morgen
+LU: vuvudite
+
+[L0302] 3.2  Was morgen geschieht / wortschatz
+DE: bald
+LU: hebasise
+
+[L0303] 3.2  Was morgen geschieht / wortschatz
+DE: später
+LU: figipaha
+
+[L0304] 3.2  Was morgen geschieht / wortschatz
+DE: nächste Woche
+LU: sosonaso Nilehupi
+
+[L0305] 3.2  Was morgen geschieht / wortschatz
+DE: planen
+LU: lufikefu
+
+[L0306] 3.2  Was morgen geschieht / wortschatz
+DE: reisen
+LU: domilava
+
+[L0307] 3.2  Was morgen geschieht / wortschatz
+DE: besuchen
+LU: dufososi
+
+[L0308] 3.2  Was morgen geschieht / wortschatz
+DE: werden
+LU: bulubapa
+
+[L0309] 3.2  Was morgen geschieht / beispielsatz
+DE: Morgen besuchen wir Oma.
+LU: Vuvudite dufososi ramerini Gunopato.
+
+[L0310] 3.2  Was morgen geschieht / beispielsatz
+DE: Nächste Woche fahren wir zum See.
+LU: Sosonaso Nilehupi kisumeri ramerini mekamego Rehegugu.
+
+[L0311] 3.2  Was morgen geschieht / beispielsatz
+DE: Ich werde dir helfen.
+LU: Memekumo tepahipo tolimohe nabidaho.
+
+[L0312] 3.2  Was morgen geschieht / dialog
+DE: Kind A: „Morgen besuchen wir Oma.“
+LU: Gubeviki MOLUSARU: „Vuvudite dufososi ramerini Gunopato.“
+
+[L0313] 3.2  Was morgen geschieht / dialog
+DE: Kind B: „Nächste Woche fahren wir zum See.“
+LU: Gubeviki REREGEFO: „Sosonaso Nilehupi kisumeri ramerini mekamego Rehegugu.“
+
+[L0314] 3.2  Was morgen geschieht / lesetext
+DE: Gestern erlebten Mia und Ben etwas zum Thema was morgen geschieht. Zuerst wussten sie nicht, was passieren würde. Dann entdeckten sie einen wichtigen Hinweis. Sie sprachen darüber und fanden gemeinsam eine Lösung. Am Abend erzählten sie ihren Freunden davon.
+LU: Ramukiva penanano Kanobete finiguga Vipagave dobevisu mekamego Menasuvu dosesaso vuvudite fanoribu. Vusuvena turusifu runebedo tavituda, dosesaso naketune rerefipe. Musodita dumokiku runebedo bavudugi tulidiko Rimukapu. Runebedo fadihero mifafedo finiguga polipumu hefirite vetumene Bahamuho. Didanage Bekusapi babuvedo runebedo kitopuko Ralidahi mililavu.
+
+[L0315] 3.3  Anfang, Mitte und Ende / wortschatz
+DE: zuerst
+LU: vusuvena
+
+[L0316] 3.3  Anfang, Mitte und Ende / wortschatz
+DE: danach
+LU: tufofovo
+
+[L0317] 3.3  Anfang, Mitte und Ende / wortschatz
+DE: plötzlich
+LU: rovodiko
+
+[L0318] 3.3  Anfang, Mitte und Ende / wortschatz
+DE: schließlich
+LU: doferahi
+
+[L0319] 3.3  Anfang, Mitte und Ende / wortschatz
+DE: zum Schluss
+LU: mekamego Kogifema
+
+[L0320] 3.3  Anfang, Mitte und Ende / wortschatz
+DE: weil
+LU: devemibo
+
+[L0321] 3.3  Anfang, Mitte und Ende / wortschatz
+DE: aber
+LU: kehisuko
+
+[L0322] 3.3  Anfang, Mitte und Ende / wortschatz
+DE: deshalb
+LU: bifetude
+
+[L0323] 3.3  Anfang, Mitte und Ende / beispielsatz
+DE: Zuerst öffnete ich die Tür.
+LU: Vusuvena totavila memekumo pibigola Vutohasi.
+
+[L0324] 3.3  Anfang, Mitte und Ende / beispielsatz
+DE: Plötzlich hörte ich ein Geräusch.
+LU: Rovodiko gudovile memekumo lokuligo Dihibime.
+
+[L0325] 3.3  Anfang, Mitte und Ende / beispielsatz
+DE: Zum Schluss waren alle glücklich.
+LU: Mekamego Kogifema ganogodu fatibehu fafalimo.
+
+[L0326] 3.3  Anfang, Mitte und Ende / dialog
+DE: Kind A: „Zuerst öffnete ich die Tür.“
+LU: Gubeviki MOLUSARU: „Vusuvena totavila memekumo pibigola Vutohasi.“
+
+[L0327] 3.3  Anfang, Mitte und Ende / dialog
+DE: Kind B: „Plötzlich hörte ich ein Geräusch.“
+LU: Gubeviki REREGEFO: „Rovodiko gudovile memekumo lokuligo Dihibime.“
+
+[L0328] 3.3  Anfang, Mitte und Ende / lesetext
+DE: Gestern erlebten Mia und Ben etwas zum Thema anfang, mitte und ende. Zuerst wussten sie nicht, was passieren würde. Dann entdeckten sie einen wichtigen Hinweis. Sie sprachen darüber und fanden gemeinsam eine Lösung. Am Abend erzählten sie ihren Freunden davon.
+LU: Ramukiva penanano Kanobete finiguga Vipagave dobevisu mekamego Menasuvu pivagolo, luhisesa finiguga fugivuko. Vusuvena turusifu runebedo tavituda, dosesaso naketune rerefipe. Musodita dumokiku runebedo bavudugi tulidiko Rimukapu. Runebedo fadihero mifafedo finiguga polipumu hefirite vetumene Bahamuho. Didanage Bekusapi babuvedo runebedo kitopuko Ralidahi mililavu.
+
+[L0329] 3.4  Im Wald / wortschatz
+DE: Wald
+LU: Lenesinu
+
+[L0330] 3.4  Im Wald / wortschatz
+DE: Weg
+LU: Buvofefi
+
+[L0331] 3.4  Im Wald / wortschatz
+DE: Baum
+LU: Sudutako
+
+[L0332] 3.4  Im Wald / wortschatz
+DE: Blatt
+LU: Repugedo
+
+[L0333] 3.4  Im Wald / wortschatz
+DE: Moos
+LU: Soporipa
+
+[L0334] 3.4  Im Wald / wortschatz
+DE: Bach
+LU: Dekihuve
+
+[L0335] 3.4  Im Wald / wortschatz
+DE: Wind
+LU: Dipuvihu
+
+[L0336] 3.4  Im Wald / wortschatz
+DE: Spur
+LU: Katabife
+
+[L0337] 3.4  Im Wald / beispielsatz
+DE: Wir gingen durch den Wald.
+LU: Ramerini bitakote fogateha sadanepi Lenesinu.
+
+[L0338] 3.4  Im Wald / beispielsatz
+DE: Neben dem Weg floss ein Bach.
+LU: Pokihovi lasenamo Buvofefi mikafoke lokuligo Dekihuve.
+
+[L0339] 3.4  Im Wald / beispielsatz
+DE: Plötzlich entdeckten wir eine Spur.
+LU: Rovodiko dumokiku ramerini vetumene Katabife.
+
+[L0340] 3.4  Im Wald / dialog
+DE: Kind A: „Wir gingen durch den Wald.“
+LU: Gubeviki MOLUSARU: „Ramerini bitakote fogateha sadanepi Lenesinu.“
+
+[L0341] 3.4  Im Wald / dialog
+DE: Kind B: „Neben dem Weg floss ein Bach.“
+LU: Gubeviki REREGEFO: „Pokihovi lasenamo Buvofefi mikafoke lokuligo Dekihuve.“
+
+[L0342] 3.4  Im Wald / lesetext
+DE: Am Samstag liefen Mia und Ben in den Wald. Neben dem Weg fanden sie eine kleine Spur. Sie folgten ihr vorsichtig. Hinter einer Wurzel saß ein junger Vogel. Sie beobachteten ihn und gingen leise weiter.
+LU: Didanage Nidebodo vimafade Kanobete finiguga Vipagave kugasepa sadanepi Lenesinu. Pokihovi lasenamo Buvofefi polipumu runebedo vetumene tokedeke Katabife. Runebedo sipurove suroguni lakasure. Bohufeko felesohe Musariho tolaruro lokuligo kodifafe Hefuhudi. Runebedo lobigedo vohefuna finiguga bitakote pamikana letoposi.
+
+[L0343] 3.5  Gefühle beschreiben / wortschatz
+DE: Freude
+LU: Vunomapi
+
+[L0344] 3.5  Gefühle beschreiben / wortschatz
+DE: Angst
+LU: Pihatosu
+
+[L0345] 3.5  Gefühle beschreiben / wortschatz
+DE: Trauer
+LU: Dadetenu
+
+[L0346] 3.5  Gefühle beschreiben / wortschatz
+DE: Wut
+LU: Gilahefu
+
+[L0347] 3.5  Gefühle beschreiben / wortschatz
+DE: Hoffnung
+LU: Hosuvaha
+
+[L0348] 3.5  Gefühle beschreiben / wortschatz
+DE: Mut
+LU: Moruhoto
+
+[L0349] 3.5  Gefühle beschreiben / wortschatz
+DE: stolz
+LU: neninahe
+
+[L0350] 3.5  Gefühle beschreiben / wortschatz
+DE: geborgen
+LU: pagevoli
+
+[L0351] 3.5  Gefühle beschreiben / beispielsatz
+DE: Ich war zuerst ängstlich.
+LU: Memekumo tibivuma vusuvena rilepebe.
+
+[L0352] 3.5  Gefühle beschreiben / beispielsatz
+DE: Dann fühlte ich mich sicher.
+LU: Musodita takehuro memekumo lilaboda vusiberu.
+
+[L0353] 3.5  Gefühle beschreiben / beispielsatz
+DE: Meine Freundin machte mir Mut.
+LU: Vanurepa Fanetamu konovama lunodera Moruhoto.
+
+[L0354] 3.5  Gefühle beschreiben / dialog
+DE: Kind A: „Ich war zuerst ängstlich.“
+LU: Gubeviki MOLUSARU: „Memekumo tibivuma vusuvena rilepebe.“
+
+[L0355] 3.5  Gefühle beschreiben / dialog
+DE: Kind B: „Dann fühlte ich mich sicher.“
+LU: Gubeviki REREGEFO: „Musodita takehuro memekumo lilaboda vusiberu.“
+
+[L0356] 3.5  Gefühle beschreiben / lesetext
+DE: Gestern erlebten Mia und Ben etwas zum Thema gefühle beschreiben. Zuerst wussten sie nicht, was passieren würde. Dann entdeckten sie einen wichtigen Hinweis. Sie sprachen darüber und fanden gemeinsam eine Lösung. Am Abend erzählten sie ihren Freunden davon.
+LU: Ramukiva penanano Kanobete finiguga Vipagave dobevisu mekamego Menasuvu besigapu vivogofo. Vusuvena turusifu runebedo tavituda, dosesaso naketune rerefipe. Musodita dumokiku runebedo bavudugi tulidiko Rimukapu. Runebedo fadihero mifafedo finiguga polipumu hefirite vetumene Bahamuho. Didanage Bekusapi babuvedo runebedo kitopuko Ralidahi mililavu.
+
+[L0357] 3.6  Dialoge in Geschichten / wortschatz
+DE: sagen
+LU: nakigupa
+
+[L0358] 3.6  Dialoge in Geschichten / wortschatz
+DE: fragen
+LU: sasutadi
+
+[L0359] 3.6  Dialoge in Geschichten / wortschatz
+DE: flüstern
+LU: vakedoko
+
+[L0360] 3.6  Dialoge in Geschichten / wortschatz
+DE: rufen
+LU: kusolalu
+
+[L0361] 3.6  Dialoge in Geschichten / wortschatz
+DE: antworten
+LU: gelipuma
+
+[L0362] 3.6  Dialoge in Geschichten / wortschatz
+DE: lachen
+LU: tihisodo
+
+[L0363] 3.6  Dialoge in Geschichten / wortschatz
+DE: schweigen
+LU: mehonoga
+
+[L0364] 3.6  Dialoge in Geschichten / wortschatz
+DE: zuhören
+LU: tileseto
+
+[L0365] 3.6  Dialoge in Geschichten / beispielsatz
+DE: „Kommst du mit?“, fragte Mia.
+LU: „Vimiviba gavogedu ligipube?“, disebumu Kanobete.
+
+[L0366] 3.6  Dialoge in Geschichten / beispielsatz
+DE: „Ja, sofort!“, antwortete Ben.
+LU: „Lifopasa, bedibase!“, difihebo Vipagave.
+
+[L0367] 3.6  Dialoge in Geschichten / beispielsatz
+DE: Dann lachten beide.
+LU: Musodita nudidida muripubo.
+
+[L0368] 3.6  Dialoge in Geschichten / dialog
+DE: Kind A: „„Kommst du mit?“, fragte Mia.“
+LU: Gubeviki MOLUSARU: „„Vimiviba gavogedu ligipube?“, disebumu Kanobete.“
+
+[L0369] 3.6  Dialoge in Geschichten / dialog
+DE: Kind B: „„Ja, sofort!“, antwortete Ben.“
+LU: Gubeviki REREGEFO: „„Lifopasa, bedibase!“, difihebo Vipagave.“
+
+[L0370] 3.6  Dialoge in Geschichten / lesetext
+DE: „Warum bist du so still?“, fragte Lina. „Ich habe etwas verloren“, antwortete Tom. „Was denn?“ „Meinen Schlüssel.“ Lina lächelte. „Dann suchen wir ihn zusammen.“
+LU: „Tudigeke dalahepu gavogedu sekakevi kasipimo?“, disebumu Gidogope. „Memekumo fonulibu dobevisu gusovano“, difihebo Munupeko. „Dosesaso dibemita?“ „Rasapeva Labigige.“ Gidogope vopefoni. „Musodita vipamodu ramerini vohefuna kusopato.“
+
+[L0371] 3.7  Eine Nachricht schreiben / wortschatz
+DE: Nachricht
+LU: Nagopaga
+
+[L0372] 3.7  Eine Nachricht schreiben / wortschatz
+DE: Brief
+LU: Rupukero
+
+[L0373] 3.7  Eine Nachricht schreiben / wortschatz
+DE: Empfänger
+LU: Kivofofi
+
+[L0374] 3.7  Eine Nachricht schreiben / wortschatz
+DE: Absender
+LU: Lebisuka
+
+[L0375] 3.7  Eine Nachricht schreiben / wortschatz
+DE: Grüße
+LU: Seposufe
+
+[L0376] 3.7  Eine Nachricht schreiben / wortschatz
+DE: treffen
+LU: ropalume
+
+[L0377] 3.7  Eine Nachricht schreiben / wortschatz
+DE: Uhrzeit
+LU: Givekalo
+
+[L0378] 3.7  Eine Nachricht schreiben / wortschatz
+DE: Ort
+LU: Gubiferu
+
+[L0379] 3.7  Eine Nachricht schreiben / beispielsatz
+DE: Hallo Ben, treffen wir uns morgen?
+LU: Segameka Vipagave, ropalume ramerini mevabute vuvudite?
+
+[L0380] 3.7  Eine Nachricht schreiben / beispielsatz
+DE: Ich warte um drei Uhr am Park.
+LU: Memekumo vufevore fivukivo gehakuhi Hisegupa didanage Losuheto.
+
+[L0381] 3.7  Eine Nachricht schreiben / beispielsatz
+DE: Viele Grüße, Mia.
+LU: Menukona Seposufe, Kanobete.
+
+[L0382] 3.7  Eine Nachricht schreiben / dialog
+DE: Kind A: „Hallo Ben, treffen wir uns morgen?“
+LU: Gubeviki MOLUSARU: „Segameka Vipagave, ropalume ramerini mevabute vuvudite?“
+
+[L0383] 3.7  Eine Nachricht schreiben / dialog
+DE: Kind B: „Ich warte um drei Uhr am Park.“
+LU: Gubeviki REREGEFO: „Memekumo vufevore fivukivo gehakuhi Hisegupa didanage Losuheto.“
+
+[L0384] 3.7  Eine Nachricht schreiben / lesetext
+DE: Gestern erlebten Mia und Ben etwas zum Thema eine nachricht schreiben. Zuerst wussten sie nicht, was passieren würde. Dann entdeckten sie einen wichtigen Hinweis. Sie sprachen darüber und fanden gemeinsam eine Lösung. Am Abend erzählten sie ihren Freunden davon.
+LU: Ramukiva penanano Kanobete finiguga Vipagave dobevisu mekamego Menasuvu vetumene nagopaga minokoge. Vusuvena turusifu runebedo tavituda, dosesaso naketune rerefipe. Musodita dumokiku runebedo bavudugi tulidiko Rimukapu. Runebedo fadihero mifafedo finiguga polipumu hefirite vetumene Bahamuho. Didanage Bekusapi babuvedo runebedo kitopuko Ralidahi mililavu.
+
+[L0385] 3.8  Lange Sätze verstehen / wortschatz
+DE: wenn
+LU: poputuru
+
+[L0386] 3.8  Lange Sätze verstehen / wortschatz
+DE: obwohl
+LU: hurisala
+
+[L0387] 3.8  Lange Sätze verstehen / wortschatz
+DE: während
+LU: tadukilo
+
+[L0388] 3.8  Lange Sätze verstehen / wortschatz
+DE: nachdem
+LU: viveraka
+
+[L0389] 3.8  Lange Sätze verstehen / wortschatz
+DE: bevor
+LU: nuhusuli
+
+[L0390] 3.8  Lange Sätze verstehen / wortschatz
+DE: damit
+LU: nevalepo
+
+[L0391] 3.8  Lange Sätze verstehen / wortschatz
+DE: deswegen
+LU: pobaribe
+
+[L0392] 3.8  Lange Sätze verstehen / wortschatz
+DE: trotzdem
+LU: ridogavu
+
+[L0393] 3.8  Lange Sätze verstehen / beispielsatz
+DE: Wenn es regnet, bleiben wir drinnen.
+LU: Poputuru sebevife romutunu, botifuge ramerini fohololi.
+
+[L0394] 3.8  Lange Sätze verstehen / beispielsatz
+DE: Obwohl sie müde war, las sie weiter.
+LU: Hurisala runebedo ludivife tibivuma, gohafule runebedo letoposi.
+
+[L0395] 3.8  Lange Sätze verstehen / beispielsatz
+DE: Nachdem wir gegessen hatten, spielten wir.
+LU: Viveraka ramerini kunupepo visisusi, vofufovo ramerini.
+
+[L0396] 3.8  Lange Sätze verstehen / dialog
+DE: Kind A: „Wenn es regnet, bleiben wir drinnen.“
+LU: Gubeviki MOLUSARU: „Poputuru sebevife romutunu, botifuge ramerini fohololi.“
+
+[L0397] 3.8  Lange Sätze verstehen / dialog
+DE: Kind B: „Obwohl sie müde war, las sie weiter.“
+LU: Gubeviki REREGEFO: „Hurisala runebedo ludivife tibivuma, gohafule runebedo letoposi.“
+
+[L0398] 3.8  Lange Sätze verstehen / lesetext
+DE: Gestern erlebten Mia und Ben etwas zum Thema lange sätze verstehen. Zuerst wussten sie nicht, was passieren würde. Dann entdeckten sie einen wichtigen Hinweis. Sie sprachen darüber und fanden gemeinsam eine Lösung. Am Abend erzählten sie ihren Freunden davon.
+LU: Ramukiva penanano Kanobete finiguga Vipagave dobevisu mekamego Menasuvu deronami kehoredu vapasisi. Vusuvena turusifu runebedo tavituda, dosesaso naketune rerefipe. Musodita dumokiku runebedo bavudugi tulidiko Rimukapu. Runebedo fadihero mifafedo finiguga polipumu hefirite vetumene Bahamuho. Didanage Bekusapi babuvedo runebedo kitopuko Ralidahi mililavu.
+
+[L0399] 3.9  Eine Geschichte überarbeiten / wortschatz
+DE: Überschrift
+LU: mosidutu
+
+[L0400] 3.9  Eine Geschichte überarbeiten / wortschatz
+DE: Absatz
+LU: Tiroruso
+
+[L0401] 3.9  Eine Geschichte überarbeiten / wortschatz
+DE: Reihenfolge
+LU: Daherovi
+
+[L0402] 3.9  Eine Geschichte überarbeiten / wortschatz
+DE: Beschreibung
+LU: Vamolene
+
+[L0403] 3.9  Eine Geschichte überarbeiten / wortschatz
+DE: Fehler
+LU: Ninalara
+
+[L0404] 3.9  Eine Geschichte überarbeiten / wortschatz
+DE: überarbeiten
+LU: sohesigo
+
+[L0405] 3.9  Eine Geschichte überarbeiten / wortschatz
+DE: deutlich
+LU: vimaruko
+
+[L0406] 3.9  Eine Geschichte überarbeiten / wortschatz
+DE: spannend
+LU: kakegutu
+
+[L0407] 3.9  Eine Geschichte überarbeiten / beispielsatz
+DE: Der Weg war dunkel.
+LU: Bahosige Buvofefi tibivuma lasukove.
+
+[L0408] 3.9  Eine Geschichte überarbeiten / beispielsatz
+DE: Hinter dem Baum bewegte sich etwas.
+LU: Bohufeko lasenamo Sudutako mifukube kufofalu dobevisu.
+
+[L0409] 3.9  Eine Geschichte überarbeiten / beispielsatz
+DE: Ich blieb stehen und lauschte.
+LU: Memekumo fafimehu pukofeka finiguga gahibeke.
+
+[L0410] 3.9  Eine Geschichte überarbeiten / dialog
+DE: Kind A: „Der Weg war dunkel.“
+LU: Gubeviki MOLUSARU: „Bahosige Buvofefi tibivuma lasukove.“
+
+[L0411] 3.9  Eine Geschichte überarbeiten / dialog
+DE: Kind B: „Hinter dem Baum bewegte sich etwas.“
+LU: Gubeviki REREGEFO: „Bohufeko lasenamo Sudutako mifukube kufofalu dobevisu.“
+
+[L0412] 3.9  Eine Geschichte überarbeiten / lesetext
+DE: Gestern erlebten Mia und Ben etwas zum Thema eine geschichte überarbeiten. Zuerst wussten sie nicht, was passieren würde. Dann entdeckten sie einen wichtigen Hinweis. Sie sprachen darüber und fanden gemeinsam eine Lösung. Am Abend erzählten sie ihren Freunden davon.
+LU: Ramukiva penanano Kanobete finiguga Vipagave dobevisu mekamego Menasuvu vetumene bivohilu sohesigo. Vusuvena turusifu runebedo tavituda, dosesaso naketune rerefipe. Musodita dumokiku runebedo bavudugi tulidiko Rimukapu. Runebedo fadihero mifafedo finiguga polipumu hefirite vetumene Bahamuho. Didanage Bekusapi babuvedo runebedo kitopuko Ralidahi mililavu.
+
+[L0413] 3.9  Eine Geschichte überarbeiten / wortschatz
+DE: Hauptfigur
+LU: Gusebise
+
+[L0414] 3.9  Eine Geschichte überarbeiten / wortschatz
+DE: Schauplatz
+LU: Nutosasu
+
+[L0415] 3.9  Eine Geschichte überarbeiten / wortschatz
+DE: Problem
+LU: Pitugima
+
+[L0416] 3.9  Eine Geschichte überarbeiten / wortschatz
+DE: Lösung
+LU: Bahamuho
+
+[L0417] 3.9  Eine Geschichte überarbeiten / wortschatz
+DE: Abenteuer
+LU: Vokanuve
+
+[L0418] 3.9  Eine Geschichte überarbeiten / wortschatz
+DE: Begegnung
+LU: Norobeti
+
+[L0419] 3.9  Eine Geschichte überarbeiten / wortschatz
+DE: Ende
+LU: Fugivuko
+
+[L0420] 3.9  Eine Geschichte überarbeiten / wortschatz
+DE: Erzählung
+LU: Tusakema
+
+[L0421] 3.9  Eine Geschichte überarbeiten / beispielsatz
+DE: Am Morgen fand Lina einen Schlüssel.
+LU: Didanage Vuvudite nudososu Gidogope bavudugi Labigige.
+
+[L0422] 3.9  Eine Geschichte überarbeiten / beispielsatz
+DE: Sie wusste nicht, welche Tür er öffnete.
+LU: Runebedo rafatulu tavituda, talokuba Vutohasi vomikoga totavila.
+
+[L0423] 3.9  Eine Geschichte überarbeiten / beispielsatz
+DE: Am Abend hatte sie das Rätsel gelöst.
+LU: Didanage Bekusapi fagotiko runebedo negigivo Dugunuka fisemili.
+
+[L0424] 3.9  Eine Geschichte überarbeiten / dialog
+DE: Kind A: „Am Morgen fand Lina einen Schlüssel.“
+LU: Gubeviki MOLUSARU: „Didanage Vuvudite nudososu Gidogope bavudugi Labigige.“
+
+[L0425] 3.9  Eine Geschichte überarbeiten / dialog
+DE: Kind B: „Sie wusste nicht, welche Tür er öffnete.“
+LU: Gubeviki REREGEFO: „Runebedo rafatulu tavituda, talokuba Vutohasi vomikoga totavila.“
+
+[L0426] 3.9  Eine Geschichte überarbeiten / lesetext
+DE: Gestern erlebten Mia und Ben etwas zum Thema meine eigene erzählung. Zuerst wussten sie nicht, was passieren würde. Dann entdeckten sie einen wichtigen Hinweis. Sie sprachen darüber und fanden gemeinsam eine Lösung. Am Abend erzählten sie ihren Freunden davon.
+LU: Ramukiva penanano Kanobete finiguga Vipagave dobevisu mekamego Menasuvu vanurepa bevakevo tusakema. Vusuvena turusifu runebedo tavituda, dosesaso naketune rerefipe. Musodita dumokiku runebedo bavudugi tulidiko Rimukapu. Runebedo fadihero mifafedo finiguga polipumu hefirite vetumene Bahamuho. Didanage Bekusapi babuvedo runebedo kitopuko Ralidahi mililavu.
+
+[L0427] 4.1  Ich sage meine Meinung / wortschatz
+DE: Meinung
+LU: Nidorida
+
+[L0428] 4.1  Ich sage meine Meinung / wortschatz
+DE: denken
+LU: letosilo
+
+[L0429] 4.1  Ich sage meine Meinung / wortschatz
+DE: glauben
+LU: taharuga
+
+[L0430] 4.1  Ich sage meine Meinung / wortschatz
+DE: finden
+LU: dugalaba
+
+[L0431] 4.1  Ich sage meine Meinung / wortschatz
+DE: wichtig
+LU: nehitani
+
+[L0432] 4.1  Ich sage meine Meinung / wortschatz
+DE: richtig
+LU: meboponi
+
+[L0433] 4.1  Ich sage meine Meinung / wortschatz
+DE: anders
+LU: dedurubo
+
+[L0434] 4.1  Ich sage meine Meinung / wortschatz
+DE: begründen
+LU: malisate
+
+[L0435] 4.1  Ich sage meine Meinung / beispielsatz
+DE: Ich finde Lesen wichtig.
+LU: Memekumo redanufo Fisavado nehitani.
+
+[L0436] 4.1  Ich sage meine Meinung / beispielsatz
+DE: Ich denke anders darüber.
+LU: Memekumo vifaditi dedurubo mifafedo.
+
+[L0437] 4.1  Ich sage meine Meinung / beispielsatz
+DE: Ich begründe meine Meinung mit einem Beispiel.
+LU: Memekumo fihosemo vanurepa Nidorida ligipube digilepe Kopuhose.
+
+[L0438] 4.1  Ich sage meine Meinung / dialog
+DE: Kind A: „Ich finde Lesen wichtig.“
+LU: Gubeviki MOLUSARU: „Memekumo redanufo Fisavado nehitani.“
+
+[L0439] 4.1  Ich sage meine Meinung / dialog
+DE: Kind B: „Ich denke anders darüber.“
+LU: Gubeviki REREGEFO: „Memekumo vifaditi dedurubo mifafedo.“
+
+[L0440] 4.1  Ich sage meine Meinung / lesetext
+DE: Unsere Klasse arbeitet am Thema ich sage meine meinung. Zunächst sammelt jedes Kind eigene Beobachtungen. Danach werden die Vorschläge verglichen und Fragen gestellt. Einige Antworten sind sicher, andere müssen wir noch prüfen. Schließlich schreiben wir auf, was wir herausgefunden haben.
+LU: Fokahava Kakituvo satokebi didanage Menasuvu memekumo vokofoge vanurepa nidorida. Fogohave neratese kelibuso Gubeviki bevakevo Velerosa. Tufofovo bulubapa pibigola Daletome fibipaho finiguga Sasutadi rideheva. Mofinibi Gelipuma vimisogu vusiberu, fasenuge vimebopo ramerini hukekegi pilatodo. Doferahi minokoge ramerini modinona, dosesaso ramerini hukogeri puhusuhe.
+
+[L0441] 4.2  Wir lösen ein Problem / wortschatz
+DE: Problem
+LU: Pitugima
+
+[L0442] 4.2  Wir lösen ein Problem / wortschatz
+DE: Lösung
+LU: Bahamuho
+
+[L0443] 4.2  Wir lösen ein Problem / wortschatz
+DE: Vorschlag
+LU: Sepohihu
+
+[L0444] 4.2  Wir lösen ein Problem / wortschatz
+DE: versuchen
+LU: fesurike
+
+[L0445] 4.2  Wir lösen ein Problem / wortschatz
+DE: entscheiden
+LU: misigedo
+
+[L0446] 4.2  Wir lösen ein Problem / wortschatz
+DE: gemeinsam
+LU: hefirite
+
+[L0447] 4.2  Wir lösen ein Problem / wortschatz
+DE: fair
+LU: tomanore
+
+[L0448] 4.2  Wir lösen ein Problem / wortschatz
+DE: verantwortlich
+LU: gegunube
+
+[L0449] 4.2  Wir lösen ein Problem / beispielsatz
+DE: Wir haben ein Problem.
+LU: Ramerini puhusuhe lokuligo Pitugima.
+
+[L0450] 4.2  Wir lösen ein Problem / beispielsatz
+DE: Ich schlage eine andere Lösung vor.
+LU: Memekumo tovitoma vetumene fasenuge Bahamuho bosuhabe.
+
+[L0451] 4.2  Wir lösen ein Problem / beispielsatz
+DE: Lasst uns gemeinsam entscheiden.
+LU: Famidumu mevabute hefirite misigedo.
+
+[L0452] 4.2  Wir lösen ein Problem / dialog
+DE: Kind A: „Wir haben ein Problem.“
+LU: Gubeviki MOLUSARU: „Ramerini puhusuhe lokuligo Pitugima.“
+
+[L0453] 4.2  Wir lösen ein Problem / dialog
+DE: Kind B: „Ich schlage eine andere Lösung vor.“
+LU: Gubeviki REREGEFO: „Memekumo tovitoma vetumene fasenuge Bahamuho bosuhabe.“
+
+[L0454] 4.2  Wir lösen ein Problem / lesetext
+DE: Die Klasse möchte den Pausenhof verändern. Einige Kinder wünschen sich mehr Bäume, andere eine Spielecke. Zuerst sammelt die Gruppe alle Vorschläge. Danach besprechen die Kinder, was möglich ist. Schließlich einigen sie sich auf einen gemeinsamen Plan.
+LU: Pibigola Kakituvo dutukiha sadanepi Kepalipi demadomi. Mofinibi Risaluvi gadubete kufofalu lilorusa Salusone, fasenuge vetumene Nepagire. Vusuvena neratese pibigola Sofunolo fatibehu Daletome. Tufofovo babemata pibigola Risaluvi, dosesaso levafaro gukikehi. Doferahi siverufo runebedo kufofalu modinona bavudugi nudadehe Foholusa.
+
+[L0455] 4.3  Wünsche und Möglichkeiten / wortschatz
+DE: wenn
+LU: poputuru
+
+[L0456] 4.3  Wünsche und Möglichkeiten / wortschatz
+DE: würde
+LU: rerefipe
+
+[L0457] 4.3  Wünsche und Möglichkeiten / wortschatz
+DE: könnte
+LU: pipagana
+
+[L0458] 4.3  Wünsche und Möglichkeiten / wortschatz
+DE: vielleicht
+LU: geborubu
+
+[L0459] 4.3  Wünsche und Möglichkeiten / wortschatz
+DE: hoffen
+LU: metarumu
+
+[L0460] 4.3  Wünsche und Möglichkeiten / wortschatz
+DE: wünschen
+LU: gadubete
+
+[L0461] 4.3  Wünsche und Möglichkeiten / wortschatz
+DE: möglich
+LU: levafaro
+
+[L0462] 4.3  Wünsche und Möglichkeiten / wortschatz
+DE: unmöglich
+LU: takasahi
+
+[L0463] 4.3  Wünsche und Möglichkeiten / beispielsatz
+DE: Wenn ich fliegen könnte, würde ich die Berge sehen.
+LU: Poputuru memekumo vunamoka pipagana, rerefipe memekumo pibigola Dumatibe sidetumu.
+
+[L0464] 4.3  Wünsche und Möglichkeiten / beispielsatz
+DE: Ich würde gern eine neue Stadt besuchen.
+LU: Memekumo rerefipe firorahe vetumene givosure Hosogihu dufososi.
+
+[L0465] 4.3  Wünsche und Möglichkeiten / beispielsatz
+DE: Vielleicht gelingt es uns morgen.
+LU: Geborubu lokekeve sebevife mevabute vuvudite.
+
+[L0466] 4.3  Wünsche und Möglichkeiten / dialog
+DE: Kind A: „Wenn ich fliegen könnte, würde ich die Berge sehen.“
+LU: Gubeviki MOLUSARU: „Poputuru memekumo vunamoka pipagana, rerefipe memekumo pibigola Dumatibe sidetumu.“
+
+[L0467] 4.3  Wünsche und Möglichkeiten / dialog
+DE: Kind B: „Ich würde gern eine neue Stadt besuchen.“
+LU: Gubeviki REREGEFO: „Memekumo rerefipe firorahe vetumene givosure Hosogihu dufososi.“
+
+[L0468] 4.3  Wünsche und Möglichkeiten / lesetext
+DE: Unsere Klasse arbeitet am Thema wünsche und möglichkeiten. Zunächst sammelt jedes Kind eigene Beobachtungen. Danach werden die Vorschläge verglichen und Fragen gestellt. Einige Antworten sind sicher, andere müssen wir noch prüfen. Schließlich schreiben wir auf, was wir herausgefunden haben.
+LU: Fokahava Kakituvo satokebi didanage Menasuvu rononudu finiguga botagimu. Fogohave neratese kelibuso Gubeviki bevakevo Velerosa. Tufofovo bulubapa pibigola Daletome fibipaho finiguga Sasutadi rideheva. Mofinibi Gelipuma vimisogu vusiberu, fasenuge vimebopo ramerini hukekegi pilatodo. Doferahi minokoge ramerini modinona, dosesaso ramerini hukogeri puhusuhe.
+
+[L0469] 4.4  Die Welt erklären / wortschatz
+DE: Ursache
+LU: Tudalova
+
+[L0470] 4.4  Die Welt erklären / wortschatz
+DE: Wirkung
+LU: Dolototi
+
+[L0471] 4.4  Die Welt erklären / wortschatz
+DE: weil
+LU: devemibo
+
+[L0472] 4.4  Die Welt erklären / wortschatz
+DE: deshalb
+LU: bifetude
+
+[L0473] 4.4  Die Welt erklären / wortschatz
+DE: dadurch
+LU: balesigo
+
+[L0474] 4.4  Die Welt erklären / wortschatz
+DE: beobachten
+LU: ruluside
+
+[L0475] 4.4  Die Welt erklären / wortschatz
+DE: vergleichen
+LU: nonuvopo
+
+[L0476] 4.4  Die Welt erklären / wortschatz
+DE: Ergebnis
+LU: Mohigado
+
+[L0477] 4.4  Die Welt erklären / beispielsatz
+DE: Die Pflanze wächst, weil sie Licht bekommt.
+LU: Pibigola Kedobudu nurulunu, devemibo runebedo Kiberife livifafu.
+
+[L0478] 4.4  Die Welt erklären / beispielsatz
+DE: Es regnete stark, deshalb stieg der Bach.
+LU: Sebevife verulilo sudelegu, bifetude gapehoku bahosige Dekihuve.
+
+[L0479] 4.4  Die Welt erklären / beispielsatz
+DE: Wir vergleichen unsere Beobachtungen.
+LU: Ramerini nonuvopo fokahava Velerosa.
+
+[L0480] 4.4  Die Welt erklären / dialog
+DE: Kind A: „Die Pflanze wächst, weil sie Licht bekommt.“
+LU: Gubeviki MOLUSARU: „Pibigola Kedobudu nurulunu, devemibo runebedo Kiberife livifafu.“
+
+[L0481] 4.4  Die Welt erklären / dialog
+DE: Kind B: „Es regnete stark, deshalb stieg der Bach.“
+LU: Gubeviki REREGEFO: „Sebevife verulilo sudelegu, bifetude gapehoku bahosige Dekihuve.“
+
+[L0482] 4.4  Die Welt erklären / lesetext
+DE: Unsere Klasse arbeitet am Thema die welt erklären. Zunächst sammelt jedes Kind eigene Beobachtungen. Danach werden die Vorschläge verglichen und Fragen gestellt. Einige Antworten sind sicher, andere müssen wir noch prüfen. Schließlich schreiben wir auf, was wir herausgefunden haben.
+LU: Fokahava Kakituvo satokebi didanage Menasuvu pibigola kesuriri kaverihu. Fogohave neratese kelibuso Gubeviki bevakevo Velerosa. Tufofovo bulubapa pibigola Daletome fibipaho finiguga Sasutadi rideheva. Mofinibi Gelipuma vimisogu vusiberu, fasenuge vimebopo ramerini hukekegi pilatodo. Doferahi minokoge ramerini modinona, dosesaso ramerini hukogeri puhusuhe.
+
+[L0483] 4.5  Ein Interview führen / wortschatz
+DE: Interview
+LU: Fuguhodu
+
+[L0484] 4.5  Ein Interview führen / wortschatz
+DE: Thema
+LU: Menasuvu
+
+[L0485] 4.5  Ein Interview führen / wortschatz
+DE: Frage
+LU: Kahevibo
+
+[L0486] 4.5  Ein Interview führen / wortschatz
+DE: Antwort
+LU: Tepipobu
+
+[L0487] 4.5  Ein Interview führen / wortschatz
+DE: nachfragen
+LU: fupomide
+
+[L0488] 4.5  Ein Interview führen / wortschatz
+DE: berichten
+LU: rafopota
+
+[L0489] 4.5  Ein Interview führen / wortschatz
+DE: zuhören
+LU: tileseto
+
+[L0490] 4.5  Ein Interview führen / wortschatz
+DE: zusammenfassen
+LU: pisohule
+
+[L0491] 4.5  Ein Interview führen / beispielsatz
+DE: Was gefällt dir an unserer Schule?
+LU: Dosesaso valosiki tolimohe fologuse napagohi Lifatisu?
+
+[L0492] 4.5  Ein Interview führen / beispielsatz
+DE: Was würdest du gern verändern?
+LU: Dosesaso vafumeru gavogedu firorahe demadomi?
+
+[L0493] 4.5  Ein Interview führen / beispielsatz
+DE: Vielen Dank für das Gespräch.
+LU: Nosoradi Buninenu rulunoho negigivo Kuvutihi.
+
+[L0494] 4.5  Ein Interview führen / dialog
+DE: Kind A: „Was gefällt dir an unserer Schule?“
+LU: Gubeviki MOLUSARU: „Dosesaso valosiki tolimohe fologuse napagohi Lifatisu?“
+
+[L0495] 4.5  Ein Interview führen / dialog
+DE: Kind B: „Was würdest du gern verändern?“
+LU: Gubeviki REREGEFO: „Dosesaso vafumeru gavogedu firorahe demadomi?“
+
+[L0496] 4.5  Ein Interview führen / lesetext
+DE: Unsere Klasse arbeitet am Thema ein interview führen. Zunächst sammelt jedes Kind eigene Beobachtungen. Danach werden die Vorschläge verglichen und Fragen gestellt. Einige Antworten sind sicher, andere müssen wir noch prüfen. Schließlich schreiben wir auf, was wir herausgefunden haben.
+LU: Fokahava Kakituvo satokebi didanage Menasuvu lokuligo fuguhodu lilohepi. Fogohave neratese kelibuso Gubeviki bevakevo Velerosa. Tufofovo bulubapa pibigola Daletome fibipaho finiguga Sasutadi rideheva. Mofinibi Gelipuma vimisogu vusiberu, fasenuge vimebopo ramerini hukekegi pilatodo. Doferahi minokoge ramerini modinona, dosesaso ramerini hukogeri puhusuhe.
+
+[L0497] 4.6  Informationen prüfen / wortschatz
+DE: Quelle
+LU: Morarivo
+
+[L0498] 4.6  Informationen prüfen / wortschatz
+DE: Information
+LU: Rilugine
+
+[L0499] 4.6  Informationen prüfen / wortschatz
+DE: Behauptung
+LU: Lutofugi
+
+[L0500] 4.6  Informationen prüfen / wortschatz
+DE: Beleg
+LU: Saridave
+
+[L0501] 4.6  Informationen prüfen / wortschatz
+DE: prüfen
+LU: pilatodo
+
+[L0502] 4.6  Informationen prüfen / wortschatz
+DE: wahr
+LU: sesilove
+
+[L0503] 4.6  Informationen prüfen / wortschatz
+DE: unsicher
+LU: darohofa
+
+[L0504] 4.6  Informationen prüfen / wortschatz
+DE: zuverlässig
+LU: kilulome
+
+[L0505] 4.6  Informationen prüfen / beispielsatz
+DE: Woher kommt diese Information?
+LU: Fomovota perigigo tenigobu Rilugine?
+
+[L0506] 4.6  Informationen prüfen / beispielsatz
+DE: Haben wir einen Beleg dafür?
+LU: Puhusuhe ramerini bavudugi Saridave marinaku?
+
+[L0507] 4.6  Informationen prüfen / beispielsatz
+DE: Wir wissen es noch nicht sicher.
+LU: Ramerini fuvivore sebevife hukekegi tavituda vusiberu.
+
+[L0508] 4.6  Informationen prüfen / dialog
+DE: Kind A: „Woher kommt diese Information?“
+LU: Gubeviki MOLUSARU: „Fomovota perigigo tenigobu Rilugine?“
+
+[L0509] 4.6  Informationen prüfen / dialog
+DE: Kind B: „Haben wir einen Beleg dafür?“
+LU: Gubeviki REREGEFO: „Puhusuhe ramerini bavudugi Saridave marinaku?“
+
+[L0510] 4.6  Informationen prüfen / lesetext
+DE: In der Zeitung steht, ein neuer Baum wachse in einer Woche zehn Meter. Lina zweifelt. Sie fragt: „Woher kommt diese Zahl?“ Gemeinsam suchen die Kinder nach einer verlässlichen Quelle. Sie lernen: Eine Behauptung ist noch kein Beleg.
+LU: Kugasepa bahosige Gobibuse fumoridi, lokuligo lisubalu Sudutako nubepife kugasepa felesohe Nilehupi fohemafu Rivemafo. Gidogope dolorome. Runebedo bopitobu: „Fomovota perigigo tenigobu Mepasiba?“ Hefirite vipamodu pibigola Risaluvi redamoka felesohe bohupetu Morarivo. Runebedo bupovohi: Vetumene Lutofugi gukikehi hukekegi nubufadi Saridave.
+
+[L0511] 4.7  Gefühle und Freundschaft / wortschatz
+DE: Vertrauen
+LU: Linufika
+
+[L0512] 4.7  Gefühle und Freundschaft / wortschatz
+DE: Respekt
+LU: Fesasupo
+
+[L0513] 4.7  Gefühle und Freundschaft / wortschatz
+DE: Streit
+LU: Vedogamu
+
+[L0514] 4.7  Gefühle und Freundschaft / wortschatz
+DE: Versöhnung
+LU: Doviliva
+
+[L0515] 4.7  Gefühle und Freundschaft / wortschatz
+DE: Entschuldigung
+LU: Ragukega
+
+[L0516] 4.7  Gefühle und Freundschaft / wortschatz
+DE: Rücksicht
+LU: Fedutodu
+
+[L0517] 4.7  Gefühle und Freundschaft / wortschatz
+DE: Geborgenheit
+LU: Sisukatu
+
+[L0518] 4.7  Gefühle und Freundschaft / wortschatz
+DE: Freundschaft
+LU: Nenupigo
+
+[L0519] 4.7  Gefühle und Freundschaft / beispielsatz
+DE: Es tut mir leid, dass ich dich verletzt habe.
+LU: Sebevife vufaroso lunodera munehafe, mitedeto memekumo telupesu kakonilo fonulibu.
+
+[L0520] 4.7  Gefühle und Freundschaft / beispielsatz
+DE: Ich möchte dir zuhören.
+LU: Memekumo dutukiha tolimohe tileseto.
+
+[L0521] 4.7  Gefühle und Freundschaft / beispielsatz
+DE: Wir können einen neuen Anfang machen.
+LU: Ramerini tedalori bavudugi kitevuro Pivagolo pomudama.
+
+[L0522] 4.7  Gefühle und Freundschaft / dialog
+DE: Kind A: „Es tut mir leid, dass ich dich verletzt habe.“
+LU: Gubeviki MOLUSARU: „Sebevife vufaroso lunodera munehafe, mitedeto memekumo telupesu kakonilo fonulibu.“
+
+[L0523] 4.7  Gefühle und Freundschaft / dialog
+DE: Kind B: „Ich möchte dir zuhören.“
+LU: Gubeviki REREGEFO: „Memekumo dutukiha tolimohe tileseto.“
+
+[L0524] 4.7  Gefühle und Freundschaft / lesetext
+DE: Unsere Klasse arbeitet am Thema gefühle und freundschaft. Zunächst sammelt jedes Kind eigene Beobachtungen. Danach werden die Vorschläge verglichen und Fragen gestellt. Einige Antworten sind sicher, andere müssen wir noch prüfen. Schließlich schreiben wir auf, was wir herausgefunden haben.
+LU: Fokahava Kakituvo satokebi didanage Menasuvu besigapu finiguga nenupigo. Fogohave neratese kelibuso Gubeviki bevakevo Velerosa. Tufofovo bulubapa pibigola Daletome fibipaho finiguga Sasutadi rideheva. Mofinibi Gelipuma vimisogu vusiberu, fasenuge vimebopo ramerini hukekegi pilatodo. Doferahi minokoge ramerini modinona, dosesaso ramerini hukogeri puhusuhe.
+
+[L0525] 4.8  Wir planen ein Projekt / wortschatz
+DE: Plan
+LU: Foholusa
+
+[L0526] 4.8  Wir planen ein Projekt / wortschatz
+DE: Aufgabe
+LU: Misolobo
+
+[L0527] 4.8  Wir planen ein Projekt / wortschatz
+DE: Gruppe
+LU: Sofunolo
+
+[L0528] 4.8  Wir planen ein Projekt / wortschatz
+DE: Zeit
+LU: Kamusini
+
+[L0529] 4.8  Wir planen ein Projekt / wortschatz
+DE: Material
+LU: Vatekada
+
+[L0530] 4.8  Wir planen ein Projekt / wortschatz
+DE: Schritt
+LU: Pegokohu
+
+[L0531] 4.8  Wir planen ein Projekt / wortschatz
+DE: Ergebnis
+LU: Mohigado
+
+[L0532] 4.8  Wir planen ein Projekt / wortschatz
+DE: vorstellen
+LU: vubevigo
+
+[L0533] 4.8  Wir planen ein Projekt / beispielsatz
+DE: Zuerst sammeln wir Ideen.
+LU: Vusuvena nefurofa ramerini Tokepofo.
+
+[L0534] 4.8  Wir planen ein Projekt / beispielsatz
+DE: Dann verteilen wir die Aufgaben.
+LU: Musodita nukepari ramerini pibigola Kenosune.
+
+[L0535] 4.8  Wir planen ein Projekt / beispielsatz
+DE: Am Freitag stellen wir unser Ergebnis vor.
+LU: Didanage Gupadeda misinula ramerini nifimene Mohigado bosuhabe.
+
+[L0536] 4.8  Wir planen ein Projekt / dialog
+DE: Kind A: „Zuerst sammeln wir Ideen.“
+LU: Gubeviki MOLUSARU: „Vusuvena nefurofa ramerini Tokepofo.“
+
+[L0537] 4.8  Wir planen ein Projekt / dialog
+DE: Kind B: „Dann verteilen wir die Aufgaben.“
+LU: Gubeviki REREGEFO: „Musodita nukepari ramerini pibigola Kenosune.“
+
+[L0538] 4.8  Wir planen ein Projekt / lesetext
+DE: Unsere Klasse arbeitet am Thema wir planen ein projekt. Zunächst sammelt jedes Kind eigene Beobachtungen. Danach werden die Vorschläge verglichen und Fragen gestellt. Einige Antworten sind sicher, andere müssen wir noch prüfen. Schließlich schreiben wir auf, was wir herausgefunden haben.
+LU: Fokahava Kakituvo satokebi didanage Menasuvu ramerini lufikefu lokuligo sulivoso. Fogohave neratese kelibuso Gubeviki bevakevo Velerosa. Tufofovo bulubapa pibigola Daletome fibipaho finiguga Sasutadi rideheva. Mofinibi Gelipuma vimisogu vusiberu, fasenuge vimebopo ramerini hukekegi pilatodo. Doferahi minokoge ramerini modinona, dosesaso ramerini hukogeri puhusuhe.
+
+[L0539] 4.9  Eine Geschichte mit Tiefe / wortschatz
+DE: Erinnerung
+LU: Hobubopi
+
+[L0540] 4.9  Eine Geschichte mit Tiefe / wortschatz
+DE: Gedanke
+LU: Manepola
+
+[L0541] 4.9  Eine Geschichte mit Tiefe / wortschatz
+DE: Entscheidung
+LU: Kilerufu
+
+[L0542] 4.9  Eine Geschichte mit Tiefe / wortschatz
+DE: Geheimnis
+LU: Mirerure
+
+[L0543] 4.9  Eine Geschichte mit Tiefe / wortschatz
+DE: Veränderung
+LU: Pimovaro
+
+[L0544] 4.9  Eine Geschichte mit Tiefe / wortschatz
+DE: Mut
+LU: Moruhoto
+
+[L0545] 4.9  Eine Geschichte mit Tiefe / wortschatz
+DE: Hoffnung
+LU: Hosuvaha
+
+[L0546] 4.9  Eine Geschichte mit Tiefe / wortschatz
+DE: Heimat
+LU: Ruvatora
+
+[L0547] 4.9  Eine Geschichte mit Tiefe / beispielsatz
+DE: Sie sah lange aus dem Fenster.
+LU: Runebedo hudukedo deronami dofobemu lasenamo Bobopuve.
+
+[L0548] 4.9  Eine Geschichte mit Tiefe / beispielsatz
+DE: Plötzlich wusste sie, was sie tun musste.
+LU: Rovodiko rafatulu runebedo, dosesaso runebedo lafalofe sasapuri.
+
+[L0549] 4.9  Eine Geschichte mit Tiefe / beispielsatz
+DE: Am nächsten Morgen begann alles neu.
+LU: Didanage mevubava Vuvudite rilageha kalukogi befosaru.
+
+[L0550] 4.9  Eine Geschichte mit Tiefe / dialog
+DE: Kind A: „Sie sah lange aus dem Fenster.“
+LU: Gubeviki MOLUSARU: „Runebedo hudukedo deronami dofobemu lasenamo Bobopuve.“
+
+[L0551] 4.9  Eine Geschichte mit Tiefe / dialog
+DE: Kind B: „Plötzlich wusste sie, was sie tun musste.“
+LU: Gubeviki REREGEFO: „Rovodiko rafatulu runebedo, dosesaso runebedo lafalofe sasapuri.“
+
+[L0552] 4.9  Eine Geschichte mit Tiefe / lesetext
+DE: Unsere Klasse arbeitet am Thema eine geschichte mit tiefe. Zunächst sammelt jedes Kind eigene Beobachtungen. Danach werden die Vorschläge verglichen und Fragen gestellt. Einige Antworten sind sicher, andere müssen wir noch prüfen. Schließlich schreiben wir auf, was wir herausgefunden haben.
+LU: Fokahava Kakituvo satokebi didanage Menasuvu vetumene bivohilu ligipube gebufulo. Fogohave neratese kelibuso Gubeviki bevakevo Velerosa. Tufofovo bulubapa pibigola Daletome fibipaho finiguga Sasutadi rideheva. Mofinibi Gelipuma vimisogu vusiberu, fasenuge vimebopo ramerini hukekegi pilatodo. Doferahi minokoge ramerini modinona, dosesaso ramerini hukogeri puhusuhe.
+
+[L0553] 4.9  Eine Geschichte mit Tiefe / wortschatz
+DE: sprechen
+LU: vonukulo
+
+[L0554] 4.9  Eine Geschichte mit Tiefe / wortschatz
+DE: lesen
+LU: fisavado
+
+[L0555] 4.9  Eine Geschichte mit Tiefe / wortschatz
+DE: schreiben
+LU: minokoge
+
+[L0556] 4.9  Eine Geschichte mit Tiefe / wortschatz
+DE: verstehen
+LU: vapasisi
+
+[L0557] 4.9  Eine Geschichte mit Tiefe / wortschatz
+DE: erklären
+LU: kaverihu
+
+[L0558] 4.9  Eine Geschichte mit Tiefe / wortschatz
+DE: gestalten
+LU: bohuvina
+
+[L0559] 4.9  Eine Geschichte mit Tiefe / wortschatz
+DE: präsentieren
+LU: nodisubo
+
+[L0560] 4.9  Eine Geschichte mit Tiefe / wortschatz
+DE: feiern
+LU: botukohi
+
+[L0561] 4.9  Eine Geschichte mit Tiefe / beispielsatz
+DE: Willkommen bei unserem Abschlussprojekt!
+LU: Gigisapi sagefufe pigigano Damukuvi!
+
+[L0562] 4.9  Eine Geschichte mit Tiefe / beispielsatz
+DE: Wir haben vier Jahre lang Lunari gelernt.
+LU: Ramerini puhusuhe topupasi Lofehare tepehulu Gifodulu govahesa.
+
+[L0563] 4.9  Eine Geschichte mit Tiefe / beispielsatz
+DE: Heute zeigen wir unsere eigenen Geschichten.
+LU: Negafepe ronaluvi ramerini fokahava vopehifi Simanagi.
+
+[L0564] 4.9  Eine Geschichte mit Tiefe / dialog
+DE: Kind A: „Willkommen bei unserem Abschlussprojekt!“
+LU: Gubeviki MOLUSARU: „Gigisapi sagefufe pigigano Damukuvi!“
+
+[L0565] 4.9  Eine Geschichte mit Tiefe / dialog
+DE: Kind B: „Wir haben vier Jahre lang Lunari gelernt.“
+LU: Gubeviki REREGEFO: „Ramerini puhusuhe topupasi Lofehare tepehulu Gifodulu govahesa.“
+
+[L0566] 4.9  Eine Geschichte mit Tiefe / lesetext
+DE: Unsere Klasse arbeitet am Thema mein lunari-abschlussprojekt. Zunächst sammelt jedes Kind eigene Beobachtungen. Danach werden die Vorschläge verglichen und Fragen gestellt. Einige Antworten sind sicher, andere müssen wir noch prüfen. Schließlich schreiben wir auf, was wir herausgefunden haben.
+LU: Fokahava Kakituvo satokebi didanage Menasuvu puhahimu gifodulu-damukuvi. Fogohave neratese kelibuso Gubeviki bevakevo Velerosa. Tufofovo bulubapa pibigola Daletome fibipaho finiguga Sasutadi rideheva. Mofinibi Gelipuma vimisogu vusiberu, fasenuge vimebopo ramerini hukekegi pilatodo. Doferahi minokoge ramerini modinona, dosesaso ramerini hukogeri puhusuhe.
+
+[L0567] Anhang F · Lösungen / musterloesung
+DE: Hallo! Ich heiße Mia. Wie heißt du? Ich gehe heute in die Schule. Auf Wiedersehen!
+LU: Segameka! Memekumo tibabeda Kanobete. Masorosa vohogopo gavogedu? Memekumo porokeve negafepe kugasepa pibigola Lifatisu. Modinona Denasomi!
+
+[L0568] Anhang F · Lösungen / musterloesung
+DE: Kannst du mir bitte helfen? Ich finde mein Buch nicht. Vielen Dank für deine Hilfe.
+LU: Vapubabo gavogedu lunodera lidokira nabidaho? Memekumo redanufo puhahimu Tufabote tavituda. Nosoradi Buninenu rulunoho fanufipo Telopopu.
+
+[L0569] Anhang F · Lösungen / musterloesung
+DE: Gestern gingen wir in den Park. Zuerst spielten wir mit einem Ball. Dann begann es zu regnen. Wir liefen nach Hause.
+LU: Ramukiva bitakote ramerini kugasepa sadanepi Losuheto. Vusuvena vofufovo ramerini ligipube digilepe Pavokete. Musodita rilageha sebevife lekiperu dopekaka. Ramerini vimafade redamoka Rurakilo.
+
+[L0570] Anhang F · Lösungen / musterloesung
+DE: Ich finde, unsere Schule sollte mehr Bäume pflanzen. Bäume spenden Schatten. Außerdem können wir dort Tiere beobachten.
+LU: Memekumo redanufo, fokahava Lifatisu kamofebi lilorusa Salusone bivolodi. Salusone nogohage Sopopuho. Volobiki tedalori ramerini rusipove Higiheve ruluside.
+
