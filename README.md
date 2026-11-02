@@ -1,6 +1,59 @@
-# LINGUISTISCHE EMERGENZ NG
+# Lunari
 
-Eigenständige native Forschungsengine für evolutionäre, kompositorische Agentensprachen. Das Projekt erzeugt keine vorgegebene Kunstsprache: Es variiert die sprachliche Realisierung eines unabhängigen semantischen Aufgabenraums, lässt getrennte Agenten lernen und bewertet Kandidaten auf zuvor nicht verwendeten Bedeutungskombinationen.
+**Lunari** ist eine entstehende, regelbasierte Kunstsprache mit einem
+reversiblen Übersetzer für Deutsch, Englisch und Lunari. Das Projekt enthält
+eine native Windows-Oberfläche, einen Kommandozeilen-Übersetzer, einen
+persistent gespeicherten deutschen Wortbestand und Unterrichtsmaterial für die
+Klassen 1 bis 4.
+
+Die vollständige technisch nachvollziehbare Grundlage bleibt erhalten: Lunari
+entsteht aus der Forschungsengine *Linguistische Emergenz NG*. Für die Nutzung
+steht jedoch die Sprache selbst im Mittelpunkt.
+
+## Schnellstart
+
+Den fertigen Windows-Entwicklerstand gibt es im
+[Release v0.1.0](https://github.com/kruemmel-python/Lunari/releases/tag/v0.1.0).
+Nach dem Entpacken unter Windows:
+
+```powershell
+.\scripts\build_kr_release.ps1
+.\release\linguistische-emergenz-ng-user.exe
+```
+
+Die Benutzeroberfläche lädt `german-wordlist-only.leng` automatisch. Links
+wird Deutsch oder Englisch eingegeben, rechts Lunari. Die beiden Schaltflächen
+übersetzen in beide Richtungen.
+
+## Lehrbuch
+
+Das zweisprachige Unterrichtsmaterial liegt im Ordner
+[Lehrbuch](Lehrbuch). Die fertig übertragene Ausgabe für die Klassen 1 bis 4
+ist direkt verfügbar:
+
+[Lunari Lehrbuch – Klassen 1 bis 4](Lehrbuch/Lunari_Lehrbuch_Klassen_1_bis_4_Zweisprachig.docx)
+
+Zusätzlich enthält der Ordner Übersetzungsaufträge, Ergebnisse und das Skript,
+mit dem die Lehrbuchfassungen erzeugt wurden.
+
+## Was Lunari derzeit kann
+
+- deutsche und englische Texte in Lunari übertragen;
+- Lunari-Texte wieder nach Deutsch oder Englisch dekodieren;
+- Satzzeichen, Leerraum, Groß-/Kleinschreibung und Dialogstruktur im
+  Textkanal erhalten;
+- unbekannte deutsche Wortformen als getrennte, lokal dokumentierte
+  Lexikoneinträge aufnehmen;
+- den verwendeten Sprach- und Wortbestand persistent speichern.
+
+Der mitgelieferte Datenstand `german-wordlist-only.leng` basiert auf einer
+deutschen Wortliste. Er enthält Wortformen und Lunari-Zuordnungen, jedoch
+keine behaupteten geprüften Bedeutungen für jeden einzelnen Eintrag.
+
+## Forschungshintergrund
+
+Die folgenden Abschnitte dokumentieren Architektur, Validierung und die
+Forschungsfunktionen, aus denen Lunari hervorgegangen ist.
 
 ## Aktueller ausführbarer Umfang
 

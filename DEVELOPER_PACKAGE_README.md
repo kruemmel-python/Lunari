@@ -72,3 +72,8 @@ Lunari-Phonotaktik (offene V-/CV-Silben).
 
 Weitere Bedienhinweise stehen in `GUI_BENUTZERHANDBUCH.md` und die technischen
 Grenzen des Übersetzers in `LUNARI_TEXT_TRANSLATION.md`.
+
+## Lizenz
+
+Der vollständige Inhalt dieses Entwicklerpakets – einschließlich Quellcode,
+Dokumentation, Lehrbuch und Datenstand – steht unter der [MIT-Lizenz](LICENSE).

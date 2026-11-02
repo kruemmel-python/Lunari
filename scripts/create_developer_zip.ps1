@@ -32,6 +32,7 @@ try {
 
     $files = @(
         'CMakeLists.txt',
+        'LICENSE',
         'README.md',
         'BUILD.md',
         'GUI_BENUTZERHANDBUCH.md',
