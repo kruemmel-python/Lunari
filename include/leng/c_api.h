@@ -27,6 +27,11 @@ LENG_API int leng_engine_load(leng_engine* engine, const char* path);
 LENG_API int leng_engine_save(const leng_engine* engine, const char* path);
 LENG_API int leng_engine_export_results(const leng_engine* engine, const char* directory);
 LENG_API const char* leng_engine_report(leng_engine* engine);
+/* Neu-Lunari v1 proposal helpers.  Input/output stay owned by engine. */
+LENG_API const char* leng_lunari_generate(leng_engine* engine, const char* specification);
+LENG_API const char* leng_lunari_analyse(leng_engine* engine, const char* sentence);
+LENG_API const char* leng_lunari_assess_word(leng_engine* engine, const char* word);
+LENG_API const char* leng_lunari_grammar_reference(leng_engine* engine);
 LENG_API const char* leng_engine_last_error(const leng_engine* engine);
 
 #ifdef __cplusplus

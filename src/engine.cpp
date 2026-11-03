@@ -1,5 +1,6 @@
 #include "leng/engine.hpp"
 #include "leng/compute.hpp"
+#include "leng/lunari_grammar.hpp"
 
 #include <algorithm>
 #include <array>
@@ -18,6 +19,13 @@
 #include <unordered_map>
 #include <unordered_set>
 
+#ifdef _WIN32
+#ifndef NOMINMAX
+#define NOMINMAX
+#endif
+#include <windows.h>
+#endif
+
 namespace leng {
 namespace {
 constexpr std::array<const char*, 5> kActors{"human", "machine", "child", "researcher", "agent"};
@@ -31,11 +39,13 @@ constexpr std::array<const char*, 3> kSocialRelations{"peer", "ally", "observer"
 constexpr std::array<const char*, 3> kGoals{"inform", "assist", "coordinate"};
 constexpr std::array<const char*, 2> kPropositionLevels{"direct", "reported"};
 constexpr std::array<const char*, 2> kAbstractions{"literal", "metaphoric"};
-// Lunari phoneme inventory.  Every generated syllable is V or CV; codas and
-// consonant clusters are deliberately outside the initial research space.
+// Neu-Lunari favours compact CV(C) feet.  A coda is optional, but the small
+// set below and the coda/onset table keep clusters recognisable rather than
+// turning every word into an arbitrary consonant pile.
 constexpr std::array<const char*, 14> kOnsets{"m", "n", "l", "r", "p", "t", "k", "b", "d", "g", "f", "s", "h", "v"};
 constexpr std::array<const char*, 5> kVowels{"a", "e", "i", "o", "u"};
-constexpr const char* kConceptMorphologyRuleVersion = "morphology-v3-lunari-open-syllables;relation-compound-v2";
+constexpr std::array<const char*, 7> kCodas{"m", "n", "l", "r", "s", "v", "d"};
+constexpr const char* kConceptMorphologyRuleVersion = "morphology-v4-neu-lunari-compact-cvc;relation-compound-v2";
 
 std::string act_name(SpeechAct act) {
   switch (act) { case SpeechAct::statement: return "statement"; case SpeechAct::question: return "question"; case SpeechAct::request: return "request"; }
@@ -67,35 +77,55 @@ Meaning random_meaning(std::mt19937_64& rng, bool held_out) {
 }
 bool is_vowel(char value) { return std::string_view{"aeiou"}.find(value) != std::string_view::npos; }
 bool is_onset(char value) { return std::string_view{"mnlrptkbdgfshv"}.find(value) != std::string_view::npos; }
+bool is_coda(char value) { return std::string_view{"mnlrsvd"}.find(value) != std::string_view::npos; }
+bool allowed_coda_onset(char coda, char onset) {
+  // Sonorant or sibilant codas may only meet a selected following onset.
+  // This permits forms such as mem-kur while making the pattern predictable.
+  return std::string_view{"mpmtmkmvnsntnknvlklvltrtrkrnrlmlvsmstskvrdrdv"}.find(std::string{coda} + onset) != std::string_view::npos;
+}
 
-struct PhonotacticScore { double structure{}; double transition{}; double length{}; double acoustic{}; double combined{}; bool open_syllables{}; };
+struct PhonotacticScore { double structure{}; double transition{}; double length{}; double acoustic{}; double combined{}; bool compact_syllables{}; };
 PhonotacticScore phonotactic_score(const std::string& word) {
   PhonotacticScore score{1.0, 1.0, 1.0, 1.0, 0.0, true};
   if (word.empty()) return {};
   std::vector<std::string> syllables;
-  std::string current;
-  bool expecting_vowel = false;
-  bool at_boundary = false;
+  std::string unit;
   for (const char raw : word) {
     if (raw == '-') {
-      if (expecting_vowel || syllables.empty() || at_boundary) return {};
-      at_boundary = true; continue;
-    }
-    at_boundary = false;
-    const char ch = static_cast<char>(std::tolower(static_cast<unsigned char>(raw)));
-    if (!expecting_vowel) {
-      if (is_vowel(ch)) { current.assign(1, ch); syllables.push_back(current); current.clear(); }
-      else if (is_onset(ch)) { current.assign(1, ch); expecting_vowel = true; }
-      else return {};
+      if (unit.empty() || unit.back() == ' ') return {};
+      unit.push_back(' ');
     } else {
-      if (!is_vowel(ch)) return {};
-      current.push_back(ch); syllables.push_back(current); current.clear(); expecting_vowel = false;
+      unit.push_back(static_cast<char>(std::tolower(static_cast<unsigned char>(raw))));
     }
   }
-  if (expecting_vowel || (!current.empty() && !is_vowel(current.back())) || syllables.empty() || at_boundary) return {};
-  // Each unit ends in a vowel, so word and morpheme joins cannot create a
-  // consonant cluster. Repeated adjacent syllables remain possible but are
-  // penalised as acoustically confusable.
+  if (unit.empty() || unit.back() == ' ') return {};
+  std::size_t start = 0;
+  while (start < unit.size()) {
+    const std::size_t stop = unit.find(' ', start);
+    const std::string part = unit.substr(start, stop == std::string::npos ? std::string::npos : stop - start);
+    std::size_t pos = 0;
+    while (pos < part.size()) {
+      const std::size_t syllable_start = pos;
+      if (is_onset(part[pos])) ++pos;
+      if (pos >= part.size() || !is_vowel(part[pos])) return {};
+      ++pos;
+      if (pos < part.size() && is_coda(part[pos])) {
+        const char coda = part[pos];
+        if (pos + 1 == part.size()) {
+          ++pos;
+        } else if (is_onset(part[pos + 1]) && allowed_coda_onset(coda, part[pos + 1])) {
+          ++pos;
+        }
+      }
+      syllables.push_back(part.substr(syllable_start, pos - syllable_start));
+    }
+    start = stop == std::string::npos ? unit.size() : stop + 1;
+  }
+  // Repeated adjacent syllables remain possible but are penalised as
+  // acoustically confusable. Closed feet receive a small reward because they
+  // break the earlier sing-song CV-CV-CV rhythm.
+  std::size_t closed{};
+  for (const auto& syllable : syllables) if (is_coda(syllable.back())) ++closed;
   for (std::size_t i = 1; i < syllables.size(); ++i) {
     if (syllables[i] == syllables[i - 1]) { score.transition -= 0.14; score.acoustic -= 0.20; }
     if (syllables[i].back() == syllables[i - 1].back()) { score.transition -= 0.03; score.acoustic -= 0.04; }
@@ -103,6 +133,8 @@ PhonotacticScore phonotactic_score(const std::string& word) {
   }
   const std::size_t count = syllables.size();
   score.length = count <= 2 ? 1.0 : count == 3 ? 0.98 : count == 4 ? 0.94 : count == 5 ? 0.86 : 0.72;
+  if (closed == 0) score.acoustic -= 0.08;
+  else if (closed * 2 > count) score.transition -= 0.05;
   score.transition = std::clamp(score.transition, 0.0, 1.0);
   score.acoustic = std::clamp(score.acoustic, 0.0, 1.0);
   score.combined = 0.30 * score.structure + 0.30 * score.transition + 0.20 * score.length + 0.20 * score.acoustic;
@@ -110,11 +142,14 @@ PhonotacticScore phonotactic_score(const std::string& word) {
 }
 
 std::string new_word(std::mt19937_64& rng, std::set<std::string>& used) {
-  std::uniform_int_distribution<int> o(0, static_cast<int>(kOnsets.size() - 1)), v(0, static_cast<int>(kVowels.size() - 1)), syl(2, 3);
+  std::uniform_int_distribution<int> o(0, static_cast<int>(kOnsets.size() - 1)), v(0, static_cast<int>(kVowels.size() - 1)), c(0, static_cast<int>(kCodas.size() - 1)), syl(1, 2);
   for (;;) {
     std::string out;
     const int n = syl(rng);
-    for (int i = 0; i < n; ++i) out += std::string(kOnsets[o(rng)]) + kVowels[v(rng)];
+    for (int i = 0; i < n; ++i) {
+      out += std::string(kOnsets[o(rng)]) + kVowels[v(rng)];
+      if ((i + 1 == n || (i == 0 && n == 2)) && (rng() % 100) < 65) out += kCodas[c(rng)];
+    }
     if (phonotactic_score(out).combined >= 0.88 && used.insert(out).second) return out;
   }
 }
@@ -125,10 +160,15 @@ double word_quality(const std::string& word) {
 std::string new_concept_word(std::mt19937_64& rng, std::unordered_set<std::string>& used) {
   std::uniform_int_distribution<int> onset(0, static_cast<int>(kOnsets.size() - 1));
   std::uniform_int_distribution<int> vowel(0, static_cast<int>(kVowels.size() - 1));
-  // Four CV syllables provide more than 24 million open-syllable forms.
+  std::uniform_int_distribution<int> coda(0, static_cast<int>(kCodas.size() - 1));
+  // Three compact syllables with optional codas retain a large form space
+  // without forcing every root into the same four-CV cadence.
   for (;;) {
     std::string out;
-    for (int i = 0; i < 4; ++i) out += std::string(kOnsets[onset(rng)]) + kVowels[vowel(rng)];
+    for (int i = 0; i < 3; ++i) {
+      out += std::string(kOnsets[onset(rng)]) + kVowels[vowel(rng)];
+      if ((i == 2 || (i == 0 && (rng() % 100) < 45)) && (rng() % 100) < 70) out += kCodas[coda(rng)];
+    }
     if (phonotactic_score(out).combined >= 0.84 && used.insert(out).second) return out;
   }
 }
@@ -207,6 +247,10 @@ struct ImportCheckpoint {
   std::size_t rows_rejected{};
   bool complete{};
   std::string status{"idle"};
+};
+struct GrammarLexeme {
+  std::string concept_id, historic_form, form, language_version, status, source, note;
+  std::string part_of_speech, meaning, valency, scope;
 };
 
 std::string join(const std::vector<std::string>& values, const char* separator = ",") {
@@ -705,6 +749,7 @@ struct ResearchEngine::Impl {
   std::unordered_map<std::string, std::size_t> by_identity;
   std::unordered_map<std::string, std::size_t> by_label;
   std::unordered_set<std::string> used_forms;
+  std::vector<GrammarLexeme> grammar_lexemes;
   std::size_t next_concept_serial{1};
   ImportCheckpoint import_checkpoint;
   ImportCheckpoint german_word_list_checkpoint;
@@ -715,6 +760,47 @@ struct ResearchEngine::Impl {
   ConceptEntry* find_concept(const std::string& identity_or_label);
   void add_concept(ConceptEntry entry);
 };
+
+void enrich_neu_lunari_lexemes(std::vector<GrammarLexeme>& entries) {
+  for (auto& entry : entries) {
+    if (entry.concept_id.starts_with("grammar:pronoun:")) { entry.part_of_speech = "pronoun"; entry.valency = "argument"; entry.scope = "noun phrase"; }
+    else if (entry.concept_id.starts_with("grammar:relation:")) { entry.part_of_speech = "relation word"; entry.valency = "relation + complement"; entry.scope = "verb phrase or noun phrase"; }
+    else if (entry.concept_id.starts_with("grammar:modality:")) { entry.part_of_speech = "modal particle"; entry.valency = "predicate"; entry.scope = "verb phrase"; }
+    else if (entry.concept_id.starts_with("grammar:question:")) { entry.part_of_speech = "interrogative"; entry.valency = "argument position"; entry.scope = "clause"; }
+    else if (entry.concept_id.starts_with("grammar:connective:") || entry.concept_id.starts_with("grammar:embedding:")) { entry.part_of_speech = "clause linker"; entry.valency = "two clauses or embedded clause"; entry.scope = "clause"; }
+    else if (entry.concept_id.starts_with("grammar:degree:")) { entry.part_of_speech = "degree particle"; entry.valency = "adjective"; entry.scope = "noun phrase or predicate"; }
+    else if (entry.concept_id.starts_with("grammar:act:") || entry.concept_id.starts_with("grammar:negation:") || entry.concept_id.starts_with("grammar:aspect:") || entry.concept_id.starts_with("grammar:time:") || entry.concept_id.starts_with("grammar:stance:") || entry.concept_id.starts_with("grammar:probability:")) { entry.part_of_speech = "grammatical particle"; entry.valency = "clause"; entry.scope = "clause"; }
+    else if (entry.concept_id.starts_with("grammar:determiner:")) { entry.part_of_speech = "determiner"; entry.valency = "noun"; entry.scope = "noun phrase"; }
+    else if (entry.concept_id.starts_with("grammar:number:")) { entry.part_of_speech = "quantity particle"; entry.valency = "noun"; entry.scope = "noun phrase"; }
+    else { entry.part_of_speech = "lexeme"; entry.valency = "unspecified"; entry.scope = "lexical"; }
+    if (entry.meaning.empty()) { const auto pos = entry.concept_id.find_last_of(':'); entry.meaning = pos == std::string::npos ? entry.concept_id : entry.concept_id.substr(pos + 1); }
+  }
+}
+
+void ensure_neu_lunari_lexemes(std::vector<GrammarLexeme>& entries) {
+  const auto add = [&](const char* id, const char* surface, const char* note, const char* historical = "") {
+    if (std::any_of(entries.begin(), entries.end(), [id](const GrammarLexeme& entry) { return entry.concept_id == id; })) return;
+    entries.push_back({id, historical, surface, "neu-lunari-v1-proposed", "proposed", "neu-lunari-v1-grammar", note, "", "", "", ""});
+  };
+  add("grammar:pronoun:first-singular", "mer", "first-person singular; collision audit clear", "memekumo");
+  add("grammar:pronoun:second-singular", "gav", "second-person singular; collision audit clear", "gavogedu");
+  add("grammar:pronoun:third-singular", "se", "gender-neutral third-person singular"); add("grammar:pronoun:third-plural", "sel", "third-person plural"); add("grammar:pronoun:second-plural", "gal", "second-person plural"); add("grammar:pronoun:first-plural-inclusive", "rin", "inclusive we"); add("grammar:pronoun:first-plural-exclusive", "lan", "exclusive we"); add("grammar:pronoun:reflexive", "sir", "reflexive reference"); add("grammar:pronoun:reciprocal", "san", "reciprocal reference");
+  add("grammar:act:question", "ke", "clause-final question"); add("grammar:act:request", "va", "request"); add("grammar:act:prohibition", "vas", "prohibition"); add("grammar:act:answer-yes", "ya", "affirmative short answer"); add("grammar:act:answer-no", "na", "negative short answer");
+  add("grammar:time:past", "ren", "past"); add("grammar:time:future", "sil", "future"); add("grammar:aspect:progressive", "lir", "progressive"); add("grammar:aspect:completed", "sen", "completed"); add("grammar:aspect:habitual", "tan", "habitual");
+  add("grammar:negation:predicate", "nus", "predicate negation"); add("grammar:negation:statement", "nor", "statement negation"); add("grammar:voice:passive", "vel", "passive"); add("grammar:determiner:definite", "tel", "definite"); add("grammar:determiner:indefinite", "sar", "indefinite"); add("grammar:number:plural", "lin", "plural");
+  add("grammar:modality:ability", "kan", "ability"); add("grammar:modality:possibility", "ves", "possibility"); add("grammar:modality:permission", "dar", "permission"); add("grammar:modality:obligation", "mur", "obligation"); add("grammar:modality:recommendation", "res", "recommendation"); add("grammar:modality:intent", "vin", "intent"); add("grammar:modality:wish", "lum", "wish");
+  add("grammar:relation:location", "nel", "location"); add("grammar:relation:destination", "tal", "destination"); add("grammar:relation:source", "sor", "source"); add("grammar:relation:recipient", "rem", "recipient"); add("grammar:relation:instrument", "ket", "instrument"); add("grammar:relation:companion", "val", "companion"); add("grammar:relation:topic", "tem", "topic"); add("grammar:relation:purpose", "sur", "purpose"); add("grammar:relation:possession", "bel", "possession"); add("grammar:relation:part", "pel", "part/whole"); add("grammar:relation:content", "mir", "content"); add("grammar:relation:material", "dam", "material");
+  add("grammar:question:person", "man", "person question"); add("grammar:question:thing", "min", "thing/content question"); add("grammar:question:place", "lon", "place question"); add("grammar:question:time", "tir", "time question"); add("grammar:question:reason", "kar", "reason question"); add("grammar:question:manner", "sev", "manner question"); add("grammar:question:amount", "num", "amount question"); add("grammar:question:choice", "var", "choice question");
+  add("grammar:negation:subject-focus", "sam", "subject focus negation"); add("grammar:negation:object-focus", "som", "object focus negation"); add("grammar:negation:modality-focus", "nam", "modality focus negation");
+  add("grammar:probability:probable", "pur", "probability"); add("grammar:probability:uncertain", "sul", "uncertainty"); add("grammar:stance:report", "rav", "reported statement"); add("grammar:stance:hypothesis", "hes", "hypothesis"); add("grammar:stance:fiction", "fik", "fictional frame");
+  add("grammar:scope:emotion", "fel", "emotion scope marker"); add("grammar:scope:social", "saf", "social-relation scope marker"); add("grammar:scope:goal", "gol", "goal scope marker");
+  add("grammar:connective:and", "ran", "coordination"); add("grammar:connective:or", "lor", "alternative"); add("grammar:connective:but", "bas", "contrast"); add("grammar:connective:cause", "kos", "cause"); add("grammar:connective:condition", "kim", "condition"); add("grammar:connective:concession", "lus", "concession"); add("grammar:connective:purpose", "suv", "clause purpose"); add("grammar:connective:temporal", "tim", "temporal relation");
+  add("grammar:embedding:content-open", "ki", "content opening marker"); add("grammar:embedding:content-close", "ku", "content closing marker"); add("grammar:embedding:relative-open", "ril", "relative opening marker"); add("grammar:embedding:relative-close", "rul", "relative closing marker"); add("grammar:embedding:quote-open", "qi", "quote opening marker"); add("grammar:embedding:quote-close", "qu", "quote closing marker");
+  add("grammar:number:about", "mar", "approximate quantity"); add("grammar:number:atleast", "las", "minimum quantity"); add("grammar:number:atmost", "sav", "maximum quantity"); add("grammar:number:fraction", "fal", "fraction"); add("grammar:number:ordinal", "tor", "ordinal quantity"); add("grammar:number:measure", "mun", "measure marker");
+  add("grammar:degree:very", "daz", "intensifier"); add("grammar:degree:more", "mor", "comparative more"); add("grammar:degree:less", "les", "comparative less"); add("grammar:degree:equal", "sim", "equality comparison"); add("grammar:degree:most", "mas", "superlative"); add("grammar:degree:comparison", "kom", "comparison standard"); add("grammar:copula:state", "gul", "state copula");
+  add("lexeme:adjective:good", "vaske", "accented display variant: vaské; collision audit clear", "vipakevo");
+  enrich_neu_lunari_lexemes(entries);
+}
 
 void ResearchEngine::Impl::rebuild_concept_indexes() {
   by_identity.clear(); by_label.clear(); used_forms.clear(); next_concept_serial = 1;
@@ -840,8 +926,16 @@ void ResearchEngine::run() {
 }
 
 void ResearchEngine::save(const std::filesystem::path& path) const {
-  std::ofstream out(path); if (!out) throw std::runtime_error("cannot write state: " + path.string());
-  out << "LENG_STATE 15\n" << impl_->config.seed << ' ' << impl_->config.population << ' ' << impl_->config.generations << ' ' << impl_->config.training_rounds << ' ' << impl_->config.evaluation_rounds << ' ' << impl_->config.seed_concept_lexicon << '\n';
+  // Never stream directly into a working checkpoint.  A terminated process can
+  // only leave an unreferenced temporary file; the last complete state remains
+  // the file at `path` until the final atomic replacement succeeds.
+  const auto stamp = std::chrono::steady_clock::now().time_since_epoch().count();
+  std::filesystem::path temporary = path;
+  temporary += ".writing-" + std::to_string(stamp);
+  std::ofstream out(temporary, std::ios::binary | std::ios::trunc);
+  if (!out) throw std::runtime_error("cannot write temporary state: " + temporary.string());
+  ensure_neu_lunari_lexemes(impl_->grammar_lexemes);
+  out << "LENG_STATE 17\n" << impl_->config.seed << ' ' << impl_->config.population << ' ' << impl_->config.generations << ' ' << impl_->config.training_rounds << ' ' << impl_->config.evaluation_rounds << ' ' << impl_->config.seed_concept_lexicon << '\n';
   out << impl_->generation << ' ' << impl_->next_id << ' ' << impl_->frontier.size() << '\n';
   std::ostringstream rng_state; rng_state << impl_->rng;
   out << "R " << std::quoted(rng_state.str()) << '\n';
@@ -856,6 +950,30 @@ void ResearchEngine::save(const std::filesystem::path& path) const {
   out << "I " << std::quoted(checkpoint.source_path) << ' ' << std::quoted(checkpoint.fingerprint) << ' ' << checkpoint.next_line << ' ' << checkpoint.rows_seen << ' ' << checkpoint.rows_accepted << ' ' << checkpoint.rows_rejected << ' ' << checkpoint.complete << ' ' << std::quoted(checkpoint.status) << '\n';
   const auto& word_checkpoint = impl_->german_word_list_checkpoint;
   out << "W " << std::quoted(word_checkpoint.source_path) << ' ' << std::quoted(word_checkpoint.fingerprint) << ' ' << word_checkpoint.next_line << ' ' << word_checkpoint.rows_seen << ' ' << word_checkpoint.rows_accepted << ' ' << word_checkpoint.rows_rejected << ' ' << word_checkpoint.complete << ' ' << std::quoted(word_checkpoint.status) << '\n';
+  out << "G " << impl_->grammar_lexemes.size() << '\n';
+  for (const auto& entry : impl_->grammar_lexemes) out << "Z " << std::quoted(entry.concept_id) << ' ' << std::quoted(entry.historic_form) << ' ' << std::quoted(entry.form) << ' ' << std::quoted(entry.language_version) << ' ' << std::quoted(entry.status) << ' ' << std::quoted(entry.source) << ' ' << std::quoted(entry.note) << ' ' << std::quoted(entry.part_of_speech) << ' ' << std::quoted(entry.meaning) << ' ' << std::quoted(entry.valency) << ' ' << std::quoted(entry.scope) << '\n';
+  out.flush();
+  if (!out) { std::filesystem::remove(temporary); throw std::runtime_error("failed while writing temporary state: " + temporary.string()); }
+  out.close();
+  // Catch a failed/truncated write before touching the last known-good state.
+  std::ifstream verify(temporary, std::ios::binary);
+  std::string magic; int version{};
+  const bool verified = (verify >> magic >> version) && magic == "LENG_STATE" && version >= 1 && version <= 17;
+  verify.close();
+  if (!verified) {
+    std::filesystem::remove(temporary);
+    throw std::runtime_error("temporary state verification failed: " + temporary.string());
+  }
+#ifdef _WIN32
+  if (!MoveFileExW(temporary.c_str(), path.c_str(), MOVEFILE_REPLACE_EXISTING | MOVEFILE_WRITE_THROUGH)) {
+    std::filesystem::remove(temporary);
+    throw std::runtime_error("cannot atomically replace state: " + path.string());
+  }
+#else
+  std::error_code error;
+  std::filesystem::rename(temporary, path, error);
+  if (error) { std::filesystem::remove(temporary); throw std::runtime_error("cannot atomically replace state: " + path.string()); }
+#endif
 }
 void ResearchEngine::export_results(const std::filesystem::path& directory) const {
   std::filesystem::create_directories(directory);
@@ -871,11 +989,11 @@ void ResearchEngine::export_results(const std::filesystem::path& directory) cons
   for (const auto& item : impl_->history) archive << item.id << ',' << item.parent_id << ',' << item.metrics.communication_success << ',' << item.metrics.semantic_accuracy << ',' << item.metrics.cost << ',' << item.metrics.pronounceability << ',' << item.metrics.grammar_complexity << ',' << item.metrics.robustness << ',' << item.metrics.expressiveness << ',' << '"' << item.sample << "\"\n";
   std::ofstream manifest(directory / "manifest.txt");
   if (!manifest) throw std::runtime_error("cannot export manifest");
-  manifest << "LINGUISTISCHE EMERGENZ NG export\nstate_format=LENG_STATE 15\ngeneration=" << impl_->generation << "\ncandidates=" << impl_->frontier.size() << "\nagents=" << impl_->agents.size() << "\nconcepts=" << impl_->concepts.size() << "\n";
+  manifest << "LINGUISTISCHE EMERGENZ NG export\nstate_format=LENG_STATE 17\ngeneration=" << impl_->generation << "\ncandidates=" << impl_->frontier.size() << "\nagents=" << impl_->agents.size() << "\nconcepts=" << impl_->concepts.size() << "\n";
 }
 
 void ResearchEngine::load(const std::filesystem::path& path) {
-  std::ifstream in(path); std::string magic; int version{}; if (!(in >> magic >> version) || magic != "LENG_STATE" || version < 1 || version > 15) throw std::runtime_error("unsupported or corrupt state");
+  std::ifstream in(path); std::string magic; int version{}; if (!(in >> magic >> version) || magic != "LENG_STATE" || version < 1 || version > 17) throw std::runtime_error("unsupported or corrupt state");
   RunConfig stored{};
   if (!(in >> stored.seed >> stored.population >> stored.generations >> stored.training_rounds >> stored.evaluation_rounds)) throw std::runtime_error("corrupt configuration");
   if (version >= 15 && !(in >> stored.seed_concept_lexicon)) throw std::runtime_error("corrupt configuration");
@@ -883,7 +1001,7 @@ void ResearchEngine::load(const std::filesystem::path& path) {
   // other reproducibility parameters come from the saved experiment.
   const int requested_generations = impl_->config.generations;
   impl_->config = stored;
-  impl_->config.generations = requested_generations;
+  impl_->config.generations = requested_generations; impl_->grammar_lexemes.clear();
   std::size_t candidates{}; if (!(in >> impl_->generation >> impl_->next_id >> candidates)) throw std::runtime_error("corrupt header"); impl_->frontier.clear(); impl_->history.clear(); impl_->agents.clear(); impl_->concepts.clear(); impl_->rebuild_concept_indexes(); impl_->import_checkpoint = {}; impl_->german_word_list_checkpoint = {}; impl_->human_attempts = 0; impl_->human_correct = 0; impl_->human_total_millis = 0; impl_->human_production_attempts = 0; impl_->human_production_correct = 0; impl_->human_interpretation_attempts = 0; impl_->human_interpretation_correct = 0; impl_->rng.seed(impl_->config.seed);
   if (version == 4) { std::string rng_line; std::getline(in >> std::ws, rng_line); if (!rng_line.starts_with("R ")) throw std::runtime_error("corrupt RNG state"); std::istringstream rng_input(rng_line.substr(2)); if (!(rng_input >> impl_->rng)) throw std::runtime_error("corrupt RNG state"); }
   if (version >= 5) { char rng_marker{}; std::string rng_text; if (!(in >> rng_marker >> std::quoted(rng_text)) || rng_marker != 'R') throw std::runtime_error("corrupt RNG state"); std::istringstream rng_input(rng_text); if (!(rng_input >> impl_->rng)) throw std::runtime_error("corrupt RNG state"); }
@@ -920,6 +1038,7 @@ void ResearchEngine::load(const std::filesystem::path& path) {
     auto& checkpoint = impl_->german_word_list_checkpoint;
     if (!(in >> marker >> std::quoted(checkpoint.source_path) >> std::quoted(checkpoint.fingerprint) >> checkpoint.next_line >> checkpoint.rows_seen >> checkpoint.rows_accepted >> checkpoint.rows_rejected >> checkpoint.complete >> std::quoted(checkpoint.status)) || marker != 'W') throw std::runtime_error("corrupt V13 German word-list checkpoint");
   }
+  if (version >= 16) { std::size_t grammar_count{}; if (!(in >> marker >> grammar_count) || marker != 'G') throw std::runtime_error("corrupt grammar lexicon"); for (std::size_t i = 0; i < grammar_count; ++i) { GrammarLexeme entry; if (!(in >> marker >> std::quoted(entry.concept_id) >> std::quoted(entry.historic_form) >> std::quoted(entry.form) >> std::quoted(entry.language_version) >> std::quoted(entry.status) >> std::quoted(entry.source) >> std::quoted(entry.note)) || marker != 'Z') throw std::runtime_error("corrupt grammar lexeme"); if (version >= 17 && !(in >> std::quoted(entry.part_of_speech) >> std::quoted(entry.meaning) >> std::quoted(entry.valency) >> std::quoted(entry.scope))) throw std::runtime_error("corrupt grammar lexeme metadata"); impl_->grammar_lexemes.push_back(std::move(entry)); } ensure_neu_lunari_lexemes(impl_->grammar_lexemes); } else ensure_neu_lunari_lexemes(impl_->grammar_lexemes);
   impl_->rebuild_concept_indexes();
   if (impl_->agents.empty() && !impl_->frontier.empty()) { for (int i = 0; i < impl_->config.population; ++i) impl_->agents.push_back(AgentState{static_cast<std::uint64_t>(i + 1), {}, 0, 0}); train_population(impl_->frontier.front(), impl_->agents, impl_->rng, impl_->config.training_rounds * 3); }
   if (!impl_->frontier.empty()) impl_->ensure_concept_lexicon();
@@ -1413,11 +1532,11 @@ std::string ResearchEngine::productive_grammar_trace() const {
 std::string ResearchEngine::phonotactic_trace() const {
   if (impl_->frontier.empty()) return "Lunari phonotactic lab\nNo evolved language candidate available.";
   const auto& language = impl_->frontier.front();
-  std::size_t total{}, open{}, rejected{}, candidate_forms{}, concept_forms{};
+  std::size_t total{}, compact{}, rejected{}, candidate_forms{}, concept_forms{};
   double combined{};
   const auto inspect = [&](const std::string& form) {
     const auto score = phonotactic_score(form); ++total; combined += score.combined;
-    if (score.open_syllables && score.structure > 0.0) ++open; else ++rejected;
+    if (score.compact_syllables && score.structure > 0.0) ++compact; else ++rejected;
   };
   for (const auto& [_, form] : language.lexicon) { inspect(form); ++candidate_forms; }
   for (const auto& [_, form] : language.morphology) { inspect(form); ++candidate_forms; }
@@ -1425,14 +1544,39 @@ std::string ResearchEngine::phonotactic_trace() const {
   std::ostringstream out;
   out << "Lunari phonotactic lab\n"
       << "phonology version: " << kConceptMorphologyRuleVersion << "\n"
-      << "phoneme inventory: vowels a e i o u; onsets m n l r p t k b d g f s h v\n"
-      << "allowed syllables: V, CV; word formation: CVCV+ (open syllables only)\n"
+      << "phoneme inventory: vowels a e i o u; onsets m n l r p t k b d g f s h v; codas m n l r s v d\n"
+      << "allowed syllables: V, CV, CVC; word formation: compact 1-3 syllable roots with restricted coda-onset pairs\n"
       << "scoring heuristic: C=0.30*structure + 0.30*transition + 0.20*length + 0.20*acoustic-separation\n"
-      << "evaluated candidate forms=" << candidate_forms << "\nevaluated persistent concept forms=" << concept_forms << "\nevaluated forms total=" << total << "\nopen-syllable forms=" << open << "\nrejected forms=" << rejected
+      << "evaluated candidate forms=" << candidate_forms << "\nevaluated persistent concept forms=" << concept_forms << "\nevaluated forms total=" << total << "\ncompact-syllable forms=" << compact << "\nrejected forms=" << rejected
       << "\nmean phonotactic score=" << (total == 0 ? 0.0 : combined / total)
-      << "\nopen-syllable audit: " << (rejected == 0 ? "passed" : "failed")
+      << "\ncompact-syllable audit: " << (rejected == 0 ? "passed" : "failed")
       << "\nNote: these are explicit research heuristics, not a claim of calibrated human speech data.";
   return out.str();
+}
+std::string ResearchEngine::neu_lunari_collision_report() const {
+  const auto reserved = neu_lunari_reserved_forms();
+  std::vector<std::string> collisions;
+  for (const auto& form : reserved) if (impl_->used_forms.contains(form)) collisions.push_back(form);
+  std::ostringstream out;
+  out << "Neu-Lunari function-form collision audit\nlexicon forms inspected=" << impl_->used_forms.size() << "\nreserved forms=" << reserved.size() << "\ncollisions=" << collisions.size();
+  if (!collisions.empty()) out << "\ncollision forms=" << join(collisions);
+  out << "\nStatus: " << (collisions.empty() ? "clear for proposed reservation" : "reservation blocked; choose replacement forms");
+  return out.str();
+}
+std::string ResearchEngine::neu_lunari_lexicon_report() const {
+  std::ostringstream out;
+  out << "Neu-Lunari grammar lexicon\nstate format=LENG_STATE 17\nentries=" << impl_->grammar_lexemes.size();
+  for (const auto& entry : impl_->grammar_lexemes)
+    out << "\n" << entry.concept_id << " | historical=" << entry.historic_form << " | form=" << entry.form << " | version=" << entry.language_version << " | status=" << entry.status << " | pos=" << entry.part_of_speech << " | meaning=" << entry.meaning << " | valency=" << entry.valency << " | scope=" << entry.scope << " | source=" << entry.source << " | note=" << entry.note;
+  return out.str();
+}
+void ResearchEngine::set_neu_lunari_lexicon_status(const std::string& status) {
+  if (status != "proposed" && status != "active" && status != "historical") throw std::invalid_argument("Neu-Lunari status must be proposed, active, or historical");
+  ensure_neu_lunari_lexemes(impl_->grammar_lexemes);
+  for (auto& entry : impl_->grammar_lexemes) {
+    entry.status = status;
+    entry.note = "status transition reversible; prior and historical forms retained";
+  }
 }
 std::string ResearchEngine::communication_trace() const {
   if (impl_->frontier.empty() || impl_->agents.empty()) return "No trained agents available. Run an experiment first.";
@@ -1518,10 +1662,74 @@ int ResearchEngine::generation() const { return impl_->generation; }
 
 bool self_test(std::string& error) {
   try {
+    const std::string multiline_text = "Neun Nächte ritt ich, ohne Himmel über mir.\n"
+                                       "Kein Licht in diesen Tälern ... nur Sleipnirs Atem.\n\n"
+                                       "Bruder ... ich hab dich gefunden.";
+    const auto multiline_lunari = translate_german_lunari_text(multiline_text);
+    if (!multiline_lunari.ok || multiline_lunari.text.find("\n\n") == std::string::npos || multiline_lunari.text.find("hami") != std::string::npos || multiline_lunari.text.find("fim loma") != std::string::npos)
+      throw std::runtime_error("Neu-Lunari multiline text translation mismatch");
+    const auto multiline_german = translate_lunari_german_text(multiline_lunari.text);
+    if (!multiline_german.ok || multiline_german.text.find("\n\n") == std::string::npos || multiline_german.text.find("sleipnirs") == std::string::npos)
+      throw std::runtime_error("Neu-Lunari multiline text round-trip mismatch");
+    const auto compact_word = encode_german_neu_lunari_lexeme("sleipnir");
+    if (compact_word.size() != 8 || !assess_neu_lunari_word(compact_word).valid || decode_neu_lunari_german_lexeme(compact_word) != "sleipnir")
+      throw std::runtime_error("Neu-Lunari compact lexicon mismatch");
+    const auto grammar_spec = parse_lunari_spec("subject=I;verb=tar;object=lun;time=past;aspect=completed;negation=predicate;relation=location;related=dom");
+    if (!grammar_spec.ok) throw std::runtime_error("Neu-Lunari specification parser mismatch");
+    const auto grammar_sentence = generate_lunari(grammar_spec.clause);
+    if (!grammar_sentence.ok || grammar_sentence.text != "mer ren sen nus tar lun nel dom.")
+      throw std::runtime_error("Neu-Lunari generator mismatch");
+    const auto grammar_recovered = analyse_lunari(grammar_sentence.text);
+    if (!grammar_recovered.ok || grammar_recovered.clause.subject != "I" || grammar_recovered.clause.verb != "tar" || grammar_recovered.clause.object != "lun" || grammar_recovered.clause.time != "past" || grammar_recovered.clause.aspect != "completed" || grammar_recovered.clause.negation != "predicate")
+      throw std::runtime_error("Neu-Lunari analysis round-trip mismatch");
+    if (analyse_lunari("mer.").ok || generate_lunari(LunariClause{}).ok)
+      throw std::runtime_error("Neu-Lunari invalid sentence diagnostics mismatch");
+    if (analyse_lunari("memekumo tar lun.").diagnostic.find("Historische Form memekumo") == std::string::npos)
+      throw std::runtime_error("Neu-Lunari historical-form diagnostic mismatch");
+    const auto embedded_spec = parse_lunari_spec("subject=I;verb=tar;embedding=content;embedded={subject=you;verb=lun;time=future}");
+    if (!embedded_spec.ok) throw std::runtime_error("Neu-Lunari embedded specification parser mismatch");
+    const auto embedded_sentence = generate_lunari(embedded_spec.clause);
+    if (!embedded_sentence.ok || embedded_sentence.text != "mer tar ki gav sil lun ku.") throw std::runtime_error("Neu-Lunari embedded generator mismatch");
+    const auto embedded_recovered = analyse_lunari(embedded_sentence.text);
+    if (!embedded_recovered.ok || embedded_recovered.clause.embedding != "content" || !embedded_recovered.clause.embedded || embedded_recovered.clause.embedded->subject != "you" || embedded_recovered.clause.embedded->time != "future") throw std::runtime_error("Neu-Lunari embedded analysis mismatch");
+    const auto nested_spec = parse_lunari_spec("subject=I;verb=tar;embedding=content;embedded={subject=you;verb=lun;embedding=content;embedded={subject=third.singular;verb=tar}}");
+    const auto nested_sentence = generate_lunari(nested_spec.clause); const auto nested_recovered = analyse_lunari(nested_sentence.text);
+    if (!nested_spec.ok || !nested_sentence.ok || nested_sentence.text != "mer tar ki gav lun ki se tar ku ku." || !nested_recovered.ok || !nested_recovered.clause.embedded || !nested_recovered.clause.embedded->embedded || nested_recovered.clause.embedded->embedded->subject != "third.singular") throw std::runtime_error("Neu-Lunari recursive embedding mismatch");
+    const auto linked_spec = parse_lunari_spec("subject=I;verb=tar;connective=and;embedded={subject=you;verb=lun}");
+    const auto linked_sentence = generate_lunari(linked_spec.clause); const auto linked_recovered = analyse_lunari(linked_sentence.text);
+    if (!linked_spec.ok || !linked_sentence.ok || !linked_recovered.ok || linked_recovered.clause.connective != "and" || !linked_recovered.clause.embedded || linked_recovered.clause.embedded->subject != "you") throw std::runtime_error("Neu-Lunari linkage analysis mismatch");
+    const auto quantity_spec = parse_lunari_spec("subject=I;verb=tar;object=lun;quantity=fraction:3/4;measure=vek");
+    const auto quantity_sentence = generate_lunari(quantity_spec.clause);
+    if (!quantity_spec.ok || !quantity_sentence.ok || quantity_sentence.text != "mer tar fal 3/4 mun vek lun.") throw std::runtime_error("Neu-Lunari quantity generator mismatch");
+    const auto quantity_recovered = analyse_lunari(quantity_sentence.text);
+    if (!quantity_recovered.ok || quantity_recovered.clause.quantity != "fraction:3/4" || quantity_recovered.clause.measure != "vek") throw std::runtime_error("Neu-Lunari quantity analysis mismatch");
+    LunariClause invalid_quantity{}; invalid_quantity.subject = "I"; invalid_quantity.verb = "tar"; invalid_quantity.quantity = "fraction:one/two";
+    if (generate_lunari(invalid_quantity).ok) throw std::runtime_error("Neu-Lunari quantity validation mismatch");
+    const auto comparison_spec = parse_lunari_spec("subject=I;verb=tar;object=lun;adjective=vaske;degree=more;compared_with=dom");
+    const auto comparison_sentence = generate_lunari(comparison_spec.clause);
+    if (!comparison_spec.ok || !comparison_sentence.ok || comparison_sentence.text != "mer tar lun mor vaske kom dom.") throw std::runtime_error("Neu-Lunari comparison generator mismatch");
+    const auto comparison_recovered = analyse_lunari(comparison_sentence.text);
+    if (!comparison_recovered.ok || comparison_recovered.clause.object != "lun" || comparison_recovered.clause.adjective != "vaske" || comparison_recovered.clause.degree != "more" || comparison_recovered.clause.compared_with != "dom") throw std::runtime_error("Neu-Lunari comparison analysis mismatch");
+    const auto copula_spec = parse_lunari_spec("subject=lun;verb=copula;predicate_adjective=vaske"); const auto copula_sentence = generate_lunari(copula_spec.clause); const auto copula_recovered = analyse_lunari(copula_sentence.text);
+    if (!copula_spec.ok || !copula_sentence.ok || copula_sentence.text != "lun gul vaske." || !copula_recovered.ok || copula_recovered.clause.verb != "copula" || copula_recovered.clause.predicate_adjective != "vaske" || !copula_recovered.clause.object.empty()) throw std::runtime_error("Neu-Lunari copula distinction mismatch");
+    const auto stance_spec = parse_lunari_spec("subject=I;verb=tar;probability=probable;emotion=vaske;social=gav;goal=dom;level=report"); const auto stance_sentence = generate_lunari(stance_spec.clause); const auto stance_recovered = analyse_lunari(stance_sentence.text);
+    if (!stance_spec.ok || !stance_sentence.ok || stance_sentence.text != "rav pur fel vaske saf gav gol dom mer tar." || !stance_recovered.ok || stance_recovered.clause.probability != "probable" || stance_recovered.clause.emotion != "vaske" || stance_recovered.clause.social_relation != "gav" || stance_recovered.clause.goal != "dom" || stance_recovered.clause.statement_level != "report") throw std::runtime_error("Neu-Lunari statement-level analysis mismatch");
+    LunariClause yes_answer{}; yes_answer.speech_act = "answer-yes"; const auto answer_sentence = generate_lunari(yes_answer); const auto answer_recovered = analyse_lunari(answer_sentence.text);
+    if (!answer_sentence.ok || answer_sentence.text != "ya." || !answer_recovered.ok || answer_recovered.clause.speech_act != "answer-yes" || !analyse_lunari("na.").ok) throw std::runtime_error("Neu-Lunari short-answer mismatch");
+    const auto agent_derivation = derive_neu_lunari_word("tar", "agent"); const auto compound_derivation = derive_neu_lunari_word("luna", "compound", "lun");
+    if (!agent_derivation.ok || agent_derivation.form != "tarar" || !compound_derivation.ok || compound_derivation.form != "lunalun" || derive_neu_lunari_word("tar", "compound").ok) throw std::runtime_error("Neu-Lunari word-formation mismatch");
+    LunariClause unsupported{}; unsupported.subject = "I"; unsupported.verb = "tar"; unsupported.modality = "telepathy";
+    if (generate_lunari(unsupported).ok)
+      throw std::runtime_error("Neu-Lunari unsupported-category validation mismatch");
     RunConfig config; config.population = 4; config.generations = 2; config.training_rounds = 50; config.evaluation_rounds = 20;
     ResearchEngine e(config); e.run();
     if (e.generation() != 2 || e.archive().empty()) throw std::runtime_error("evolution did not advance");
-    if (e.phonotactic_trace().find("open-syllable audit: passed") == std::string::npos ||
+    e.set_neu_lunari_lexicon_status("active");
+    if (e.neu_lunari_lexicon_report().find("status=active") == std::string::npos) throw std::runtime_error("Neu-Lunari activation mismatch");
+    e.set_neu_lunari_lexicon_status("historical");
+    if (e.neu_lunari_lexicon_report().find("status=historical") == std::string::npos) throw std::runtime_error("Neu-Lunari rollback mismatch");
+    e.set_neu_lunari_lexicon_status("proposed");
+    if (e.phonotactic_trace().find("compact-syllable audit: passed") == std::string::npos ||
         e.phonotactic_trace().find("phoneme inventory: vowels a e i o u") == std::string::npos)
       throw std::runtime_error("Lunari phonotactic validation mismatch");
     const double noisy_robustness = e.archive().back().metrics.robustness;
@@ -1603,7 +1811,7 @@ bool self_test(std::string& error) {
     if (exported_lexicon_text.find("rain-flood") == std::string::npos || exported_lexicon_text.find("CC0;test-fixture") == std::string::npos) throw std::runtime_error("exported concept provenance mismatch");
     if (compare_research_states(path, path).find("Generation delta (right-left): 0") == std::string::npos) throw std::runtime_error("state comparison mismatch");
     RunConfig resume_config = config; resume_config.generations = 1; ResearchEngine restored(resume_config); ResearchEngine replay(resume_config); restored.load(path); replay.load(path);
-    if (restored.generation() != e.generation() || restored.export_language() != e.export_language() || restored.population_trace() != population_before_save || restored.lexicon_trace() != lexicon_before_save || restored.productive_grammar_trace() != e.productive_grammar_trace()) throw std::runtime_error("persistence round-trip mismatch");
+    if (restored.generation() != e.generation() || restored.export_language() != e.export_language() || restored.population_trace() != population_before_save || restored.lexicon_trace() != lexicon_before_save || restored.productive_grammar_trace() != e.productive_grammar_trace() || restored.neu_lunari_lexicon_report().find("grammar:relation:material") == std::string::npos || restored.neu_lunari_lexicon_report().find("grammar:pronoun:first-singular") == std::string::npos || restored.neu_lunari_lexicon_report().find("grammar:embedding:quote-close") == std::string::npos || restored.neu_lunari_lexicon_report().find("valency=two clauses or embedded clause") == std::string::npos) throw std::runtime_error("persistence round-trip mismatch");
     restored.run(); replay.run();
     if (restored.generation() != 3 || restored.export_language() != replay.export_language() || restored.population_trace() != replay.population_trace() || restored.lexicon_trace() != replay.lexicon_trace()) throw std::runtime_error("deterministic continuation mismatch");
     std::filesystem::remove(path); std::filesystem::remove(import_path); std::filesystem::remove(enrichment_path); std::filesystem::remove(word_list_path); std::filesystem::remove_all(export_dir); const auto parity = run_reward_parity_test(); if (parity.attempted && !parity.passed) throw std::runtime_error(parity.detail); return true;

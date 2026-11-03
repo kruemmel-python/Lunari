@@ -1,5 +1,6 @@
 #include "leng/c_api.h"
 #include "leng/engine.hpp"
+#include "leng/lunari_grammar.hpp"
 
 #include <exception>
 #include <memory>
@@ -50,6 +51,26 @@ int leng_engine_export_results(const leng_engine* engine, const char* directory)
 const char* leng_engine_report(leng_engine* engine) {
   if (!engine || !engine->value) return "";
   if (!invoke(engine, [&] { engine->scratch = engine->value->report(); })) return "";
+  return engine->scratch.c_str();
+}
+const char* leng_lunari_generate(leng_engine* engine, const char* specification) {
+  if (!engine || !specification) return "";
+  if (!invoke(engine, [&] { const auto parsed = leng::parse_lunari_spec(specification); if (!parsed.ok) throw std::runtime_error(parsed.diagnostic); const auto generated = leng::generate_lunari(parsed.clause); if (!generated.ok) throw std::runtime_error(generated.diagnostic); engine->scratch = generated.text; })) return "";
+  return engine->scratch.c_str();
+}
+const char* leng_lunari_analyse(leng_engine* engine, const char* sentence) {
+  if (!engine || !sentence) return "";
+  if (!invoke(engine, [&] { const auto result = leng::analyse_lunari(sentence); if (!result.ok) throw std::runtime_error(result.diagnostic); engine->scratch = result.text; })) return "";
+  return engine->scratch.c_str();
+}
+const char* leng_lunari_assess_word(leng_engine* engine, const char* word) {
+  if (!engine || !word) return "";
+  if (!invoke(engine, [&] { const auto result = leng::assess_neu_lunari_word(word); if (!result.valid) throw std::runtime_error(result.diagnostic); engine->scratch = result.syllables; })) return "";
+  return engine->scratch.c_str();
+}
+const char* leng_lunari_grammar_reference(leng_engine* engine) {
+  if (!engine) return "";
+  if (!invoke(engine, [&] { engine->scratch = leng::lunari_grammar_reference(); })) return "";
   return engine->scratch.c_str();
 }
 const char* leng_engine_last_error(const leng_engine* engine) {

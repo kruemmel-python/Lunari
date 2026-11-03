@@ -3,10 +3,18 @@ $ErrorActionPreference = 'Stop'
 $projectRoot = Split-Path -Parent $PSScriptRoot
 $outputZip = Join-Path $projectRoot 'release\Lunari-Developer-Windows.zip'
 $stateFile = Join-Path $projectRoot 'german-wordlist-only.leng'
+$wordListFile = Join-Path $projectRoot 'words.full.list.build.txt'
+$neuLunariLexicon = Join-Path $projectRoot 'neu-lunari-german-v1.tsv'
 $textbookDirectory = Join-Path $projectRoot 'Lehrbuch'
 
 if (-not (Test-Path -LiteralPath $stateFile)) {
     throw "Required local German wordlist state is missing: $stateFile"
+}
+if (-not (Test-Path -LiteralPath $wordListFile)) {
+    throw "Required German word list is missing: $wordListFile"
+}
+if (-not (Test-Path -LiteralPath $neuLunariLexicon)) {
+    throw "Required Neu-Lunari lexicon is missing: $neuLunariLexicon"
 }
 if (-not (Test-Path -LiteralPath $textbookDirectory -PathType Container)) {
     throw "Required textbook directory is missing: $textbookDirectory"
@@ -26,7 +34,7 @@ try {
 
     $sourceDestination = Join-Path $packageRoot 'src'
     New-Item -ItemType Directory -Force -Path $sourceDestination | Out-Null
-    foreach ($source in @('engine.cpp', 'compute.cpp', 'main.cpp', 'win32_ui.cpp', 'user_ui.cpp', 'c_api.cpp')) {
+    foreach ($source in @('engine.cpp', 'compute.cpp', 'lunari_grammar.cpp', 'main.cpp', 'win32_ui.cpp', 'user_ui.cpp', 'developer_comment_ui.cpp', 'c_api.cpp')) {
         Copy-Item -LiteralPath (Join-Path $projectRoot (Join-Path 'src' $source)) -Destination $sourceDestination
     }
 
@@ -37,8 +45,13 @@ try {
         'BUILD.md',
         'GUI_BENUTZERHANDBUCH.md',
         'LUNARI_TEXT_TRANSLATION.md',
+        'LUNARI_REFERENZGRAMMATIK_UND_LEXIKON.md',
+        'NEU_LUNARI_V1.md',
         'DEVELOPER_PACKAGE_README.md',
-        'german-wordlist-only.leng'
+        'DEVELOPER_COMMENT_GUI.md',
+        'german-wordlist-only.leng',
+        'words.full.list.build.txt',
+        'neu-lunari-german-v1.tsv'
     )
     foreach ($file in $files) {
         Copy-Item -LiteralPath (Join-Path $projectRoot $file) -Destination $packageRoot
@@ -53,6 +66,7 @@ try {
     $manifest = @(
         'Lunari Developer Package',
         'Bundled state: german-wordlist-only.leng',
+        'Bundled Neu-Lunari lexicon: neu-lunari-german-v1.tsv',
         'State classification: local German wordlist-derived forms; no Wikidata content',
         'Bundled teaching materials: Lehrbuch/',
         ('State SHA256: ' + (Get-FileHash -LiteralPath $stateFile -Algorithm SHA256).Hash),

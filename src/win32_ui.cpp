@@ -1,5 +1,9 @@
 #include "leng/engine.hpp"
+#include "leng/lunari_grammar.hpp"
 
+#ifndef NOMINMAX
+#define NOMINMAX
+#endif
 #include <windows.h>
 #include <commdlg.h>
 
@@ -33,6 +37,10 @@ constexpr int kToggleLanguage = 1021;
 constexpr int kDictionary = 1022;
 constexpr int kDictionaryPrevious = 1023;
 constexpr int kDictionaryNext = 1024;
+constexpr int kLunariGenerate = 1025;
+constexpr int kLunariAnalyse = 1026;
+constexpr int kLunariGrammar = 1027;
+constexpr int kLunariWord = 1028;
 constexpr int kOutput = 2001;
 constexpr int kAnswer = 2002;
 std::unique_ptr<leng::ResearchEngine> engine;
@@ -77,6 +85,10 @@ void refresh_ui_language(HWND hwnd) {
   set_control_text(hwnd, kDictionary, L"Wörterbuch", L"Dictionary");
   set_control_text(hwnd, kDictionaryPrevious, L"← Seite", L"← Page");
   set_control_text(hwnd, kDictionaryNext, L"Seite →", L"Page →");
+  set_control_text(hwnd, kLunariGenerate, L"Neu-Lunari erzeugen", L"Generate Neu-Lunari");
+  set_control_text(hwnd, kLunariAnalyse, L"Neu-Lunari analysieren", L"Analyse Neu-Lunari");
+  set_control_text(hwnd, kLunariGrammar, L"Neu-Lunari-Regeln", L"Neu-Lunari rules");
+  set_control_text(hwnd, kLunariWord, L"Wort prüfen", L"Check word");
 }
 
 void set_output(HWND hwnd, const std::string& text) {
@@ -139,6 +151,20 @@ LRESULT CALLBACK window_proc(HWND hwnd, UINT msg, WPARAM wparam, LPARAM lparam) 
       if (id == kTranslateGerman) { ensure_engine(); set_output(hwnd, engine->translate(answer(hwnd), "de")); }
       if (id == kTranslateEnglish) { ensure_engine(); set_output(hwnd, engine->translate(answer(hwnd), "en")); }
       if (id == kTranslateConstructed) { ensure_engine(); set_output(hwnd, engine->translate(answer(hwnd), "constructed")); }
+      if (id == kLunariGenerate) {
+        const auto specification = leng::parse_lunari_spec(answer(hwnd));
+        const auto result = specification.ok ? leng::generate_lunari(specification.clause) : specification;
+        set_output(hwnd, result.ok ? "Neu-Lunari v1 (vorgeschlagen):\r\n" + result.text + "\r\n\r\n" + leng::lunari_clause_trace(result.clause) : "Neu-Lunari-Diagnose: " + result.diagnostic);
+      }
+      if (id == kLunariAnalyse) {
+        const auto result = leng::analyse_lunari(answer(hwnd));
+        set_output(hwnd, result.ok ? result.text + "\r\n\r\n" + leng::lunari_clause_trace(result.clause) : "Neu-Lunari-Diagnose: " + result.diagnostic);
+      }
+      if (id == kLunariGrammar) set_output(hwnd, leng::lunari_grammar_reference());
+      if (id == kLunariWord) {
+        const auto word = leng::assess_neu_lunari_word(answer(hwnd));
+        set_output(hwnd, word.valid ? "Neu-Lunari v1 — Lautprüfung\r\nWortform: gültig\r\nSilben: " + word.syllables + "\r\nBetonung: regulär vorletzte Silbe (Akut nur für dokumentierte Abweichung)." : "Neu-Lunari-Diagnose: " + word.diagnostic);
+      }
       if (id == kImport) { ensure_engine(); std::string import_path = answer(hwnd); if (import_path.empty()) { import_path = choose_tsv(hwnd); if (import_path.empty()) return 0; SetWindowTextA(GetDlgItem(hwnd, kAnswer), import_path.c_str()); } const auto imported = engine->import_concepts(import_path); show_status(hwnd, "Imported " + std::to_string(imported) + " concepts. Press Save state to persist them."); }
       if (id == kQuiz) { ensure_engine(); exercise = engine->create_human_exercise(); SetWindowTextA(GetDlgItem(hwnd, kAnswer), ""); show_status(hwnd, exercise.prompt + "\r\nEnter the requested answer below and press Check answer."); }
       if (id == kCheck) { ensure_engine(); const bool correct = engine->check_human_exercise(exercise, answer(hwnd)); set_output(hwnd, std::string(correct ? "Human language lab: correct full-statement answer recorded.\r\n\r\n" : "Human language lab: answer not correct; review Language and retry.\r\n\r\n") + engine->human_lab_trace()); }
@@ -203,7 +229,11 @@ int WINAPI WinMain(HINSTANCE instance, HINSTANCE, LPSTR, int show) {
   CreateWindowW(L"BUTTON", L"Dictionary", WS_CHILD | WS_VISIBLE, 500, 125, 115, 28, hwnd, reinterpret_cast<HMENU>(kDictionary), instance, nullptr);
   CreateWindowW(L"BUTTON", L"Previous page", WS_CHILD | WS_VISIBLE, 625, 125, 100, 28, hwnd, reinterpret_cast<HMENU>(kDictionaryPrevious), instance, nullptr);
   CreateWindowW(L"BUTTON", L"Next page", WS_CHILD | WS_VISIBLE, 735, 125, 100, 28, hwnd, reinterpret_cast<HMENU>(kDictionaryNext), instance, nullptr);
-  HWND output = CreateWindowW(L"EDIT", L"Run a generation to create a language candidate.", WS_CHILD | WS_VISIBLE | WS_BORDER | ES_MULTILINE | ES_AUTOVSCROLL | ES_READONLY | WS_VSCROLL, 15, 165, 870, 440, hwnd, reinterpret_cast<HMENU>(kOutput), instance, nullptr);
+  CreateWindowW(L"BUTTON", L"Generate Neu-Lunari", WS_CHILD | WS_VISIBLE, 15, 155, 160, 28, hwnd, reinterpret_cast<HMENU>(kLunariGenerate), instance, nullptr);
+  CreateWindowW(L"BUTTON", L"Analyse Neu-Lunari", WS_CHILD | WS_VISIBLE, 185, 155, 160, 28, hwnd, reinterpret_cast<HMENU>(kLunariAnalyse), instance, nullptr);
+  CreateWindowW(L"BUTTON", L"Neu-Lunari rules", WS_CHILD | WS_VISIBLE, 355, 155, 145, 28, hwnd, reinterpret_cast<HMENU>(kLunariGrammar), instance, nullptr);
+  CreateWindowW(L"BUTTON", L"Check word", WS_CHILD | WS_VISIBLE, 510, 155, 120, 28, hwnd, reinterpret_cast<HMENU>(kLunariWord), instance, nullptr);
+  HWND output = CreateWindowW(L"EDIT", L"Run a generation to create a language candidate.", WS_CHILD | WS_VISIBLE | WS_BORDER | ES_MULTILINE | ES_AUTOVSCROLL | ES_READONLY | WS_VSCROLL, 15, 195, 870, 410, hwnd, reinterpret_cast<HMENU>(kOutput), instance, nullptr);
   SendMessageW(output, WM_SETFONT, reinterpret_cast<WPARAM>(GetStockObject(DEFAULT_GUI_FONT)), TRUE);
   refresh_ui_language(hwnd);
   ShowWindow(hwnd, show);

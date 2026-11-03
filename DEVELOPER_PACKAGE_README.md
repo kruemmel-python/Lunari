@@ -40,6 +40,12 @@ Die Benutzeroberfläche lädt `german-wordlist-only.leng` automatisch aus dem
 Paketordner. Die technische Forschungsoberfläche lässt sich bei Bedarf mit
 `release\linguistische-emergenz-ng-ui.exe` starten.
 
+Für die Übersetzung von Kommentaren in einem beliebigen Quellprojekt steht
+zusätzlich `release\lunari-developer-comments.exe` bereit. Die Anwendung
+analysiert zuerst ohne Änderungen und erstellt vor einer Übersetzung eine
+vollständige Sicherung unter `.lunari-comment-backups`. Siehe
+`DEVELOPER_COMMENT_GUI.md`.
+
 ## Übersetzer in der Kommandozeile
 
 Neben der Benutzeroberfläche steht der texttreue Translator direkt in der
@@ -58,6 +64,13 @@ Rückübersetzung verändert den Datenstand nicht. Bei einer Vorwärtsübersetzu
 können unbekannte deutsche Wortformen sicher in die angegebene `.leng`-Datei
 aufgenommen werden. `--translate-meaning` gehört ausschließlich zum strengen
 15-Felder-Bedeutungskanal, nicht zu freien Texten.
+
+## Ausfallsicheres Speichern
+
+Die Engine schreibt jeden `.leng`-Zustand zunächst in eine eindeutige
+temporäre `.writing-…`-Datei. Erst nach erfolgreichem Abschluss wird der alte
+Zustand atomar ersetzt. Ein Abbruch kann daher den zuletzt vollständig
+gespeicherten Datenstand nicht teilweise überschreiben.
 
 ## Regression prüfen
 

@@ -132,6 +132,13 @@ class ResearchEngine {
   [[nodiscard]] std::string concept_communication_trace() const;
   [[nodiscard]] std::string productive_grammar_trace() const;
   [[nodiscard]] std::string phonotactic_trace() const;
+  // Checks proposed Neu-Lunari function forms against every form in the
+  // currently loaded persistent lexicon without altering either vocabulary.
+  [[nodiscard]] std::string neu_lunari_collision_report() const;
+  [[nodiscard]] std::string neu_lunari_lexicon_report() const;
+  // Reversible version-state transition for proposed grammar forms.  Surface
+  // forms and historical aliases are retained in every state.
+  void set_neu_lunari_lexicon_status(const std::string& status);
   [[nodiscard]] std::string communication_trace() const;
   [[nodiscard]] std::string evolution_trace() const;
   [[nodiscard]] std::string population_trace() const;

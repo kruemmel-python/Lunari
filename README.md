@@ -46,6 +46,30 @@ mit dem die Lehrbuchfassungen erzeugt wurden.
   Lexikoneinträge aufnehmen;
 - den verwendeten Sprach- und Wortbestand persistent speichern.
 
+## Neu-Lunari v1: regelgeleitete Sätze
+
+Zusätzlich zum bestehenden, reversiblen Textkanal enthält der Entwicklungsstand
+den getrennten Grammatikkanal **Neu-Lunari v1**. Er bildet und analysiert
+einfache, strukturierte Sätze nach SVO-Reihenfolge. Die Version ist ausdrücklich
+als vorgeschlagen markiert; bestätigte Alt-Lunari-Texte bleiben unverändert.
+
+```powershell
+$toolchain = 'H:\KR-Compiler\KR-Compiler-Windows-x64-v4.3.1\toolchain\bin'
+$env:PATH = "$toolchain;$env:PATH"
+.\build-kr-path\linguistische-emergenz-ng.exe --lunari-generate 'subject=I;verb=tar;object=lun;time=past'
+.\build-kr-path\linguistische-emergenz-ng.exe --lunari-analyse 'mer ren tar lun.'
+.\build-kr-path\linguistische-emergenz-ng.exe --lunari-grammar
+.\build-kr-path\linguistische-emergenz-ng.exe --lunari-collisions .\german-wordlist-only.leng
+```
+
+Die direkte Bedeutungseingabe ist bewusst der unterstützte Teilumfang: freie
+deutsche oder englische Sätze werden damit noch nicht als vollständige
+Grammatikübersetzung behauptet. Ungültige Wortformen, historische Formen und
+unvollständige Sätze erhalten nachvollziehbare Diagnosen. Details und
+Beispielsätze stehen in [NEU_LUNARI_V1.md](NEU_LUNARI_V1.md).
+`--lunari-collisions` prüft die vorgeschlagenen Funktionsformen gegen den
+gesamten geladenen Lunari-Formbestand, ohne ihn zu verändern.
+
 Der mitgelieferte Datenstand `german-wordlist-only.leng` basiert auf einer
 deutschen Wortliste. Er enthält Wortformen und Lunari-Zuordnungen, jedoch
 keine behaupteten geprüften Bedeutungen für jeden einzelnen Eintrag.
@@ -173,6 +197,25 @@ freie Texte gedacht.
 
 For an exact click-by-click introduction to the native interface, see the
 German [GUI user manual](GUI_BENUTZERHANDBUCH.md).
+
+## Entwickler-Kommentare nach Lunari
+
+`release/lunari-developer-comments.exe` ist eine separate, sichere Oberfläche
+für Quellprojekte: Projektordner wählen, zunächst **Analysieren** und danach
+bei Bedarf **Übersetzen**. Sie übersetzt `//`, `/* ... */` und bei passenden
+Skript-/Konfigurationsdateien `#`-Kommentare nach Lunari, ohne Code oder
+normale Zeichenketten anzutasten. Vor jeder Änderung werden die Originaldateien
+unter `<Projekt>/.lunari-comment-backups/<Zeitstempel>/` gesichert. Details:
+[Entwickler-Kommentar-GUI](DEVELOPER_COMMENT_GUI.md).
+
+### Ausfallsichere Datenstände
+
+Jedes Speichern eines `.leng`-Zustands erfolgt ausfallsicher: Die Engine schreibt
+zuerst eine vollständige temporäre Datei, prüft ihren Kopf und ersetzt den
+vorherigen Datenstand erst dann atomar. Ein Programmabbruch während des
+Schreibens kann daher höchstens eine ungenutzte Datei mit dem Suffix
+`.writing-…` hinterlassen; der zuletzt vollständig gespeicherte Datenstand
+bleibt unverändert.
 
 ## Simple user interface
 

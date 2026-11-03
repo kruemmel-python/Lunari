@@ -1,0 +1,9 @@
+# Forschungsergebnis: reproduzierbarer Referenzdurchlauf
+
+Der aktuelle gespeicherte Referenzlauf `research-e2e.leng` verwendet Seed `20261101`, Population `12`, 160 Trainings- und 80 Evaluierungsrunden. Er wurde aus einem leeren Forschungszustand erzeugt, bis Generation 8 fortgesetzt und liegt als `LENG_STATE 9` vor. Der Zustand enthält zwölf persistente Agenten, 35 Pareto-Archivdatensätze, die evolvierte Kandidatenlexik, die persistierte Grammatikreihenfolge und die Abstraktionstoken.
+
+Kandidat 74 erreichte auf zuvor nicht verwendeten Bedeutungskombinationen Kommunikations- und semantische Genauigkeit `1.0`. Die mittlere Nachrichtengröße betrug 106,125 Byte, die berechnete Aussprechbarkeitsmetrik 0,745918. Bei einer kontrollierten Substitution eines gültigen Akteur-Tokens blieben 14 von 15 Bedeutungsfeldern korrekt, entsprechend Robustheit 0,933333.
+
+Der Kommunikationsnachweis verwendet den privaten Reverse-Lexikonspeicher von Agent 1 (62 gelernte Token; 2.857 erfolgreiche und 23 fehlgeschlagene Interpretationen). Er rekonstruierte eine unbekannte zusammengesetzte Frage vollständig aus den Nachrichtentoken einschließlich `abstraction:literal`. In einer einzelnen Laufzeitmessung umfasste diese Nachricht 109 Byte; Kodierung und Dekodierung benötigten 35 bzw. 115 Mikrosekunden, die Zeichen-Nutzlast des Empfängerlexikons betrug 1.199 Byte. Diese Zeiten sind hardware- und laufabhängig.
+
+Die Wörter werden aus dem Phonologiemodell erzeugt und sind nicht als vorgegebenes Wörterbuch im Quelltext hinterlegt. Die Grammatikreihenfolge ist als Kandidateneigenschaft gespeichert und kann neben Wortformen mutieren. Diese Ergebnisse belegen ausschließlich die implementierte Agentensimulation im definierten Aufgabenraum. Sie sind keine Evidenz für allgemeine universelle Sprache oder menschliche Erlernbarkeit; zum Zeitpunkt dieses Berichts liegen keine realen menschlichen Versuchsdaten vor.

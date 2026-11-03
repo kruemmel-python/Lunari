@@ -1,5 +1,6 @@
 #include "leng/engine.hpp"
 #include "leng/compute.hpp"
+#include "leng/lunari_grammar.hpp"
 
 #include <exception>
 #include <filesystem>
@@ -35,6 +36,16 @@ void usage() {
                "  linguistische-emergenz-ng --translate <state.leng> <de|en|constructed> <text>\n"
                "  linguistische-emergenz-ng --translate-text <state.leng> <de|en|constructed> <text>\n"
                "  linguistische-emergenz-ng --translate-meaning <state.leng> <de|en|constructed> <text>\n"
+               "  linguistische-emergenz-ng --lunari-generate <meaning-spec>\n"
+               "  linguistische-emergenz-ng --lunari-analyse <lunari-sentence>\n"
+               "  linguistische-emergenz-ng --deutsch-lunari <deutscher-satz>\n"
+               "  linguistische-emergenz-ng --lunari-deutsch <lunari-satz>\n"
+               "  linguistische-emergenz-ng --lunari-word <word>\n"
+               "  linguistische-emergenz-ng --lunari-derive <root> <agent|tool|abstract|field|compound> [qualifier]\n"
+               "  linguistische-emergenz-ng --lunari-collisions <state.leng>\n"
+               "  linguistische-emergenz-ng --lunari-lexicon <state.leng>\n"
+               "  linguistische-emergenz-ng --lunari-migrate <state.leng> <proposed|active|historical>\n"
+               "  linguistische-emergenz-ng --lunari-grammar\n"
                "  linguistische-emergenz-ng --compare <left.leng> <right.leng>\n"
                "  linguistische-emergenz-ng --export <state.leng> <directory>\n";
 }
@@ -52,6 +63,43 @@ int main(int argc, char** argv) {
       const auto parity = leng::run_reward_parity_test();
       std::cout << parity.detail << "\nmax_absolute_error=" << parity.max_absolute_error << '\n';
       return parity.skipped || parity.passed ? 0 : 1;
+    }
+    if (argc == 2 && std::string(argv[1]) == "--lunari-grammar") {
+      std::cout << leng::lunari_grammar_reference() << '\n'; return 0;
+    }
+    if (argc == 3 && std::string(argv[1]) == "--lunari-generate") {
+      const auto specification = leng::parse_lunari_spec(argv[2]);
+      const auto result = specification.ok ? leng::generate_lunari(specification.clause) : specification;
+      std::cout << (result.ok ? result.text : "ERROR: " + result.diagnostic) << '\n'; return result.ok ? 0 : 1;
+    }
+    if (argc == 3 && std::string(argv[1]) == "--lunari-analyse") {
+      const auto result = leng::analyse_lunari(argv[2]);
+      std::cout << (result.ok ? result.text : "ERROR: " + result.diagnostic) << '\n'; return result.ok ? 0 : 1;
+    }
+    if (argc == 3 && std::string(argv[1]) == "--deutsch-lunari") {
+      const auto result = leng::translate_german_lunari_text(argv[2]);
+      std::cout << (result.ok ? result.text : "ERROR: " + result.diagnostic) << '\n'; return result.ok ? 0 : 1;
+    }
+    if (argc == 3 && std::string(argv[1]) == "--lunari-deutsch") {
+      const auto result = leng::translate_lunari_german_text(argv[2]);
+      std::cout << (result.ok ? result.text : "ERROR: " + result.diagnostic) << '\n'; return result.ok ? 0 : 1;
+    }
+    if (argc == 3 && std::string(argv[1]) == "--lunari-word") {
+      const auto result = leng::assess_neu_lunari_word(argv[2]);
+      std::cout << (result.valid ? "valid; syllables=" + result.syllables : "ERROR: " + result.diagnostic) << '\n'; return result.valid ? 0 : 1;
+    }
+    if ((argc == 4 || argc == 5) && std::string(argv[1]) == "--lunari-derive") {
+      const auto result = leng::derive_neu_lunari_word(argv[2], argv[3], argc == 5 ? argv[4] : "");
+      std::cout << (result.ok ? "structurally interpretable; unconfirmed lexeme: " + result.form : "ERROR: " + result.diagnostic) << '\n'; return result.ok ? 0 : 1;
+    }
+    if (argc == 3 && std::string(argv[1]) == "--lunari-collisions") {
+      leng::ResearchEngine engine; engine.load(argv[2]); std::cout << engine.neu_lunari_collision_report() << '\n'; return 0;
+    }
+    if (argc == 3 && std::string(argv[1]) == "--lunari-lexicon") {
+      leng::ResearchEngine engine; engine.load(argv[2]); std::cout << engine.neu_lunari_lexicon_report() << '\n'; return 0;
+    }
+    if (argc == 4 && std::string(argv[1]) == "--lunari-migrate") {
+      leng::ResearchEngine engine; engine.load(argv[2]); engine.set_neu_lunari_lexicon_status(argv[3]); engine.save(argv[2]); std::cout << engine.neu_lunari_lexicon_report() << '\n'; return 0;
     }
     if (argc == 4 && std::string(argv[1]) == "--export") {
       leng::ResearchEngine engine;
