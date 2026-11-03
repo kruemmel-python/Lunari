@@ -1,16 +1,20 @@
-#include "leng/engine.hpp"
+#include "leng/lunari_grammar.hpp"
 
 #include <jni.h>
 
+#include <cctype>
 #include <filesystem>
-#include <memory>
+#include <fstream>
 #include <mutex>
 #include <string>
+#include <string_view>
+#include <stdexcept>
+#include <unordered_set>
 
 namespace {
-std::mutex engine_mutex;
-std::unique_ptr<leng::ResearchEngine> engine;
-std::string loaded_state_path;
+std::mutex lexicon_mutex;
+std::string loaded_lexicon_path;
+std::unordered_set<std::string> learned_this_session;
 
 std::string from_java(JNIEnv* environment, jstring value) {
   if (!value) return {};
@@ -21,44 +25,46 @@ std::string from_java(JNIEnv* environment, jstring value) {
   return result;
 }
 
-jstring to_java(JNIEnv* environment, const std::string& value) {
-  return environment->NewStringUTF(value.c_str());
-}
+jstring to_java(JNIEnv* environment, const std::string& value) { return environment->NewStringUTF(value.c_str()); }
 
-std::string extract_block(const std::string& report, const std::string& header,
-                          const std::string& footer) {
-  const std::size_t start = report.find(header);
-  if (start == std::string::npos) return report;
-  const std::size_t content_start = start + header.size();
-  const std::size_t end = report.find(footer, content_start);
-  return report.substr(content_start, end == std::string::npos ? std::string::npos : end - content_start);
+void persist_lexemes(const std::string& text, const std::filesystem::path& path) {
+  std::ofstream output(path, std::ios::app);
+  if (!output) throw std::runtime_error("Neu-Lunari-Lexikon kann nicht gespeichert werden.");
+  std::string word;
+  const auto save = [&] {
+    if (word.empty()) return;
+    const auto form = leng::encode_german_neu_lunari_lexeme(word);
+    if (!form.empty() && learned_this_session.insert(word).second) output << word << '\t' << form << '\n';
+    word.clear();
+  };
+  for (const unsigned char character : text) {
+    if (std::isspace(character) || std::string_view{".,;:!?()[]{}\"'"}.find(static_cast<char>(character)) != std::string_view::npos) save();
+    else word.push_back(static_cast<char>(character));
+  }
+  save();
+  if (!output) throw std::runtime_error("Neu-Lunari-Lexikon konnte nicht vollständig gespeichert werden.");
 }
 }  // namespace
 
 extern "C" JNIEXPORT jstring JNICALL
 Java_org_leng_research_MainActivity_translateNative(JNIEnv* environment, jobject,
-                                                     jstring source, jstring state_file,
+                                                     jstring source, jstring lexicon_file,
                                                      jboolean into_lunari) {
   try {
     const std::string input = from_java(environment, source);
-    const std::string path = from_java(environment, state_file);
+    const std::string path = from_java(environment, lexicon_file);
     if (input.empty()) return to_java(environment, "FEHLER: Bitte Text eingeben.");
-    if (path.empty() || !std::filesystem::exists(path)) {
-      return to_java(environment, "FEHLER: Der Lunari-Datenstand ist nicht verfügbar.");
-    }
-    std::lock_guard lock(engine_mutex);
-    if (!engine || loaded_state_path != path) {
-      engine = std::make_unique<leng::ResearchEngine>();
-      engine->load(path);
-      loaded_state_path = path;
-    }
+    if (path.empty() || !std::filesystem::exists(path)) return to_java(environment, "FEHLER: Das Neu-Lunari-Lexikon ist nicht verfügbar.");
+    std::lock_guard lock(lexicon_mutex);
+    if (loaded_lexicon_path != path) { leng::load_neu_lunari_lexicon(path); loaded_lexicon_path = path; learned_this_session.clear(); }
     if (into_lunari == JNI_TRUE) {
-      const std::string report = engine->translate_text(input, "constructed");
-      if (report.find("newly learned tokens=0") == std::string::npos) engine->save(path);
-      return to_java(environment, extract_block(report, "Lunari text:\n", "\n-- end Lunari text --"));
+      const auto result = leng::translate_german_lunari_text(input);
+      if (!result.ok) return to_java(environment, "FEHLER: " + result.diagnostic);
+      persist_lexemes(input, path);
+      return to_java(environment, result.text);
     }
-    const std::string report = engine->translate_text(input, "de");
-    return to_java(environment, extract_block(report, "Deutsch text:\n", "\n-- end translated text --"));
+    const auto result = leng::translate_lunari_german_text(input);
+    return to_java(environment, result.ok ? result.text : "FEHLER: " + result.diagnostic);
   } catch (const std::exception& error) {
     return to_java(environment, std::string("FEHLER: ") + error.what());
   } catch (...) {
@@ -68,7 +74,7 @@ Java_org_leng_research_MainActivity_translateNative(JNIEnv* environment, jobject
 
 extern "C" JNIEXPORT void JNICALL
 Java_org_leng_research_MainActivity_closeNative(JNIEnv*, jobject) {
-  std::lock_guard lock(engine_mutex);
-  engine.reset();
-  loaded_state_path.clear();
+  std::lock_guard lock(lexicon_mutex);
+  loaded_lexicon_path.clear();
+  learned_this_session.clear();
 }

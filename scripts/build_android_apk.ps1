@@ -9,7 +9,7 @@ $work = Join-Path $out 'work'
 Remove-Item -LiteralPath $work -Recurse -Force -ErrorAction SilentlyContinue
 New-Item -ItemType Directory -Force -Path "$work\assets", "$work\lib\arm64-v8a", "$work\classes", $out | Out-Null
 New-Item -ItemType Directory -Force -Path "$work\dex" | Out-Null
-Copy-Item (Join-Path $root 'german-wordlist-only.leng') "$work\assets\german-wordlist-only.leng"
+Copy-Item (Join-Path $root 'neu-lunari-german-v1.tsv') "$work\assets\neu-lunari-german-v1.tsv"
 Copy-Item (Join-Path $root 'release-android\arm64-v8a\libleng_core.so') "$work\lib\arm64-v8a\libleng_core.so"
 & $javac -cp $platform -d "$work\classes" (Join-Path $root 'android-app\src\org\leng\research\MainActivity.java')
 if ($LASTEXITCODE -ne 0) { throw 'Java compilation failed.' }
@@ -19,7 +19,7 @@ if ($LASTEXITCODE -ne 0) { throw 'D8 failed.' }
 if ($LASTEXITCODE -ne 0) { throw 'AAPT2 link failed.' }
 Copy-Item "$work\dex\classes.dex" "$work\classes.dex"
 Push-Location $work
-try { & 'C:\Program Files\Java\jdk-22\bin\jar.exe' uf "$out\leng-unsigned.apk" 'classes.dex' 'assets/german-wordlist-only.leng' 'lib/arm64-v8a/libleng_core.so' }
+try { & 'C:\Program Files\Java\jdk-22\bin\jar.exe' uf "$out\leng-unsigned.apk" 'classes.dex' 'assets/neu-lunari-german-v1.tsv' 'lib/arm64-v8a/libleng_core.so' }
 finally { Pop-Location }
 if ($LASTEXITCODE -ne 0) { throw 'AAPT2 add failed.' }
 $keystore = "$out\debug.keystore"
