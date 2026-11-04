@@ -106,6 +106,138 @@ std::string decode_german_lexeme(const std::string& value) {
   if (value.rfind("hami", 0) != 0 || (value.size() - 4) % 2 != 0) return value;
   std::string decoded; for (std::size_t i = 4; i < value.size(); i += 2) { const auto pair = value.substr(i, 2); const auto found = std::find_if(kGermanCode.begin(), kGermanCode.end(), [&pair](const auto& entry) { return entry.second == pair; }); if (found == kGermanCode.end()) return value; decoded.push_back(found->first); } return decoded;
 }
+// The user-facing translator is a dictionary translator: every German token
+// is rendered with its V2 lexicon entry in the original order.  Grammar
+// analysis remains available through the structured API, but must never make
+// "Kannst" and "du" collapse into the same function word in a free text.
+std::string encode_german_text_lexeme(const std::string& raw) {
+  const auto word = lower_german(raw);
+  if (word.empty()) return {};
+  {
+    std::lock_guard lock(learned_lexicon_mutex);
+    if (const auto existing = learned_german_forms.find(word); existing != learned_german_forms.end()) return existing->second;
+  }
+  return encode_german_lexeme(word);
+}
+std::string decode_lunari_text_lexeme(const std::string& raw) {
+  std::string word;
+  for (const unsigned char character : raw) word.push_back(static_cast<char>(std::tolower(character)));
+  {
+    std::lock_guard lock(learned_lexicon_mutex);
+    if (const auto existing = learned_form_german.find(word); existing != learned_form_german.end()) return existing->second;
+  }
+  return decode_german_lexeme(word);
+}
+bool is_german_text_character(unsigned char character) { return std::isalpha(character) || character >= 0x80; }
+bool is_lunari_text_character(unsigned char character) { return (character >= 'A' && character <= 'Z') || (character >= 'a' && character <= 'z'); }
+std::string capitalise_german_sentences(std::string text) {
+  bool sentence_start = true;
+  for (char& character : text) {
+    const auto value = static_cast<unsigned char>(character);
+    if (sentence_start && value >= 'a' && value <= 'z') { character = static_cast<char>(std::toupper(value)); sentence_start = false; }
+    else if (std::isalpha(value) || value >= 0x80) sentence_start = false;
+    if (character == '.' || character == '!' || character == '?') sentence_start = true;
+  }
+  return text;
+}
+bool has_v2_german_lexeme(const std::string& raw) {
+  std::lock_guard lock(learned_lexicon_mutex);
+  return learned_german_forms.contains(lower_german(raw));
+}
+std::string regular_infinitive(const std::string& raw) {
+  const auto word = lower_german(raw);
+  if (word.size() > 2 && word.ends_with("en") && has_v2_german_lexeme(word)) return word;
+  const std::array<std::string, 7> endings{{"test", "tet", "ten", "te", "st", "t", "e"}};
+  for (const auto& ending : endings) {
+    if (!word.ends_with(ending) || word.size() <= ending.size()) continue;
+    const auto candidate = word.substr(0, word.size() - ending.size()) + "en";
+    if (has_v2_german_lexeme(candidate)) return candidate;
+  }
+  return {};
+}
+bool german_pronoun(const std::string& word) { return word == "ich" || word == "du" || word == "er" || word == "sie" || word == "es" || word == "wir" || word == "ihr"; }
+std::string german_regular_form(const std::string& infinitive, const std::string& subject, bool past) {
+  if (!infinitive.ends_with("en") || infinitive.size() <= 2) return infinitive;
+  const auto stem = infinitive.substr(0, infinitive.size() - 2);
+  if (past) {
+    if (subject == "du") return stem + "test";
+    if (subject == "wir" || subject == "sie") return stem + "ten";
+    if (subject == "ihr") return stem + "tet";
+    return stem + "te";
+  }
+  if (subject == "ich") return stem + "e";
+  if (subject == "du") return stem + "st";
+  if (subject == "wir" || subject == "sie") return infinitive;
+  return stem + "t";
+}
+std::string future_auxiliary(const std::string& subject) {
+  if (subject == "ich") return "werde";
+  if (subject == "du") return "wirst";
+  if (subject == "wir" || subject == "sie") return "werden";
+  if (subject == "ihr") return "werdet";
+  return "wird";
+}
+bool translate_german_grammar_sentence(const std::string& source, std::string& translated) {
+  const auto begin = source.find_first_not_of(" \t\r\n"); if (begin == std::string::npos) { translated = source; return true; }
+  const auto end = source.find_last_not_of(" \t\r\n"); std::string core = source.substr(begin, end - begin + 1);
+  char punctuation = '.'; if (core.back() == '.' || core.back() == '!' || core.back() == '?') { punctuation = core.back(); core.pop_back(); core = trim(core); }
+  if (core.find_first_of(",;:\"()[]{}") != std::string::npos) return false;
+  auto words = split(lower_german(core), ' '); words.erase(std::remove(words.begin(), words.end(), ""), words.end());
+  if (words.size() < 2) return false;
+  const bool question = punctuation == '?'; std::size_t subject = words.size();
+  for (std::size_t i{}; i < words.size(); ++i) if (german_pronoun(words[i])) { subject = i; break; }
+  if (subject == words.size()) return false;
+  std::size_t verb = question && subject > 0 ? 0 : subject + 1;
+  if (verb >= words.size()) return false;
+  bool future = false, past = false, negated = false, ability = false;
+  const std::array<std::string, 5> future_words{{"werde", "wirst", "wird", "werden", "werdet"}};
+  if (std::find(future_words.begin(), future_words.end(), words[verb]) != future_words.end()) { future = true; ++verb; }
+  if (verb < words.size() && words[verb] == "nicht") { negated = true; ++verb; }
+  if (verb >= words.size()) return false;
+  std::string infinitive;
+  if (words[verb] == "kann" || words[verb] == "kannst" || words[verb] == "können" || words[verb] == "könnt") { ability = true; ++verb; if (verb == subject) ++verb; if (verb >= words.size()) return false; }
+  infinitive = regular_infinitive(words[verb]);
+  if (infinitive.empty()) return false;
+  if (!future && (words[verb].ends_with("te") || words[verb].ends_with("test") || words[verb].ends_with("ten") || words[verb].ends_with("tet"))) past = true;
+  for (std::size_t i{}; i < words.size(); ++i) if (words[i] == "nicht") negated = true;
+  std::vector<std::string> output{encode_german_text_lexeme(words[subject])};
+  if (past) output.push_back("ren");
+  if (future) output.push_back("sil");
+  if (ability) output.push_back("kan");
+  if (negated) output.push_back("nus");
+  output.push_back(encode_german_text_lexeme(infinitive));
+  for (std::size_t i{}; i < words.size(); ++i) {
+    if (i == subject || i == verb || words[i] == "nicht" || std::find(future_words.begin(), future_words.end(), words[i]) != future_words.end()) continue;
+    if (words[i] == "kann" || words[i] == "kannst" || words[i] == "können" || words[i] == "könnt") continue;
+    output.push_back(encode_german_text_lexeme(words[i]));
+  }
+  std::ostringstream out; for (const auto& word : output) { if (word.empty()) return false; if (out.tellp() > 0) out << ' '; out << word; }
+  if (question) out << " ke";
+  out << punctuation; translated = source.substr(0, begin) + out.str() + source.substr(end + 1); return true;
+}
+bool translate_lunari_grammar_sentence(const std::string& source, std::string& translated) {
+  const auto begin = source.find_first_not_of(" \t\r\n"); if (begin == std::string::npos) { translated = source; return true; }
+  const auto end = source.find_last_not_of(" \t\r\n"); std::string core = source.substr(begin, end - begin + 1);
+  char punctuation = '.'; if (core.back() == '.' || core.back() == '!' || core.back() == '?') { punctuation = core.back(); core.pop_back(); core = trim(core); }
+  if (core.find_first_of(",;:\"()[]{}") != std::string::npos) return false;
+  auto words = split(lower_german(core), ' '); words.erase(std::remove(words.begin(), words.end(), ""), words.end());
+  if (words.size() < 2) return false;
+  const bool question = !words.empty() && words.back() == "ke"; if (question) words.pop_back();
+  const auto subject = decode_lunari_text_lexeme(words.front()); if (!german_pronoun(lower_german(subject))) return false;
+  std::size_t i = 1; bool past = false, future = false, negated = false, ability = false;
+  while (i < words.size()) { if (words[i] == "ren") past = true; else if (words[i] == "sil") future = true; else if (words[i] == "nus") negated = true; else if (words[i] == "kan") ability = true; else break; ++i; }
+  if (i >= words.size()) return false;
+  const auto infinitive = lower_german(decode_lunari_text_lexeme(words[i++])); if (!infinitive.ends_with("en")) return false;
+  std::vector<std::string> tail; for (; i < words.size(); ++i) tail.push_back(decode_lunari_text_lexeme(words[i]));
+  const auto finite = ability ? (lower_german(subject) == "du" ? "kannst" : lower_german(subject) == "ich" ? "kann" : "kann") : future ? future_auxiliary(lower_german(subject)) : german_regular_form(infinitive, lower_german(subject), past);
+  std::ostringstream out;
+  if (question) { out << finite << ' ' << subject; if (ability || future) out << ' ' << infinitive; }
+  else { out << subject << ' ' << finite; if (ability || future) out << ' ' << infinitive; }
+  if (negated) out << " nicht";
+  for (const auto& word : tail) out << ' ' << word;
+  out << punctuation;
+  translated = source.substr(0, begin) + capitalise_german_sentences(out.str()) + source.substr(end + 1); return true;
+}
 bool valid(const std::string& value, const std::initializer_list<const char*> choices) { return value.empty() || std::find_if(choices.begin(), choices.end(), [&value](const char* choice){ return value == choice; }) != choices.end(); }
 bool digits(const std::string& value) { return !value.empty() && std::all_of(value.begin(), value.end(), [](unsigned char ch) { return std::isdigit(ch); }); }
 bool valid_quantity(const std::string& value) { if (value.empty() || value == "plural") return true; const auto separator = value.find(':'); if (separator == std::string::npos) return digits(value); const auto kind = value.substr(0, separator), amount = value.substr(separator + 1); if (kind == "exact" || kind == "about" || kind == "atleast" || kind == "atmost" || kind == "ordinal") return digits(amount); if (kind == "fraction") { const auto slash = amount.find('/'); return slash != std::string::npos && digits(amount.substr(0, slash)) && digits(amount.substr(slash + 1)); } return false; }
@@ -218,64 +350,20 @@ std::string render_lunari_clause_german(const LunariClause& clause) {
 }
 
 LunariTextResult translate_german_lunari_text(const std::string& text) {
-  LunariTextResult result; std::string sentence; std::size_t sentence_number{};
-  const auto append_sentence = [&](const std::string& source) -> bool {
-    if (std::none_of(source.begin(), source.end(), [](unsigned char character) { return std::isalpha(character); })) return true;
-    ++sentence_number;
-    const auto parsed = parse_german_lunari_sentence(source);
-    if (!parsed.ok) { result.diagnostic = "Satz " + std::to_string(sentence_number) + ": " + parsed.diagnostic; return false; }
-    const auto generated = generate_lunari(parsed.clause);
-    if (!generated.ok) { result.diagnostic = "Satz " + std::to_string(sentence_number) + ": " + generated.diagnostic; return false; }
-    result.text += generated.text;
-    return true;
-  };
-  for (std::size_t index = 0; index < text.size(); ++index) {
-    const char character = text[index];
-    const bool ellipsis = character == '.' && ((index > 0 && text[index - 1] == '.') || (index + 1 < text.size() && text[index + 1] == '.'));
-    if ((character == '.' && !ellipsis) || character == '!' || character == '?') {
-      sentence += character;
-      if (!append_sentence(sentence)) return result;
-      sentence.clear();
-    } else if (character == '\r' || character == '\n') {
-      if (!append_sentence(sentence)) return result;
-      sentence.clear(); result.text += character;
-    } else if (sentence.empty() && std::isspace(static_cast<unsigned char>(character))) {
-      result.text += character;
-    } else {
-      sentence += character;
-    }
-  }
-  if (!append_sentence(sentence)) return result;
+  LunariTextResult result; std::string sentence;
+  const auto direct = [&](const std::string& source) -> std::string { std::string output, word; for (const unsigned char character : source) { if (is_german_text_character(character)) word.push_back(static_cast<char>(character)); else { if (!word.empty()) { output += encode_german_text_lexeme(word); word.clear(); } output.push_back(static_cast<char>(character)); } } if (!word.empty()) output += encode_german_text_lexeme(word); return output; };
+  const auto append_sentence = [&]() { std::string grammar; result.text += translate_german_grammar_sentence(sentence, grammar) ? grammar : direct(sentence); sentence.clear(); };
+  for (const char character : text) { sentence.push_back(character); if (character == '.' || character == '!' || character == '?' || character == '\n') append_sentence(); }
+  if (!sentence.empty()) append_sentence();
   result.ok = !result.text.empty(); if (!result.ok) result.diagnostic = "Leere deutsche Eingabe."; return result;
 }
 
 LunariTextResult translate_lunari_german_text(const std::string& text) {
-  LunariTextResult result; std::string sentence; std::size_t sentence_number{};
-  const auto append_sentence = [&](const std::string& source) -> bool {
-    if (std::none_of(source.begin(), source.end(), [](unsigned char character) { return std::isalpha(character); })) return true;
-    ++sentence_number;
-    const auto analysed = analyse_lunari(source);
-    if (!analysed.ok) { result.diagnostic = "Satz " + std::to_string(sentence_number) + ": " + analysed.diagnostic; return false; }
-    result.text += render_lunari_clause_german(analysed.clause);
-    return true;
-  };
-  for (std::size_t index = 0; index < text.size(); ++index) {
-    const char character = text[index];
-    const bool ellipsis = character == '.' && ((index > 0 && text[index - 1] == '.') || (index + 1 < text.size() && text[index + 1] == '.'));
-    if ((character == '.' && !ellipsis) || character == '!' || character == '?') {
-      sentence += character;
-      if (!append_sentence(sentence)) return result;
-      sentence.clear();
-    } else if (character == '\r' || character == '\n') {
-      if (!append_sentence(sentence)) return result;
-      sentence.clear(); result.text += character;
-    } else if (sentence.empty() && std::isspace(static_cast<unsigned char>(character))) {
-      result.text += character;
-    } else {
-      sentence += character;
-    }
-  }
-  if (!append_sentence(sentence)) return result;
+  LunariTextResult result; std::string sentence;
+  const auto direct = [&](const std::string& source) -> std::string { std::string output, word; for (const unsigned char character : source) { if (is_lunari_text_character(character)) word.push_back(static_cast<char>(character)); else { if (!word.empty()) { output += decode_lunari_text_lexeme(word); word.clear(); } output.push_back(static_cast<char>(character)); } } if (!word.empty()) output += decode_lunari_text_lexeme(word); return capitalise_german_sentences(std::move(output)); };
+  const auto append_sentence = [&]() { std::string grammar; result.text += translate_lunari_grammar_sentence(sentence, grammar) ? grammar : direct(sentence); sentence.clear(); };
+  for (const char character : text) { sentence.push_back(character); if (character == '.' || character == '!' || character == '?' || character == '\n') append_sentence(); }
+  if (!sentence.empty()) append_sentence();
   result.ok = !result.text.empty(); if (!result.ok) result.diagnostic = "Leere Lunari-Eingabe."; return result;
 }
 
@@ -288,9 +376,9 @@ void load_neu_lunari_lexicon(const std::filesystem::path& path) {
   std::string line; std::getline(input, line); // column header
   while (std::getline(input, line)) {
     const auto separator = line.find('\t'); if (separator == std::string::npos) continue;
-    const auto german = lower_german(line.substr(0, separator)); const auto form = trim(line.substr(separator + 1));
+    const auto original_german = trim(line.substr(0, separator)); const auto german = lower_german(original_german); const auto form = trim(line.substr(separator + 1));
     if (german.empty() || form.empty() || learned_form_german.contains(form)) continue;
-    learned_german_forms.emplace(german, form); learned_form_german.emplace(form, german);
+    learned_german_forms.emplace(german, form); learned_form_german.emplace(form, original_german);
   }
 }
 
