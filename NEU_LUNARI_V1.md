@@ -77,8 +77,8 @@ deutschen Übersetzungen erläutern nur die jeweilige Struktur.
 7. `mer tan tar lun.` — Gewohnheit.
 8. `mer kan tar lun.` — Fähigkeit.
 9. `mer ves tar lun.` — Möglichkeit.
-10. `gav tar lun ke?` — Ja/Nein-Frage.
-11. `man gav tar lun ke?` — Personenfrage in Argumentposition.
+10. `gav tar lun ke.` — Ja/Nein-Frage.
+11. `man gav tar lun ke.` — Personenfrage in Argumentposition.
 12. `va gav tar lun!` — Aufforderung.
 13. `vas gav tar lun!` — Verbot.
 14. `mer tar tel lun.` — bestimmtes Nomen.

@@ -8,6 +8,7 @@
 #include <map>
 #include <mutex>
 #include <sstream>
+#include <unordered_set>
 #include <vector>
 
 namespace leng {
@@ -144,18 +145,24 @@ bool has_v2_german_lexeme(const std::string& raw) {
   std::lock_guard lock(learned_lexicon_mutex);
   return learned_german_forms.contains(lower_german(raw));
 }
+const std::unordered_set<std::string> kGrammarVerbs{
+    "arbeiten", "brauchen", "bringen", "glauben", "gehen", "hoeren", "hoffen", "kaufen",
+    "leben", "lernen", "lieben", "machen", "oeffnen", "reden", "reisen", "sagen", "sehen",
+    "spielen", "suchen", "warten", "wohnen", "zeigen"};
+bool supported_grammar_verb(const std::string& word) { return kGrammarVerbs.contains(lower_german(word)); }
 std::string regular_infinitive(const std::string& raw) {
   const auto word = lower_german(raw);
-  if (word.size() > 2 && word.ends_with("en") && has_v2_german_lexeme(word)) return word;
+  if (word.size() > 2 && word.ends_with("en") && supported_grammar_verb(word) && has_v2_german_lexeme(word)) return word;
   const std::array<std::string, 7> endings{{"test", "tet", "ten", "te", "st", "t", "e"}};
   for (const auto& ending : endings) {
     if (!word.ends_with(ending) || word.size() <= ending.size()) continue;
     const auto candidate = word.substr(0, word.size() - ending.size()) + "en";
-    if (has_v2_german_lexeme(candidate)) return candidate;
+    if (supported_grammar_verb(candidate) && has_v2_german_lexeme(candidate)) return candidate;
   }
   return {};
 }
 bool german_pronoun(const std::string& word) { return word == "ich" || word == "du" || word == "er" || word == "sie" || word == "es" || word == "wir" || word == "ihr"; }
+bool unambiguous_german_pronoun(const std::string& word) { return german_pronoun(word) && word != "sie"; }
 std::string german_regular_form(const std::string& infinitive, const std::string& subject, bool past) {
   if (!infinitive.ends_with("en") || infinitive.size() <= 2) return infinitive;
   const auto stem = infinitive.substr(0, infinitive.size() - 2);
@@ -177,16 +184,22 @@ std::string future_auxiliary(const std::string& subject) {
   if (subject == "ihr") return "werdet";
   return "wird";
 }
+std::string ability_auxiliary(const std::string& subject) {
+  if (subject == "du") return "kannst";
+  if (subject == "wir") return "können";
+  if (subject == "ihr") return "könnt";
+  return "kann";
+}
 bool translate_german_grammar_sentence(const std::string& source, std::string& translated) {
   const auto begin = source.find_first_not_of(" \t\r\n"); if (begin == std::string::npos) { translated = source; return true; }
   const auto end = source.find_last_not_of(" \t\r\n"); std::string core = source.substr(begin, end - begin + 1);
-  char punctuation = '.'; if (core.back() == '.' || core.back() == '!' || core.back() == '?') { punctuation = core.back(); core.pop_back(); core = trim(core); }
+  char punctuation{}; if (core.back() == '.' || core.back() == '!' || core.back() == '?') { punctuation = core.back(); core.pop_back(); core = trim(core); }
   if (core.find_first_of(",;:\"()[]{}") != std::string::npos) return false;
   auto words = split(lower_german(core), ' '); words.erase(std::remove(words.begin(), words.end(), ""), words.end());
   if (words.size() < 2) return false;
   const bool question = punctuation == '?'; std::size_t subject = words.size();
-  for (std::size_t i{}; i < words.size(); ++i) if (german_pronoun(words[i])) { subject = i; break; }
-  if (subject == words.size()) return false;
+  for (std::size_t i{}; i < words.size(); ++i) if (unambiguous_german_pronoun(words[i])) { subject = i; break; }
+  if (subject == words.size() || words[subject] == "sie") return false;
   std::size_t verb = question && subject > 0 ? 0 : subject + 1;
   if (verb >= words.size()) return false;
   bool future = false, past = false, negated = false, ability = false;
@@ -195,10 +208,12 @@ bool translate_german_grammar_sentence(const std::string& source, std::string& t
   if (verb < words.size() && words[verb] == "nicht") { negated = true; ++verb; }
   if (verb >= words.size()) return false;
   std::string infinitive;
-  if (words[verb] == "kann" || words[verb] == "kannst" || words[verb] == "können" || words[verb] == "könnt") { ability = true; ++verb; if (verb == subject) ++verb; if (verb >= words.size()) return false; }
-  infinitive = regular_infinitive(words[verb]);
+  if (words[verb] == "kann" || words[verb] == "kannst" || words[verb] == "können" || words[verb] == "könnt" || words[verb] == "koennen" || words[verb] == "koennt") { ability = true; }
+  if (ability || future) {
+    for (std::size_t i = words.size(); i-- > 0;) if (i != subject && supported_grammar_verb(words[i])) { infinitive = words[i]; verb = i; break; }
+  } else infinitive = regular_infinitive(words[verb]);
   if (infinitive.empty()) return false;
-  if (!future && (words[verb].ends_with("te") || words[verb].ends_with("test") || words[verb].ends_with("ten") || words[verb].ends_with("tet"))) past = true;
+  if (!future && !ability && (words[verb].ends_with("te") || words[verb].ends_with("test") || words[verb].ends_with("ten") || words[verb].ends_with("tet"))) past = true;
   for (std::size_t i{}; i < words.size(); ++i) if (words[i] == "nicht") negated = true;
   std::vector<std::string> output{encode_german_text_lexeme(words[subject])};
   if (past) output.push_back("ren");
@@ -208,34 +223,41 @@ bool translate_german_grammar_sentence(const std::string& source, std::string& t
   output.push_back(encode_german_text_lexeme(infinitive));
   for (std::size_t i{}; i < words.size(); ++i) {
     if (i == subject || i == verb || words[i] == "nicht" || std::find(future_words.begin(), future_words.end(), words[i]) != future_words.end()) continue;
-    if (words[i] == "kann" || words[i] == "kannst" || words[i] == "können" || words[i] == "könnt") continue;
+    if (words[i] == "kann" || words[i] == "kannst" || words[i] == "können" || words[i] == "könnt" || words[i] == "koennen" || words[i] == "koennt") continue;
     output.push_back(encode_german_text_lexeme(words[i]));
   }
   std::ostringstream out; for (const auto& word : output) { if (word.empty()) return false; if (out.tellp() > 0) out << ' '; out << word; }
-  if (question) out << " ke";
-  out << punctuation; translated = source.substr(0, begin) + out.str() + source.substr(end + 1); return true;
+  if (question) out << " ke.";
+  else if (punctuation != '\0') out << punctuation;
+  translated = source.substr(0, begin) + out.str() + source.substr(end + 1); return true;
 }
 bool translate_lunari_grammar_sentence(const std::string& source, std::string& translated) {
   const auto begin = source.find_first_not_of(" \t\r\n"); if (begin == std::string::npos) { translated = source; return true; }
   const auto end = source.find_last_not_of(" \t\r\n"); std::string core = source.substr(begin, end - begin + 1);
-  char punctuation = '.'; if (core.back() == '.' || core.back() == '!' || core.back() == '?') { punctuation = core.back(); core.pop_back(); core = trim(core); }
+  char punctuation{}; if (core.back() == '.' || core.back() == '!' || core.back() == '?') { punctuation = core.back(); core.pop_back(); core = trim(core); }
   if (core.find_first_of(",;:\"()[]{}") != std::string::npos) return false;
   auto words = split(lower_german(core), ' '); words.erase(std::remove(words.begin(), words.end(), ""), words.end());
   if (words.size() < 2) return false;
   const bool question = !words.empty() && words.back() == "ke"; if (question) words.pop_back();
-  const auto subject = decode_lunari_text_lexeme(words.front()); if (!german_pronoun(lower_german(subject))) return false;
+  const auto subject = decode_lunari_text_lexeme(words.front()); if (!unambiguous_german_pronoun(lower_german(subject))) return false;
   std::size_t i = 1; bool past = false, future = false, negated = false, ability = false;
   while (i < words.size()) { if (words[i] == "ren") past = true; else if (words[i] == "sil") future = true; else if (words[i] == "nus") negated = true; else if (words[i] == "kan") ability = true; else break; ++i; }
   if (i >= words.size()) return false;
-  const auto infinitive = lower_german(decode_lunari_text_lexeme(words[i++])); if (!infinitive.ends_with("en")) return false;
+  const auto infinitive = lower_german(decode_lunari_text_lexeme(words[i++])); if (!supported_grammar_verb(infinitive)) return false;
   std::vector<std::string> tail; for (; i < words.size(); ++i) tail.push_back(decode_lunari_text_lexeme(words[i]));
-  const auto finite = ability ? (lower_german(subject) == "du" ? "kannst" : lower_german(subject) == "ich" ? "kann" : "kann") : future ? future_auxiliary(lower_german(subject)) : german_regular_form(infinitive, lower_german(subject), past);
+  const auto finite = ability ? ability_auxiliary(lower_german(subject)) : future ? future_auxiliary(lower_german(subject)) : german_regular_form(infinitive, lower_german(subject), past);
   std::ostringstream out;
-  if (question) { out << finite << ' ' << subject; if (ability || future) out << ' ' << infinitive; }
-  else { out << subject << ' ' << finite; if (ability || future) out << ' ' << infinitive; }
-  if (negated) out << " nicht";
-  for (const auto& word : tail) out << ' ' << word;
-  out << punctuation;
+  if (question) out << finite << ' ' << subject;
+  else out << subject << ' ' << finite;
+  if (ability || future) {
+    for (const auto& word : tail) out << ' ' << word;
+    if (negated) out << " nicht";
+    out << ' ' << infinitive;
+  } else {
+    if (negated) out << " nicht";
+    for (const auto& word : tail) out << ' ' << word;
+  }
+  if (question) out << '?'; else if (punctuation != '\0') out << punctuation;
   translated = source.substr(0, begin) + capitalise_german_sentences(out.str()) + source.substr(end + 1); return true;
 }
 bool valid(const std::string& value, const std::initializer_list<const char*> choices) { return value.empty() || std::find_if(choices.begin(), choices.end(), [&value](const char* choice){ return value == choice; }) != choices.end(); }
@@ -351,7 +373,12 @@ std::string render_lunari_clause_german(const LunariClause& clause) {
 
 LunariTextResult translate_german_lunari_text(const std::string& text) {
   LunariTextResult result; std::string sentence;
-  const auto direct = [&](const std::string& source) -> std::string { std::string output, word; for (const unsigned char character : source) { if (is_german_text_character(character)) word.push_back(static_cast<char>(character)); else { if (!word.empty()) { output += encode_german_text_lexeme(word); word.clear(); } output.push_back(static_cast<char>(character)); } } if (!word.empty()) output += encode_german_text_lexeme(word); return output; };
+  const auto transliterate = [&](const std::string& source) -> std::string { std::string output, word; for (const unsigned char character : source) { if (is_german_text_character(character)) word.push_back(static_cast<char>(character)); else { if (!word.empty()) { output += encode_german_text_lexeme(word); word.clear(); } output.push_back(static_cast<char>(character)); } } if (!word.empty()) output += encode_german_text_lexeme(word); return output; };
+  const auto direct = [&](const std::string& source) -> std::string {
+    const auto last = source.find_last_not_of(" \t\r\n");
+    if (last != std::string::npos && source[last] == '?') return transliterate(source.substr(0, last)) + " ke." + source.substr(last + 1);
+    return transliterate(source);
+  };
   const auto append_sentence = [&]() { std::string grammar; result.text += translate_german_grammar_sentence(sentence, grammar) ? grammar : direct(sentence); sentence.clear(); };
   for (const char character : text) { sentence.push_back(character); if (character == '.' || character == '!' || character == '?' || character == '\n') append_sentence(); }
   if (!sentence.empty()) append_sentence();
@@ -360,7 +387,20 @@ LunariTextResult translate_german_lunari_text(const std::string& text) {
 
 LunariTextResult translate_lunari_german_text(const std::string& text) {
   LunariTextResult result; std::string sentence;
-  const auto direct = [&](const std::string& source) -> std::string { std::string output, word; for (const unsigned char character : source) { if (is_lunari_text_character(character)) word.push_back(static_cast<char>(character)); else { if (!word.empty()) { output += decode_lunari_text_lexeme(word); word.clear(); } output.push_back(static_cast<char>(character)); } } if (!word.empty()) output += decode_lunari_text_lexeme(word); return capitalise_german_sentences(std::move(output)); };
+  const auto transliterate = [&](const std::string& source) -> std::string { std::string output, word; for (const unsigned char character : source) { if (is_lunari_text_character(character)) word.push_back(static_cast<char>(character)); else { if (!word.empty()) { output += decode_lunari_text_lexeme(word); word.clear(); } output.push_back(static_cast<char>(character)); } } if (!word.empty()) output += decode_lunari_text_lexeme(word); return capitalise_german_sentences(std::move(output)); };
+  const auto direct = [&](const std::string& source) -> std::string {
+    const auto last = source.find_last_not_of(" \t\r\n");
+    if (last == std::string::npos) return transliterate(source);
+    std::size_t core_end = last;
+    if (source[core_end] == '.' || source[core_end] == '?' || source[core_end] == '!') { if (core_end == 0) return transliterate(source); --core_end; }
+    while (core_end > 0 && std::isspace(static_cast<unsigned char>(source[core_end]))) --core_end;
+    const auto word_start = source.find_last_of(" \t\r\n", core_end);
+    const std::size_t start = word_start == std::string::npos ? 0 : word_start + 1;
+    if (lower_german(source.substr(start, core_end - start + 1)) != "ke") return transliterate(source);
+    std::size_t payload_end = start;
+    while (payload_end > 0 && std::isspace(static_cast<unsigned char>(source[payload_end - 1]))) --payload_end;
+    return transliterate(source.substr(0, payload_end)) + "?" + source.substr(last + 1);
+  };
   const auto append_sentence = [&]() { std::string grammar; result.text += translate_lunari_grammar_sentence(sentence, grammar) ? grammar : direct(sentence); sentence.clear(); };
   for (const char character : text) { sentence.push_back(character); if (character == '.' || character == '!' || character == '?' || character == '\n') append_sentence(); }
   if (!sentence.empty()) append_sentence();

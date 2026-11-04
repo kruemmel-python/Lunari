@@ -103,7 +103,7 @@ BESTIMMTHEIT  MENGE  NOMEN  ADJEKTIV
 | Funktion | Form | Satzmuster |
 | --- | --- | --- |
 | Aussage | unmarkiert | `mer tar lun.` |
-| Ja/Nein-Frage | `ke` | `gav tar lun ke?` |
+| Ja/Nein-Frage | `ke` | `gav tar lun ke.` |
 | Aufforderung | `va` | `va gav tar lun!` |
 | Verbot | `vas` | `vas gav tar lun!` |
 

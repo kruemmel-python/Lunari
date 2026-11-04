@@ -10,7 +10,13 @@ if (-not (Test-Path -LiteralPath $LexiconPath)) { throw "V2-Lexikon nicht gefund
 
 $entryCount = 0
 $entries = [System.Collections.Generic.List[string]]::new()
-$reader = [IO.File]::OpenText($LexiconPath)
+$stream = [IO.File]::Open(
+  $LexiconPath,
+  [IO.FileMode]::Open,
+  [IO.FileAccess]::Read,
+  [IO.FileShare]::ReadWrite
+)
+$reader = [IO.StreamReader]::new($stream, [Text.Encoding]::UTF8, $true)
 try {
   [void]$reader.ReadLine() # format marker
   [void]$reader.ReadLine() # columns
@@ -60,6 +66,7 @@ try {
   $writer.WriteLine('## Benutzung')
   $writer.WriteLine()
   $writer.WriteLine('- Die linke Spalte enthält die deutsche Eingabeform, die rechte die dazu gespeicherte Lunari-Form.')
+  $writer.WriteLine('- Das Wörterverzeichnis zeigt ausschließlich die gespeicherten direkten V2-Zuordnungen. Es leitet aus Wortendungen keine Wortart und keine Verbform ab.')
   $writer.WriteLine('- Neue deutsche Wörter werden beim Übersetzen deterministisch gelernt und im V2-Lexikon abgelegt. Nach einem erneuten Lauf dieses Skripts erscheinen sie auch hier.')
   $writer.WriteLine('- Groß-/Kleinschreibung ist für die Zuordnung nicht bedeutungsunterscheidend; die Darstellung folgt dem Datensatz.')
   $writer.WriteLine('- Die Wortformen sind keine Verschlüsselung: neue Inhaltswörter haben vier offene CV-Silben. Ihre Bedeutung ergibt sich aus ihrem gespeicherten Wörterbucheintrag.')
@@ -74,9 +81,9 @@ try {
   $writer.WriteLine()
   $writer.WriteLine('## Grammatik')
   $writer.WriteLine()
-  $writer.WriteLine('Neu-Lunari verwendet grundsätzlich **SVO**: Subjekt – (Zeit/Aspekt/Modalität/Negation) – Verb – Objekt. Lunari-Wörter werden nicht flektiert; grammatische Kategorien stehen als eigene Partikel. Fragen erhalten zusätzlich `ke` am Satzende.')
+  $writer.WriteLine('Neu-Lunari verwendet grundsätzlich **SVO**: Subjekt – (Zeit/Aspekt/Modalität/Negation) – Verb – Objekt. Lunari-Wörter werden nicht flektiert; grammatische Kategorien stehen als eigene Partikel. Fragen erhalten als hörbare Fragekennung ausschließlich `ke` am Satzende und werden in Lunari mit einem Punkt geschrieben: `ke.`')
   $writer.WriteLine()
-  $writer.WriteLine('Der UI-Satzübersetzer verwendet für regelmäßige deutsche Verben die **im V2-Lexikon vorhandene Infinitivform als Lunari-Lemma**. Die Worttabelle führt daneben auch deutsche Eingabeformen wie `lerne`, `lernst` oder `lernte`, weil sie als vollständiger Datenbestand gespeichert bleiben. Für Grammatik-Sätze ist jedoch das Lemma verbindlich: `lernen` → `ginukifu`.')
+  $writer.WriteLine('Der UI-Satzübersetzer nutzt Satzgrammatik nur für einen kontrollierten Verbwortschatz. Er rät **nicht** anhand von Endungen wie `-en`, damit Eigennamen, Substantive und andere Wortformen nicht fälschlich als Verben erscheinen. Unterstützt sind: `arbeiten`, `brauchen`, `bringen`, `glauben`, `gehen`, `hören`, `hoffen`, `kaufen`, `leben`, `lernen`, `lieben`, `machen`, `öffnen`, `reden`, `reisen`, `sagen`, `sehen`, `spielen`, `suchen`, `warten`, `wohnen`, `zeigen`. Unregelmäßige finite Formen außerhalb der implementierten Muster bleiben direkter V2-Lookup.')
   $writer.WriteLine()
   $writer.WriteLine('### Grundpartikel')
   $writer.WriteLine()
@@ -92,7 +99,7 @@ try {
   $writer.WriteLine()
   $writer.WriteLine('```text')
   $writer.WriteLine('Aussage:  Subjekt [Zeit] [Aspekt] [Modalität] [nus] [vel] Verb [Objekt].')
-  $writer.WriteLine('Frage:    [Fragewort] Subjekt [Zeit] [Aspekt] [Modalität] Verb [Objekt] ke?')
+  $writer.WriteLine('Frage:    Subjekt [Zeit] [Aspekt] [Modalität] Verb [Objekt] ke.')
   $writer.WriteLine('Aufforderung: va Subjekt Verb [Objekt]!')
   $writer.WriteLine('Verbot:       vas Subjekt Verb [Objekt]!')
   $writer.WriteLine('```')
@@ -102,10 +109,10 @@ try {
   $writer.WriteLine('| Deutsch | Neu-Lunari |')
   $writer.WriteLine('| --- | --- |')
   @(
-    @('Ich lerne.','`rasupemo ginukifu.`'), @('Ich lernte.','`rasupemo ren ginukifu.`'), @('Ich werde lernen.','`rasupemo sil ginukifu.`'), @('Ich lerne nicht.','`rasupemo nus ginukifu.`'), @('Lernst du?','`femuvefu ginukifu ke?`')
+    @('Ich lerne.','`rasupemo ginukifu.`'), @('Ich lernte.','`rasupemo ren ginukifu.`'), @('Ich werde lernen.','`rasupemo sil ginukifu.`'), @('Ich lerne nicht.','`rasupemo nus ginukifu.`'), @('Lernst du?','`femuvefu ginukifu ke.`'), @('Kannst du sehen?','`femuvefu kan ladoresi ke.`')
   ) | ForEach-Object { $writer.WriteLine(('| {0} | {1} |' -f $_[0], $_[1])) }
   $writer.WriteLine()
-  $writer.WriteLine('Die Rückübersetzung erkennt diese Partikel und stellt die entsprechende deutsche reguläre Verbform wieder her. Wort-für-Wort-Text ohne erkennbares Satzmuster bleibt weiterhin exakt in der gespeicherten V2-Reihenfolge.')
+  $writer.WriteLine('Die Rückübersetzung erkennt ein finales `ke.` und erzeugt daraus ein deutsches Fragezeichen. Wort-für-Wort-Text ohne erkennbares Satzmuster bleibt weiterhin exakt in der gespeicherten V2-Reihenfolge; auch dort wird ein deutsches finales `?` als Lunari `ke.` ausgegeben.')
   $writer.WriteLine()
   $writer.WriteLine('## Vollständiges Wörterverzeichnis')
   $writer.WriteLine()
@@ -122,7 +129,7 @@ try {
         $currentInitial = $initial
         $writer.WriteLine("### $initial")
         $writer.WriteLine()
-        $writer.WriteLine('| Deutsch | Neu-Lunari |')
+        $writer.WriteLine('| Deutsch | Direkter V2-Lookup |')
         $writer.WriteLine('| --- | --- |')
       }
       $writer.WriteLine(('| `{0}` | `{1}` |' -f $german, $lunari))

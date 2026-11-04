@@ -1,12 +1,13 @@
 # Lunari-Duden — Deutsch → Neu-Lunari
 
-Stand: Neu-Lunari v2-Lexikon. Dieses Nachschlagewerk enthält **1.640.191** gespeicherte deutsche Wortformen und ihre stabilen Neu-Lunari-Entsprechungen.
+Stand: Neu-Lunari v2-Lexikon. Dieses Nachschlagewerk enthält **1.640.194** gespeicherte deutsche Wortformen und ihre stabilen Neu-Lunari-Entsprechungen.
 
 > Hinweis: Die Tabelle ist sehr groß. Für maschinelle Suche, Import und Updates bleibt `neu-lunari-german-v1.tsv` die kanonische Datenquelle; diese Datei ist ihre lesbare Markdown-Ausgabe.
 
 ## Benutzung
 
 - Die linke Spalte enthält die deutsche Eingabeform, die rechte die dazu gespeicherte Lunari-Form.
+- Das Wörterverzeichnis zeigt ausschließlich die gespeicherten direkten V2-Zuordnungen. Es leitet aus Wortendungen keine Wortart und keine Verbform ab.
 - Neue deutsche Wörter werden beim Übersetzen deterministisch gelernt und im V2-Lexikon abgelegt. Nach einem erneuten Lauf dieses Skripts erscheinen sie auch hier.
 - Groß-/Kleinschreibung ist für die Zuordnung nicht bedeutungsunterscheidend; die Darstellung folgt dem Datensatz.
 - Die Wortformen sind keine Verschlüsselung: neue Inhaltswörter haben vier offene CV-Silben. Ihre Bedeutung ergibt sich aus ihrem gespeicherten Wörterbucheintrag.
@@ -21,9 +22,9 @@ Stand: Neu-Lunari v2-Lexikon. Dieses Nachschlagewerk enthält **1.640.191** gesp
 
 ## Grammatik
 
-Neu-Lunari verwendet grundsätzlich **SVO**: Subjekt – (Zeit/Aspekt/Modalität/Negation) – Verb – Objekt. Lunari-Wörter werden nicht flektiert; grammatische Kategorien stehen als eigene Partikel. Fragen erhalten zusätzlich `ke` am Satzende.
+Neu-Lunari verwendet grundsätzlich **SVO**: Subjekt – (Zeit/Aspekt/Modalität/Negation) – Verb – Objekt. Lunari-Wörter werden nicht flektiert; grammatische Kategorien stehen als eigene Partikel. Fragen erhalten als hörbare Fragekennung ausschließlich `ke` am Satzende und werden in Lunari mit einem Punkt geschrieben: `ke.`
 
-Der UI-Satzübersetzer verwendet für regelmäßige deutsche Verben die **im V2-Lexikon vorhandene Infinitivform als Lunari-Lemma**. Die Worttabelle führt daneben auch deutsche Eingabeformen wie `lerne`, `lernst` oder `lernte`, weil sie als vollständiger Datenbestand gespeichert bleiben. Für Grammatik-Sätze ist jedoch das Lemma verbindlich: `lernen` → `ginukifu`.
+Der UI-Satzübersetzer nutzt Satzgrammatik nur für einen kontrollierten Verbwortschatz. Er rät **nicht** anhand von Endungen wie `-en`, damit Eigennamen, Substantive und andere Wortformen nicht fälschlich als Verben erscheinen. Unterstützt sind: `arbeiten`, `brauchen`, `bringen`, `glauben`, `gehen`, `hören`, `hoffen`, `kaufen`, `leben`, `lernen`, `lieben`, `machen`, `öffnen`, `reden`, `reisen`, `sagen`, `sehen`, `spielen`, `suchen`, `warten`, `wohnen`, `zeigen`. Unregelmäßige finite Formen außerhalb der implementierten Muster bleiben direkter V2-Lookup.
 
 ### Grundpartikel
 
@@ -41,7 +42,7 @@ Personalpronomen und Inhaltswörter stammen im Benutzerübersetzer immer aus dem
 
 ```text
 Aussage:  Subjekt [Zeit] [Aspekt] [Modalität] [nus] [vel] Verb [Objekt].
-Frage:    [Fragewort] Subjekt [Zeit] [Aspekt] [Modalität] Verb [Objekt] ke?
+Frage:    Subjekt [Zeit] [Aspekt] [Modalität] Verb [Objekt] ke.
 Aufforderung: va Subjekt Verb [Objekt]!
 Verbot:       vas Subjekt Verb [Objekt]!
 ```
@@ -54,15 +55,16 @@ Verbot:       vas Subjekt Verb [Objekt]!
 | Ich lernte. | `rasupemo ren ginukifu.` |
 | Ich werde lernen. | `rasupemo sil ginukifu.` |
 | Ich lerne nicht. | `rasupemo nus ginukifu.` |
-| Lernst du? | `femuvefu ginukifu ke?` |
+| Lernst du? | `femuvefu ginukifu ke.` |
+| Kannst du sehen? | `femuvefu kan ladoresi ke.` |
 
-Die Rückübersetzung erkennt diese Partikel und stellt die entsprechende deutsche reguläre Verbform wieder her. Wort-für-Wort-Text ohne erkennbares Satzmuster bleibt weiterhin exakt in der gespeicherten V2-Reihenfolge.
+Die Rückübersetzung erkennt ein finales `ke.` und erzeugt daraus ein deutsches Fragezeichen. Wort-für-Wort-Text ohne erkennbares Satzmuster bleibt weiterhin exakt in der gespeicherten V2-Reihenfolge; auch dort wird ein deutsches finales `?` als Lunari `ke.` ausgegeben.
 
 ## Vollständiges Wörterverzeichnis
 
 ### A
 
-| Deutsch | Neu-Lunari |
+| Deutsch | Direkter V2-Lookup |
 | --- | --- |
 | `AAA` | `pivovolu` |
 | `Aachen` | `hapufila` |
@@ -136311,7 +136313,7 @@ Die Rückübersetzung erkennt diese Partikel und stellt die entsprechende deutsc
 
 ### Ä
 
-| Deutsch | Neu-Lunari |
+| Deutsch | Direkter V2-Lookup |
 | --- | --- |
 | `ächte` | `bunegaso` |
 | `ächten` | `suguduga` |
@@ -136738,7 +136740,7 @@ Die Rückübersetzung erkennt diese Partikel und stellt die entsprechende deutsc
 
 ### B
 
-| Deutsch | Neu-Lunari |
+| Deutsch | Direkter V2-Lookup |
 | --- | --- |
 | `Baader` | `kitegefo` |
 | `Baaders` | `tenalaro` |
@@ -262929,7 +262931,7 @@ Die Rückübersetzung erkennt diese Partikel und stellt die entsprechende deutsc
 
 ### C
 
-| Deutsch | Neu-Lunari |
+| Deutsch | Direkter V2-Lookup |
 | --- | --- |
 | `ca` | `tagerabi` |
 | `Caballero` | `vemohapo` |
@@ -271737,7 +271739,7 @@ Die Rückübersetzung erkennt diese Partikel und stellt die entsprechende deutsc
 
 ### D
 
-| Deutsch | Neu-Lunari |
+| Deutsch | Direkter V2-Lookup |
 | --- | --- |
 | `da` | `lagepeba` |
 | `DAAD` | `hipupani` |
@@ -323832,6 +323834,7 @@ Die Rückübersetzung erkennt diese Partikel und stellt die entsprechende deutsc
 | `DTP` | `rahohano` |
 | `dtv` | `guhadoni` |
 | `du` | `femuvefu` |
+| `du` | `femuvefu` |
 | `dual` | `gebihebo` |
 | `duale` | `morarapi` |
 | `dualem` | `rebokiva` |
@@ -331283,7 +331286,7 @@ Die Rückübersetzung erkennt diese Partikel und stellt die entsprechende deutsc
 
 ### E
 
-| Deutsch | Neu-Lunari |
+| Deutsch | Direkter V2-Lookup |
 | --- | --- |
 | `Earl` | `nasinepu` |
 | `Earls` | `vivelido` |
@@ -418250,7 +418253,7 @@ Die Rückübersetzung erkennt diese Partikel und stellt die entsprechende deutsc
 
 ### F
 
-| Deutsch | Neu-Lunari |
+| Deutsch | Direkter V2-Lookup |
 | --- | --- |
 | `Fa` | `kufimuro` |
 | `Fabel` | `ratumohe` |
@@ -512106,7 +512109,7 @@ Die Rückübersetzung erkennt diese Partikel und stellt die entsprechende deutsc
 
 ### G
 
-| Deutsch | Neu-Lunari |
+| Deutsch | Direkter V2-Lookup |
 | --- | --- |
 | `gab` | `besulosi` |
 | `gäb` | `kirameda` |
@@ -605780,7 +605783,7 @@ Die Rückübersetzung erkennt diese Partikel und stellt die entsprechende deutsc
 
 ### H
 
-| Deutsch | Neu-Lunari |
+| Deutsch | Direkter V2-Lookup |
 | --- | --- |
 | `ha` | `lopitude` |
 | `Haag` | `kasigiso` |
@@ -702615,7 +702618,7 @@ Die Rückübersetzung erkennt diese Partikel und stellt die entsprechende deutsc
 
 ### I
 
-| Deutsch | Neu-Lunari |
+| Deutsch | Direkter V2-Lookup |
 | --- | --- |
 | `IAA` | `fitalaso` |
 | `Iamben` | `gobobuku` |
@@ -726742,7 +726745,7 @@ Die Rückübersetzung erkennt diese Partikel und stellt die entsprechende deutsc
 
 ### J
 
-| Deutsch | Neu-Lunari |
+| Deutsch | Direkter V2-Lookup |
 | --- | --- |
 | `ja` | `fakivola` |
 | `Jacht` | `ripuriru` |
@@ -738086,7 +738089,7 @@ Die Rückübersetzung erkennt diese Partikel und stellt die entsprechende deutsc
 
 ### K
 
-| Deutsch | Neu-Lunari |
+| Deutsch | Direkter V2-Lookup |
 | --- | --- |
 | `Kaaba` | `gefutahi` |
 | `Kaarst` | `hihubipe` |
@@ -748123,6 +748126,7 @@ Die Rückübersetzung erkennt diese Partikel und stellt die entsprechende deutsc
 | `kannibalisiertest` | `bukosofo` |
 | `Kannibalisierung` | `havegife` |
 | `Kannibalismus` | `pohopehi` |
+| `Kannst` | `lihupumo` |
 | `kannst` | `lihupumo` |
 | `kannte` | `merebali` |
 | `kannten` | `livedake` |
@@ -847076,7 +847080,7 @@ Die Rückübersetzung erkennt diese Partikel und stellt die entsprechende deutsc
 
 ### L
 
-| Deutsch | Neu-Lunari |
+| Deutsch | Direkter V2-Lookup |
 | --- | --- |
 | `Laatzen` | `vekifofo` |
 | `Laatzener` | `rigigote` |
@@ -904348,7 +904352,7 @@ Die Rückübersetzung erkennt diese Partikel und stellt die entsprechende deutsc
 
 ### M
 
-| Deutsch | Neu-Lunari |
+| Deutsch | Direkter V2-Lookup |
 | --- | --- |
 | `mA` | `hegegusu` |
 | `Mäander` | `fehifole` |
@@ -977841,7 +977845,7 @@ Die Rückübersetzung erkennt diese Partikel und stellt die entsprechende deutsc
 
 ### N
 
-| Deutsch | Neu-Lunari |
+| Deutsch | Direkter V2-Lookup |
 | --- | --- |
 | `na` | `darivumo` |
 | `Nabe` | `tuhemali` |
@@ -1025319,7 +1025323,7 @@ Die Rückübersetzung erkennt diese Partikel und stellt die entsprechende deutsc
 
 ### O
 
-| Deutsch | Neu-Lunari |
+| Deutsch | Direkter V2-Lookup |
 | --- | --- |
 | `Oakland` | `niketego` |
 | `Oaklands` | `tinukivu` |
@@ -1043501,7 +1043505,7 @@ Die Rückübersetzung erkennt diese Partikel und stellt die entsprechende deutsc
 
 ### Ö
 
-| Deutsch | Neu-Lunari |
+| Deutsch | Direkter V2-Lookup |
 | --- | --- |
 | `öd` | `timedafa` |
 | `öde` | `faruguki` |
@@ -1043782,7 +1043786,7 @@ Die Rückübersetzung erkennt diese Partikel und stellt die entsprechende deutsc
 
 ### P
 
-| Deutsch | Neu-Lunari |
+| Deutsch | Direkter V2-Lookup |
 | --- | --- |
 | `paar` | `budodido` |
 | `Paarberatung` | `tolubuti` |
@@ -1107540,7 +1107544,7 @@ Die Rückübersetzung erkennt diese Partikel und stellt die entsprechende deutsc
 
 ### Q
 
-| Deutsch | Neu-Lunari |
+| Deutsch | Direkter V2-Lookup |
 | --- | --- |
 | `Qatar` | `kepotiva` |
 | `qm` | `gadavasa` |
@@ -1110721,7 +1110725,7 @@ Die Rückübersetzung erkennt diese Partikel und stellt die entsprechende deutsc
 
 ### R
 
-| Deutsch | Neu-Lunari |
+| Deutsch | Direkter V2-Lookup |
 | --- | --- |
 | `Rabat` | `sagorike` |
 | `Rabatt` | `tunugeri` |
@@ -1170833,7 +1170837,7 @@ Die Rückübersetzung erkennt diese Partikel und stellt die entsprechende deutsc
 
 ### S
 
-| Deutsch | Neu-Lunari |
+| Deutsch | Direkter V2-Lookup |
 | --- | --- |
 | `SA` | `tubelape` |
 | `Saab` | `lagubofa` |
@@ -1238002,6 +1238006,7 @@ Die Rückübersetzung erkennt diese Partikel und stellt die entsprechende deutsc
 | `Seheindruck` | `mokutugi` |
 | `Seheindrucks` | `hopekobu` |
 | `Sehempfindlichkeit` | `sebekuko` |
+| `sehen` | `ladoresi` |
 | `sehen` | `ladoresi` |
 | `sehend` | `gemodate` |
 | `sehende` | `bihitifo` |
@@ -1349588,7 +1349593,7 @@ Die Rückübersetzung erkennt diese Partikel und stellt die entsprechende deutsc
 
 ### T
 
-| Deutsch | Neu-Lunari |
+| Deutsch | Direkter V2-Lookup |
 | --- | --- |
 | `Tab` | `masikisu` |
 | `Tabak` | `fidukafe` |
@@ -1405227,7 +1405232,7 @@ Die Rückübersetzung erkennt diese Partikel und stellt die entsprechende deutsc
 
 ### U
 
-| Deutsch | Neu-Lunari |
+| Deutsch | Direkter V2-Lookup |
 | --- | --- |
 | `UART` | `ludehihe` |
 | `UB` | `ponibusi` |
@@ -1440919,7 +1440924,7 @@ Die Rückübersetzung erkennt diese Partikel und stellt die entsprechende deutsc
 
 ### Ü
 
-| Deutsch | Neu-Lunari |
+| Deutsch | Direkter V2-Lookup |
 | --- | --- |
 | `übe` | `lisudafe` |
 | `übel` | `lelakota` |
@@ -1445181,7 +1445186,7 @@ Die Rückübersetzung erkennt diese Partikel und stellt die entsprechende deutsc
 
 ### V
 
-| Deutsch | Neu-Lunari |
+| Deutsch | Direkter V2-Lookup |
 | --- | --- |
 | `Vabanque` | `vogirevu` |
 | `Vabanquespiel` | `giniguvi` |
@@ -1513218,7 +1513223,7 @@ Die Rückübersetzung erkennt diese Partikel und stellt die entsprechende deutsc
 
 ### W
 
-| Deutsch | Neu-Lunari |
+| Deutsch | Direkter V2-Lookup |
 | --- | --- |
 | `Waadt` | `diremabe` |
 | `Waadtland` | `buvemime` |
@@ -1586294,7 +1586299,7 @@ Die Rückübersetzung erkennt diese Partikel und stellt die entsprechende deutsc
 
 ### X
 
-| Deutsch | Neu-Lunari |
+| Deutsch | Direkter V2-Lookup |
 | --- | --- |
 | `Xanten` | `talulebi` |
 | `Xantener` | `volehabu` |
@@ -1586464,7 +1586469,7 @@ Die Rückübersetzung erkennt diese Partikel und stellt die entsprechende deutsc
 
 ### Y
 
-| Deutsch | Neu-Lunari |
+| Deutsch | Direkter V2-Lookup |
 | --- | --- |
 | `Ya` | `hivabebi` |
 | `Yacht` | `vaginaso` |
@@ -1586583,7 +1586588,7 @@ Die Rückübersetzung erkennt diese Partikel und stellt die entsprechende deutsc
 
 ### Z
 
-| Deutsch | Neu-Lunari |
+| Deutsch | Direkter V2-Lookup |
 | --- | --- |
 | `Zacharias` | `tapeduba` |
 | `zack` | `vosepusa` |

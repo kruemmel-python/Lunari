@@ -167,9 +167,13 @@ LRESULT CALLBACK window_proc(HWND hwnd, UINT message, WPARAM wparam, LPARAM lpar
         const auto source = control_text(hwnd, kSource);
         const auto translated = leng::translate_german_lunari_text(source);
         if (!translated.ok) throw std::invalid_argument(translated.diagnostic);
-        const auto learned = learn_text_lexemes(source);
         set_text(hwnd, kResult, utf8_to_wide(translated.text));
-        refresh_status(hwnd, "Deutsch → Neu-Lunari v1. " + std::to_string(learned) + " neue Wortformen wurden direkt in neu-lunari-german-v1.tsv gespeichert.");
+        try {
+          const auto learned = learn_text_lexemes(source);
+          refresh_status(hwnd, "Deutsch → Neu-Lunari v1. " + std::to_string(learned) + " neue Wortformen wurden direkt in neu-lunari-german-v1.tsv gespeichert.");
+        } catch (const std::exception& error) {
+          refresh_status(hwnd, std::string("Deutsch → Neu-Lunari v1 wurde übersetzt. Neue Wortformen konnten momentan nicht gespeichert werden: ") + error.what());
+        }
       }
       if (id == kTranslateLunari) {
         const auto translated = leng::translate_lunari_german_text(control_text(hwnd, kResult));

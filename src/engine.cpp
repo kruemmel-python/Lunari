@@ -1675,15 +1675,15 @@ bool self_test(std::string& error) {
     if (compact_word.size() != 8 || !assess_neu_lunari_word(compact_word).valid || decode_neu_lunari_german_lexeme(compact_word) != "sleipnir")
       throw std::runtime_error("Neu-Lunari compact lexicon mismatch");
     const auto ui_lexicon_path = std::filesystem::temp_directory_path() / "lunari-ui-v2-roundtrip.tsv";
-    { std::ofstream ui_lexicon(ui_lexicon_path); ui_lexicon << "# Neu-Lunari v2 German lexicon; self-test\nGerman\tNeu-Lunari\nJa\tfakivola\nRalf\tsurisata\nich\trasupemo\nlerne\tsifiteho\nKannst\tlihupumo\ndu\tfemuvefu\nlernen\tginukifu\n"; }
+    { std::ofstream ui_lexicon(ui_lexicon_path); ui_lexicon << "# Neu-Lunari v2 German lexicon; self-test\nGerman\tNeu-Lunari\nJa\tfakivola\nRalf\tsurisata\nich\trasupemo\nlerne\tsifiteho\nKannst\tlihupumo\ndu\tfemuvefu\nlernen\tginukifu\nsehen\tladoresi\nden\tdemuvoka\nHimmel\thidomare\nwir\trinapelo\nkönnen\tkevipasu\nwarten\twatolime\n"; }
     load_neu_lunari_lexicon(ui_lexicon_path);
-    const std::string ui_source = "Ja, Ralf. Ich lernte.\nLernst du?\nIch lerne nicht.\nIch werde lernen.\nIch lerne.";
+    const std::string ui_source = "Ja, Ralf. Ich lernte.\nLernst du?\nKannst du sehen?\nKannst du den Himmel sehen?\nKönnen wir warten?\nIch lerne nicht.\nIch werde lernen.\nIch lerne.";
     const auto ui_lunari = translate_german_lunari_text(ui_source);
-    if (!ui_lunari.ok || ui_lunari.text != "fakivola, surisata. rasupemo ren ginukifu.\nfemuvefu ginukifu ke?\nrasupemo nus ginukifu.\nrasupemo sil ginukifu.\nrasupemo ginukifu.")
+    if (!ui_lunari.ok || ui_lunari.text != "fakivola, surisata. rasupemo ren ginukifu.\nfemuvefu ginukifu ke.\nfemuvefu kan ladoresi ke.\nfemuvefu kan ladoresi demuvoka hidomare ke.\nrinapelo kan watolime ke.\nrasupemo nus ginukifu.\nrasupemo sil ginukifu.\nrasupemo ginukifu.")
       throw std::runtime_error("Neu-Lunari UI forward dictionary translation mismatch: " + ui_lunari.text);
     const auto ui_german = translate_lunari_german_text(ui_lunari.text);
     if (!ui_german.ok || ui_german.text != ui_source)
-      throw std::runtime_error("Neu-Lunari UI reverse dictionary translation mismatch");
+      throw std::runtime_error("Neu-Lunari UI reverse dictionary translation mismatch: " + ui_german.text);
     std::filesystem::remove(ui_lexicon_path);
     const auto grammar_spec = parse_lunari_spec("subject=I;verb=tar;object=lun;time=past;aspect=completed;negation=predicate;relation=location;related=dom");
     if (!grammar_spec.ok) throw std::runtime_error("Neu-Lunari specification parser mismatch");
